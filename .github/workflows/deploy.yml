@@ -35,8 +35,8 @@ jobs:
               uses: peaceiris/actions-gh-pages@v3
               with:
                   # 如果在同一个仓库下使用请使用 github_token 并注释 deploy_key
-                  # github_token: ${{ secrets.GITHUB_TOKEN }}
-                  deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
+                  github_token: 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 # ${{ secrets.GITHUB_TOKEN }}
+                  # deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
 
                   # 如果在同一个仓库请注释
                   external_repository: kevinwu06/blog # 你的 GitHub page 仓库 example/example.github.io
