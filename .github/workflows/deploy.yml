@@ -28,21 +28,12 @@ jobs:
                   key: ${{ runner.os }}-hugocache-${{ hashFiles('content/**/*') }}
                   restore-keys: ${{ runner.os }}-hugocache-
 
-            - name: Build # 生成网页 删除无用 resource 文件 削减空行
-              run: hugo --minify --gc
-
-            - name: Deploy # 部署到 GitHub Page
-              uses: peaceiris/actions-gh-pages@v3
+            - name: 部署到Github
+              uses: JamesIves/github-pages-deploy-action@v4
               with:
-                  # 如果在同一个仓库下使用请使用 github_token 并注释 deploy_key
-                  github_token: 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 # ${{ secrets.GITHUB_TOKEN }}
-                  # deploy_key: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-
-                  # 如果在同一个仓库请注释
-                  external_repository: kevinwu06/blog # 你的 GitHub page 仓库 example/example.github.io
-
-                  publish_dir: ./public
-                  user_name: "github-actions[bot]"
-                  user_email: "github-actions[bot]@users.noreply.github.com"
-                  full_commit_message: Deploy from ${{ github.repository }}@${{ github.sha }} 🚀
+                  token: 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
+                  repository-name: kevinwu06/blog
+                  branch: main
+                  folder: public
+                  commit-message: "${{ github.event.head_commit.message }} Updated By Github Actions"
                 
