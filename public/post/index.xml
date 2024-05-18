@@ -13,7 +13,65 @@
         <pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate>
         
         <guid>https://blog.fiveth.cc/p/hello-hugo/</guid>
-        <description>&lt;img src="https://p.fiveth.cc/img/m/lowsun.webp" alt="Featured image of post Hello Hugo" /&gt;&lt;p&gt;hi，大家应该发现了，我把博客从hexo迁移到了hugo&lt;/p&gt;
+        <description>&lt;img src="https://p.fiveth.cc/img/2024/0518131750.webp" alt="Featured image of post Hello Hugo" /&gt;&lt;p&gt;hi，大家应该发现了，我的博客大变样了（不是💩样）&lt;/p&gt;
+&lt;p&gt;因为我把博客从&lt;code&gt;Hexo&lt;/code&gt;迁移到了&lt;code&gt;Hugo&lt;/code&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;2022年疫情上网课的时候，我用&lt;code&gt;Hexo&lt;/code&gt;搭建了我的个人博客&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;2024将博客迁移至了&lt;code&gt;Hugo&lt;/code&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;原因&#34;&gt;😯原因
+&lt;/h1&gt;&lt;h3 id=&#34;优点&#34;&gt;优点
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;相比&lt;code&gt;Hexo&lt;/code&gt;，&lt;code&gt;Hugo&lt;/code&gt;的静态&lt;code&gt;生成速度更快&lt;/code&gt;。在本地运行后半秒不到就能在本地生成完页面，方便调试。&lt;/li&gt;
+&lt;li&gt;看了L1nSn0w大佬的博客后，被&lt;code&gt;Stack主题&lt;/code&gt;这个&lt;code&gt;简约舒适&lt;/code&gt;的博客页面狠狠种草了。个人觉得这样的页面阅读体验非常好，没有其他花里胡哨的东西吸引眼球，进来就是一排文章，方便阅读。&lt;/li&gt;
+&lt;li&gt;最主要是为了&lt;code&gt;减少折腾&lt;/code&gt;，这让我可以&lt;code&gt;专心地写文章&lt;/code&gt;。不再反复折腾博客页面。&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;缺点&#34;&gt;缺点
+&lt;/h3&gt;&lt;ol&gt;
+&lt;li&gt;&lt;code&gt;Hugo&lt;/code&gt;在国内的&lt;code&gt;社区&lt;/code&gt;没有&lt;code&gt;Hexo&lt;/code&gt;的大，意味着遇到问题比较难找到解决方法，需要一定Debug能力。&lt;/li&gt;
+&lt;li&gt;没有&lt;code&gt;Hexo&lt;/code&gt;那么多&lt;code&gt;插件功能&lt;/code&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h4 id=&#34;so&#34;&gt;So
+&lt;/h4&gt;&lt;p&gt;对我来说，Hugo会更加适合我。&lt;/p&gt;
+&lt;p&gt;大家可以根据个人需求和喜好选择，看看自己是要简约的，还是多功能、自定义化高的。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这里奉上我的&lt;a class=&#34;link&#34; href=&#34;https://blog.fiveth.cc/tags/hexo/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hexo博客搭建教程&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;关于hugo安装&#34;&gt;😎关于Hugo安装
+&lt;/h1&gt;&lt;p&gt;这里列出我在hugo博客搭建过程中阅读的文章：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://blog.linsnow.cn/p/join-hugo-and-stack/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;【L1nSn0w】(1)带着Stack主题入坑Hugo&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://blog.linsnow.cn/p/deploy-hugo/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;【L1nSn0w】(2)部署你的Hugo博客&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://blog.csdn.net/m0_51993913/article/details/132657065&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;【CSDN】GitHub Action自动化部署Hugo博客&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://blog.linsnow.cn/p/modify-hugo/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;【L1nSn0w】(3)Stack主题的自定义&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;到了&lt;a class=&#34;link&#34; href=&#34;https://blog.linsnow.cn/p/deploy-hugo/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;(2)部署你的Hugo博客&lt;/a&gt;自动部署部分的时候出现了些问题，文章好像缺漏了部分，就是要在仓库设置中添加secret变量&lt;code&gt;ACTIONS_DEPLOY_KEY&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;我的方法是&lt;/strong&gt;：&lt;/p&gt;
+&lt;p&gt;把&lt;code&gt;deploy_key&lt;/code&gt;那行换成&lt;code&gt;PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}&lt;/code&gt;，然后在仓库设置添加secret变量&lt;code&gt;PERSONAL_TOKEN&lt;/code&gt;，里面填&lt;code&gt;token&lt;/code&gt;。&lt;code&gt;token&lt;/code&gt;在用户设置中创建，要勾选&lt;code&gt;repo&lt;/code&gt;和&lt;code&gt;workflow&lt;/code&gt;权限。&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -22,7 +80,7 @@
         <pubDate>Thu, 09 May 2024 22:11:16 +0000</pubDate>
         
         <guid>https://blog.fiveth.cc/p/208b/</guid>
-        <description>&lt;img src="https://p.fiveth.cc/img/m/lowsun.webp" alt="Featured image of post 618购物攻略：今年规则大改，取消预售" /&gt;&lt;p&gt;今天偶然在微信公众号看到天猫618的规则改了，取消了预售制度。&lt;/p&gt;
+        <description>&lt;img src="https://p.fiveth.cc/img/2024/0518115531.jpg" alt="Featured image of post 618购物攻略：今年规则大改，取消预售" /&gt;&lt;p&gt;今天偶然在微信公众号看到天猫618的规则改了，取消了预售制度。&lt;/p&gt;
 &lt;p&gt;虽然以前的规则我也不太了解，不过想到正好有东西要买，所以就提前做了波攻略，看看怎么样买最省钱。&lt;/p&gt;
 &lt;p&gt;接下来让我们看看吧~&lt;/p&gt;
 &lt;h1 id=&#34;今年618规则&#34;&gt;🛍️今年618规则
@@ -622,7 +680,7 @@
         <pubDate>Sun, 14 Apr 2024 21:57:47 +0000</pubDate>
         
         <guid>https://blog.fiveth.cc/p/9c7a/</guid>
-        <description>&lt;img src="https://p.fiveth.cc/img/m/lowsun.webp" alt="Featured image of post 一本让我开始觉醒的书：《认知觉醒》" /&gt;&lt;p&gt;最近我读了《认知觉醒》这本书，作者是周岭。我非常感谢这本书，对我帮助非常大。如果你想改变自己现在的生活，变得更加优秀，这本书一定会帮到你。书中给出了许多提升自己的方法，其中的每个章节都让我有所感悟。这篇文章我会讲其中一些让我最受感触的点。&lt;/p&gt;
+        <description>&lt;img src="https://p.fiveth.cc/img/2024/0518114933.jpg" alt="Featured image of post 一本让我开始觉醒的书：《认知觉醒》" /&gt;&lt;p&gt;最近我读了《认知觉醒》这本书，作者是周岭。我非常感谢这本书，对我帮助非常大。如果你想改变自己现在的生活，变得更加优秀，这本书一定会帮到你。书中给出了许多提升自己的方法，其中的每个章节都让我有所感悟。这篇文章我会讲其中一些让我最受感触的点。&lt;/p&gt;
 &lt;h1 id=&#34;元认知&#34;&gt;元认知
 &lt;/h1&gt;&lt;p&gt;书中提到了“元认知”这个概念，当我们开启元认知，就会不断的进步、提升。开启元认知，就是&lt;strong&gt;开启第三人称，时刻审视自己在做什么、在想什么&lt;/strong&gt;。有了这种觉知，你就会在玩游戏的时候意识到自己正在过度放纵，并且思考自己的大脑为什么会沉迷于游戏当中；当你分手后无比沮丧的时候，就会思考自己现在处于一个怎样的状态，为什么不开心。当你开启这样一个能力之后，你就会无限进步，你能一直审视自己的行为和思维，在错误的时候意识到并改进。这就相当于自己开了上帝视角，时刻地在监督自己。&lt;/p&gt;
 &lt;p&gt;当你知道了这个概念之后，你就可以开始行动、练习，时刻审视自己。当你受到任何感触，比如开心或沮丧时，问问自己是什么原因，这会让你变得更加了解自己。最近我看到一个句子让我很有感触，&amp;quot;&lt;strong&gt;who looks outisde, dreams; who looks inside, awakes.&lt;/strong&gt;&amp;quot;-Carl Jung，当你开始挖掘自己内心时，你就会清醒，明白自己到底想要什么，了解自己的思维方式，这会帮你打开自我提升的大门。写日记、写每日反思是一个很好的方法，在每天的结尾反思自己做了什么，无需置疑，这绝对是一个改变终身的习惯，孔子说过”吾日三省吾身“。其次，&lt;strong&gt;练习元认知最好的方法是冥想&lt;/strong&gt;，具体关于冥想的知识，大家可以自行去搜索，之后我会单独写一篇文章来讲我的冥想心得，总之这是一个非常有益的习惯，在冥想中，我们会练习将注意力放在呼吸和身体上，当有杂念的时候，我们就需要意识到并注意力拉回。可见冥想是练习元认知能力最直接的方法。&lt;/p&gt;
