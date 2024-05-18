@@ -1,8 +1,8 @@
 baseurl: https://b.fiveth.cc
 languageCode: zh-cn
 theme: hugo-theme-stack
-paginate: 3
-title: Fiveth
+paginate: 7
+title: Fiveth's Blog
 copyright: Fiveth
 
 # Theme i18n support
@@ -17,15 +17,15 @@ languages:
     zh-cn:
         languageName: 中文
         title: Fiveth
-        weight: 2
-        params:
-            description: 分享知识与生活
-    en:
-        languageName: English
-        title: Fiveth
         weight: 1
         params:
-            description: 分享知识与生活
+            description: 分享知识与生活🎈
+    # en:
+    #     languageName: English
+    #     title: Fiveth
+    #     weight: 1
+    #     params:
+    #         description: 分享知识与生活
 
 services:
     # Change it to your Disqus shortname before using
@@ -44,11 +44,11 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon: # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
+    favicon: img/favicon.ico # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
 
     footer:
-        since: 2020
-        customText:
+        since: 2022
+        customText: <a href="https://icp.gov.moe/?keyword=20246616" target="_blank">萌ICP备20246616</a>
 
     dateFormat:
         published: Jan 02, 2006
@@ -56,11 +56,11 @@ params:
 
     sidebar:
         emoji: 🍥
-        subtitle: 分享知识与生活
+        subtitle: 分享知识与生活🎈
         avatar:
             enabled: true
-            local: true
-            src: img/avatar.png
+            local: false
+            src: /img/avatar.png
 
     article:
         math: false
@@ -121,10 +121,10 @@ params:
                 placeholder:
 
         twikoo:
-            envId:
-            region:
-            path:
-            lang:
+            envId: https://c.fiveth.cc/
+            region: 
+            path: 
+            lang: zh-cn
 
         # See https://cactus.chat/docs/reference/web-client/#configuration for description of the various options
         cactus:
@@ -191,9 +191,9 @@ params:
 
     imageProcessing:
         cover:
-            enabled: true
+            enabled: false
         content:
-            enabled: true
+            enabled: false
 
 ### Custom menu
 ### See https://stack.jimmycai.com/config/menu
@@ -208,11 +208,12 @@ menu:
           params:
               icon: brand-github
 
-        - identifier: twitter
-          name: Twitter
-          url: https://twitter.com
+        - identifier: rss
+          name: RSS
+          url: /index.xml
           params:
-              icon: brand-twitter
+            newTab: true
+            icon: rss
 
 related:
     includeNewer: true
