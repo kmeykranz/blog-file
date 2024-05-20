@@ -9,7 +9,7 @@ slug: ee7c
 date: 2023-02-27 00:00:00
 ---
 
-# Introduction
+## Introduction
 
 This is a book on the **Computer Science book list of Oxford**. It is a good book for crossing the threshold of computer science. 
 
@@ -19,7 +19,7 @@ I recognized many **computational terms** in the book that I've already learned 
 
 I note down all the essential terms in the book to sum it up and help me for review.
 
-# Base
+## Base
 
 **Computer Science:** a way of thinking about problems.
 
@@ -41,7 +41,7 @@ A set of core concepts-approaches to solving fundamental problems,and how combin
 
 **Pseudocode: **an informal understandable way of writing algorithms.
 
-# Data Structure
+## Data Structure
 
 **Arrays:** like a set of bins with a fixed number of slots.
 
@@ -103,7 +103,7 @@ Weighted/Unweighted
 
 **Hamiltonian path:** visits each node in a graph exactly one time. ***NP-Hard***
 
-# Computational Thinking
+## Computational Thinking
 
 Complex algorithms build on a core set of fundamental concepts. Mastering them and learn to combine them is the key to solving to problems.
 

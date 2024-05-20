@@ -22,9 +22,9 @@ date: 2024-04-09 11:51:10
 
 ![image1](https://p.fiveth.cc/img/2024/04/09144430.webp)
 
-# 使用方法
+## 使用方法
 
-## 方法1. exe文件
+### 方法1. exe文件
 
 脚本已经打包成exe文件，大家可以直接下载使用，下载后放到`_posts`文件夹下运行即可。
 
@@ -34,7 +34,7 @@ https://wwf.lanzoum.com/icY4q1ufi7na 密码:ff6u
 
 记得运行完后将脚本移出文件夹，防止被上传。
 
-## 方法2. python运行
+### 方法2. python运行
 
 如果有调试需求，大家也可以自己用python编译使用。
 
@@ -49,27 +49,27 @@ import os
 dir_path = "./"
 i = 0
 for file in os.listdir(dir_path):
-    # Skip '.' and '..'
+    ## Skip '.' and '..'
     if file == "." or file == "..":
         continue
-    # Construct the full path to the file
+    ## Construct the full path to the file
     file_path = os.path.join(dir_path, file)
-    # Read the file
+    ## Read the file
     try:
         with open(file_path, 'r', encoding='utf-8') as f:
             lines = f.readlines()
     except UnicodeDecodeError:
         print(f"Skipping file due to encoding issue: {file}")
         continue
-    # Skip files with less than 2 lines
+    ## Skip files with less than 2 lines
     if len(lines) < 2:
         continue
-    # Extract and process the title from the second line
+    ## Extract and process the title from the second line
     title = lines[1].strip().replace('title:', '').strip()
-    # Remove any marks from the title
+    ## Remove any marks from the title
     title = title.replace('?', '')
     title = title.replace('|', '-')
-    # Rename
+    ## Rename
     new_filename = title + '.md'
     new_file_path = os.path.join(dir_path, new_filename)
     os.rename(file_path, new_file_path)

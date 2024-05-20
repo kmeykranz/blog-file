@@ -10,11 +10,11 @@ date: 2022-12-21
 
 这是我之前学习html做的一点笔记，是一些基础，非常简单好学。
 
-# ·网页基本信息
+## ·网页基本信息
 
 doctype声明
 
-### meta描述性标签
+#### meta描述性标签
 
 <img src="https://p.fiveth.cc/img/m/meta.webp" style="zoom:50%;" /> 
 
@@ -24,25 +24,25 @@ doctype声明
 
 
 
-# ·网页基本标签
+## ·网页基本标签
 
-#### 标题标签
+##### 标题标签
 
 h1~h6
 
-#### 段落标签
+##### 段落标签
 
 p
 
-### 换行标签
+#### 换行标签
 
 br
 
-### 粗体斜体
+#### 粗体斜体
 
 粗体b 斜体i
 
-### 特殊符号
+#### 特殊符号
 
 （&        ;）
 
@@ -58,7 +58,7 @@ br
 
 
 
-# ·图像标签
+## ·图像标签
 
 <img src="https://p.fiveth.cc/img/m/图像.webp" style="zoom: 25%;" /> 
 
@@ -66,13 +66,13 @@ br
 
 
 
-# ·超链接标签
+## ·超链接标签
 
-### 页面跳转
+#### 页面跳转
 
 <img src="https://p.fiveth.cc/img/m/超链接.webp" style="zoom: 33%;" />
 
-### 锚链接
+#### 锚链接
 
 **锚标记** a id=“top”
 
@@ -86,13 +86,13 @@ br
 
 
 
-# ·*概念:行内元素和块元素
+## ·*概念:行内元素和块元素
 
-### 块元素
+#### 块元素
 
 独占一行的元素
 
-### 行内元素
+#### 行内元素
 
 撑开宽度的元素
 
@@ -102,13 +102,13 @@ br
 
 
 
-# ·列表
+## ·列表
 
-### 有序列表、无序列表
+#### 有序列表、无序列表
 
 <img src="https://p.fiveth.cc/img/m/有序无序列表.webp" style="zoom: 33%;" /> 
 
-### 自定义列表
+#### 自定义列表
 
 <img src="https://p.fiveth.cc/img/m/自定义列表.webp" style="zoom: 50%;" /> 
 
@@ -118,7 +118,7 @@ br
 
 
 
-# ·表格标签
+## ·表格标签
 
 <img src="https://p.fiveth.cc/img/m/表格.webp" style="zoom:33%;" /> 
 
@@ -128,7 +128,7 @@ br
 
 
 
-# ·媒体元素
+## ·媒体元素
 
 <img src="https://p.fiveth.cc/img/m/媒体.webp" style="zoom: 33%;" /> 
 
@@ -138,7 +138,7 @@ br
 
 
 
-# ·页面结构
+## ·页面结构
 
 <img src="https://p.fiveth.cc/img/m/页面结构.webp" style="zoom: 25%;" /> 
 
@@ -148,7 +148,7 @@ br
 
 
 
-# ·iframe内联框架
+## ·iframe内联框架
 
 <img src="https://p.fiveth.cc/img/m/iframe.webp" style="zoom: 33%;" />
 
@@ -160,25 +160,25 @@ br
 
 
 
-# ·表单
+## ·表单
 
-### 表单
+#### 表单
 
 <img src="https://p.fiveth.cc/img/m/表单.webp" style="zoom:33%;" /> 
 
-### 元素表单格式
+#### 元素表单格式
 
 <img src="https://p.fiveth.cc/img/m/表单元素格式.webp" style="zoom: 25%;" /> 
 
 
 
-### 文本框
+#### 文本框
 
 text
 
 <img src="https://p.fiveth.cc/img/m/文本框.webp" style="zoom: 50%;" /> 
 
-### 单选框
+#### 单选框
 
 radio
 
@@ -186,13 +186,13 @@ radio
 
 
 
-### 多选框
+#### 多选框
 
 checkbox
 
 <img src="https://p.fiveth.cc/img/m/多选框.webp" style="zoom: 50%;" /> 
 
-### 按钮
+#### 按钮
 
 button
 
@@ -200,25 +200,25 @@ button
 
 
 
-### 下拉框
+#### 下拉框
 
 <img src="https://p.fiveth.cc/img/m/下拉框.webp" style="zoom: 50%;" /> 
 
-### 文本域、文件域
+#### 文本域、文件域
 
 <img src="https://p.fiveth.cc/img/m/文本文件域.webp" style="zoom: 33%;" /> 
 
 
 
-### 滑块、搜索框
+#### 滑块、搜索框
 
 <img src="https://p.fiveth.cc/img/m/滑块、搜索框.webp" style="zoom: 33%;" />
 
-### 简单验证
+#### 简单验证
 
 <img src="https://p.fiveth.cc/img/m/功能表单.webp" style="zoom: 40%;" /> 
 
-# 表单应用
+## 表单应用
 
 只读 readonly
 
@@ -228,7 +228,7 @@ button
 
 
 
-# 表单初级验证
+## 表单初级验证
 
 placeholder 提示信息
 

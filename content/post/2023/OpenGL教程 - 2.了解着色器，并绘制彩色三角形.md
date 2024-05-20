@@ -25,7 +25,7 @@ date: 2023-05-28 16:20:00
 
 配合源码食用更佳🤫：[OpenGL学习源码](https://github.com/kevinwu06/LearnOpenGL)
 
-# 向量
+## 向量
 
 数据类型：一般使用vecn（包含n个float分量的默认向量）
 
@@ -43,11 +43,11 @@ vec4 result = vec4(vect, 0.0, 0.0);
 vec4 otherResult = vec4(result.xyz, 1.0);
 ```
 
-# 输入与输出
+## 输入与输出
 
 我们给着色器加上输入和输出，让顶点着色器为片段着色器决定颜色。
 
-### 顶点着色器
+#### 顶点着色器
 
 ```cpp
 #version 330 core
@@ -62,7 +62,7 @@ void main()
 }
 ```
 
-### 片段着色器
+#### 片段着色器
 
 ```cpp
 #version 330 core
@@ -80,7 +80,7 @@ void main()
 
 <img src="https://p.fiveth.cc/img/m/redtriangle.png" style="zoom:50%;" />
 
-# Uniform
+## Uniform
 
 Uniform是一种从CPU中的应用向GPU中的着色器发送数据的方式
 
@@ -112,7 +112,7 @@ glUniform4f(vertexColorLocation, 0.0f, greenValue, 0.0f, 1.0f);
 
 源代码：[Uniform源码](https://github.com/kevinwu06/LearnOpenGL/blob/main/Uniform.cpp)
 
-# 你好，彩色三角形
+## 你好，彩色三角形
 
 现在，我们将把颜色数据添加为3个值至vertices数组。我们将把三角形的三个角分别指定为红色、绿色和蓝色。
 
@@ -174,7 +174,7 @@ glEnableVertexAttribArray(1);
 
 源代码：[彩色三角形源码](https://github.com/kevinwu06/LearnOpenGL/blob/main/%E5%BD%A9%E8%89%B2%E4%B8%89%E8%A7%92.cpp)
 
-# 自己的着色器类
+## 自己的着色器类
 
 管理着色器类是很麻烦的事，所以我们要写一个类来让我们能更轻松的管理。
 

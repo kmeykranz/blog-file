@@ -15,7 +15,7 @@ hi，大家应该发现了，我的博客大变样了（不是💩样）
 
 ------
 
-# 😯原因
+## 😯原因
 
 ### 优点
 
@@ -28,7 +28,7 @@ hi，大家应该发现了，我的博客大变样了（不是💩样）
 1. `Hugo`在国内的`社区`没有`Hexo`的大，意味着遇到问题比较难找到解决方法，需要一定Debug能力。
 2. 没有`Hexo`那么多`插件功能`
 
-#### So
+### So
 
 对我来说，Hugo会更加适合我。
 
@@ -38,7 +38,7 @@ hi，大家应该发现了，我的博客大变样了（不是💩样）
 
 ------
 
-# 😎关于Hugo安装
+## 😎关于Hugo安装
 
 这里列出我在hugo博客搭建过程中阅读的文章：
 
@@ -50,9 +50,7 @@ hi，大家应该发现了，我的博客大变样了（不是💩样）
 >
 >- [【L1nSn0w】(3)Stack主题的自定义](https://blog.linsnow.cn/p/modify-hugo/)
 
-到了[(2)部署你的Hugo博客](https://blog.linsnow.cn/p/deploy-hugo/)自动部署部分的时候出现了些问题，文章好像缺漏了部分，就是要在仓库设置中添加secret变量`ACTIONS_DEPLOY_KEY`。
-
-**我的方法是**：
+**我在自动部署处做了些改动**：
 
 把`deploy_key`那行换成`PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}`，然后在仓库设置添加secret变量`PERSONAL_TOKEN`，里面填`token`。`token`在用户设置中创建，要勾选`repo`和`workflow`权限。
 

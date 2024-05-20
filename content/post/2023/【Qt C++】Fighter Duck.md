@@ -14,7 +14,7 @@ date: 2023-04-15 00:00:00
 
 断断续续大概写了两周，程序源码放在文章底部了。
 
-# 游戏美术
+## 游戏美术
 
 用软件Aseprite自己绘制。Aseprite是一款专门针对像素画的软件，界面简洁，适合快速上手，没有ps那些繁琐的功能。
 
@@ -22,13 +22,13 @@ date: 2023-04-15 00:00:00
 
 <img src="https://p.fiveth.cc/img/m/drawduck.webp" style="zoom: 25%;" />
 
-# 游戏代码
+## 游戏代码
 
 接下来是如何用Qt提供的接口来实现一些游戏的基本功能
 
 <img src="https://p.fiveth.cc/img/m/duckgame.webp" style="zoom: 50%;" />
 
-## 动画
+### 动画
 
 游戏人物的动态用的是gif动图
 
@@ -45,7 +45,7 @@ date: 2023-04-15 00:00:00
 
 ```
 
-## 图片
+### 图片
 
 显示静态图片用QLabel和QPixmap
 
@@ -56,7 +56,7 @@ date: 2023-04-15 00:00:00
 	QLabel->setMovie(duck_stand);
 ```
 
-## 事件处理
+### 事件处理
 
 在head文件中加入，再在源文件中定义
 
@@ -66,7 +66,7 @@ protected:
     void keyReleaseEvent(QKeyEvent* e);
 ```
 
-## 游戏主循环
+### 游戏主循环
 
 控制帧率，一秒循环多少次
 
@@ -76,7 +76,7 @@ protected:
     timer->start(1000/FRAME); //FRAME帧率
 ```
 
-## Delay函数
+### Delay函数
 
 Qt中要使用delay函数可以自己定义，代码如下。
 
@@ -89,7 +89,7 @@ void delay(int msec)
 }
 ```
 
-## 显示文字
+### 显示文字
 
 ```C++
 	QLabel *health=new QLabel(widget);
@@ -101,6 +101,6 @@ void delay(int msec)
 
 <img src="https://p.fiveth.cc/img/m/fighterduck.webp" style="zoom: 30%;" />
 
-# 源码
+## 源码
 
 源码：https://github.com/kevinwu06/FighterDuck

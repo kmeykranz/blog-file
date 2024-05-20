@@ -15,7 +15,7 @@ date: 2023-05-12 00:00:00
 
 断断续续大概写了一周，程序源码放在文章底部了。
 
-# 结构思路
+## 结构思路
 
 游戏通过服务端或者客户端进入，只支持两玩家。
 
@@ -25,11 +25,11 @@ date: 2023-05-12 00:00:00
 
 <img src="https://p.fiveth.cc/img/m/rectman.webp" style="zoom:30%;" />
 
-# 代码
+## 代码
 
-## 位置传输
+### 位置传输
 
-### 发送位置
+#### 发送位置
 
 将int[]转成QByteArray达到发送多数据的效果
 
@@ -46,7 +46,7 @@ void Server::sendData(int x_self,int y_self,int dir_self)
 }
 ```
 
-### 接收位置
+#### 接收位置
 
 将QByteArray转成int[]
 
@@ -68,7 +68,7 @@ void Server::receiveData()
 }
 ```
 
-## 相对位置
+### 相对位置
 
 自己始终显示在屏幕中间，只显示方向的改变。
 
@@ -86,7 +86,7 @@ void Map::draw(int a,int b) //传入自己坐标
 }
 ```
 
-## 树木伪3D显示
+### 树木伪3D显示
 
 很简单，当玩家y坐标大于树时显示在上，小于时显示在下。
 
@@ -110,7 +110,7 @@ else{
     }
 ```
 
-### 树木和敌人随机位置生成
+#### 树木和敌人随机位置生成
 
 ```cpp
 for(int i=1;i<TREE_NUM;i++){
@@ -120,7 +120,7 @@ for(int i=1;i<TREE_NUM;i++){
 }
 ```
 
-### 僵尸追踪
+#### 僵尸追踪
 
 僵尸首先会判断与两个玩家间的距离，追踪距离更近的玩家。
 
@@ -167,10 +167,10 @@ void Enemy::chase(Player *p1, Player *p2)
 
 ------
 
-# 视频演示
+## 视频演示
 
 <iframe src="//player.bilibili.com/player.html?aid=443100831&bvid=BV1oL411h7Ms&cid=1112953964&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
-# 源码
+## 源码
 
 源码：https://github.com/kevinwu06/RectMans

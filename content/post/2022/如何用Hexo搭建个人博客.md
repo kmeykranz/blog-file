@@ -18,7 +18,7 @@ slug: bb32
 
 **文章比较精简，没有废话，不要跳步**
 
-# 准备工具
+## 准备工具
 
 首先我们需要到对应网站下载需要的工具
 
@@ -52,7 +52,7 @@ git -v
 npm install hexo-cli -g
 ```
 
-# 搭建仓库
+## 搭建仓库
 
 成功下载好工具之后，我们开始搭建GitHub存储静态页面的仓库
 
@@ -72,7 +72,7 @@ npm install hexo-cli -g
 
 拉到下面点击create创建
 
-# 生成SSH Keys
+## 生成SSH Keys
 
 进入任意文件夹，右键空白处然后点Git bash here,输入
 
@@ -104,7 +104,7 @@ ssh -T git@github.com
 
 回车，然后再输入yes
 
-# 本地生成博客内容
+## 本地生成博客内容
 
 在喜欢位置新建文件Blog，然后进入文件夹
 
@@ -135,7 +135,7 @@ hexo s
 
 然后回到命令行，ctrl+c关闭
 
-# 上线博客
+## 上线博客
 
 进入之前的Blog文件夹，用记事本打开_config.yml
 
@@ -187,7 +187,7 @@ hexo d（上传）
 
 网址是我们之前设的仓库名：用户名.github.io
 
-# 网站资料
+## 网站资料
 
 我们的博客标题还是默认的hexo，整个页面是初始默认的，接下来我们对其进行修改
 
@@ -196,7 +196,7 @@ hexo d（上传）
 将#Site下面按自己的需求填上
 
 ```
-# Site
+## Site
 title: 标题
 subtitle: 副标题
 description: 描述
@@ -208,7 +208,7 @@ timezone: 时区（可以填写Asia/Shanghai）
 
 然后保存
 
-# 如何上传文章
+## 如何上传文章
 
 我们在Blog文件夹中打开git bash,输入下方代码就可以生成新的文章md文件
 

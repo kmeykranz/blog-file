@@ -12,7 +12,7 @@ date: 2023-05-30 18:33:42
 
 本篇将学习OpenGL中关于纹理的各种知识。纹理就是图片，用于给模型添加细节。
 
-# 纹理环绕方式
+## 纹理环绕方式
 
 如果我们把纹理坐标设置在范围之外会发生什么？OpenGL默认的行为是重复这个纹理图像。下面更多的选择：
 
@@ -37,13 +37,13 @@ float borderColor[] = { 1.0f, 1.0f, 0.0f, 1.0f };
 glTexParameterfv(GL_TEXTURE_2D, GL_TEXTURE_BORDER_COLOR, borderColor);
 ```
 
-# 纹理过滤
+## 纹理过滤
 
 如何将**纹理像素**(Texture Pixel)映射到纹理坐标，让分辨率清晰
 
 纹理过滤有很多个选项，但是现在我们只讨论最重要的两种：
 
-### GL_NEAREST
+#### GL_NEAREST
 
 邻近过滤 (Nearest Neighbor Filtering):
 
@@ -51,7 +51,7 @@ glTexParameterfv(GL_TEXTURE_2D, GL_TEXTURE_BORDER_COLOR, borderColor);
 
 ![img](https://learnopengl-cn.github.io/img/01/06/filter_nearest.png)
 
-### GL_LINEAR
+#### GL_LINEAR
 
 线性过滤 (linear Filtering):
 
@@ -59,7 +59,7 @@ glTexParameterfv(GL_TEXTURE_2D, GL_TEXTURE_BORDER_COLOR, borderColor);
 
 ![img](https://learnopengl-cn.github.io/img/01/06/filter_linear.png)
 
-### 效果对比
+#### 效果对比
 
 ![img](https://learnopengl-cn.github.io/img/01/06/texture_filtering.png)
 
@@ -70,7 +70,7 @@ glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST);
 glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
 ```
 
-# 多级渐远纹理
+## 多级渐远纹理
 
 (Mipmap)：一系列的纹理图像，后一个纹理图像是前一个的二分之一。
 
@@ -92,11 +92,11 @@ glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR_MIPMAP_LINEAR);
 glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_LINEAR);
 ```
 
-# 加载与创建纹理
+## 加载与创建纹理
 
 将图像加载到应用中，需要自己写一个图像加载器，或者使用支持多种格式的图像加载库。
 
-## stb_image.h
+### stb_image.h
 
 [stb_image.h下载链接](https://github.com/nothings/stb/blob/master/stb_image.h)
 
@@ -120,7 +120,7 @@ unsigned char *data = stbi_load("container.jpg", &width, &height, &nrChannels, 0
 stbi_set_flip_vertically_on_load(true); //OpenGL会自动将图片颠倒，所以我们要上下翻转
 ```
 
-# 生成纹理
+## 生成纹理
 
 创建纹理对象
 
@@ -177,7 +177,7 @@ else
 stbi_image_free(data);
 ```
 
-# 应用纹理
+## 应用纹理
 
 接下来我们来应用纹理，绘制一个带我的世界草块纹理的矩形：[草块图片](https://github.com/kevinwu06/LearnOpenGL/blob/main/grass.jpg)
 
@@ -217,7 +217,7 @@ FragColor = texture(ourTexture, TexCoord) * vec4(ourColor, 1.0);
 
 <img src="https://p.fiveth.cc/img/m/colorgrass.webp" style="zoom:50%;" />
 
-# 纹理单元
+## 纹理单元
 
 纹理单元(Texture Unit)：纹理的位置值
 
