@@ -1,0 +1,20 @@
+{{ define "body-class" }}article-page keep-sidebar{{ end }}
+{{ define "main" }}
+
+<header>
+    <h2 class="section-title" style="margin-bottom: -20px;">LINKS</h2>
+</header>
+
+{{ if .Params.links }}
+{{ partial "article/components/links" . }}
+{{ end }}
+
+{{ partial "article/article.html" . }}
+
+{{ if not (eq .Params.comments false) }}
+{{ partial "comments/include" . }}
+{{ end }}
+
+{{ partialCached "footer/footer" . }}
+
+{{ end }}

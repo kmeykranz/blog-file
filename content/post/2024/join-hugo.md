@@ -1,6 +1,10 @@
 ---
 title: Hello Hugo
 description: 博客框架迁移至Hugo
+tags:
+  - 博客
+  - Hexo
+categories: 博客相关
 image: https://p.fiveth.cc/img/2024/0518131750.webp
 date: 2024-05-17
 ---
