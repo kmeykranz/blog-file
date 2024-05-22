@@ -9,7 +9,7 @@ aliases:
 toc: true
 menu:
     main: 
-        weight: 10
+        weight: 15
         params:
             icon: user
 ---

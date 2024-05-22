@@ -8,7 +8,7 @@ menu:
     main:
         weight: 10
         params: 
-            icon: archives
+            icon: messages
 ---
 
 ### 说说
