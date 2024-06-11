@@ -1,11 +1,11 @@
 ---
 title: Fiveth's Life 1
-image: https://p.fiveth.cc/img/2024/0518114933.jpg
+image: https://p.fiveth.cc/img/m/lowsun.webp
 tags:
-  - 生活
-categories: 生活记录
+  - 日常
+categories: 日常记录
 slug: life-1
-date: 2024-06-11 21:24:00
+date: 2024-06-10
 ---
 
 Hi，这篇分享下最近的生活~
