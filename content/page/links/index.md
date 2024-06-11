@@ -92,7 +92,7 @@ links:
   image: https://thirdshire.com/blackcat_avatar.jpg
 - title: Pampo
   website: https://pampo.cn/
-  image: https://pampo.cn/usr/avatar.webp/
+  image: https://pampo.cn/usr/avatar.webp
   description: 我希望，我们都能够变得更勇敢
 - title: 小骆同学
   description: 细水流长，静水流深
