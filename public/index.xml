@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Fiveth</title>
-        <link>http://localhost:1313/</link>
+        <link>https://blog.fiveth.cc/</link>
         <description>Recent content on Fiveth</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Fiveth</copyright>
-        <lastBuildDate>Wed, 22 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 22 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.fiveth.cc/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>颈椎训练：每个人都应该将其加入日常</title>
-        <link>http://localhost:1313/p/train-neck/</link>
+        <link>https://blog.fiveth.cc/p/train-neck/</link>
         <pubDate>Wed, 22 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/train-neck/</guid>
+        <guid>https://blog.fiveth.cc/p/train-neck/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/2024/0522220801.webp" alt="Featured image of post 颈椎训练：每个人都应该将其加入日常" /&gt;&lt;p&gt;hi大家好，作为一个学生的我，一直对体态问题有关注。&lt;/p&gt;
 &lt;p&gt;每天都长时间坐着学习、看电脑，颈椎难免出现问题，如头前倾、颈椎生理曲度变直、富贵包，所以有一套固定的&lt;code&gt;颈椎保健训练&lt;/code&gt;很重要。&lt;/p&gt;
 &lt;p&gt;⭐&lt;a class=&#34;link&#34; href=&#34;https://space.bilibili.com/408907896&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -62,10 +62,10 @@
         </item>
         <item>
         <title>Hello Hugo</title>
-        <link>http://localhost:1313/p/hello-hugo/</link>
+        <link>https://blog.fiveth.cc/p/hello-hugo/</link>
         <pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/hello-hugo/</guid>
+        <guid>https://blog.fiveth.cc/p/hello-hugo/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/2024/0518131750.webp" alt="Featured image of post Hello Hugo" /&gt;&lt;p&gt;hi，大家应该发现了，我的博客大变样了（不是💩样）&lt;/p&gt;
 &lt;p&gt;因为我把博客从&lt;code&gt;Hexo&lt;/code&gt;迁移到了&lt;code&gt;Hugo&lt;/code&gt;&lt;/p&gt;
 &lt;blockquote&gt;
@@ -127,10 +127,10 @@
         </item>
         <item>
         <title>618购物攻略：今年规则大改，取消预售</title>
-        <link>http://localhost:1313/p/208b/</link>
+        <link>https://blog.fiveth.cc/p/208b/</link>
         <pubDate>Thu, 09 May 2024 22:11:16 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/208b/</guid>
+        <guid>https://blog.fiveth.cc/p/208b/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/2024/0518115531.jpg" alt="Featured image of post 618购物攻略：今年规则大改，取消预售" /&gt;&lt;p&gt;今天偶然在微信公众号看到天猫618的规则改了，取消了预售制度。&lt;/p&gt;
 &lt;p&gt;虽然以前的规则我也不太了解，不过想到正好有东西要买，所以就提前做了波攻略，看看怎么样买最省钱。&lt;/p&gt;
 &lt;p&gt;接下来让我们看看吧~&lt;/p&gt;
@@ -178,16 +178,16 @@
         </item>
         <item>
         <title>Hexo搭建进阶：Vercel部署、主题安装、基础用法</title>
-        <link>http://localhost:1313/p/138e/</link>
+        <link>https://blog.fiveth.cc/p/138e/</link>
         <pubDate>Mon, 29 Apr 2024 21:33:53 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/138e/</guid>
+        <guid>https://blog.fiveth.cc/p/138e/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/m/hexo.jpg" alt="Featured image of post Hexo搭建进阶：Vercel部署、主题安装、基础用法" /&gt;&lt;p&gt;{% note info flat %}&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;本篇前文：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/p/bb32.html&#34; &gt;如何用Hexo搭建个人博客?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;本篇前文：&lt;a class=&#34;link&#34; href=&#34;https://blog.fiveth.cc/p/bb32.html&#34; &gt;如何用Hexo搭建个人博客?&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;本文基于&lt;a class=&#34;link&#34; href=&#34;https://www.fomal.cc/posts/4aa2d85f.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Hexo博客搭建基础教程(二)&lt;/a&gt;修改，部分转载&lt;/li&gt;
-&lt;li&gt;我的&lt;strong&gt;Hexo优化系列&lt;/strong&gt;：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/tags/hexo&#34; &gt;Hexo文章目录&lt;/a&gt;
+&lt;li&gt;我的&lt;strong&gt;Hexo优化系列&lt;/strong&gt;：&lt;a class=&#34;link&#34; href=&#34;https://blog.fiveth.cc/tags/hexo&#34; &gt;Hexo文章目录&lt;/a&gt;
 {% endnote %}&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;我的博客搭建教程是一年前写的了，非常感谢&lt;a class=&#34;link&#34; href=&#34;https://www.fomal.cc/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -661,10 +661,10 @@
         </item>
         <item>
         <title>读书日：聊聊我的读书方法</title>
-        <link>http://localhost:1313/p/ef0e/</link>
+        <link>https://blog.fiveth.cc/p/ef0e/</link>
         <pubDate>Tue, 23 Apr 2024 13:48:27 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/ef0e/</guid>
+        <guid>https://blog.fiveth.cc/p/ef0e/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/m/lowsun.webp" alt="Featured image of post 读书日：聊聊我的读书方法" /&gt;&lt;p&gt;{% tip sync %}4.23 今天是世界读书日📖{% endtip %}&lt;/p&gt;
 &lt;p&gt;正好最近我最近开始记录阅读，规划读书。&lt;/p&gt;
 &lt;p&gt;这篇文章就和大家聊聊我的读书方法&lt;/p&gt;
@@ -679,7 +679,7 @@
 &lt;/ol&gt;
 &lt;p&gt;我只列出了几个点，读书的原因有很多，许多名人都推荐我们读书。&lt;/p&gt;
 &lt;h2 id=&#34;我的博客书单页面&#34;&gt;我的博客书单页面
-&lt;/h2&gt;&lt;p&gt;我给博客开了一个&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/book&#34; &gt;我的书单&lt;/a&gt;页面，记录我每个月的阅读书籍。&lt;/p&gt;
+&lt;/h2&gt;&lt;p&gt;我给博客开了一个&lt;a class=&#34;link&#34; href=&#34;https://blog.fiveth.cc/book&#34; &gt;我的书单&lt;/a&gt;页面，记录我每个月的阅读书籍。&lt;/p&gt;
 &lt;p&gt;用的是&lt;a class=&#34;link&#34; href=&#34;https://github.com/anzhiyu-c/hexo-theme-anzhiyu&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;anzhiyu&lt;/a&gt;主题里面的&lt;code&gt;装备页面&lt;/code&gt;改的。&lt;/p&gt;
 &lt;img src=&#34;https://p.fiveth.cc/img/2024/0423150425.jpg&#34; style=&#34;zoom: 67%;&#34; /&gt;
@@ -689,7 +689,7 @@
 &lt;p&gt;因为我们的&lt;strong&gt;记忆是有限的&lt;/strong&gt;。很多人在读书后会做大量的梳理、思维导图，但大部分人只是将作者的思路框架重新理了一遍，告诉自己搞懂了。之前我也试过做全书梳理的笔记，结果发现自己没有记住书中的多少知识，并且也不愿意再翻那长长的笔记。&lt;/p&gt;
 &lt;p&gt;实际上，一本书，只要有一个点让我们受到感触，并让我们去行动了，那它就发挥了巨大的价值。在读完后只记下最受感触的几个点，并尝试将他们运用起来，&lt;strong&gt;做出改变&lt;/strong&gt;。而不是大量梳理，告诉自己我懂了。&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;我之前的文章 &lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/9c7a.html&#34; &gt;一本让我开始觉醒的书：《认知觉醒》&lt;/a&gt;中有讲过&lt;/p&gt;
+&lt;p&gt;我之前的文章 &lt;a class=&#34;link&#34; href=&#34;https://blog.fiveth.cc/9c7a.html&#34; &gt;一本让我开始觉醒的书：《认知觉醒》&lt;/a&gt;中有讲过&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;我用什么读书&#34;&gt;我用什么读书
 &lt;/h2&gt;&lt;p&gt;每次看完书都要重新在网上买书，等快递。&lt;/p&gt;
@@ -704,10 +704,10 @@
         </item>
         <item>
         <title>雅思7分的教训：听力8.5，口语踩雷</title>
-        <link>http://localhost:1313/p/938f/</link>
+        <link>https://blog.fiveth.cc/p/938f/</link>
         <pubDate>Sat, 20 Apr 2024 20:24:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/938f/</guid>
+        <guid>https://blog.fiveth.cc/p/938f/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/2024/0420213033.jpg" alt="Featured image of post 雅思7分的教训：听力8.5，口语踩雷" /&gt;&lt;p&gt;这是我第二次考雅思，考了7分。全靠听力8.5拉的分，口语甚至只考了个5.5，非常离谱。我对这份成绩是有些失望的，尤其是口语给我整无语了。&lt;/p&gt;
 &lt;img src=&#34;https://p.fiveth.cc/img/2024/0420203736.jpg&#34; style=&#34;zoom:50%;&#34; /&gt;
 &lt;p&gt;我第一次考的是6.5分，当时口语还有6，这次给了个5.5，我个人认为发挥是差不多的，可能是考官的判断问题。值得一提的是我踩了个雷，在有一个问题的时候，我刚回答了个&lt;code&gt;Of Course&lt;/code&gt;，之后考官立马地打断我，问下一个问题。当时我非常疑惑，回头考完一查发现&lt;code&gt;Of Course&lt;/code&gt;是非常不礼貌的，意思相当于&lt;code&gt;“这不废话吗”&lt;/code&gt;😅。&lt;/p&gt;
@@ -727,10 +727,10 @@
         </item>
         <item>
         <title>一本让我开始觉醒的书：《认知觉醒》</title>
-        <link>http://localhost:1313/p/9c7a/</link>
+        <link>https://blog.fiveth.cc/p/9c7a/</link>
         <pubDate>Sun, 14 Apr 2024 21:57:47 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/9c7a/</guid>
+        <guid>https://blog.fiveth.cc/p/9c7a/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/2024/0518114933.jpg" alt="Featured image of post 一本让我开始觉醒的书：《认知觉醒》" /&gt;&lt;p&gt;最近我读了《认知觉醒》这本书，作者是周岭。我非常感谢这本书，对我帮助非常大。如果你想改变自己现在的生活，变得更加优秀，这本书一定会帮到你。书中给出了许多提升自己的方法，其中的每个章节都让我有所感悟。这篇文章我会讲其中一些让我最受感触的点。&lt;/p&gt;
 &lt;h2 id=&#34;元认知&#34;&gt;元认知
 &lt;/h2&gt;&lt;p&gt;书中提到了“元认知”这个概念，当我们开启元认知，就会不断的进步、提升。开启元认知，就是&lt;strong&gt;开启第三人称，时刻审视自己在做什么、在想什么&lt;/strong&gt;。有了这种觉知，你就会在玩游戏的时候意识到自己正在过度放纵，并且思考自己的大脑为什么会沉迷于游戏当中；当你分手后无比沮丧的时候，就会思考自己现在处于一个怎样的状态，为什么不开心。当你开启这样一个能力之后，你就会无限进步，你能一直审视自己的行为和思维，在错误的时候意识到并改进。这就相当于自己开了上帝视角，时刻地在监督自己。&lt;/p&gt;
@@ -750,10 +750,10 @@
         </item>
         <item>
         <title>Hexo博客优化：批量修改md文件名</title>
-        <link>http://localhost:1313/p/fbe8/</link>
+        <link>https://blog.fiveth.cc/p/fbe8/</link>
         <pubDate>Tue, 09 Apr 2024 11:51:10 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/fbe8/</guid>
+        <guid>https://blog.fiveth.cc/p/fbe8/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/m/hexo.jpg" alt="Featured image of post Hexo博客优化：批量修改md文件名" /&gt;&lt;p&gt;今天整理博客，发现我给文章取的文件名比较混乱，要找文章的时候会很不方便。&lt;/p&gt;
 &lt;p&gt;一般我们都是用&lt;code&gt;hexo new file_name&lt;/code&gt;创建文章的md文件的，然后文章的标题是在md文件的信息栏定义的。而我们很多时候是开始写文章才想好标题，随着写作标题也会发生变动，这导致最后我们文章标题和文件名是不同的，加大了我们的管理难度。&lt;/p&gt;
 &lt;p&gt;所以我们会在改动文章标题的时候，将文件名也改成一样的。但是这样手动改非常麻烦。因此我配合ChatGPT用Python写了个一键批量修改文件名的小脚本。这样我们就可以很方便的一键将文件名全部都同步成文章的标题。&lt;/p&gt;
@@ -872,10 +872,10 @@
         </item>
         <item>
         <title>2022款Thinkbook14&#43;酷睿版续航优化方案</title>
-        <link>http://localhost:1313/p/4b21/</link>
+        <link>https://blog.fiveth.cc/p/4b21/</link>
         <pubDate>Tue, 27 Feb 2024 16:03:50 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/4b21/</guid>
+        <guid>https://blog.fiveth.cc/p/4b21/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/m/thinkbook-battery-cover.jpg" alt="Featured image of post 2022款Thinkbook14&#43;酷睿版续航优化方案" /&gt;&lt;p&gt;使用Thinkbook14+也有两年了，我是在22年买的。后悔自己买的太早，因为22年酷睿款的续航十分鸡肋（23及24款在续航有很大提升），相信一样用这款的朋友们应该深有体会。离电不到2小时的续航，堪比游戏本。作为一个学生，在学校中基本上只能离电使用，所以我对续航有一定需求。&lt;/p&gt;
 &lt;p&gt;在我的一番调教下，它的续航最终达到了静置10小时，低负办公8小时的理论成绩。这对我日常使用体验的提升非常大，终于不用再频繁地把电脑放到充电仓。今天就来分享一下我自用的续航调教方案。本篇部分适用于所有笔记本，部分是针对22 Thinkbook14+酷睿版的。&lt;/p&gt;
 &lt;p&gt;文章部分参考自&lt;a class=&#34;link&#34; href=&#34;https://zhuanlan.zhihu.com/p/662648384&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -976,10 +976,10 @@
         </item>
         <item>
         <title>阿谦读书笔记：《原子习惯》</title>
-        <link>http://localhost:1313/p/a76a/</link>
+        <link>https://blog.fiveth.cc/p/a76a/</link>
         <pubDate>Thu, 23 Nov 2023 16:07:26 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/a76a/</guid>
+        <guid>https://blog.fiveth.cc/p/a76a/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/m/habits.jpg" alt="Featured image of post 阿谦读书笔记：《原子习惯》" /&gt;&lt;h2 id=&#34;基础&#34;&gt;基础
 &lt;/h2&gt;&lt;h3 id=&#34;小习惯的大力量&#34;&gt;小习惯的大力量
 &lt;/h3&gt;&lt;p&gt;一个微小的习惯改变，会对未来影响很大。
@@ -1121,10 +1121,10 @@ After [HABIT I NEED], I will [HABIT I WANT].&lt;/p&gt;
         </item>
         <item>
         <title>Hexo博客优化：如何优化Hexo的网站性能？</title>
-        <link>http://localhost:1313/p/95d6/</link>
+        <link>https://blog.fiveth.cc/p/95d6/</link>
         <pubDate>Wed, 11 Oct 2023 12:06:31 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/95d6/</guid>
+        <guid>https://blog.fiveth.cc/p/95d6/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/m/perf.jpg" alt="Featured image of post Hexo博客优化：如何优化Hexo的网站性能？" /&gt;&lt;p&gt;对一个网站来说，性能是非常重要的，它决定了用户在网页停留的时长。&lt;/p&gt;
 &lt;p&gt;如果网页的加载速度很慢的话，用户很容易就会离去。&lt;/p&gt;
 &lt;p&gt;有朋友说我的博客速度挺快的，这篇文章就讲讲我是如何&lt;strong&gt;优化我的网站性能&lt;/strong&gt;的。&lt;/p&gt;
@@ -1223,10 +1223,10 @@ After [HABIT I NEED], I will [HABIT I WANT].&lt;/p&gt;
         </item>
         <item>
         <title>摆脱3DM启动器打开游戏：避免捆绑下载笑傲江湖</title>
-        <link>http://localhost:1313/p/134b/</link>
+        <link>https://blog.fiveth.cc/p/134b/</link>
         <pubDate>Tue, 06 Jun 2023 22:15:15 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/134b/</guid>
+        <guid>https://blog.fiveth.cc/p/134b/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/m/3dm.jpg" alt="Featured image of post 摆脱3DM启动器打开游戏：避免捆绑下载笑傲江湖" /&gt;&lt;p&gt;经常白嫖游戏的小伙伴应该都对&lt;a class=&#34;link&#34; href=&#34;https://www.3dmgame.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;3DM&lt;/a&gt;不陌生，里面有很多盗版游戏资源。但是呢，很多3dm下来的游戏都要用3dm启动器去打开，你说用你启动器打开就算了，就多点两下的事对吧。但是每次打开你启动器，你都要下载个“笑傲江湖”到我电脑里，删了还没用，下次启动的时候又会跳出来，这跟流氓软件有什么区别。今天就教大家怎么摆脱3DM流氓启动器，直接打开游戏。&lt;/p&gt;
 &lt;img src=&#34;https://p.fiveth.cc/img/m/xiaoao.webp&#34; /&gt;
@@ -1252,10 +1252,10 @@ After [HABIT I NEED], I will [HABIT I WANT].&lt;/p&gt;
         </item>
         <item>
         <title>OpenGL教学 | 3.如何给形状添加纹理，绘制各种带图案的形状？</title>
-        <link>http://localhost:1313/p/7cf1/</link>
+        <link>https://blog.fiveth.cc/p/7cf1/</link>
         <pubDate>Tue, 30 May 2023 18:33:42 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/7cf1/</guid>
+        <guid>https://blog.fiveth.cc/p/7cf1/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/m/grasscover.jpg" alt="Featured image of post OpenGL教学 | 3.如何给形状添加纹理，绘制各种带图案的形状？" /&gt;&lt;p&gt;本篇将学习OpenGL中关于纹理的各种知识。纹理就是图片，用于给模型添加细节。&lt;/p&gt;
 &lt;h2 id=&#34;纹理环绕方式&#34;&gt;纹理环绕方式
 &lt;/h2&gt;&lt;p&gt;如果我们把纹理坐标设置在范围之外会发生什么？OpenGL默认的行为是重复这个纹理图像。下面更多的选择：&lt;/p&gt;
@@ -1673,10 +1673,10 @@ After [HABIT I NEED], I will [HABIT I WANT].&lt;/p&gt;
         </item>
         <item>
         <title>OpenGL教程 | 2.了解着色器，并绘制彩色三角形</title>
-        <link>http://localhost:1313/p/9641/</link>
+        <link>https://blog.fiveth.cc/p/9641/</link>
         <pubDate>Sun, 28 May 2023 16:20:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/9641/</guid>
+        <guid>https://blog.fiveth.cc/p/9641/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/m/colorcover.jpg" alt="Featured image of post OpenGL教程 | 2.了解着色器，并绘制彩色三角形" /&gt;&lt;p&gt;本篇我们会更深入地了解着色器：&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;学会着色器如何输入输出&lt;/li&gt;
@@ -1961,10 +1961,10 @@ After [HABIT I NEED], I will [HABIT I WANT].&lt;/p&gt;
         </item>
         <item>
         <title>OpenGL教程 | 1.如何上手OpenGL, 绘制三角形和矩形</title>
-        <link>http://localhost:1313/p/8ca/</link>
+        <link>https://blog.fiveth.cc/p/8ca/</link>
         <pubDate>Wed, 24 May 2023 21:34:08 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/8ca/</guid>
+        <guid>https://blog.fiveth.cc/p/8ca/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/m/openglcover.webp" alt="Featured image of post OpenGL教程 | 1.如何上手OpenGL, 绘制三角形和矩形" /&gt;&lt;h2 id=&#34;关于学习opengl&#34;&gt;关于学习OpenGL
 &lt;/h2&gt;&lt;p&gt;OpenGL是学习计算机图形学的必备，虽然现在Vulkan是未来的OpenGL，但目前OpenGL仍是无法被替代的。&lt;/p&gt;
 &lt;p&gt;Vulkan学习难度过高，个人做项目太耗时间，所以OpenGL依旧是很好的选择。很多大神都认为，先学OpenGL打基础，在学习Vulkan的时候再将原先的知识进行分解转化，是个很好的方法。因为学习Vulkan时，想让屏幕上显示点东西需要做的工作太多了，非常容易放弃。(别说Vulkan了，OpenGL就已经够难了🤕)&lt;/p&gt;
@@ -2538,10 +2538,10 @@ After [HABIT I NEED], I will [HABIT I WANT].&lt;/p&gt;
         </item>
         <item>
         <title>【Qt C&#43;&#43;】TCP联机小游戏 RectMans</title>
-        <link>http://localhost:1313/p/1841/</link>
+        <link>https://blog.fiveth.cc/p/1841/</link>
         <pubDate>Fri, 12 May 2023 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/1841/</guid>
+        <guid>https://blog.fiveth.cc/p/1841/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/m/rectmans.jpg" alt="Featured image of post 【Qt C&#43;&#43;】TCP联机小游戏 RectMans" /&gt;&lt;p&gt;学习TCP后用基于Qt TCP库做了一个联机小游戏🤼&lt;/p&gt;
 &lt;p&gt;断断续续大概写了一周，程序源码放在文章底部了。&lt;/p&gt;
 &lt;h2 id=&#34;结构思路&#34;&gt;结构思路
@@ -2784,10 +2784,10 @@ After [HABIT I NEED], I will [HABIT I WANT].&lt;/p&gt;
         </item>
         <item>
         <title>【Qt C&#43;&#43;】TCP聊天程序DuckChat</title>
-        <link>http://localhost:1313/p/dcd3/</link>
+        <link>https://blog.fiveth.cc/p/dcd3/</link>
         <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/dcd3/</guid>
+        <guid>https://blog.fiveth.cc/p/dcd3/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/m/duckchat.jpg" alt="Featured image of post 【Qt C&#43;&#43;】TCP聊天程序DuckChat" /&gt;&lt;p&gt;用Qt和C++开发了一个基于TCP协议的通信程序，源码放在文章底部了。&lt;/p&gt;
 &lt;p&gt;TCP是一种传输协议，以服务器和客户端的形式运行。&lt;/p&gt;
 &lt;p&gt;Qt中提供了QTcpServer类来编写服务器端程序，以及QTcpSocket类来编写客户端程序。&lt;/p&gt;
@@ -3028,10 +3028,10 @@ After [HABIT I NEED], I will [HABIT I WANT].&lt;/p&gt;
         </item>
         <item>
         <title>【Qt C&#43;&#43;】Fighter Duck</title>
-        <link>http://localhost:1313/p/f1e0/</link>
+        <link>https://blog.fiveth.cc/p/f1e0/</link>
         <pubDate>Sat, 15 Apr 2023 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/f1e0/</guid>
+        <guid>https://blog.fiveth.cc/p/f1e0/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/m/fighterduck.jpg" alt="Featured image of post 【Qt C&#43;&#43;】Fighter Duck" /&gt;&lt;p&gt;最近在学习Qt，做了个游戏当练手项目。&lt;/p&gt;
 &lt;p&gt;断断续续大概写了两周，程序源码放在文章底部了。&lt;/p&gt;
 &lt;h2 id=&#34;游戏美术&#34;&gt;游戏美术
@@ -3152,10 +3152,10 @@ After [HABIT I NEED], I will [HABIT I WANT].&lt;/p&gt;
         </item>
         <item>
         <title>阿谦读书笔记：《深入浅出程序设计竞赛》</title>
-        <link>http://localhost:1313/p/98d7/</link>
+        <link>https://blog.fiveth.cc/p/98d7/</link>
         <pubDate>Fri, 31 Mar 2023 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/98d7/</guid>
+        <guid>https://blog.fiveth.cc/p/98d7/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/m/shenji.jpg" alt="Featured image of post 阿谦读书笔记：《深入浅出程序设计竞赛》" /&gt;&lt;h2 id=&#34;简介&#34;&gt;简介
 &lt;/h2&gt;&lt;p&gt;《深入浅出程序设计竞赛》是洛谷站长出的书，帮助青少年上手C++算法竞赛。书中对学习算法竞赛的顺序编排非常好，很系统，很适合用于算法竞赛入门。文章最后有书籍pdf版。&lt;/p&gt;
 &lt;hr&gt;
@@ -3397,10 +3397,10 @@ After [HABIT I NEED], I will [HABIT I WANT].&lt;/p&gt;
         </item>
         <item>
         <title>阿谦教算法：如何学精排序算法？</title>
-        <link>http://localhost:1313/p/92b9/</link>
+        <link>https://blog.fiveth.cc/p/92b9/</link>
         <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/92b9/</guid>
+        <guid>https://blog.fiveth.cc/p/92b9/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/m/sort.webp" alt="Featured image of post 阿谦教算法：如何学精排序算法？" /&gt;&lt;h4 id=&#34;各种排序&#34;&gt;各种排序
 &lt;/h4&gt;&lt;table&gt;
 &lt;thead&gt;
@@ -3525,10 +3525,10 @@ After [HABIT I NEED], I will [HABIT I WANT].&lt;/p&gt;
         </item>
         <item>
         <title>阿谦读书笔记：Computational Fairy Tales</title>
-        <link>http://localhost:1313/p/ee7c/</link>
+        <link>https://blog.fiveth.cc/p/ee7c/</link>
         <pubDate>Mon, 27 Feb 2023 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/ee7c/</guid>
+        <guid>https://blog.fiveth.cc/p/ee7c/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/m/computa.jpg" alt="Featured image of post 阿谦读书笔记：Computational Fairy Tales" /&gt;&lt;h2 id=&#34;introduction&#34;&gt;Introduction
 &lt;/h2&gt;&lt;p&gt;This is a book on the &lt;strong&gt;Computer Science book list of Oxford&lt;/strong&gt;. It is a good book for crossing the threshold of computer science.&lt;/p&gt;
 &lt;p&gt;The book briefly introduces the some &lt;strong&gt;fundamental knowledges&lt;/strong&gt; of computer science through an interesting adventure story.&lt;/p&gt;
@@ -3585,10 +3585,10 @@ After [HABIT I NEED], I will [HABIT I WANT].&lt;/p&gt;
         </item>
         <item>
         <title>如何用SDL开发游戏？</title>
-        <link>http://localhost:1313/p/b01b/</link>
+        <link>https://blog.fiveth.cc/p/b01b/</link>
         <pubDate>Wed, 25 Jan 2023 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/b01b/</guid>
+        <guid>https://blog.fiveth.cc/p/b01b/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/m/sdl.jpg" alt="Featured image of post 如何用SDL开发游戏？" /&gt;&lt;p&gt;SDL（Simple DirectMedia Layer）是一套开放源代码的&lt;strong&gt;跨平台多媒体开发库&lt;/strong&gt;，使用C语言写成。SDL提供了数种控制图像、声音、输出入的函数，让开发者只要用相同或是相似的代码就可以开发出跨多个平台的应用软件。现SDL多用于开发游戏、模拟器、媒体播放器等多媒体应用领域。&lt;/p&gt;
 &lt;p&gt;最近前段时间浅学习了下SDL，以及做游戏。这篇文章总结下。&lt;/p&gt;
 &lt;h2 id=&#34;游戏结构&#34;&gt;游戏结构
@@ -3694,10 +3694,10 @@ SDL_Quit();
         </item>
         <item>
         <title>阿谦教算法：如何学精链表？</title>
-        <link>http://localhost:1313/p/c8a8/</link>
+        <link>https://blog.fiveth.cc/p/c8a8/</link>
         <pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/c8a8/</guid>
+        <guid>https://blog.fiveth.cc/p/c8a8/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/m/linklist.webp" alt="Featured image of post 阿谦教算法：如何学精链表？" /&gt;&lt;p&gt;我们存储很多数的时候，通常使用数组，但是数组不够灵活。&lt;/p&gt;
 &lt;p&gt;哦？为什么说不灵活？&lt;/p&gt;
 &lt;p&gt;我们如果要在一个数组前面或者中间插入一个数，就会很麻烦。&lt;/p&gt;
@@ -3849,10 +3849,10 @@ SDL_Quit();
         </item>
         <item>
         <title>算法：如何高效地筛出质数？(欧拉筛)</title>
-        <link>http://localhost:1313/p/a680/</link>
+        <link>https://blog.fiveth.cc/p/a680/</link>
         <pubDate>Fri, 23 Dec 2022 11:29:22 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/a680/</guid>
+        <guid>https://blog.fiveth.cc/p/a680/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/m/oula.webp" alt="Featured image of post 算法：如何高效地筛出质数？(欧拉筛)" /&gt;&lt;p&gt;如何高效筛素数？让我们来看看&lt;/p&gt;
 &lt;p&gt;**题目：**生成一个1到n范围内的质数数组&lt;/p&gt;
 &lt;h2 id=&#34;菜鸟这样做枚举法&#34;&gt;菜鸟这样做（枚举法）
@@ -3982,10 +3982,10 @@ SDL_Quit();
         </item>
         <item>
         <title>阿谦学习笔记：HTML</title>
-        <link>http://localhost:1313/p/c57/</link>
+        <link>https://blog.fiveth.cc/p/c57/</link>
         <pubDate>Wed, 21 Dec 2022 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/c57/</guid>
+        <guid>https://blog.fiveth.cc/p/c57/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/m/html.jpg" alt="Featured image of post 阿谦学习笔记：HTML" /&gt;&lt;p&gt;这是我之前学习html做的一点笔记，是一些基础，非常简单好学。&lt;/p&gt;
 &lt;h2 id=&#34;网页基本信息&#34;&gt;·网页基本信息
 &lt;/h2&gt;&lt;p&gt;doctype声明&lt;/p&gt;
@@ -4082,10 +4082,10 @@ SDL_Quit();
         </item>
         <item>
         <title>算法：高精度运算</title>
-        <link>http://localhost:1313/p/e08/</link>
+        <link>https://blog.fiveth.cc/p/e08/</link>
         <pubDate>Tue, 20 Dec 2022 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/e08/</guid>
+        <guid>https://blog.fiveth.cc/p/e08/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/m/calculator.webp" alt="Featured image of post 算法：高精度运算" /&gt;&lt;p&gt;我们知道每种数据类型的储存空间是有限的，如果我们要储存非常大的数可以用long long，更大则unsigned long long，再大就是有些编译器提供的_int128类型，但是要是比这还要大呢?我们就需要用到&lt;strong&gt;高精度运算&lt;/strong&gt;，&lt;strong&gt;用数组来模拟非常大的整数&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;我们只要定义一个数组，把数字分别放入数组序列中就可以储存非常大的数。&lt;/p&gt;
 &lt;p&gt;接下来我们看看怎么使用高精度运算。&lt;/p&gt;
@@ -4321,10 +4321,10 @@ SDL_Quit();
         </item>
         <item>
         <title>阿谦教算法：如何求最大公因数？(辗转相除法)</title>
-        <link>http://localhost:1313/p/72c/</link>
+        <link>https://blog.fiveth.cc/p/72c/</link>
         <pubDate>Wed, 14 Dec 2022 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/72c/</guid>
+        <guid>https://blog.fiveth.cc/p/72c/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/m/gcd.webp" alt="Featured image of post 阿谦教算法：如何求最大公因数？(辗转相除法)" /&gt;&lt;p&gt;辗转相除法是一种求最大公因数的计算方法。&lt;/p&gt;
 &lt;p&gt;这种方法在编程中很常用，在数学计算中也可以用来求很复杂的最大公因数问题。&lt;/p&gt;
 &lt;h2 id=&#34;如何使用&#34;&gt;如何使用
@@ -4417,10 +4417,10 @@ $$&lt;/p&gt;
         </item>
         <item>
         <title>如何用Hexo搭建个人博客?</title>
-        <link>http://localhost:1313/p/bb32/</link>
+        <link>https://blog.fiveth.cc/p/bb32/</link>
         <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/bb32/</guid>
+        <guid>https://blog.fiveth.cc/p/bb32/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/m/hexo.jpg" alt="Featured image of post 如何用Hexo搭建个人博客?" /&gt;&lt;p&gt;{% tip info %}&lt;code&gt;2024.4&lt;/code&gt; 我出了视频版教程啦：&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1Ju4m1c7WR/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;bilibili视频链接&lt;/a&gt;{% endtip %}&lt;/p&gt;
 &lt;p&gt;我的个人博客搭建成功啦！&lt;/p&gt;
@@ -4670,7 +4670,7 @@ $$&lt;/p&gt;
 &lt;p&gt;大家可以参阅主题文档进行安装配置&lt;/p&gt;
 &lt;p&gt;有什么问题的话欢迎评论。&lt;/p&gt;
 &lt;p&gt;{% tip info %}&lt;/p&gt;
-&lt;p&gt;本篇下文：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/p/138e.html&#34; &gt;Hexo搭建进阶：Vercel部署、主题安装、基础用法&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;本篇下文：&lt;a class=&#34;link&#34; href=&#34;https://blog.fiveth.cc/p/138e.html&#34; &gt;Hexo搭建进阶：Vercel部署、主题安装、基础用法&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;我的&lt;strong&gt;Hexo优化系列&lt;/strong&gt;：&lt;a class=&#34;link&#34; href=&#34;https://www.fomal.cc/posts/4aa2d85f.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Hexo文章目录&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;{% endtip %}&lt;/p&gt;
@@ -4678,27 +4678,27 @@ $$&lt;/p&gt;
         </item>
         <item>
         <title>归档</title>
-        <link>http://localhost:1313/archives/</link>
+        <link>https://blog.fiveth.cc/archives/</link>
         <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/archives/</guid>
+        <guid>https://blog.fiveth.cc/archives/</guid>
         <description></description>
         </item>
         <item>
         <title>说说</title>
-        <link>http://localhost:1313/say/</link>
+        <link>https://blog.fiveth.cc/say/</link>
         <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/say/</guid>
+        <guid>https://blog.fiveth.cc/say/</guid>
         <description>&lt;h3 id=&#34;说说&#34;&gt;说说
 &lt;/h3&gt;</description>
         </item>
         <item>
         <title>关于</title>
-        <link>http://localhost:1313/about/</link>
+        <link>https://blog.fiveth.cc/about/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/about/</guid>
+        <guid>https://blog.fiveth.cc/about/</guid>
         <description>&lt;h2 id=&#34;hi&#34;&gt;🤪Hi
 &lt;/h2&gt;&lt;p&gt;Hiii，我是&lt;code&gt;Fiveth&lt;/code&gt;，一名&lt;code&gt;准计算机学生&lt;/code&gt;，目前在读&lt;code&gt;国际高中&lt;/code&gt;，目标英国G5！&lt;code&gt;Fiveth&lt;/code&gt;这个网名来源于我的真名，谐音听着像五千，英文Five thousand，然后再一缩写就成了Fiveth😋&lt;/p&gt;
 &lt;h2 id=&#34;我的人格&#34;&gt;😎我的人格
@@ -4856,18 +4856,18 @@ Who looks inside, awakes.&lt;/p&gt;&lt;span class=&#34;cite&#34;&gt;&lt;span&gt;
         </item>
         <item>
         <title>搜索</title>
-        <link>http://localhost:1313/search/</link>
+        <link>https://blog.fiveth.cc/search/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/search/</guid>
+        <guid>https://blog.fiveth.cc/search/</guid>
         <description></description>
         </item>
         <item>
         <title>友链</title>
-        <link>http://localhost:1313/links/</link>
+        <link>https://blog.fiveth.cc/links/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/links/</guid>
+        <guid>https://blog.fiveth.cc/links/</guid>
         <description>&lt;h2 id=&#34;本站信息&#34;&gt;本站信息🙂
 &lt;/h2&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;div class=&#34;chroma&#34;&gt;
 &lt;table class=&#34;lntable&#34;&gt;&lt;tr&gt;&lt;td class=&#34;lntd&#34;&gt;
