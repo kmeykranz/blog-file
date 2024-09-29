@@ -16,15 +16,6 @@
         <description></description>
         </item>
         <item>
-        <title>说说</title>
-        <link>https://blog.fiveth.cc/say/</link>
-        <pubDate>Sun, 06 Mar 2022 00:00:00 +0000</pubDate>
-        
-        <guid>https://blog.fiveth.cc/say/</guid>
-        <description>&lt;h3 id=&#34;说说&#34;&gt;说说
-&lt;/h3&gt;</description>
-        </item>
-        <item>
         <title>关于</title>
         <link>https://blog.fiveth.cc/about/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -52,7 +43,7 @@
 游戏：&lt;img src=&#34;https://p.fiveth.cc/img/2024/0420165006.jpeg&#34; style=&#34;width: 300px; height: 400px; margin: 0 10px; display: inline-block;&#34;&gt;
 &lt;/div&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;2022年看了&lt;code&gt;赛博朋克：边缘行者&lt;/code&gt;，被这个世界深深吸引了。看完后买了&lt;code&gt;赛博朋克2077&lt;/code&gt;，2023断断续续地完了一整年，也是我唯一玩完的3A，打了全成就。现在回想，仿佛自己真的在&lt;code&gt;夜之城&lt;/code&gt;活过一生。&lt;/p&gt;
+2022年看了`赛博朋克：边缘行者`，被这个世界深深吸引了。看完后买了`赛博朋克2077`，2023断断续续地完了一整年，也是我唯一玩完的3A，打了全成就。现在回想，仿佛自己真的在`夜之城`活过一生。
 &lt;blockquote&gt;
 &lt;p&gt;“你是愿意当个无名之辈，一辈子安生，插着尿管，死在床上。还是就算活不到30岁，也要名留青史呢。”&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -174,8 +165,6 @@ Who looks inside, awakes.&lt;/p&gt;&lt;span class=&#34;cite&#34;&gt;&lt;span&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;2022.11&lt;/code&gt;上网课的时候，跟着教程用hexo搭建了自己的个人博客，开始了折腾之旅。&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;2024.5&lt;/code&gt;博客迁移至hugo，主要是为了加快博客流、减少折腾。&lt;/li&gt;
-&lt;li&gt;感谢&lt;a class=&#34;link&#34; href=&#34;https://blog.linsnow.cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;L1nSn0w&lt;/a&gt;提供Stack主题美化教程&lt;/li&gt;
 &lt;/ul&gt;
 &lt;/blockquote&gt;
 &lt;p&gt;建立本站的目的是&lt;code&gt;分享知识和生活&lt;/code&gt;，在这里你可以看到我的&lt;code&gt;教程干货、生活琐事、思考和想法&lt;/code&gt;。
