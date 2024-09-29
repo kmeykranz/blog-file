@@ -204,7 +204,7 @@ menu:
     social:
         - identifier: github
           name: GitHub
-          url: https://github.com/kevinwu06
+          url: https://github.com/kmeykranz
           params:
               icon: brand-github
 
