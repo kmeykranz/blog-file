@@ -1,5 +1,5 @@
 ---
-title: Hello Hugo
+title: 关于博客框架迁移
 description: 博客框架迁移至Hugo
 tags:
   - 博客
