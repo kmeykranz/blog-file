@@ -17,7 +17,7 @@ jobs:
             - name: Setup Hugo
               uses: peaceiris/actions-hugo@v2
               with:
-                  hugo-version: "0.115.2" # Hugo 版本
+                  hugo-version: "0.140.0" # Hugo 版本
                   extended: true # hugo插件版 Stack主题 必须启用
 
             - name: Cache resources # 缓存 resource 文件加快生成速度
