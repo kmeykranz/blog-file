@@ -1,0 +1,775 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="{% tip info %}2024.4 我出了视频版教程啦：bilibili视频链接{% endtip %}\n我的个人博客搭建成功啦！\n这篇文章会给大家分享我是如何从0开始搭建我的个人独立博客的\n">
+<title>如何用Hexo搭建个人博客?</title>
+
+<link rel='canonical' href='https://blog.fiveth.cc/p/bb32/'>
+
+<link rel="stylesheet" href="/scss/style.min.0279a9ac8d840980352fb26ac25bcb735039ed8972da8a8e248458ac6461bb65.css"><meta property='og:title' content="如何用Hexo搭建个人博客?">
+<meta property='og:description' content="{% tip info %}2024.4 我出了视频版教程啦：bilibili视频链接{% endtip %}\n我的个人博客搭建成功啦！\n这篇文章会给大家分享我是如何从0开始搭建我的个人独立博客的\n">
+<meta property='og:url' content='https://blog.fiveth.cc/p/bb32/'>
+<meta property='og:site_name' content='Fiveth'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='博客' /><meta property='article:tag' content='Hexo' /><meta property='article:published_time' content='2022-12-10T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2022-12-10T00:00:00&#43;00:00'/><meta property='og:image' content='https://p.fiveth.cc/img/m/hexo.jpg' />
+<meta name="twitter:title" content="如何用Hexo搭建个人博客?">
+<meta name="twitter:description" content="{% tip info %}2024.4 我出了视频版教程啦：bilibili视频链接{% endtip %}\n我的个人博客搭建成功啦！\n这篇文章会给大家分享我是如何从0开始搭建我的个人独立博客的\n"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://p.fiveth.cc/img/m/hexo.jpg' />
+    <link rel="shortcut icon" href="/img/favicon.ico" />
+
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    <img src="/img/avatar.png" width="300" height="300" class="site-logo" loading="lazy" alt="Avatar">
+                
+                </a>
+                
+                    <span class="emoji">🍥</span>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">Fiveth</a></h1>
+            <h2 class="site-description">分享知识与生活🎈</h2>
+        </div>
+    </header><ol class="menu-social">
+            
+                <li>
+                    <a 
+                        href='https://github.com/kmeykranz'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='/index.xml'
+                        target="_blank"
+                        title="RSS"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="5" cy="19" r="1" />
+  <path d="M4 4a16 16 0 0 1 16 16" />
+  <path d="M4 11a9 9 0 0 1 9 9" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>主页</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>归档</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>搜索</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>友链</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>关于</span>
+            </a>
+        </li>
+        
+        <li class="menu-bottom-section">
+            <ol class="menu">
+
+                
+                    <li id="dark-mode-toggle">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                        <span>暗色模式</span>
+                    </li>
+                
+            </ol>
+        </li>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">目录</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ul>
+    <li><a href="#准备工具">准备工具</a></li>
+    <li><a href="#搭建仓库">搭建仓库</a></li>
+    <li><a href="#生成ssh-keys">生成SSH Keys</a></li>
+    <li><a href="#本地生成博客内容">本地生成博客内容</a></li>
+    <li><a href="#上线博客">上线博客</a></li>
+    <li><a href="#网站资料">网站资料</a></li>
+    <li><a href="#如何上传文章">如何上传文章</a></li>
+  </ul>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/bb32/">如何用Hexo搭建个人博客?</a>
+        </h2>
+    
+        
+    </div>
+    
+    
+    
+    
+    <footer class="article-time">
+        
+        
+        <header class="article-category">
+            
+            <a href="/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/">
+                博客相关
+            </a>
+            
+        </header>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Dec 10, 2022</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    阅读时长: 4 分钟
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>{% tip info %}<code>2024.4</code> 我出了视频版教程啦：<a class="link" href="https://www.bilibili.com/video/BV1Ju4m1c7WR/"  target="_blank" rel="noopener"
+    >bilibili视频链接</a>{% endtip %}</p>
+<p>我的个人博客搭建成功啦！</p>
+<p>这篇文章会给大家分享我是如何从0开始搭建我的个人独立博客的</p>
+<p>接下来我们开始吧</p>
+<p><strong>文章比较精简，没有废话，不要跳步</strong></p>
+<h2 id="准备工具">准备工具
+</h2><p>首先我们需要到对应网站下载需要的工具</p>
+<p><strong><a class="link" href="https://nodejs.org/en/"  target="_blank" rel="noopener"
+    >下载nodejs</a></strong></p>
+<hr>
+<p><em>(这篇文章里有修改nodejs缓存路径的教学:<a class="link" href="https://www.cnblogs.com/liuqiyun/p/8133904.html"  target="_blank" rel="noopener"
+    >文章链接</a>，c盘战士可以不看)</em></p>
+<p><strong><a class="link" href="https://git-scm.com/downloads"  target="_blank" rel="noopener"
+    >下载git</a></strong></p>
+<hr>
+<p>一直点确定就行，全部按它默认勾的</p>
+<p><em>(这里有一篇详细安装教程<a class="link" href="https://www.cnblogs.com/xueweisuoyong/p/11914045.html"  target="_blank" rel="noopener"
+    >文章链接</a>，可以不看)</em></p>
+<p><strong>接下来我们测试下是否都下载成功</strong></p>
+<p>管理员运行cmd，依次输入</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">node -v
+</span></span><span class="line"><span class="cl">npm -v（这个是node附带的）
+</span></span><span class="line"><span class="cl">git -v
+</span></span></code></pre></div><p><strong>下载hexo</strong></p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">npm install hexo-cli -g
+</span></span></code></pre></div><h2 id="搭建仓库">搭建仓库
+</h2><p>成功下载好工具之后，我们开始搭建GitHub存储静态页面的仓库</p>
+<p>首先注册/登入<a class="link" href="https://github.com/"  target="_blank" rel="noopener"
+    >Github</a></p>
+<p>点击Create a new repository进入新建仓库页面</p>
+<p>仓库名输入：</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">用户名.github.io
+</span></span></code></pre></div><p>勾选 Public</p>
+<p>勾选 Add a README file</p>
+<p>拉到下面点击create创建</p>
+<h2 id="生成ssh-keys">生成SSH Keys
+</h2><p>进入任意文件夹，右键空白处然后点Git bash here,输入</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">ssh-keygen -t rsa -C &#34;邮件地址&#34;
+</span></span></code></pre></div><p>然后敲4次Enter⌨️</p>
+<p>然后进入C:\Users\用户名，在里面进入.ssh文件</p>
+<p>用记事本打开里面的id_rsa.pub,全选复制里面的代码</p>
+<p><strong>然后打开github</strong></p>
+<p>进入用户设置，找到SSH keys</p>
+<p>新建SSH keys，名称随意，在下面粘贴代码，</p>
+<p>然后创建</p>
+<p><strong>测试是否成功</strong></p>
+<p>在git bash中输入</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">ssh -T git@github.com
+</span></span></code></pre></div><p>回车，然后再输入yes</p>
+<h2 id="本地生成博客内容">本地生成博客内容
+</h2><p>在喜欢位置新建文件Blog，然后进入文件夹</p>
+<p>右键空白处然后点Git bash here，输入</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hexo init
+</span></span></code></pre></div><blockquote>
+<p>如果‘command not find’，就在前面加上npx，如：<code>npx hexo init</code></p>
+</blockquote>
+<p>然后</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hexo install
+</span></span></code></pre></div><p>接下来依次输入</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hexo g
+</span></span><span class="line"><span class="cl">hexo s
+</span></span></code></pre></div><p>（如果不成功的话就重复直到成功，因为国内与github连接不稳定）</p>
+<p>现在就可以复制生成的链接进入浏览器看到我们生成的本地服务器了</p>
+<p>然后回到命令行，ctrl+c关闭</p>
+<h2 id="上线博客">上线博客
+</h2><p>进入之前的Blog文件夹，用记事本打开_config.yml</p>
+<p>拉到最下面将deploy后面的全删掉，复制粘贴这段</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">  type: git
+</span></span><span class="line"><span class="cl">  repository: 
+</span></span><span class="line"><span class="cl">  branch: main
+</span></span></code></pre></div><blockquote>
+<p>注意缩进格式：每行前面都有两个空格不要删，每个冒号后面都有个空格也不要删！</p>
+</blockquote>
+<p>去github之前生成的仓库页面，点code，复制https链接</p>
+<p>将其粘贴到我们记事本中的<code>repository：</code>后面</p>
+<p>然后保存退出</p>
+<p><strong>回到博客文件夹，git bash</strong></p>
+<p>安装自动部署发布工具</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">npm install hexo-deployer-git --save
+</span></span></code></pre></div><p>然后在Blog文件夹右键打开git bash，依次输入</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hexo g（生成）
+</span></span><span class="line"><span class="cl">hexo d（上传）
+</span></span></code></pre></div><blockquote>
+<p>如果是第一次使用git的话会需要配置</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">git config --global user.email &#34;你的邮箱&#34;
+</span></span><span class="line"><span class="cl">git config --global user.name &#34;你的名字&#34;
+</span></span></code></pre></div><p>配置完后再<code>hexo d</code>上传</p>
+<p>在跳出来的窗口内进行登录</p>
+</blockquote>
+<p>接下来我们就成功把本地内容上传到github了</p>
+<p>上传成功以后，我们就算搭建好了！上自己的网址看看吧</p>
+<p>网址是我们之前设的仓库名：用户名.github.io</p>
+<h2 id="网站资料">网站资料
+</h2><p>我们的博客标题还是默认的hexo，整个页面是初始默认的，接下来我们对其进行修改</p>
+<p>用记事本打开我们blog文件夹中的_config.yml文件</p>
+<p>将#Site下面按自己的需求填上</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">## Site
+</span></span><span class="line"><span class="cl">title: 标题
+</span></span><span class="line"><span class="cl">subtitle: 副标题
+</span></span><span class="line"><span class="cl">description: 描述
+</span></span><span class="line"><span class="cl">keywords: 关键词
+</span></span><span class="line"><span class="cl">author: 站主
+</span></span><span class="line"><span class="cl">language: 语言（可以填写zh-CN）
+</span></span><span class="line"><span class="cl">timezone: 时区（可以填写Asia/Shanghai）
+</span></span></code></pre></div><p>然后保存</p>
+<h2 id="如何上传文章">如何上传文章
+</h2><p>我们在Blog文件夹中打开git bash,输入下方代码就可以生成新的文章md文件</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hexo new 文章标题
+</span></span></code></pre></div><p>文章是.md格式，在我们的Blog文件夹中的source/_posts中</p>
+<p>推荐用Typora软件来编辑.md格式的文件</p>
+<blockquote>
+<p>Typora官网：https://www.typoraio.cn/（89元终身使用，推荐正版）</p>
+<p>破解版奉上：<a class="link" href="https://kevinwu06.lanzout.com/iXkq30icv1ha"  target="_blank" rel="noopener"
+    >蓝奏云文件</a></p>
+</blockquote>
+<p>然后我们用Typora软件打开该.md文件就可以开始写文章了</p>
+<p>写好以后，我们还是一样打开git bash生成、上传</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">hexo g
+</span></span><span class="line"><span class="cl">hexo d
+</span></span></code></pre></div><hr>
+<p>至此，我们就成功搭建好基本的博客了，剩下的就是对博客的一些优化和美化了。</p>
+<p>我目前使用的hexo博客主题是<a class="link" href="http://docs.anheyu.com/"  target="_blank" rel="noopener"
+    >anzhiyu</a>，推荐主题：<a class="link" href="https://butterfly.js.org/posts/21cfbf15/"  target="_blank" rel="noopener"
+    >Butterfly</a>，<a class="link" href="http://docs.anheyu.com/"  target="_blank" rel="noopener"
+    >anzhiyu</a></p>
+<p>大家可以参阅主题文档进行安装配置</p>
+<p>有什么问题的话欢迎评论。</p>
+<p>{% tip info %}</p>
+<p>本篇下文：<a class="link" href="/p/138e.html" >Hexo搭建进阶：Vercel部署、主题安装、基础用法</a></p>
+<p>我的<strong>Hexo优化系列</strong>：<a class="link" href="https://www.fomal.cc/posts/4aa2d85f.html"  target="_blank" rel="noopener"
+    >Hexo文章目录</a></p>
+<p>{% endtip %}</p>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/%E5%8D%9A%E5%AE%A2/">博客</a>
+        
+            <a href="/tags/hexo/">Hexo</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/p/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2%E6%A1%86%E6%9E%B6%E8%BF%81%E7%A7%BB/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="https://p.fiveth.cc/img/2024/0518131750.webp" loading="lazy" data-key="" data-hash="https://p.fiveth.cc/img/2024/0518131750.webp"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">关于博客框架迁移</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/138e/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="https://p.fiveth.cc/img/m/hexo.jpg" loading="lazy" data-key="138e" data-hash="https://p.fiveth.cc/img/m/hexo.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Hexo搭建进阶：Vercel部署、主题安装、基础用法</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/fbe8/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="https://p.fiveth.cc/img/m/hexo.jpg" loading="lazy" data-key="fbe8" data-hash="https://p.fiveth.cc/img/m/hexo.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Hexo博客优化：批量修改md文件名</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/95d6/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="https://p.fiveth.cc/img/m/perf.jpg" loading="lazy" data-key="95d6" data-hash="https://p.fiveth.cc/img/m/perf.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Hexo博客优化：如何优化Hexo的网站性能？</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <script src="//cdn.jsdelivr.net/npm/twikoo@1.6.39/dist/twikoo.all.min.js"></script>
+<div id="tcomment"></div>
+<style>
+    .twikoo {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+    :root[data-scheme="dark"] {
+        --twikoo-body-text-color-main: rgba(255, 255, 255, 0.9);
+        --twikoo-body-text-color: rgba(255, 255, 255, 0.7);
+    }
+    .twikoo .el-input-group__prepend,
+    .twikoo .tk-action-icon,
+    .twikoo .tk-submit-action-icon,
+    .twikoo .tk-time,
+    .twikoo .tk-comments-no,
+    .twikoo .tk-comments-count {
+        color: var(--twikoo-body-text-color);
+    }
+    .twikoo .el-input__inner,
+    .twikoo .el-textarea__inner,
+    .twikoo .tk-preview-container,
+    .twikoo .tk-content,
+    .twikoo .tk-nick,
+    .twikoo .tk-send {
+        color: var(--twikoo-body-text-color-main);
+    }
+    .twikoo .el-button{
+        color: var(--twikoo-body-text-color)!important;
+    }
+    .twikoo .el-input__count {
+        color: var(--twikoo-body-text-color) !important;
+    }
+    .OwO .OwO-body {
+        background-color: var(--body-background) !important;
+        color: var(--body-text-color) !important;
+    }
+</style><script>
+    twikoo.init({
+        envId: 'https:\/\/c.fiveth.cc\/',
+        el: '#tcomment',lang: 'zh-cn',})
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+            2022 - 
+        
+        2024 Fiveth
+    </section>
+    
+    <section class="powerby">
+        
+            <a href="https://icp.gov.moe/?keyword=20246616" target="_blank">萌ICP备20246616</a> <br/>
+        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
+        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.29.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.1e9a3bafd846ced4c345d084b355fb8c7bae75701c338f8a1f8a82c780137826.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>

@@ -1,40 +1,33 @@
-baseurl: https://example.com/
-languageCode: en-us
+baseurl: https://blog.fiveth.cc
+languageCode: zh-cn
 theme: hugo-theme-stack
-title: Example Site
-copyright: Example Person
+title: Fiveth's Blog
+copyright: Fiveth
+paginate: 7
 
 # Theme i18n support
 # Available values: ar, bn, ca, de, el, en, es, fr, hu, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw
-DefaultContentLanguage: en
+DefaultContentLanguage: zh-cn
 
 # Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
 # This will make .Summary and .WordCount behave correctly for CJK languages.
-hasCJKLanguage: false
+hasCJKLanguage: true
 
 languages:
-    en:
-        languageName: English
-        title: Example Site
+    zh-cn:
+        languageName: 中文
+        title: Fiveth
         weight: 1
         params:
             sidebar:
-                subtitle: Example description
-    zh-cn:
-        languageName: 中文
-        title: 演示站点
-        weight: 2
-        params:
-            sidebar:
-                subtitle: 演示说明
-    ar:
-        languageName: عربي
-        languagedirection: rtl
-        title: موقع تجريبي
-        weight: 3
-        params:
-            sidebar:
-                subtitle: وصف تجريبي
+                subtitle: 分享知识与生活🎈
+    # en:
+    #     languageName: English
+    #     title: Example Site
+    #     weight: 1
+    #     params:
+    #         sidebar:
+    #             subtitle: Example description
 
 services:
     # Change it to your Disqus shortname before using
@@ -56,11 +49,11 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon: # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
+    favicon: img/favicon.ico # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
 
     footer:
-        since: 2020
-        customText:
+        since: 2022
+        customText: <a href="https://icp.gov.moe/?keyword=20246616" target="_blank">萌ICP备20246616</a>
 
     dateFormat:
         published: Jan 02, 2006
@@ -68,11 +61,11 @@ params:
 
     sidebar:
         emoji: 🍥
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        subtitle: 分享知识与生活🎈
         avatar:
             enabled: true
-            local: true
-            src: img/avatar.png
+            local: false
+            src: /img/avatar.png
 
     article:
         math: false
@@ -84,7 +77,7 @@ params:
 
     comments:
         enabled: true
-        provider: disqus
+        provider: twikoo
 
         disqusjs:
             shortname:
@@ -133,10 +126,10 @@ params:
                 placeholder:
 
         twikoo:
-            envId:
+            envId: https://c.fiveth.cc/
             region:
             path:
-            lang:
+            lang: zh-cn
 
         # See https://cactus.chat/docs/reference/web-client/#configuration for description of the various options
         cactus:
@@ -204,9 +197,9 @@ params:
 
     imageProcessing:
         cover:
-            enabled: true
+            enabled: false
         content:
-            enabled: true
+            enabled: false
 
 ### Custom menu
 ### See https://stack.jimmycai.com/config/menu
@@ -217,15 +210,15 @@ menu:
     social:
         - identifier: github
           name: GitHub
-          url: https://github.com/CaiJimmy/hugo-theme-stack
+          url: https://github.com/kmeykranz
           params:
               icon: brand-github
 
-        - identifier: twitter
-          name: Twitter
-          url: https://twitter.com
+        - identifier: rss
+          name: RSS
+          url: /index.xml
           params:
-              icon: brand-twitter
+              icon: rss
 
 related:
     includeNewer: true
@@ -257,13 +250,13 @@ markup:
             unsafe: true
     tableOfContents:
         endLevel: 4
-        ordered: true
+        ordered: false
         startLevel: 2
     highlight:
         noClasses: false
         codeFences: true
         guessSyntax: true
         lineNoStart: 1
-        lineNos: true
+        lineNos: false
         lineNumbersInTable: true
         tabWidth: 4
