@@ -38,7 +38,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         if: github.ref == 'refs/heads/main'
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           external_repository: kmeykranz/blog # 你的 GitHub page 仓库 example example.github.io
           publish_dir: ./public
           user_name: "github-actions[bot]"
