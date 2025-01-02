@@ -1,0 +1,240 @@
+{{ define "body-class" }}article-page keep-sidebar{{ end }}
+{{ define "main" }}
+
+<head>
+    <style>
+        /* 头像和名字容器 */
+        .profile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+        .profile img {
+            border-radius: 50% !important;
+            /* 圆形效果 */
+            width: 100px;
+            /* 头像的宽度 */
+            ;
+            height: 100px;
+            /* 头像的高度 */
+            ;
+            object-fit: cover;
+            /* 保持图片比例，裁剪填充圆形 */
+            margin-bottom: 10px;
+        }
+
+        .profile h1 {
+            font-size: 1.8em;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .title {
+            font-size: 1.8em;
+            color: #333;
+            font-weight: bold;
+        }
+
+        /* 卡片容器 */
+        .author-page-content {
+            display: flex;
+            flex-direction: column;
+            gap: .5rem;
+        }
+
+        .author-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 100%;
+            gap: .5rem;
+        }
+
+        /* 每张卡片样式 */
+        .card {
+            background-color: var(--card-background);
+            border-radius: var(--card-border-radius);
+            box-shadow: var(card-box-shadow);
+            padding: 20px;
+            transition: all 0.3s ease;
+            box-sizing: border-box;
+        }
+
+        /* 各种卡片大小 */
+        .card-1 {
+            flex: 4;
+            /* 大卡片 */
+        }
+
+        .card-2 {
+            flex: 1;
+            /* 中等卡片 */
+        }
+
+        .card-2 img{
+            height: 20rem;
+        }
+
+        .card-3 {
+            flex: 3;
+            /* 小卡片 */
+        }
+
+        .card-4 {
+            flex: 2;
+            /* 小卡片 */
+        }
+        .card-5 {
+            flex: 1;
+            /* 小卡片 */
+        }
+        .card-6 {
+            flex: 5;
+            /* 小卡片 */
+        }
+
+        /* 鼠标悬停效果 */
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        /* 卡片标题 */
+        .card h2 {
+            margin: 0 0 10px;
+            color: #333;
+            font-size: 1.5em;
+        }
+
+        /* 卡片文本 */
+        .card p {
+            color: #666;
+            font-size: 1em;
+            line-height: 1.6;
+        }
+
+        /* 爱好标签 */
+        .card .hobbies {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .card .hobbies span {
+            background-color: #E4AE3A;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.9em;
+        }
+
+        /* 座右铭 */
+        .card .motto {
+            font-style: italic;
+            color: #555;
+            text-align: center;
+            margin-top: 15px;
+        }
+
+        /* 屏幕适应性调整 */
+        @media screen and (max-width: 768px) {
+            .card {
+                width: 100%;
+                /* 手机或平板显示时，所有卡片宽度为100% */
+            }
+
+            .author-page-content {
+                flex-direction: column;
+                /* 卡片一列排列 */
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+
+            /* 对手机屏幕进一步优化 */
+            .profile h1 {
+                font-size: 1.6em;
+                /* 调整标题字号 */
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- 头像和名字 -->
+    <div class="profile">
+        <img src="https://blog.fiveth.cc/img/avatar.png" alt="Fiveth">
+        <a class="title">Fiveth</a>
+    </div>
+
+    <!-- 卡片容器 -->
+    <div class="author-page-content">
+        <!-- 卡片 1：关于我 -->
+        <div class="author-content">
+            <div class="card card-1">
+                <a class="title">🤪 Hi</a>
+                <p>Hiii，我是 <strong>Fiveth</strong>，我现在是一名高三国际生，25fall计算机。</p>
+                <p>建立本站的目的是 <strong>分享知识和生活</strong>，在这里你可以看到我的 <strong>教程干货、生活琐事、思考和想法</strong>。</p>
+                <p>有幸我们能在这片互联网的海洋中相遇，相信我们能共同留下美好的回忆。</p>
+            </div>
+            <!-- 卡片 2：我的人格 -->
+            <div class="card card-2">
+                <a class="title">😎 我的性格</a>
+                <div>
+                    <img src="https://p.fiveth.cc/img/2025/0101221300.png" alt="INTP-A">
+                    <strong>INTP-A</strong>
+                </div>
+            </div>
+        </div>
+        <div class="author-content">
+            <!-- 卡片 3：我的爱好 -->
+            <div class="card card-3">
+                <a class="title">☀️ 我的爱好</a>
+                <div class="hobbies">
+                    <span style="background-color: #E4AE3A;">健身、跑步、瑜伽、徒步</span>
+                    <span style="background-color: #B04FE6;">编曲、Beatbox、Penbeat</span>
+                    <span style="background-color: #33A474;">阅读、下棋</span>
+                    <span style="background-color: #F25E62;">游戏、电影、动漫</span>
+                </div>
+            </div>
+            <!-- 卡片 4：座右铭 -->
+            <div class="card card-4">
+                <a class="title">💭 座右铭</a>
+                <p class="motto">"Who looks outside, dreams; Who looks inside, awakes." - <strong>Carl Jung</strong></p>
+            </div>
+        </div>
+        <div class="author-content">
+            <!-- 卡片 5：关于本站 -->
+            <div class="card card-5">
+                <a class="title">💻 关于本站</a>
+                <p>2022年11月，我在上网课的时候，用Hexo搭建了自己的个人博客。</p>
+                <p>2024年5月，博客框架改用Hugo。</p>
+            </div>
+            <!-- 卡片 6：与我联系 -->
+            <div class="card card-6">
+                <a class="title">☎️ 与我联系</a>
+                <p>✉️ 邮箱：<a href="mailto:kevinwu06@163.com">kevinwu06@163.com</a></p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<article class="{{ if .Params.image }}has-image {{ end }}main-article">
+    {{ partial "article/components/content" . }}
+
+    {{ if or .Params.math .Site.Params.article.math }}
+    {{ partialCached "article/components/math.html" . }}
+    {{ end }}
+</article>
+
+{{ if not (eq .Params.comments false) }}
+{{ partial "comments/include" . }}
+{{ end }}
+
+{{ partialCached "footer/footer" . }}
+
+{{ end }}

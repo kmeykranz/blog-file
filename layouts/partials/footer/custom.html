@@ -1,0 +1,89 @@
+<style>
+    footer.site-footer {
+        width: 100%;
+        position: relative;
+        bottom: 0;
+        padding: 20px 10px;
+        font-size: 1.3rem;
+        font-weight: 600;
+        line-height: 1.75;
+        color: var(--card-text-color-secondary);
+        background-color: var(--footer-bg);
+        box-shadow: 0 -3px 1px -3px var(--card-text-color-main);
+        padding: 20px;
+        user-select: none;
+    }
+
+    .footer-info {
+        display: grid;
+        grid-template-columns: 1fr auto;
+    }
+
+    .right-footer {
+        text-align: left;
+        display: flex;
+        align-items: right;
+    }
+
+    footer.site-footer a {
+        font-size: 15px;
+        color: var(--card-text-color-main);
+        transition: color .2s ease-in-out;
+        margin-inline: 15px;
+    }
+
+    .copyright{
+        font-size: 15px;
+        color: var(--card-text-color-main) !important;
+        transition: color .2s ease-in-out;
+        margin-inline: 15px;
+    }
+
+</style>
+{{- $ThemeVersion := "3.29.0" -}}
+<div style="display: flex;
+    justify-content: center; 
+    align-items: center; flex-direction: column;margin-top: 60px;">
+    I wish you to become your own sun, no need to rely on who's light.<p><a target="_blank" href="https://hexo.io/"><img
+                src="https://img.shields.io/badge/Frame-Hexo-blue?style=flat&logo=hexo" title="博客框架为Hexo"></a>&nbsp;<a
+            target="_blank" href="https://butterfly.js.org/"><img
+                src="https://img.shields.io/badge/Theme-Butterfly-6513df?style=flat&logo=bitdefender"
+                title="主题采用butterfly"></a>&nbsp;<a target="_blank" href="https://www.jsdelivr.com/"><img
+                src="https://img.shields.io/badge/CDN-jsDelivr-orange?style=flat&logo=jsDelivr"
+                title="本站使用JsDelivr为静态资源提供CDN加速"></a> &nbsp;<a target="_blank" href="https://vercel.com/ "><img
+                src="https://img.shields.io/badge/Hosted-Vervel-brightgreen?style=flat&logo=Vercel"
+                title="本站采用双线部署，默认线路托管于Vercel"></a>&nbsp;<a target="_blank" href="https://vercel.com/ "><img
+                src="https://img.shields.io/badge/Hosted-Coding-0cedbe?style=flat&logo=Codio"
+                title="本站采用双线部署，联通线路托管于Coding"></a>&nbsp;<a target="_blank" href="https://github.com/"><img
+                src="https://img.shields.io/badge/Source-Github-d021d6?style=flat&logo=GitHub"
+                title="本站项目由Gtihub托管"></a>&nbsp;<a target="_blank"
+            href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img
+                src="https://img.shields.io/badge/Copyright-BY--NC--SA%204.0-d42328?style=flat&logo=Claris"
+                title="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"></a></p>
+</div>
+<footer class="site-footer">
+    <div class="footer-info">
+        <div class="left-footer">
+            <section class="copyright">
+                &copy;
+                {{ if and (.Site.Params.footer.since) (ne .Site.Params.footer.since (int (now.Format "2006"))) }}
+                {{ .Site.Params.footer.since }} -
+                {{ end }}
+                {{ now.Format "2006" }} {{ default .Site.Title .Site.Copyright }}
+            </section>
+        </div>
+        <div class="right-footer">
+            <span class="hugo">
+                <a href="https://gohugo.io/" target="_blank">Hugo</a>
+            </span>
+            <span class="theme">
+                <a href="/theme" target="_blank">主题</a>
+            </span>
+
+            <span class="ICP">
+                <a href="https://icp.gov.moe/?keyword=20246616" target="_blank">萌ICP备20246616</a>
+            </span>
+
+        </div>
+    </div>
+</footer>
