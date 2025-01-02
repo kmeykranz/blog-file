@@ -1,22 +1,237 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
-    <head><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="🤪Hi\rHiii，我是Fiveth，我现在是一名高三国际生，25fall计算机。\n建立本站的目的是分享知识和生活，在这里你可以看到我的教程干货、生活琐事、思考和想法。 有幸我们能在这片互联网的海洋中相遇，相信我们能共同留下美好的回忆。\n">
+
+<head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="💻 关于本站\r2022年11月，在疫情上网课的时候，用Hexo搭建了自己的个人博客。\n2024年5月，博客框架改用Hugo-Stack\n2025年1月，自己魔改Hugo-Stack成了现在的样子\n">
 <title>关于</title>
 
 <link rel='canonical' href='https://blog.fiveth.cc/about/'>
 
-<link rel="stylesheet" href="/scss/style.min.15108d2337f01a20a3853401f3e626c73eca745db871fa827f20c4d4c09429a2.css"><meta property='og:title' content="关于">
-<meta property='og:description' content="🤪Hi\rHiii，我是Fiveth，我现在是一名高三国际生，25fall计算机。\n建立本站的目的是分享知识和生活，在这里你可以看到我的教程干货、生活琐事、思考和想法。 有幸我们能在这片互联网的海洋中相遇，相信我们能共同留下美好的回忆。\n">
+<link rel="stylesheet" href="/scss/style.min.3715db0c9c6ba102924aa7165cb9e6ffa53505eb6484edff9754f5f13e9783c0.css"><meta property='og:title' content="关于">
+<meta property='og:description' content="💻 关于本站\r2022年11月，在疫情上网课的时候，用Hexo搭建了自己的个人博客。\n2024年5月，博客框架改用Hugo-Stack\n2025年1月，自己魔改Hugo-Stack成了现在的样子\n">
 <meta property='og:url' content='https://blog.fiveth.cc/about/'>
 <meta property='og:site_name' content='Fiveth'>
 <meta property='og:type' content='article'><meta property='article:section' content='Page' />
 <meta name="twitter:title" content="关于">
-<meta name="twitter:description" content="🤪Hi\rHiii，我是Fiveth，我现在是一名高三国际生，25fall计算机。\n建立本站的目的是分享知识和生活，在这里你可以看到我的教程干货、生活琐事、思考和想法。 有幸我们能在这片互联网的海洋中相遇，相信我们能共同留下美好的回忆。\n">
+<meta name="twitter:description" content="💻 关于本站\r2022年11月，在疫情上网课的时候，用Hexo搭建了自己的个人博客。\n2024年5月，博客框架改用Hugo-Stack\n2025年1月，自己魔改Hugo-Stack成了现在的样子\n">
     <link rel="shortcut icon" href="/img/favicon.ico" />
 
-    </head>
-    <body class="article-page keep-sidebar">
+</head>
+
+<body class="article-page keep-sidebar">
+    <style>
+    :root {
+        --nav-background-color: var(--card-background);
+        --nav-font-color: var(--card-text-color-main);
+        --nav-font-hover-color: var(--card-text-color-main);
+        --nav-hover-background-color: #28B9E6;
+        --nav-border-radius: 8px;
+        --nav-shadow-color: rgba(40, 185, 230, 0.6);
+        --nav-hover-shadow: rgba(40, 185, 230, 0.8);
+        --nav-height: 60px;
+         
+    }
+
+    .menu-container {
+        background: var(--nav-background-color);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        z-index: 90;
+        backdrop-filter: saturate(180%) blur(20px);
+        padding: 10px 20px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease-in-out;
+        height: var(--nav-height);
+    }
+
+    .menu-items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        margin: 0;
+        width: 100%;
+    }
+
+    .site-name {
+        width: 120px;
+        margin: 0 15px;
+        padding: 5px 15px;
+        border-radius: var(--nav-border-radius);
+        transition: 0.3s;
+        position: relative;
+        color: var(--nav-font-color);
+        font-size: 20px;
+         
+        font-weight: bold;
+         
+    }
+
+    .site-name:hover::after {
+        content: "";
+        position: absolute;
+        bottom: -3px;
+        left: 0;
+        right: 0;
+        height: 3px;
+        background: var(--nav-hover-background-color);
+        border-radius: var(--nav-border-radius);
+    }
+
+    .menu-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu-item {
+        margin: 0 15px;
+        padding: 5px 15px;
+        border-radius: var(--nav-border-radius);
+        transition: 0.3s;
+        position: relative;
+        color: var(--nav-font-color);
+        font-size: 16px;
+         
+        font-weight: bold;
+         
+    }
+
+    .menu-item:hover::after {
+        content: "";
+        position: absolute;
+        bottom: -3px;
+        left: 0;
+        right: 0;
+        height: 3px;
+        background: var(--nav-hover-background-color);
+        border-radius: var(--nav-border-radius);
+    }
+
+    .page-content {
+        margin-top: var(--nav-height);
+    }
+
+     
+    .mode-toggle-button {
+        cursor: pointer;
+        font-size: 18px;
+        margin-left: 15px;
+        padding: 10px;
+    }
+
+     
+    .menu-toggle {
+        display: none;
+        color: var(--card-text-color-main);
+        border: none;
+        padding: 10px;
+        font-size: 18px;
+        cursor: pointer;
+        z-index: 100;
+    }
+
+     
+    @media screen and (max-width: 768px) {
+        .mode-toggle-button {
+            position: absolute;
+            right: 55px;
+             
+        }
+
+        .menu-toggle {
+            display: block;
+        }
+
+        .menu-links {
+            display: none;
+            flex-direction: column;
+            position: absolute;
+            top: 60px;
+             
+            left: 0;
+            width: 100%;
+            background-color: rgba(249, 249, 249, 0.95);
+             
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+        }
+
+        .menu-links.active {
+            display: flex;
+        }
+    }
+</style>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="menu-container">
+        <div class="menu-items">
+            
+            <a href="https://blog.fiveth.cc/" class="site-name">Fiveth</a>
+
+            
+            <div class="menu-links">
+                
+                <a href="/" class="menu-item">主页</a>
+                
+                <a href="/archives/" class="menu-item">归档</a>
+                
+                <a href="/search/" class="menu-item">搜索</a>
+                
+                <a href="/links/" class="menu-item">友链</a>
+                
+                <a href="/about/" class="menu-item">关于</a>
+                
+            </div>
+
+            
+            <div class="menu-item mode-toggle-button" id="dark-mode-toggle">
+                <span>🌞</span>
+            </div>
+
+            <a class="menu-item menu-toggle">☰</a>
+
+
+        </div>
+    </div>
+</nav>
+
+<script>
+    
+    document.getElementById("dark-mode-toggle").addEventListener("click", function () {
+        const body = document.body;
+        body.classList.toggle("dark-mode");
+
+        
+        const modeText = body.classList.contains("dark-mode") ? "🌞" : "🌙";
+        this.querySelector("span").textContent = modeText;
+
+        
+        localStorage.setItem("theme", body.classList.contains("dark-mode") ? "dark" : "light");
+    });
+
+    
+    window.addEventListener("load", function () {
+        const savedTheme = localStorage.getItem("theme");
+        if (savedTheme === "dark") {
+            document.body.classList.add("dark-mode");
+            document.querySelector("#dark-mode-toggle span").textContent = "🌞";
+        }
+    });
+
+    
+    const menuToggleButton = document.querySelector('.menu-toggle');
+    const menuLinks = document.querySelector('.menu-links');
+
+    
+    menuToggleButton.addEventListener('click', () => {
+        
+        menuLinks.classList.toggle('active');
+    });
+</script>
+    <div class="page-content"></div>
     <script>
         (function() {
             const colorSchemeKey = 'StackColorScheme';
@@ -39,260 +254,247 @@
         }
     })();
 </script>
-<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
-    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
-        <span class="hamburger-box">
-            <span class="hamburger-inner"></span>
-        </span>
-    </button>
+<div class="container main-container flex on-phone--column extended">
+        <main class="main full-width">
 
-    <header>
+<head>
+    <style>
+         
+        .profile {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+
+        .profile img {
+            border-radius: 50% !important;
+             
+            width: 100px;
+             
+            ;
+            height: 100px;
+             
+            ;
+            object-fit: cover;
+             
+            margin-bottom: 10px;
+        }
+
+        .profile h1 {
+            font-size: 1.8em;
+            color: #333;
+            font-weight: bold;
+        }
+
+        .title {
+            font-size: 1.8em;
+            color: #333;
+            font-weight: bold;
+        }
+
+         
+        .author-page-content {
+            display: flex;
+            flex-direction: column;
+            gap: .5rem;
+        }
+
+        .author-content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            width: 100%;
+            gap: .5rem;
+        }
+
+         
+        .card {
+            background-color: var(--card-background);
+            border-radius: var(--card-border-radius);
+            box-shadow: var(card-box-shadow);
+            padding: 20px;
+            transition: all 0.3s ease;
+            box-sizing: border-box;
+        }
+
+         
+        .card-1 {
+            flex: 4;
+             
+        }
+
+        .card-2 {
+            flex: 1;
+             
+        }
+
+        .card-2 img{
+            height: 20rem;
+        }
+
+        .card-3 {
+            flex: 3;
+             
+        }
+
+        .card-4 {
+            flex: 2;
+             
+        }
+        .card-5 {
+            flex: 1;
+             
+        }
+        .card-6 {
+            flex: 5;
+             
+        }
+
+         
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+         
+        .card h2 {
+            margin: 0 0 10px;
+            color: #333;
+            font-size: 1.5em;
+        }
+
+         
+        .card p {
+            color: #666;
+            font-size: 1em;
+            line-height: 1.6;
+        }
+
+         
+        .card .hobbies {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .card .hobbies span {
+            background-color: #E4AE3A;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 0.9em;
+        }
+
+         
+        .card .motto {
+            font-style: italic;
+            color: #555;
+            text-align: center;
+            margin-top: 15px;
+        }
+
+         
+        @media screen and (max-width: 768px) {
+            .card {
+                width: 100%;
+                 
+            }
+
+            .author-page-content {
+                flex-direction: column;
+                 
+            }
+        }
+
+        @media screen and (max-width: 480px) {
+
+             
+            .profile h1 {
+                font-size: 1.6em;
+                 
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    
+    <div class="profile">
+        <img src="https://blog.fiveth.cc/img/avatar.png" alt="Fiveth">
+        <a class="title">Fiveth</a>
+    </div>
+
+    
+    <div class="author-page-content">
         
+        <div class="author-content">
+            <div class="card card-1">
+                <a class="title">🤪 Hi</a>
+                <p>Hiii，我是 <strong>Fiveth</strong>，我现在是一名高三国际生，25fall计算机。</p>
+                <p>建立本站的目的是 <strong>分享知识和生活</strong>，在这里你可以看到我的 <strong>教程干货、生活琐事、思考和想法</strong>。</p>
+                <p>有幸我们能在这片互联网的海洋中相遇，相信我们能共同留下美好的回忆。</p>
+            </div>
             
-            <figure class="site-avatar">
-                <a href="/">
-                
-                    <img src="/img/avatar.png" width="300" height="300" class="site-logo" loading="lazy" alt="Avatar">
-                
-                </a>
-                
-                    <span class="emoji">🍥</span>
-                
-            </figure>
-            
-        
-        
-        <div class="site-meta">
-            <h1 class="site-name"><a href="/">Fiveth</a></h1>
-            <h2 class="site-description">分享知识与生活🎈</h2>
+            <div class="card card-2">
+                <a class="title">😎 我的性格</a>
+                <div>
+                    <img src="https://p.fiveth.cc/img/2025/0101221300.png" alt="INTP-A">
+                    <strong>INTP-A</strong>
+                </div>
+            </div>
         </div>
-    </header><ol class="menu-social">
+        <div class="author-content">
             
-                <li>
-                    <a 
-                        href='https://github.com/kmeykranz'
-                        target="_blank"
-                        title="GitHub"
-                        rel="me"
-                    >
-                        
-                        
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
-</svg>
-
-
-
-                        
-                    </a>
-                </li>
+            <div class="card card-3">
+                <a class="title">☀️ 我的爱好</a>
+                <div class="hobbies">
+                    <span style="background-color: #E4AE3A;">健身、跑步、瑜伽、徒步</span>
+                    <span style="background-color: #B04FE6;">编曲、Beatbox、Penbeat</span>
+                    <span style="background-color: #33A474;">阅读、下棋</span>
+                    <span style="background-color: #F25E62;">游戏、电影、动漫</span>
+                </div>
+            </div>
             
-                <li>
-                    <a 
-                        href='/index.xml'
-                        target="_blank"
-                        title="RSS"
-                        rel="me"
-                    >
-                        
-                        
-                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="5" cy="19" r="1" />
-  <path d="M4 4a16 16 0 0 1 16 16" />
-  <path d="M4 11a9 9 0 0 1 9 9" />
-</svg>
-
-
-
-                        
-                    </a>
-                </li>
+            <div class="card card-4">
+                <a class="title">💭 座右铭</a>
+                <p class="motto">"Who looks outside, dreams; Who looks inside, awakes." - <strong>Carl Jung</strong></p>
+            </div>
+        </div>
+        <div class="author-content">
             
-        </ol><ol class="menu" id="main-menu">
-        
-        
-        
-        <li >
-            <a href='/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <polyline points="5 12 3 12 12 3 21 12 19 12" />
-  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
-  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
-</svg>
+            <div class="card card-5">
+                <a class="title">💻 关于本站</a>
+                <p>2022年11月，我在上网课的时候，用Hexo搭建了自己的个人博客。</p>
+                <p>2024年5月，博客框架改用Hugo。</p>
+            </div>
+            
+            <div class="card card-6">
+                <a class="title">☎️ 与我联系</a>
+                <p>✉️ 邮箱：<a href="mailto:kevinwu06@163.com">kevinwu06@163.com</a></p>
+            </div>
+        </div>
+    </div>
 
-
-
-                
-                <span>主页</span>
-            </a>
-        </li>
-        
-        
-        <li >
-            <a href='/archives/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <rect x="3" y="4" width="18" height="4" rx="2" />
-  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
-  <line x1="10" y1="12" x2="14" y2="12" />
-</svg>
-
-
-
-                
-                <span>归档</span>
-            </a>
-        </li>
-        
-        
-        <li >
-            <a href='/search/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="10" cy="10" r="7" />
-  <line x1="21" y1="21" x2="15" y2="15" />
-</svg>
-
-
-
-                
-                <span>搜索</span>
-            </a>
-        </li>
-        
-        
-        <li >
-            <a href='/links/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
-  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
-</svg>
-
-
-
-                
-                <span>友链</span>
-            </a>
-        </li>
-        
-        
-        <li  class='current' >
-            <a href='/about/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="7" r="4" />
-  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
-</svg>
-
-
-
-                
-                <span>关于</span>
-            </a>
-        </li>
-        
-        <li class="menu-bottom-section">
-            <ol class="menu">
-
-                
-                    <li id="dark-mode-toggle">
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="8" cy="12" r="2" />
-  <rect x="2" y="6" width="20" height="12" rx="6" />
-</svg>
-
-
-
-                        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="16" cy="12" r="2" />
-  <rect x="2" y="6" width="20" height="12" rx="6" />
-</svg>
-
-
-
-                        <span>暗色模式</span>
-                    </li>
-                
-            </ol>
-        </li>
-    </ol>
-</aside>
-
-            <main class="main full-width">
+</body>
 
 <article class="main-article">
     <section class="article-content">
     
     
-    <h2 id="hi">🤪Hi
-</h2><p>Hiii，我是<code>Fiveth</code>，我现在是一名高三国际生，25fall计算机。</p>
-<p>建立本站的目的是<code>分享知识和生活</code>，在这里你可以看到我的<code>教程干货、生活琐事、思考和想法</code>。
-有幸我们能在这片互联网的海洋中相遇，相信我们能共同留下美好的回忆。</p>
-<h2 id="我的人格">😎我的人格
-</h2><blockquote>
-    <p><div>
-<img src="https://p.fiveth.cc/img/m/adventurer_small.png" style="width: 150px; height: 150px; margin: 0 10px; display: inline-block;"><div style="display: inline-block;">
-<strong>ISFP-A探险家</strong><br>
-<ul>
-<li>他能在ddl的压力下焦虑地摸鱼一整天<br></li>
-<li>对感兴趣的有无比强烈的学习欲望<br></li>
-<li>对自己不感兴趣的直接<del>阳痿</del>
-</div>
-</div>
+    <h1 id="-关于本站">💻 关于本站
+</h1><ul>
+<li>
+<p>2022年11月，在疫情上网课的时候，用Hexo搭建了自己的个人博客。</p>
+</li>
+<li>
+<p>2024年5月，博客框架改用Hugo-Stack</p>
+</li>
+<li>
+<p>2025年1月，自己魔改Hugo-Stack成了现在的样子</p>
 </li>
 </ul>
-</p><span class="cite"><span>― </span><span>ISFP, </span><a href="https://www.16personalities.com/ch/isfp-%E4%BA%BA%E6%A0%BC"><cite>16 Personalities</cite></a></span></blockquote>
-<h2 id="我的爱好">☀️我的爱好
-</h2><blockquote>
-    <p><div>
-                    <strong style="color: #E4AE3A;">
-                        健身、跑步、瑜伽、徒步
-                    </strong>
-                    <strong style="color: #B04FE6;">
-                        编曲、Beatbox、Penbeat
-                    </strong>
-                    <strong style="color: #33A474;">
-                        阅读、下棋
-                    </strong>
-                    <strong style="color: #F25E62;">
-                        游戏、电影、动漫
-                    </strong>
-</div>
-</p></blockquote>
-<h2 id="座右铭">💭座右铭
-</h2><blockquote>
-    <p>Who looks outside, dreams;<br>
-Who looks inside, awakes.</p><span class="cite"><span>― </span><span>Carl Jung</span><cite></cite></span></blockquote>
-<h2 id="关于本站">💻关于本站
-</h2><blockquote>
-<ul>
-<li><code>2022.11</code>上网课的时候，用hexo搭建了自己的个人博客。</li>
-<li><code>2024.5</code>博客框架改用hugo。</li>
-</ul>
-</blockquote>
-<h2 id="与我联系">☎️与我联系
-</h2><p>✉️邮箱：kevinwu06@163.com</p>
 
 </section>
 
@@ -302,75 +504,12 @@ Who looks inside, awakes.</p><span class="cite"><span>― </span><span>Carl Jung
 
 
 
-    <script src="//cdn.jsdelivr.net/npm/twikoo@1.6.39/dist/twikoo.all.min.js"></script>
-<div id="tcomment"></div>
-<style>
-    .twikoo {
-        background-color: var(--card-background);
-        border-radius: var(--card-border-radius);
-        box-shadow: var(--shadow-l1);
-        padding: var(--card-padding);
-    }
-    :root[data-scheme="dark"] {
-        --twikoo-body-text-color-main: rgba(255, 255, 255, 0.9);
-        --twikoo-body-text-color: rgba(255, 255, 255, 0.7);
-    }
-    .twikoo .el-input-group__prepend,
-    .twikoo .tk-action-icon,
-    .twikoo .tk-submit-action-icon,
-    .twikoo .tk-time,
-    .twikoo .tk-comments-no,
-    .twikoo .tk-comments-count {
-        color: var(--twikoo-body-text-color);
-    }
-    .twikoo .el-input__inner,
-    .twikoo .el-textarea__inner,
-    .twikoo .tk-preview-container,
-    .twikoo .tk-content,
-    .twikoo .tk-nick,
-    .twikoo .tk-send {
-        color: var(--twikoo-body-text-color-main);
-    }
-    .twikoo .el-button{
-        color: var(--twikoo-body-text-color)!important;
-    }
-    .twikoo .el-input__count {
-        color: var(--twikoo-body-text-color) !important;
-    }
-    .OwO .OwO-body {
-        background-color: var(--body-background) !important;
-        color: var(--body-text-color) !important;
-    }
-</style><script>
-    twikoo.init({
-        envId: 'https:\/\/c.fiveth.cc\/',
-        el: '#tcomment',lang: 'zh-cn',})
-</script>
 
 
 
-<footer class="site-footer">
-    <section class="copyright">
-        &copy; 
-        
-            2022 - 
-        
-        2024 Fiveth
-    </section>
-    
-    <section class="powerby">
-        
-            <a href="https://icp.gov.moe/?keyword=20246616" target="_blank">萌ICP备20246616</a> <br/>
-        使用 <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> 构建 <br />
-        主题 <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.29.0">Stack</a></b> 由 <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a> 设计
-    </section>
-</footer>
-
-
-
-            </main>
-        </div>
-        <script 
+        </main>
+    </div>
+    <script 
                 src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
                 
                 >
@@ -386,6 +525,95 @@ Who looks inside, awakes.</p><span class="cite"><span>― </span><span>Carl Jung
         document.head.appendChild(customFont);
     }());
 </script>
+<style>
+    footer.site-footer {
+        width: 100%;
+        position: relative;
+        bottom: 0;
+        padding: 20px 10px;
+        font-size: 1.3rem;
+        font-weight: 600;
+        line-height: 1.75;
+        color: var(--card-text-color-secondary);
+        background-color: var(--footer-bg);
+        box-shadow: 0 -3px 1px -3px var(--card-text-color-main);
+        padding: 20px;
+        user-select: none;
+    }
 
-    </body>
+    .footer-info {
+        display: grid;
+        grid-template-columns: 1fr auto;
+    }
+
+    .right-footer {
+        text-align: left;
+        display: flex;
+        align-items: right;
+    }
+
+    footer.site-footer a {
+        font-size: 15px;
+        color: var(--card-text-color-main);
+        transition: color .2s ease-in-out;
+        margin-inline: 15px;
+    }
+
+    .copyright{
+        font-size: 15px;
+        color: var(--card-text-color-main) !important;
+        transition: color .2s ease-in-out;
+        margin-inline: 15px;
+    }
+
+</style><div style="display: flex;
+    justify-content: center; 
+    align-items: center; flex-direction: column;margin-top: 60px;">
+    I wish you to become your own sun, no need to rely on who's light.<p><a target="_blank" href="https://hexo.io/"><img
+                src="https://img.shields.io/badge/Frame-Hexo-blue?style=flat&logo=hexo" title="博客框架为Hexo"></a>&nbsp;<a
+            target="_blank" href="https://butterfly.js.org/"><img
+                src="https://img.shields.io/badge/Theme-Butterfly-6513df?style=flat&logo=bitdefender"
+                title="主题采用butterfly"></a>&nbsp;<a target="_blank" href="https://www.jsdelivr.com/"><img
+                src="https://img.shields.io/badge/CDN-jsDelivr-orange?style=flat&logo=jsDelivr"
+                title="本站使用JsDelivr为静态资源提供CDN加速"></a> &nbsp;<a target="_blank" href="https://vercel.com/ "><img
+                src="https://img.shields.io/badge/Hosted-Vervel-brightgreen?style=flat&logo=Vercel"
+                title="本站采用双线部署，默认线路托管于Vercel"></a>&nbsp;<a target="_blank" href="https://vercel.com/ "><img
+                src="https://img.shields.io/badge/Hosted-Coding-0cedbe?style=flat&logo=Codio"
+                title="本站采用双线部署，联通线路托管于Coding"></a>&nbsp;<a target="_blank" href="https://github.com/"><img
+                src="https://img.shields.io/badge/Source-Github-d021d6?style=flat&logo=GitHub"
+                title="本站项目由Gtihub托管"></a>&nbsp;<a target="_blank"
+            href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img
+                src="https://img.shields.io/badge/Copyright-BY--NC--SA%204.0-d42328?style=flat&logo=Claris"
+                title="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"></a></p>
+</div>
+<footer class="site-footer">
+    <div class="footer-info">
+        <div class="left-footer">
+            <section class="copyright">
+                &copy;
+                
+                2022 -
+                
+                2025 Fiveth
+            </section>
+        </div>
+        <div class="right-footer">
+            <span class="hugo">
+                <a href="https://gohugo.io/" target="_blank">Hugo</a>
+            </span>
+            <span class="theme">
+                <a href="/theme" target="_blank">主题</a>
+            </span>
+
+            <span class="ICP">
+                <a href="https://icp.gov.moe/?keyword=20246616" target="_blank">萌ICP备20246616</a>
+            </span>
+
+        </div>
+    </div>
+</footer>
+    </div>
+</body>
+
+
 </html>

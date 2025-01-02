@@ -9,10 +9,10 @@
         <copyright>Fiveth</copyright>
         <lastBuildDate>Fri, 17 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.fiveth.cc/tags/hexo/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>关于博客框架迁移</title>
-        <link>https://blog.fiveth.cc/p/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2%E6%A1%86%E6%9E%B6%E8%BF%81%E7%A7%BB/</link>
+        <link>https://blog.fiveth.cc/p/hugo/</link>
         <pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://blog.fiveth.cc/p/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2%E6%A1%86%E6%9E%B6%E8%BF%81%E7%A7%BB/</guid>
+        <guid>https://blog.fiveth.cc/p/hugo/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/2024/0518131750.webp" alt="Featured image of post 关于博客框架迁移" /&gt;&lt;p&gt;hi，大家应该发现了，我的博客变样了&lt;/p&gt;
 &lt;p&gt;因为我把博客从&lt;code&gt;Hexo&lt;/code&gt;迁移到了&lt;code&gt;Hugo&lt;/code&gt;&lt;/p&gt;
 &lt;blockquote&gt;

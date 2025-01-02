@@ -21,54 +21,18 @@
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://blog.fiveth.cc/about/</guid>
-        <description>&lt;h2 id=&#34;hi&#34;&gt;🤪Hi
-&lt;/h2&gt;&lt;p&gt;Hiii，我是&lt;code&gt;Fiveth&lt;/code&gt;，我现在是一名高三国际生，25fall计算机。&lt;/p&gt;
-&lt;p&gt;建立本站的目的是&lt;code&gt;分享知识和生活&lt;/code&gt;，在这里你可以看到我的&lt;code&gt;教程干货、生活琐事、思考和想法&lt;/code&gt;。
-有幸我们能在这片互联网的海洋中相遇，相信我们能共同留下美好的回忆。&lt;/p&gt;
-&lt;h2 id=&#34;我的人格&#34;&gt;😎我的人格
-&lt;/h2&gt;&lt;blockquote&gt;
-    &lt;p&gt;&lt;div&gt;
-&lt;img src=&#34;https://p.fiveth.cc/img/m/adventurer_small.png&#34; style=&#34;width: 150px; height: 150px; margin: 0 10px; display: inline-block;&#34;&gt;&lt;div style=&#34;display: inline-block;&#34;&gt;
-&lt;strong&gt;ISFP-A探险家&lt;/strong&gt;&lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;他能在ddl的压力下焦虑地摸鱼一整天&lt;br&gt;&lt;/li&gt;
-&lt;li&gt;对感兴趣的有无比强烈的学习欲望&lt;br&gt;&lt;/li&gt;
-&lt;li&gt;对自己不感兴趣的直接&lt;del&gt;阳痿&lt;/del&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+        <description>&lt;h1 id=&#34;-关于本站&#34;&gt;💻 关于本站
+&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;2022年11月，在疫情上网课的时候，用Hexo搭建了自己的个人博客。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;2024年5月，博客框架改用Hugo-Stack&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;2025年1月，自己魔改Hugo-Stack成了现在的样子&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;/p&gt;&lt;span class=&#34;cite&#34;&gt;&lt;span&gt;― &lt;/span&gt;&lt;span&gt;ISFP, &lt;/span&gt;&lt;a href=&#34;https://www.16personalities.com/ch/isfp-%E4%BA%BA%E6%A0%BC&#34;&gt;&lt;cite&gt;16 Personalities&lt;/cite&gt;&lt;/a&gt;&lt;/span&gt;&lt;/blockquote&gt;
-&lt;h2 id=&#34;我的爱好&#34;&gt;☀️我的爱好
-&lt;/h2&gt;&lt;blockquote&gt;
-    &lt;p&gt;&lt;div&gt;
-                    &lt;strong style=&#34;color: #E4AE3A;&#34;&gt;
-                        健身、跑步、瑜伽、徒步
-                    &lt;/strong&gt;
-                    &lt;strong style=&#34;color: #B04FE6;&#34;&gt;
-                        编曲、Beatbox、Penbeat
-                    &lt;/strong&gt;
-                    &lt;strong style=&#34;color: #33A474;&#34;&gt;
-                        阅读、下棋
-                    &lt;/strong&gt;
-                    &lt;strong style=&#34;color: #F25E62;&#34;&gt;
-                        游戏、电影、动漫
-                    &lt;/strong&gt;
-&lt;/div&gt;
-&lt;/p&gt;&lt;/blockquote&gt;
-&lt;h2 id=&#34;座右铭&#34;&gt;💭座右铭
-&lt;/h2&gt;&lt;blockquote&gt;
-    &lt;p&gt;Who looks outside, dreams;&lt;br&gt;
-Who looks inside, awakes.&lt;/p&gt;&lt;span class=&#34;cite&#34;&gt;&lt;span&gt;― &lt;/span&gt;&lt;span&gt;Carl Jung&lt;/span&gt;&lt;cite&gt;&lt;/cite&gt;&lt;/span&gt;&lt;/blockquote&gt;
-&lt;h2 id=&#34;关于本站&#34;&gt;💻关于本站
-&lt;/h2&gt;&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;2022.11&lt;/code&gt;上网课的时候，用hexo搭建了自己的个人博客。&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;2024.5&lt;/code&gt;博客框架改用hugo。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;与我联系&#34;&gt;☎️与我联系
-&lt;/h2&gt;&lt;p&gt;✉️邮箱：kevinwu06@163.com&lt;/p&gt;
 </description>
         </item>
         <item>

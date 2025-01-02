@@ -103,10 +103,10 @@
         </item>
         <item>
         <title>关于博客框架迁移</title>
-        <link>https://blog.fiveth.cc/p/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2%E6%A1%86%E6%9E%B6%E8%BF%81%E7%A7%BB/</link>
+        <link>https://blog.fiveth.cc/p/hugo/</link>
         <pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://blog.fiveth.cc/p/%E5%85%B3%E4%BA%8E%E5%8D%9A%E5%AE%A2%E6%A1%86%E6%9E%B6%E8%BF%81%E7%A7%BB/</guid>
+        <guid>https://blog.fiveth.cc/p/hugo/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/2024/0518131750.webp" alt="Featured image of post 关于博客框架迁移" /&gt;&lt;p&gt;hi，大家应该发现了，我的博客变样了&lt;/p&gt;
 &lt;p&gt;因为我把博客从&lt;code&gt;Hexo&lt;/code&gt;迁移到了&lt;code&gt;Hugo&lt;/code&gt;&lt;/p&gt;
 &lt;blockquote&gt;
@@ -1050,6 +1050,109 @@ After [HABIT I NEED], I will [HABIT I WANT].&lt;/p&gt;
 </description>
         </item>
         <item>
+        <title>《深入浅出程序设计竞赛》读书笔记</title>
+        <link>https://blog.fiveth.cc/p/98d7/</link>
+        <pubDate>Fri, 31 Mar 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.fiveth.cc/p/98d7/</guid>
+        <description>&lt;img src="https://p.fiveth.cc/img/m/shenji.jpg" alt="Featured image of post 《深入浅出程序设计竞赛》读书笔记" /&gt;&lt;h2 id=&#34;简介&#34;&gt;简介
+&lt;/h2&gt;&lt;p&gt;《深入浅出程序设计竞赛》是洛谷站长出的书，帮助青少年上手C++算法竞赛。书中对学习算法竞赛的顺序编排非常好，很系统，很适合用于算法竞赛入门。文章最后有书籍pdf版。&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;strong&gt;下面是我从基础语言入门部分(第一部分)总结出来的精华笔记。&lt;/strong&gt;&lt;/p&gt;
+&lt;h2 id=&#34;文件操作&#34;&gt;文件操作
+&lt;/h2&gt;&lt;p&gt;在文件里创建 title.in文件&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;freeopen&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;title.in&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;w&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;stdin&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;freeopen&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;title.out&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;r&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;stdout&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;头文件&#34;&gt;头文件
+&lt;/h2&gt;&lt;h5 id=&#34;cstdio头文件&#34;&gt;cstdio头文件
+&lt;/h5&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;//输入
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;scanf&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;%d&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;//输出
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;printf&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;d&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h5 id=&#34;cmath头文件&#34;&gt;cmath头文件:
+&lt;/h5&gt;&lt;p&gt;包含一系列&lt;strong&gt;数学函数&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;err&#34;&gt;根号&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sqrt&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;err&#34;&gt;几次方&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pow&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h5 id=&#34;algorithm头文件&#34;&gt;algorithm头文件：
+&lt;/h5&gt;&lt;p&gt;一系列&lt;strong&gt;算法函数&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;min&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;max&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;sort&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;swap&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h5 id=&#34;cstring头文件&#34;&gt;cstring头文件：
+&lt;/h5&gt;&lt;p&gt;用于char字符串&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;strlen获取字符串长度&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;，&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;strcpy复制字符串内容&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;fgets读入字符串&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;，&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sscanf获取字符串&lt;/span&gt;&lt;span class=&#34;err&#34;&gt;，&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;sprintf输&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;杂货&#34;&gt;杂货
+&lt;/h2&gt;&lt;h5 id=&#34;ascii码&#34;&gt;ASCII码:
+&lt;/h5&gt;&lt;p&gt;&amp;lsquo;A&amp;rsquo;=66, &amp;lsquo;a&amp;rsquo;=97&lt;/p&gt;
+&lt;h5 id=&#34;强制转换&#34;&gt;强制转换:
+&lt;/h5&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h5 id=&#34;函数&#34;&gt;函数:
+&lt;/h5&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;stat&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;//在这个函数里面对放入的a进行修改，函数外是不会生效的。
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;stat&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;//相当于给放入的变量取了个别名，对其修改，该变量也会改变。
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;    
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;stat&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;kt&#34;&gt;int&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;[])&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;//相当于传入&amp;amp;a[]
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;scanf&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;%d&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;amp;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;c1&#34;&gt;//这也是一样，相当于把n的地址告诉函数，这样才能输入到n中。
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h5 id=&#34;左移右移运算符&#34;&gt;左移/右移运算符
+&lt;/h5&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;//左移运算符
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;n&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;*&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;^&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;^&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;//右移运算符
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;i&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;/&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;2&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;^&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;n&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;^&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h5 id=&#34;随机数&#34;&gt;随机数
+&lt;/h5&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt; &lt;span class=&#34;cpf&#34;&gt;&amp;lt;cstdlib&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;#include&lt;/span&gt; &lt;span class=&#34;cpf&#34;&gt;&amp;lt;ctime&amp;gt;&lt;/span&gt;&lt;span class=&#34;cp&#34;&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;cp&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;srand&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;time&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;0&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;))&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;ans&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;rand&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;()&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;%&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;a&lt;/span&gt;	&lt;span class=&#34;c1&#34;&gt;//生成0到(a-1)随机数
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;//ans=rand()%(b-a+1)+a	生成a到b随机数
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h5 id=&#34;异或运算符-&#34;&gt;异或运算符: ^
+&lt;/h5&gt;&lt;p&gt;一个成立一个不成立&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;^&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;false&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;true&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;nb&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;^&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;true&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;nb&#34;&gt;false&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;字符串&#34;&gt;字符串
+&lt;/h2&gt;&lt;h5 id=&#34;char字符串&#34;&gt;char字符串
+&lt;/h5&gt;&lt;p&gt;结束标记字符：&amp;rsquo;\0&amp;rsquo;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;读入字符串方法：&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;scanf&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;%s&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;n&#34;&gt;cin&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;gt;&amp;gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;这两种方法只能读到空格或者换行就会终止&lt;/p&gt;
+&lt;p&gt;如果要输入&lt;strong&gt;包括空格或换行的字符串&lt;/strong&gt;，并存入一个字符串中，就用下面这种方法&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;k&#34;&gt;while&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;mi&#34;&gt;1&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;{&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;		&lt;span class=&#34;n&#34;&gt;s&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;getchar&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;&lt;span class=&#34;c1&#34;&gt;//读入字符
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;		&lt;span class=&#34;k&#34;&gt;if&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s&lt;/span&gt; &lt;span class=&#34;o&#34;&gt;==&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;EOF&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;)&lt;/span&gt; &lt;span class=&#34;k&#34;&gt;break&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;c1&#34;&gt;//...
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;		&lt;span class=&#34;n&#34;&gt;putchar&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;	&lt;span class=&#34;p&#34;&gt;}&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;结束输入的时候，要使用组合键Ctrl+Z，然后回车。&lt;/p&gt;
+&lt;p&gt;这是因为getchar返回EOF(End of file)代表文件读入完毕。&lt;/p&gt;
+&lt;p&gt;windows下输入Ctrl+z / Linux下输入Ctrl+D 来输入EOF标记&lt;/p&gt;
+&lt;h5 id=&#34;string字符串&#34;&gt;string字符串
+&lt;/h5&gt;&lt;p&gt;加强版字符串，可以赋值、拼接&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;字符串string需要使用头文件 string,包括下面的常用方法&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-cpp&#34; data-lang=&#34;cpp&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;//定义字符串变量s
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;string&lt;/span&gt; &lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;//拼接字符串1
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;+=&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;str&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;//拼接字符串2
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;append&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;str&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;//比较字符串 s 的字典序是否在字符 str 的字典序之前
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;str&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;//获取长度1
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;size&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;();&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;//获取长度2
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;length&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt; &lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;//截取字符串s,从第 pos 个位置开始len 个字符
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;substr&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pos&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;len&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;//在字符串s的第 pos 个字符之前插字符串 st
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;insert&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pos&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;str&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;//在字符串 s 中从第 pos 个字符开始寻找 str,并返回位置,如果找不到返回-1。pos 可以省略,默认值是 0。
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;find&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;str&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,[&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;pos&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;]);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;//可以获取带空格字符串
+&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;getline&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;cin&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;,&lt;/span&gt;&lt;span class=&#34;n&#34;&gt;s&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;);&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://kevinwu06.lanzout.com/igPpV0rpkuve&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;深入浅出程序设计竞赛.zip 蓝奏云&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>排序算法</title>
         <link>https://blog.fiveth.cc/p/92b9/</link>
         <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
@@ -1325,6 +1428,106 @@ After [HABIT I NEED], I will [HABIT I WANT].&lt;/p&gt;
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
+</description>
+        </item>
+        <item>
+        <title>HTML学习笔记</title>
+        <link>https://blog.fiveth.cc/p/c57/</link>
+        <pubDate>Wed, 21 Dec 2022 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.fiveth.cc/p/c57/</guid>
+        <description>&lt;img src="https://p.fiveth.cc/img/m/html.jpg" alt="Featured image of post HTML学习笔记" /&gt;&lt;p&gt;这是我之前学习html做的一点笔记，是一些基础，非常简单好学。&lt;/p&gt;
+&lt;h2 id=&#34;网页基本信息&#34;&gt;·网页基本信息
+&lt;/h2&gt;&lt;p&gt;doctype声明&lt;/p&gt;
+&lt;h4 id=&#34;meta描述性标签&#34;&gt;meta描述性标签
+&lt;/h4&gt;&lt;img src=&#34;https://p.fiveth.cc/img/m/meta.webp&#34; style=&#34;zoom:50%;&#34; /&gt; 
+&lt;hr&gt;
+&lt;h2 id=&#34;网页基本标签&#34;&gt;·网页基本标签
+&lt;/h2&gt;&lt;h5 id=&#34;标题标签&#34;&gt;标题标签
+&lt;/h5&gt;&lt;p&gt;h1~h6&lt;/p&gt;
+&lt;h5 id=&#34;段落标签&#34;&gt;段落标签
+&lt;/h5&gt;&lt;p&gt;p&lt;/p&gt;
+&lt;h4 id=&#34;换行标签&#34;&gt;换行标签
+&lt;/h4&gt;&lt;p&gt;br&lt;/p&gt;
+&lt;h4 id=&#34;粗体斜体&#34;&gt;粗体斜体
+&lt;/h4&gt;&lt;p&gt;粗体b 斜体i&lt;/p&gt;
+&lt;h4 id=&#34;特殊符号&#34;&gt;特殊符号
+&lt;/h4&gt;&lt;p&gt;（&amp;amp;        ;）&lt;/p&gt;
+&lt;p&gt;空格 nbsp&lt;/p&gt;
+&lt;p&gt;大于gt 小于lt&lt;/p&gt;
+&lt;p&gt;版权copy&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;图像标签&#34;&gt;·图像标签
+&lt;/h2&gt;&lt;img src=&#34;https://p.fiveth.cc/img/m/图像.webp&#34; style=&#34;zoom: 25%;&#34; /&gt; 
+&lt;hr&gt;
+&lt;h2 id=&#34;超链接标签&#34;&gt;·超链接标签
+&lt;/h2&gt;&lt;h4 id=&#34;页面跳转&#34;&gt;页面跳转
+&lt;/h4&gt;&lt;img src=&#34;https://p.fiveth.cc/img/m/超链接.webp&#34; style=&#34;zoom: 33%;&#34; /&gt;
+&lt;h4 id=&#34;锚链接&#34;&gt;锚链接
+&lt;/h4&gt;&lt;p&gt;&lt;strong&gt;锚标记&lt;/strong&gt; a id=“top”&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;邮件链接&lt;/strong&gt; mailto:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;QQ链接&lt;/strong&gt; 上“qq推广”官网&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;概念行内元素和块元素&#34;&gt;·*概念:行内元素和块元素
+&lt;/h2&gt;&lt;h4 id=&#34;块元素&#34;&gt;块元素
+&lt;/h4&gt;&lt;p&gt;独占一行的元素&lt;/p&gt;
+&lt;h4 id=&#34;行内元素&#34;&gt;行内元素
+&lt;/h4&gt;&lt;p&gt;撑开宽度的元素&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;列表&#34;&gt;·列表
+&lt;/h2&gt;&lt;h4 id=&#34;有序列表无序列表&#34;&gt;有序列表、无序列表
+&lt;/h4&gt;&lt;img src=&#34;https://p.fiveth.cc/img/m/有序无序列表.webp&#34; style=&#34;zoom: 33%;&#34; /&gt; 
+&lt;h4 id=&#34;自定义列表&#34;&gt;自定义列表
+&lt;/h4&gt;&lt;img src=&#34;https://p.fiveth.cc/img/m/自定义列表.webp&#34; style=&#34;zoom: 50%;&#34; /&gt; 
+&lt;hr&gt;
+&lt;h2 id=&#34;表格标签&#34;&gt;·表格标签
+&lt;/h2&gt;&lt;img src=&#34;https://p.fiveth.cc/img/m/表格.webp&#34; style=&#34;zoom:33%;&#34; /&gt; 
+&lt;hr&gt;
+&lt;h2 id=&#34;媒体元素&#34;&gt;·媒体元素
+&lt;/h2&gt;&lt;img src=&#34;https://p.fiveth.cc/img/m/媒体.webp&#34; style=&#34;zoom: 33%;&#34; /&gt; 
+&lt;hr&gt;
+&lt;h2 id=&#34;页面结构&#34;&gt;·页面结构
+&lt;/h2&gt;&lt;img src=&#34;https://p.fiveth.cc/img/m/页面结构.webp&#34; style=&#34;zoom: 25%;&#34; /&gt; 
+&lt;hr&gt;
+&lt;h2 id=&#34;iframe内联框架&#34;&gt;·iframe内联框架
+&lt;/h2&gt;&lt;img src=&#34;https://p.fiveth.cc/img/m/iframe.webp&#34; style=&#34;zoom: 33%;&#34; /&gt;
+&lt;p&gt;链接控制iframe窗口跳转&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;表单&#34;&gt;·表单
+&lt;/h2&gt;&lt;h4 id=&#34;表单-1&#34;&gt;表单
+&lt;/h4&gt;&lt;img src=&#34;https://p.fiveth.cc/img/m/表单.webp&#34; style=&#34;zoom:33%;&#34; /&gt; 
+&lt;h4 id=&#34;元素表单格式&#34;&gt;元素表单格式
+&lt;/h4&gt;&lt;img src=&#34;https://p.fiveth.cc/img/m/表单元素格式.webp&#34; style=&#34;zoom: 25%;&#34; /&gt; 
+&lt;h4 id=&#34;文本框&#34;&gt;文本框
+&lt;/h4&gt;&lt;p&gt;text&lt;/p&gt;
+&lt;img src=&#34;https://p.fiveth.cc/img/m/文本框.webp&#34; style=&#34;zoom: 50%;&#34; /&gt; 
+&lt;h4 id=&#34;单选框&#34;&gt;单选框
+&lt;/h4&gt;&lt;p&gt;radio&lt;/p&gt;
+&lt;img src=&#34;https://p.fiveth.cc/img/m/单选框.webp&#34; style=&#34;zoom: 50%;&#34; /&gt; 
+&lt;h4 id=&#34;多选框&#34;&gt;多选框
+&lt;/h4&gt;&lt;p&gt;checkbox&lt;/p&gt;
+&lt;img src=&#34;https://p.fiveth.cc/img/m/多选框.webp&#34; style=&#34;zoom: 50%;&#34; /&gt; 
+&lt;h4 id=&#34;按钮&#34;&gt;按钮
+&lt;/h4&gt;&lt;p&gt;button&lt;/p&gt;
+&lt;img src=&#34;https://p.fiveth.cc/img/m/按钮.webp&#34; style=&#34;zoom: 50%;&#34; /&gt; 
+&lt;h4 id=&#34;下拉框&#34;&gt;下拉框
+&lt;/h4&gt;&lt;img src=&#34;https://p.fiveth.cc/img/m/下拉框.webp&#34; style=&#34;zoom: 50%;&#34; /&gt; 
+&lt;h4 id=&#34;文本域文件域&#34;&gt;文本域、文件域
+&lt;/h4&gt;&lt;img src=&#34;https://p.fiveth.cc/img/m/文本文件域.webp&#34; style=&#34;zoom: 33%;&#34; /&gt; 
+&lt;h4 id=&#34;滑块搜索框&#34;&gt;滑块、搜索框
+&lt;/h4&gt;&lt;img src=&#34;https://p.fiveth.cc/img/m/滑块、搜索框.webp&#34; style=&#34;zoom: 33%;&#34; /&gt;
+&lt;h4 id=&#34;简单验证&#34;&gt;简单验证
+&lt;/h4&gt;&lt;img src=&#34;https://p.fiveth.cc/img/m/功能表单.webp&#34; style=&#34;zoom: 40%;&#34; /&gt; 
+&lt;h2 id=&#34;表单应用&#34;&gt;表单应用
+&lt;/h2&gt;&lt;p&gt;只读 readonly&lt;/p&gt;
+&lt;p&gt;禁用 disabled&lt;/p&gt;
+&lt;p&gt;隐藏 hidden&lt;/p&gt;
+&lt;h2 id=&#34;表单初级验证&#34;&gt;表单初级验证
+&lt;/h2&gt;&lt;p&gt;placeholder 提示信息&lt;/p&gt;
+&lt;p&gt;required 必填&lt;/p&gt;
+&lt;p&gt;pattern 正则表达式（百度上搜索各种）&lt;/p&gt;
+&lt;hr&gt;
+&lt;p&gt;图片来源于b站狂神说的html课程，推荐。&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -1689,54 +1892,18 @@ $$&lt;p&gt;这样，我们就得出(a,b)的因数和(b,r)的因数相同，它�
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
         <guid>https://blog.fiveth.cc/about/</guid>
-        <description>&lt;h2 id=&#34;hi&#34;&gt;🤪Hi
-&lt;/h2&gt;&lt;p&gt;Hiii，我是&lt;code&gt;Fiveth&lt;/code&gt;，我现在是一名高三国际生，25fall计算机。&lt;/p&gt;
-&lt;p&gt;建立本站的目的是&lt;code&gt;分享知识和生活&lt;/code&gt;，在这里你可以看到我的&lt;code&gt;教程干货、生活琐事、思考和想法&lt;/code&gt;。
-有幸我们能在这片互联网的海洋中相遇，相信我们能共同留下美好的回忆。&lt;/p&gt;
-&lt;h2 id=&#34;我的人格&#34;&gt;😎我的人格
-&lt;/h2&gt;&lt;blockquote&gt;
-    &lt;p&gt;&lt;div&gt;
-&lt;img src=&#34;https://p.fiveth.cc/img/m/adventurer_small.png&#34; style=&#34;width: 150px; height: 150px; margin: 0 10px; display: inline-block;&#34;&gt;&lt;div style=&#34;display: inline-block;&#34;&gt;
-&lt;strong&gt;ISFP-A探险家&lt;/strong&gt;&lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;他能在ddl的压力下焦虑地摸鱼一整天&lt;br&gt;&lt;/li&gt;
-&lt;li&gt;对感兴趣的有无比强烈的学习欲望&lt;br&gt;&lt;/li&gt;
-&lt;li&gt;对自己不感兴趣的直接&lt;del&gt;阳痿&lt;/del&gt;
-&lt;/div&gt;
-&lt;/div&gt;
+        <description>&lt;h1 id=&#34;-关于本站&#34;&gt;💻 关于本站
+&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;2022年11月，在疫情上网课的时候，用Hexo搭建了自己的个人博客。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;2024年5月，博客框架改用Hugo-Stack&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;2025年1月，自己魔改Hugo-Stack成了现在的样子&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ul&gt;
-&lt;/p&gt;&lt;span class=&#34;cite&#34;&gt;&lt;span&gt;― &lt;/span&gt;&lt;span&gt;ISFP, &lt;/span&gt;&lt;a href=&#34;https://www.16personalities.com/ch/isfp-%E4%BA%BA%E6%A0%BC&#34;&gt;&lt;cite&gt;16 Personalities&lt;/cite&gt;&lt;/a&gt;&lt;/span&gt;&lt;/blockquote&gt;
-&lt;h2 id=&#34;我的爱好&#34;&gt;☀️我的爱好
-&lt;/h2&gt;&lt;blockquote&gt;
-    &lt;p&gt;&lt;div&gt;
-                    &lt;strong style=&#34;color: #E4AE3A;&#34;&gt;
-                        健身、跑步、瑜伽、徒步
-                    &lt;/strong&gt;
-                    &lt;strong style=&#34;color: #B04FE6;&#34;&gt;
-                        编曲、Beatbox、Penbeat
-                    &lt;/strong&gt;
-                    &lt;strong style=&#34;color: #33A474;&#34;&gt;
-                        阅读、下棋
-                    &lt;/strong&gt;
-                    &lt;strong style=&#34;color: #F25E62;&#34;&gt;
-                        游戏、电影、动漫
-                    &lt;/strong&gt;
-&lt;/div&gt;
-&lt;/p&gt;&lt;/blockquote&gt;
-&lt;h2 id=&#34;座右铭&#34;&gt;💭座右铭
-&lt;/h2&gt;&lt;blockquote&gt;
-    &lt;p&gt;Who looks outside, dreams;&lt;br&gt;
-Who looks inside, awakes.&lt;/p&gt;&lt;span class=&#34;cite&#34;&gt;&lt;span&gt;― &lt;/span&gt;&lt;span&gt;Carl Jung&lt;/span&gt;&lt;cite&gt;&lt;/cite&gt;&lt;/span&gt;&lt;/blockquote&gt;
-&lt;h2 id=&#34;关于本站&#34;&gt;💻关于本站
-&lt;/h2&gt;&lt;blockquote&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;code&gt;2022.11&lt;/code&gt;上网课的时候，用hexo搭建了自己的个人博客。&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;2024.5&lt;/code&gt;博客框架改用hugo。&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/blockquote&gt;
-&lt;h2 id=&#34;与我联系&#34;&gt;☎️与我联系
-&lt;/h2&gt;&lt;p&gt;✉️邮箱：kevinwu06@163.com&lt;/p&gt;
 </description>
         </item>
         <item>

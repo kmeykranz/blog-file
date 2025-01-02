@@ -14,6 +14,10 @@ links:
   website: https://blog.zhheo.com/
   image: https://p.fiveth.cc/img/2024/0417125518.png
   description: 分享设计与科技生活
+- title: L1nSn0w’s Site
+  website: https://linsnow.cn
+  image: https://linsnow.cn/avatar.png
+  description: 无限进步.🎈
 - title: 安知鱼`Blog
   website: https://blog.anheyu.com/
   image: https://p.fiveth.cc/img/2024/0417113721.jpeg

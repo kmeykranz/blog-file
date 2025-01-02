@@ -3,7 +3,6 @@ languageCode: zh-cn
 theme: hugo-theme-stack
 title: Fiveth's Blog
 copyright: Fiveth
-paginate: 7
 
 # Theme i18n support
 # Available values: ar, bn, ca, de, el, en, es, fr, hu, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw
@@ -38,7 +37,7 @@ services:
         id:
 
 pagination:
-    pagerSize: 3
+    pagerSize: 7
 
 permalinks:
     post: /p/:slug/

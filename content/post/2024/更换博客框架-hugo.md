@@ -4,6 +4,7 @@ tags:
   - 博客
   - Hexo
 categories: 博客相关
+slug: hugo
 image: https://p.fiveth.cc/img/2024/0518131750.webp
 date: 2024-05-17
 ---
