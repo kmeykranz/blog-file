@@ -27,13 +27,13 @@
 
         .profile h1 {
             font-size: 1.8em;
-            color: #333;
+            color: var(--card-text-color-main);
             font-weight: bold;
         }
 
         .title {
             font-size: 1.8em;
-            color: #333;
+            color: var(--card-text-color-main);
             font-weight: bold;
         }
 
@@ -64,7 +64,7 @@
 
         /* 各种卡片大小 */
         .card-1 {
-            flex: 4;
+            flex: 3;
             /* 大卡片 */
         }
 
@@ -87,11 +87,11 @@
             /* 小卡片 */
         }
         .card-5 {
-            flex: 1;
+            flex: 2;
             /* 小卡片 */
         }
         .card-6 {
-            flex: 5;
+            flex: 2;
             /* 小卡片 */
         }
 
@@ -101,16 +101,9 @@
             box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
         }
 
-        /* 卡片标题 */
-        .card h2 {
-            margin: 0 0 10px;
-            color: #333;
-            font-size: 1.5em;
-        }
-
         /* 卡片文本 */
         .card p {
-            color: #666;
+            color: var(--card-text-color-main);
             font-size: 1em;
             line-height: 1.6;
         }
@@ -133,7 +126,7 @@
         /* 座右铭 */
         .card .motto {
             font-style: italic;
-            color: #555;
+            color: var(--card-text-color-main);
             text-align: center;
             margin-top: 15px;
         }
@@ -193,6 +186,7 @@
             <!-- 卡片 3：我的爱好 -->
             <div class="card card-3">
                 <a class="title">☀️ 我的爱好</a>
+                <br><br>
                 <div class="hobbies">
                     <span style="background-color: #E4AE3A;">健身、跑步、瑜伽、徒步</span>
                     <span style="background-color: #B04FE6;">编曲、Beatbox、Penbeat</span>
@@ -203,15 +197,38 @@
             <!-- 卡片 4：座右铭 -->
             <div class="card card-4">
                 <a class="title">💭 座右铭</a>
-                <p class="motto">"Who looks outside, dreams; Who looks inside, awakes." - <strong>Carl Jung</strong></p>
+                <p class="motto">"Who looks outside, dreams; Who looks inside, awakes."<br> - <strong>Carl Jung</strong></p>
             </div>
         </div>
         <div class="author-content">
             <!-- 卡片 5：关于本站 -->
             <div class="card card-5">
-                <a class="title">💻 关于本站</a>
-                <p>2022年11月，我在上网课的时候，用Hexo搭建了自己的个人博客。</p>
-                <p>2024年5月，博客框架改用Hugo。</p>
+                <a class="title">💻 我的技能</a>
+                <div>
+                    <br>
+                    <span>
+                        <img src="https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c" alt="C++">
+                    </span>
+                    <span>
+                        <img src="https://img.shields.io/badge/c-%2300599C.svg?style=flat-square&logo=c&logoColor=white" alt="C">
+                    </span>
+                    <span>
+                        <img src="https://img.shields.io/badge/Qt-%23217346.svg?style=flat-square&logo=Qt&logoColor=white" alt="Qt">
+                    </span>
+                    <span>
+                        <img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5">
+                    </span>
+                    <span>
+                        <img src="https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3" alt="CSS3">
+                    </span>
+                    <span>
+                        <img src="https://img.shields.io/badge/-JavaScript-oringe?style=flat-square&logo=javascript" alt="JavaScript">
+                    </span>
+                    <span>
+                        <img src="https://img.shields.io/badge/-Python-pink?style=flat-square&logo=Python" alt="Python">
+                    </span>
+                </div>
+
             </div>
             <!-- 卡片 6：与我联系 -->
             <div class="card card-6">
