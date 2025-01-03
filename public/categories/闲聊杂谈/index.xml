@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>闲聊杂谈 on Fiveth</title>
-        <link>http://localhost:1313/categories/%E9%97%B2%E8%81%8A%E6%9D%82%E8%B0%88/</link>
+        <link>https://blog.fiveth.cc/categories/%E9%97%B2%E8%81%8A%E6%9D%82%E8%B0%88/</link>
         <description>Recent content in 闲聊杂谈 on Fiveth</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Fiveth</copyright>
-        <lastBuildDate>Tue, 23 Apr 2024 13:48:27 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/%E9%97%B2%E8%81%8A%E6%9D%82%E8%B0%88/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 23 Apr 2024 13:48:27 +0000</lastBuildDate><atom:link href="https://blog.fiveth.cc/categories/%E9%97%B2%E8%81%8A%E6%9D%82%E8%B0%88/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>读书日：聊聊我的读书方法</title>
-        <link>http://localhost:1313/p/ef0e/</link>
+        <link>https://blog.fiveth.cc/p/ef0e/</link>
         <pubDate>Tue, 23 Apr 2024 13:48:27 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/ef0e/</guid>
+        <guid>https://blog.fiveth.cc/p/ef0e/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/m/lowsun.webp" alt="Featured image of post 读书日：聊聊我的读书方法" /&gt;&lt;p&gt;{% tip sync %}4.23 今天是世界读书日📖{% endtip %}&lt;/p&gt;
 &lt;p&gt;正好最近我最近开始记录阅读，规划读书。&lt;/p&gt;
 &lt;p&gt;这篇文章就和大家聊聊我的读书方法&lt;/p&gt;
@@ -32,7 +32,7 @@
 &lt;p&gt;因为我们的&lt;strong&gt;记忆是有限的&lt;/strong&gt;。很多人在读书后会做大量的梳理、思维导图，但大部分人只是将作者的思路框架重新理了一遍，告诉自己搞懂了。之前我也试过做全书梳理的笔记，结果发现自己没有记住书中的多少知识，并且也不愿意再翻那长长的笔记。&lt;/p&gt;
 &lt;p&gt;实际上，一本书，只要有一个点让我们受到感触，并让我们去行动了，那它就发挥了巨大的价值。在读完后只记下最受感触的几个点，并尝试将他们运用起来，&lt;strong&gt;做出改变&lt;/strong&gt;。而不是大量梳理，告诉自己我懂了。&lt;/p&gt;
 &lt;blockquote&gt;
-&lt;p&gt;我之前的文章 &lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/9c7a.html&#34; &gt;一本让我开始觉醒的书：《认知觉醒》&lt;/a&gt;中有讲过&lt;/p&gt;
+&lt;p&gt;我之前的文章 &lt;a class=&#34;link&#34; href=&#34;https://blog.fiveth.cc/9c7a.html&#34; &gt;一本让我开始觉醒的书：《认知觉醒》&lt;/a&gt;中有讲过&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h2 id=&#34;我用什么读书&#34;&gt;我用什么读书
 &lt;/h2&gt;&lt;p&gt;每次看完书都要重新在网上买书，等快递。&lt;/p&gt;
@@ -47,10 +47,10 @@
         </item>
         <item>
         <title>雅思7分的教训：听力8.5，口语踩雷</title>
-        <link>http://localhost:1313/p/938f/</link>
+        <link>https://blog.fiveth.cc/p/938f/</link>
         <pubDate>Sat, 20 Apr 2024 20:24:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/938f/</guid>
+        <guid>https://blog.fiveth.cc/p/938f/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/2024/0420213033.jpg" alt="Featured image of post 雅思7分的教训：听力8.5，口语踩雷" /&gt;&lt;p&gt;这是我第二次考雅思，考了7分。全靠听力8.5拉的分，口语甚至只考了个5.5，非常离谱。我对这份成绩是有些失望的，尤其是口语给我整无语了。&lt;/p&gt;
 &lt;img src=&#34;https://p.fiveth.cc/img/2024/0420203736.jpg&#34; style=&#34;zoom:50%;&#34; /&gt;
 &lt;p&gt;我第一次考的是6.5分，当时口语还有6，这次给了个5.5，我个人认为发挥是差不多的，可能是考官的判断问题。值得一提的是我踩了个雷，在有一个问题的时候，我刚回答了个&lt;code&gt;Of Course&lt;/code&gt;，之后考官立马地打断我，问下一个问题。当时我非常疑惑，回头考完一查发现&lt;code&gt;Of Course&lt;/code&gt;是非常不礼貌的，意思相当于&lt;code&gt;“这不废话吗”&lt;/code&gt;😅。&lt;/p&gt;

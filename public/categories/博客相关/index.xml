@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>博客相关 on Fiveth</title>
-        <link>http://localhost:1313/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/</link>
+        <link>https://blog.fiveth.cc/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/</link>
         <description>Recent content in 博客相关 on Fiveth</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Fiveth</copyright>
-        <lastBuildDate>Fri, 17 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 17 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.fiveth.cc/categories/%E5%8D%9A%E5%AE%A2%E7%9B%B8%E5%85%B3/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>关于博客框架迁移</title>
-        <link>http://localhost:1313/p/hugo/</link>
+        <link>https://blog.fiveth.cc/p/hugo/</link>
         <pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/hugo/</guid>
+        <guid>https://blog.fiveth.cc/p/hugo/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/2024/0518131750.webp" alt="Featured image of post 关于博客框架迁移" /&gt;&lt;p&gt;hi，大家应该发现了，我的博客变样了&lt;/p&gt;
 &lt;p&gt;因为我把博客从&lt;code&gt;Hexo&lt;/code&gt;迁移到了&lt;code&gt;Hugo&lt;/code&gt;&lt;/p&gt;
 &lt;blockquote&gt;
@@ -74,16 +74,16 @@
         </item>
         <item>
         <title>Hexo搭建进阶：Vercel部署、主题安装、基础用法</title>
-        <link>http://localhost:1313/p/138e/</link>
+        <link>https://blog.fiveth.cc/p/138e/</link>
         <pubDate>Mon, 29 Apr 2024 21:33:53 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/138e/</guid>
+        <guid>https://blog.fiveth.cc/p/138e/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/m/hexo.jpg" alt="Featured image of post Hexo搭建进阶：Vercel部署、主题安装、基础用法" /&gt;&lt;p&gt;{% note info flat %}&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;本篇前文：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/p/bb32.html&#34; &gt;如何用Hexo搭建个人博客?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;本篇前文：&lt;a class=&#34;link&#34; href=&#34;https://blog.fiveth.cc/p/bb32.html&#34; &gt;如何用Hexo搭建个人博客?&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;本文基于&lt;a class=&#34;link&#34; href=&#34;https://www.fomal.cc/posts/4aa2d85f.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Hexo博客搭建基础教程(二)&lt;/a&gt;修改，部分转载&lt;/li&gt;
-&lt;li&gt;我的&lt;strong&gt;Hexo优化系列&lt;/strong&gt;：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/tags/hexo&#34; &gt;Hexo文章目录&lt;/a&gt;
+&lt;li&gt;我的&lt;strong&gt;Hexo优化系列&lt;/strong&gt;：&lt;a class=&#34;link&#34; href=&#34;https://blog.fiveth.cc/tags/hexo&#34; &gt;Hexo文章目录&lt;/a&gt;
 {% endnote %}&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;我的博客搭建教程是一年前写的了，非常感谢&lt;a class=&#34;link&#34; href=&#34;https://www.fomal.cc/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -435,10 +435,10 @@
         </item>
         <item>
         <title>Hexo博客优化：批量修改md文件名</title>
-        <link>http://localhost:1313/p/fbe8/</link>
+        <link>https://blog.fiveth.cc/p/fbe8/</link>
         <pubDate>Tue, 09 Apr 2024 11:51:10 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/fbe8/</guid>
+        <guid>https://blog.fiveth.cc/p/fbe8/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/m/hexo.jpg" alt="Featured image of post Hexo博客优化：批量修改md文件名" /&gt;&lt;p&gt;今天整理博客，发现我给文章取的文件名比较混乱，要找文章的时候会很不方便。&lt;/p&gt;
 &lt;p&gt;一般我们都是用&lt;code&gt;hexo new file_name&lt;/code&gt;创建文章的md文件的，然后文章的标题是在md文件的信息栏定义的。而我们很多时候是开始写文章才想好标题，随着写作标题也会发生变动，这导致最后我们文章标题和文件名是不同的，加大了我们的管理难度。&lt;/p&gt;
 &lt;p&gt;所以我们会在改动文章标题的时候，将文件名也改成一样的。但是这样手动改非常麻烦。因此我配合ChatGPT用Python写了个一键批量修改文件名的小脚本。这样我们就可以很方便的一键将文件名全部都同步成文章的标题。&lt;/p&gt;
@@ -521,10 +521,10 @@
         </item>
         <item>
         <title>Hexo博客优化：如何优化Hexo的网站性能？</title>
-        <link>http://localhost:1313/p/95d6/</link>
+        <link>https://blog.fiveth.cc/p/95d6/</link>
         <pubDate>Wed, 11 Oct 2023 12:06:31 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/95d6/</guid>
+        <guid>https://blog.fiveth.cc/p/95d6/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/m/perf.jpg" alt="Featured image of post Hexo博客优化：如何优化Hexo的网站性能？" /&gt;&lt;p&gt;对一个网站来说，性能是非常重要的，它决定了用户在网页停留的时长。&lt;/p&gt;
 &lt;p&gt;如果网页的加载速度很慢的话，用户很容易就会离去。&lt;/p&gt;
 &lt;p&gt;有朋友说我的博客速度挺快的，这篇文章就讲讲我是如何&lt;strong&gt;优化我的网站性能&lt;/strong&gt;的。&lt;/p&gt;
@@ -602,10 +602,10 @@
         </item>
         <item>
         <title>如何用Hexo搭建个人博客?</title>
-        <link>http://localhost:1313/p/bb32/</link>
+        <link>https://blog.fiveth.cc/p/bb32/</link>
         <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/bb32/</guid>
+        <guid>https://blog.fiveth.cc/p/bb32/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/m/hexo.jpg" alt="Featured image of post 如何用Hexo搭建个人博客?" /&gt;&lt;p&gt;{% tip info %}&lt;code&gt;2024.4&lt;/code&gt; 我出了视频版教程啦：&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1Ju4m1c7WR/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;bilibili视频链接&lt;/a&gt;{% endtip %}&lt;/p&gt;
 &lt;p&gt;我的个人博客搭建成功啦！&lt;/p&gt;
@@ -735,7 +735,7 @@
 &lt;p&gt;大家可以参阅主题文档进行安装配置&lt;/p&gt;
 &lt;p&gt;有什么问题的话欢迎评论。&lt;/p&gt;
 &lt;p&gt;{% tip info %}&lt;/p&gt;
-&lt;p&gt;本篇下文：&lt;a class=&#34;link&#34; href=&#34;http://localhost:1313/p/138e.html&#34; &gt;Hexo搭建进阶：Vercel部署、主题安装、基础用法&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;本篇下文：&lt;a class=&#34;link&#34; href=&#34;https://blog.fiveth.cc/p/138e.html&#34; &gt;Hexo搭建进阶：Vercel部署、主题安装、基础用法&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;我的&lt;strong&gt;Hexo优化系列&lt;/strong&gt;：&lt;a class=&#34;link&#34; href=&#34;https://www.fomal.cc/posts/4aa2d85f.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Hexo文章目录&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;{% endtip %}&lt;/p&gt;
