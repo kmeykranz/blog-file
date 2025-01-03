@@ -1,15 +1,23 @@
 {
-  "confirmDeletion": true,
+  "confirmDeletion": false,
   "showAddCommand": true,
   "debug": false,
   "editorMenu": [],
   "fileMenu": [],
   "leftRibbon": [
     {
+      "id": "obsidian-shellcommands:shell-command-vvjqdgvihc",
+      "icon": "lucide-server",
+      "name": "preview",
+      "mode": "any",
+      "color": "#8acccb"
+    },
+    {
       "id": "obsidian-shellcommands:shell-command-s71ytoxamc",
-      "icon": "lucide-file-input",
-      "name": "Shell commands: Execute: publish",
-      "mode": "any"
+      "icon": "lucide-file-output",
+      "name": "publish",
+      "mode": "any",
+      "color": "#778cca"
     }
   ],
   "rightRibbon": [],

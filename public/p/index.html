@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="zh-cn" dir="ltr">
+
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="">
+<title></title>
+
+<link rel='canonical' href='http://localhost:1313/p/'>
+
+<link rel="stylesheet" href="/scss/style.min.3715db0c9c6ba102924aa7165cb9e6ffa53505eb6484edff9754f5f13e9783c0.css"><meta property='og:title' content="">
+<meta property='og:description' content="">
+<meta property='og:url' content='http://localhost:1313/p/'>
+<meta property='og:site_name' content='Fiveth'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='日常' />
+<meta name="twitter:title" content="">
+<meta name="twitter:description" content="">
+    <link rel="shortcut icon" href="/img/favicon.ico" />
+
+</head>
+
+<body class="
+    article-page
+    ">
+    <style>
+    :root {
+        --nav-background-color: var(--card-background);
+        --nav-font-color: var(--card-text-color-main);
+        --nav-font-hover-color: var(--card-text-color-main);
+        --nav-hover-background-color: #28B9E6;
+        --nav-border-radius: 8px;
+        --nav-shadow-color: rgba(40, 185, 230, 0.6);
+        --nav-hover-shadow: rgba(40, 185, 230, 0.8);
+        --nav-height: 60px;
+         
+    }
+
+    .menu-container {
+        background: var(--nav-background-color);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        z-index: 90;
+        backdrop-filter: saturate(180%) blur(20px);
+        padding: 10px 20px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease-in-out;
+        height: var(--nav-height);
+    }
+
+    .menu-items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        margin: 0;
+        width: 100%;
+    }
+
+    .site-name {
+        width: 120px;
+        margin: 0 15px;
+        padding: 5px 15px;
+        border-radius: var(--nav-border-radius);
+        transition: 0.3s;
+        position: relative;
+        color: var(--nav-font-color);
+        font-size: 20px;
+         
+        font-weight: bold;
+         
+    }
+
+    .site-name:hover::after {
+        content: "";
+        position: absolute;
+        bottom: -3px;
+        left: 0;
+        right: 0;
+        height: 3px;
+        background: var(--nav-hover-background-color);
+        border-radius: var(--nav-border-radius);
+    }
+
+    .menu-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu-item {
+        margin: 0 15px;
+        padding: 5px 15px;
+        border-radius: var(--nav-border-radius);
+        transition: 0.3s;
+        position: relative;
+        color: var(--nav-font-color);
+        font-size: 16px;
+         
+        font-weight: bold;
+         
+    }
+
+    .menu-item:hover::after {
+        content: "";
+        position: absolute;
+        bottom: -3px;
+        left: 0;
+        right: 0;
+        height: 3px;
+        background: var(--nav-hover-background-color);
+        border-radius: var(--nav-border-radius);
+    }
+
+    .page-content {
+        margin-top: var(--nav-height);
+    }
+
+     
+    .mode-toggle-button {
+        cursor: pointer;
+        font-size: 18px;
+        margin-left: 15px;
+        padding: 10px;
+    }
+
+     
+    .menu-toggle {
+        display: none;
+        color: var(--card-text-color-main);
+        border: none;
+        padding: 10px;
+        font-size: 18px;
+        cursor: pointer;
+        z-index: 100;
+    }
+
+     
+    @media screen and (max-width: 768px) {
+        .mode-toggle-button {
+            position: absolute;
+            right: 55px;
+             
+        }
+
+        .menu-toggle {
+            display: block;
+        }
+
+        .menu-links {
+            display: none;
+            flex-direction: column;
+            position: absolute;
+            top: 60px;
+             
+            left: 0;
+            width: 100%;
+            background-color: rgba(249, 249, 249, 0.95);
+             
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+        }
+
+        .menu-links.active {
+            display: flex;
+        }
+    }
+</style>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="menu-container">
+        <div class="menu-items">
+            
+            <a href="http://localhost:1313/" class="site-name">Fiveth</a>
+
+            
+            <div class="menu-links">
+                
+                <a href="/" class="menu-item">主页</a>
+                
+                <a href="/archives/" class="menu-item">归档</a>
+                
+                <a href="/search/" class="menu-item">搜索</a>
+                
+                <a href="/links/" class="menu-item">友链</a>
+                
+                <a href="/about/" class="menu-item">关于</a>
+                
+            </div>
+
+            
+            <div class="menu-item mode-toggle-button" id="dark-mode-toggle">
+                <span>🌞</span>
+            </div>
+
+            <a class="menu-item menu-toggle">☰</a>
+
+
+        </div>
+    </div>
+</nav>
+
+<script>
+    
+    document.getElementById("dark-mode-toggle").addEventListener("click", function () {
+        const body = document.body;
+        body.classList.toggle("dark-mode");
+
+        
+        const modeText = body.classList.contains("dark-mode") ? "🌞" : "🌙";
+        this.querySelector("span").textContent = modeText;
+
+        
+        localStorage.setItem("theme", body.classList.contains("dark-mode") ? "dark" : "light");
+    });
+
+    
+    window.addEventListener("load", function () {
+        const savedTheme = localStorage.getItem("theme");
+        if (savedTheme === "dark") {
+            document.body.classList.add("dark-mode");
+            document.querySelector("#dark-mode-toggle span").textContent = "🌞";
+        }
+    });
+
+    
+    const menuToggleButton = document.querySelector('.menu-toggle');
+    const menuLinks = document.querySelector('.menu-links');
+
+    
+    menuToggleButton.addEventListener('click', () => {
+        
+        menuLinks.classList.toggle('active');
+    });
+</script>
+    <div class="page-content"></div>
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended">
+    
+
+        <main class="main full-width">
+    <style>
+    :root {
+        --nav-background-color: var(--card-background);
+        --nav-font-color: var(--card-text-color-main);
+        --nav-font-hover-color: var(--card-text-color-main);
+        --nav-hover-background-color: #28B9E6;
+        --nav-border-radius: 8px;
+        --nav-shadow-color: rgba(40, 185, 230, 0.6);
+        --nav-hover-shadow: rgba(40, 185, 230, 0.8);
+        --nav-height: 60px;
+         
+    }
+
+    .menu-container {
+        background: var(--nav-background-color);
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        z-index: 90;
+        backdrop-filter: saturate(180%) blur(20px);
+        padding: 10px 20px;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        transition: all 0.3s ease-in-out;
+        height: var(--nav-height);
+    }
+
+    .menu-items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+        margin: 0;
+        width: 100%;
+    }
+
+    .site-name {
+        width: 120px;
+        margin: 0 15px;
+        padding: 5px 15px;
+        border-radius: var(--nav-border-radius);
+        transition: 0.3s;
+        position: relative;
+        color: var(--nav-font-color);
+        font-size: 20px;
+         
+        font-weight: bold;
+         
+    }
+
+    .site-name:hover::after {
+        content: "";
+        position: absolute;
+        bottom: -3px;
+        left: 0;
+        right: 0;
+        height: 3px;
+        background: var(--nav-hover-background-color);
+        border-radius: var(--nav-border-radius);
+    }
+
+    .menu-links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .menu-item {
+        margin: 0 15px;
+        padding: 5px 15px;
+        border-radius: var(--nav-border-radius);
+        transition: 0.3s;
+        position: relative;
+        color: var(--nav-font-color);
+        font-size: 16px;
+         
+        font-weight: bold;
+         
+    }
+
+    .menu-item:hover::after {
+        content: "";
+        position: absolute;
+        bottom: -3px;
+        left: 0;
+        right: 0;
+        height: 3px;
+        background: var(--nav-hover-background-color);
+        border-radius: var(--nav-border-radius);
+    }
+
+    .page-content {
+        margin-top: var(--nav-height);
+    }
+
+     
+    .mode-toggle-button {
+        cursor: pointer;
+        font-size: 18px;
+        margin-left: 15px;
+        padding: 10px;
+    }
+
+     
+    .menu-toggle {
+        display: none;
+        color: var(--card-text-color-main);
+        border: none;
+        padding: 10px;
+        font-size: 18px;
+        cursor: pointer;
+        z-index: 100;
+    }
+
+     
+    @media screen and (max-width: 768px) {
+        .mode-toggle-button {
+            position: absolute;
+            right: 55px;
+             
+        }
+
+        .menu-toggle {
+            display: block;
+        }
+
+        .menu-links {
+            display: none;
+            flex-direction: column;
+            position: absolute;
+            top: 60px;
+             
+            left: 0;
+            width: 100%;
+            background-color: rgba(249, 249, 249, 0.95);
+             
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+        }
+
+        .menu-links.active {
+            display: flex;
+        }
+    }
+</style>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="menu-container">
+        <div class="menu-items">
+            
+            <a href="http://localhost:1313/" class="site-name">Fiveth</a>
+
+            
+            <div class="menu-links">
+                
+                <a href="/" class="menu-item">主页</a>
+                
+                <a href="/archives/" class="menu-item">归档</a>
+                
+                <a href="/search/" class="menu-item">搜索</a>
+                
+                <a href="/links/" class="menu-item">友链</a>
+                
+                <a href="/about/" class="menu-item">关于</a>
+                
+            </div>
+
+            
+            <div class="menu-item mode-toggle-button" id="dark-mode-toggle">
+                <span>🌞</span>
+            </div>
+
+            <a class="menu-item menu-toggle">☰</a>
+
+
+        </div>
+    </div>
+</nav>
+
+<script>
+    
+    document.getElementById("dark-mode-toggle").addEventListener("click", function () {
+        const body = document.body;
+        body.classList.toggle("dark-mode");
+
+        
+        const modeText = body.classList.contains("dark-mode") ? "🌞" : "🌙";
+        this.querySelector("span").textContent = modeText;
+
+        
+        localStorage.setItem("theme", body.classList.contains("dark-mode") ? "dark" : "light");
+    });
+
+    
+    window.addEventListener("load", function () {
+        const savedTheme = localStorage.getItem("theme");
+        if (savedTheme === "dark") {
+            document.body.classList.add("dark-mode");
+            document.querySelector("#dark-mode-toggle span").textContent = "🌞";
+        }
+    });
+
+    
+    const menuToggleButton = document.querySelector('.menu-toggle');
+    const menuLinks = document.querySelector('.menu-links');
+
+    
+    menuToggleButton.addEventListener('click', () => {
+        
+        menuLinks.classList.toggle('active');
+    });
+</script>
+    
+    <article class="main-article">
+    
+
+    <div class="article-details">
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/p/"></a>
+        </h2>
+
+        
+    </div>
+    
+    
+    
+    
+    <footer class="article-time">
+
+        
+        <header class="article-category">
+            
+            <a href="/categories/%E9%97%B2%E8%81%8A%E6%9D%82%E8%B0%88/">
+                闲聊杂谈
+            </a>
+            
+        </header>
+        
+
+        
+
+        
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+            <time class="article-time--reading">
+                阅读时长: 0 分钟
+            </time>
+        </div>
+        
+    </footer>
+    
+
+    
+</div>
+</header>
+
+    <section class="article-content">
+    
+    
+    
+</section>
+
+
+    <footer class="article-footer">
+    
+    <section class="article-tags">
+        
+            <a href="/tags/%E6%97%A5%E5%B8%B8/">日常</a>
+        
+    </section>
+
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+<aside class="related-content--wrapper">
+    <h2 class="section-title">相关文章</h2>
+    <div class="related-content">
+        <div class="flex article-list--tile">
+            
+                
+<article class="has-image">
+    <a href="/p/938f/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="https://p.fiveth.cc/img/2024/0420213033.jpg" loading="lazy" data-key="938f" data-hash="https://p.fiveth.cc/img/2024/0420213033.jpg"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">雅思7分的教训：听力8.5，口语踩雷</h2>
+        </div>
+    </a>
+</article>
+
+            
+                
+<article class="has-image">
+    <a href="/p/ef0e/">
+        
+        
+            <div class="article-image">
+                
+                    <img src="https://p.fiveth.cc/img/m/lowsun.webp" loading="lazy" data-key="ef0e" data-hash="https://p.fiveth.cc/img/m/lowsun.webp"/>
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">读书日：聊聊我的读书方法</h2>
+        </div>
+    </a>
+</article>
+
+            
+        </div>
+    </div>
+</aside>
+
+     
+    
+        
+    <script src="//cdn.jsdelivr.net/npm/twikoo@1.6.39/dist/twikoo.all.min.js"></script>
+<div id="tcomment"></div>
+<style>
+    .twikoo {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+    :root[data-scheme="dark"] {
+        --twikoo-body-text-color-main: rgba(255, 255, 255, 0.9);
+        --twikoo-body-text-color: rgba(255, 255, 255, 0.7);
+    }
+    .twikoo .el-input-group__prepend,
+    .twikoo .tk-action-icon,
+    .twikoo .tk-submit-action-icon,
+    .twikoo .tk-time,
+    .twikoo .tk-comments-no,
+    .twikoo .tk-comments-count {
+        color: var(--twikoo-body-text-color);
+    }
+    .twikoo .el-input__inner,
+    .twikoo .el-textarea__inner,
+    .twikoo .tk-preview-container,
+    .twikoo .tk-content,
+    .twikoo .tk-nick,
+    .twikoo .tk-send {
+        color: var(--twikoo-body-text-color-main);
+    }
+    .twikoo .el-button{
+        color: var(--twikoo-body-text-color)!important;
+    }
+    .twikoo .el-input__count {
+        color: var(--twikoo-body-text-color) !important;
+    }
+    .OwO .OwO-body {
+        background-color: var(--body-background) !important;
+        color: var(--body-text-color) !important;
+    }
+</style><script>
+    twikoo.init({
+        envId: 'https:\/\/c.fiveth.cc\/',
+        el: '#tcomment',lang: 'zh-cn',})
+</script>
+
+    
+
+    
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+        </main>
+    </div>
+    <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.c0363f7f1e1e1cb8bae946d9a1e2c3dea23e595eb933b18e88064b0c7ed73eed.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+<style>
+    footer.site-footer {
+        width: 100%;
+        position: relative;
+        bottom: 0;
+        padding: 20px 10px;
+        font-size: 1.3rem;
+        font-weight: 600;
+        line-height: 1.75;
+        color: var(--card-text-color-secondary);
+        background-color: var(--footer-bg);
+        box-shadow: 0 -3px 1px -3px var(--card-text-color-main);
+        padding: 20px;
+        user-select: none;
+    }
+
+    .footer-info {
+        display: grid;
+        grid-template-columns: 1fr auto;
+    }
+
+    .right-footer {
+        text-align: left;
+        display: flex;
+        align-items: right;
+    }
+
+    footer.site-footer a {
+        font-size: 15px;
+        color: var(--card-text-color-main);
+        transition: color .2s ease-in-out;
+        margin-inline: 15px;
+    }
+
+    .copyright{
+        font-size: 15px;
+        color: var(--card-text-color-main) !important;
+        transition: color .2s ease-in-out;
+        margin-inline: 15px;
+    }
+
+</style><div style="display: flex;
+    justify-content: center; 
+    align-items: center; flex-direction: column;margin-top: 60px;">
+    I wish you to become your own sun, no need to rely on who's light.<p><a target="_blank" href="https://hexo.io/"><img
+                src="https://img.shields.io/badge/Frame-Hexo-blue?style=flat&logo=hexo" title="博客框架为Hexo"></a>&nbsp;<a
+            target="_blank" href="https://butterfly.js.org/"><img
+                src="https://img.shields.io/badge/Theme-Butterfly-6513df?style=flat&logo=bitdefender"
+                title="主题采用butterfly"></a>&nbsp;<a target="_blank" href="https://www.jsdelivr.com/"><img
+                src="https://img.shields.io/badge/CDN-jsDelivr-orange?style=flat&logo=jsDelivr"
+                title="本站使用JsDelivr为静态资源提供CDN加速"></a> &nbsp;<a target="_blank" href="https://vercel.com/ "><img
+                src="https://img.shields.io/badge/Hosted-Vervel-brightgreen?style=flat&logo=Vercel"
+                title="本站采用双线部署，默认线路托管于Vercel"></a>&nbsp;<a target="_blank" href="https://vercel.com/ "><img
+                src="https://img.shields.io/badge/Hosted-Coding-0cedbe?style=flat&logo=Codio"
+                title="本站采用双线部署，联通线路托管于Coding"></a>&nbsp;<a target="_blank" href="https://github.com/"><img
+                src="https://img.shields.io/badge/Source-Github-d021d6?style=flat&logo=GitHub"
+                title="本站项目由Gtihub托管"></a>&nbsp;<a target="_blank"
+            href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img
+                src="https://img.shields.io/badge/Copyright-BY--NC--SA%204.0-d42328?style=flat&logo=Claris"
+                title="本站采用知识共享署名-非商业性使用-相同方式共享4.0国际许可协议进行许可"></a></p>
+</div>
+<footer class="site-footer">
+    <div class="footer-info">
+        <div class="left-footer">
+            <section class="copyright">
+                &copy;
+                
+                2022 -
+                
+                2025 Fiveth
+            </section>
+        </div>
+        <div class="right-footer">
+            <span class="hugo">
+                <a href="https://gohugo.io/" target="_blank">Hugo</a>
+            </span>
+            <span class="theme">
+                <a href="/theme" target="_blank">主题</a>
+            </span>
+
+            <span class="ICP">
+                <a href="https://icp.gov.moe/?keyword=20246616" target="_blank">萌ICP备20246616</a>
+            </span>
+
+        </div>
+    </div>
+</footer>
+    </div>
+</body>
+
+
+</html>
