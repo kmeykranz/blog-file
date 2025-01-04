@@ -1,11 +1,14 @@
 [
-  "cmdr",
-  "buttons",
-  "quickadd",
+  "obsidian-style-settings",
   "obsidian-shellcommands",
-  "homepage",
+  "recent-files-obsidian",
+  "quickadd",
   "obsidian-linter",
+  "obsidian-image-auto-upload-plugin",
+  "obsidian-hover-editor",
+  "homepage",
   "easy-typing-obsidian",
   "dataview",
-  "obsidian-image-auto-upload-plugin"
+  "cmdr",
+  "buttons"
 ]

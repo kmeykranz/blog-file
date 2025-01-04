@@ -1,4 +1,12 @@
 {
-  "cssTheme": "",
-  "baseFontSize": 16
+  "cssTheme": "AnuPpuccin",
+  "baseFontSize": 16,
+  "enabledCssSnippets": [
+    "【AnuPpuccin】浮动搜索栏",
+    "【AnuPpuccin】扩展的颜色方案",
+    "【AnuPpuccin】custom-rainbow-colors",
+    "【AnuPpuccin】its-frontmatter",
+    "【AnuPpuccin】minimal-cards",
+    "【AnuPpuccin】notion-cards"
+  ]
 }

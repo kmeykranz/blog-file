@@ -91,7 +91,7 @@
 &lt;h2 id=&#34;vercel部署&#34;&gt;Vercel部署
 &lt;/h2&gt;&lt;p&gt;Github提供的网址在国内的访问速度较慢，所以推荐在搭建完后用&lt;a class=&#34;link&#34; href=&#34;https://vercel.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Vercel&lt;/a&gt;部署，再通过Vercel绑定到自己的域名上，这样会速度会很快。&lt;/p&gt;
-&lt;p&gt;因为Vercel给我们分配的域名在国内是无法访问的，所以我们需要把在Vercel部署的绑定到自己的域名上，这样就可以访问了。&lt;/p&gt;
+&lt;p&gt;因为Vercel给我们分配的域名在国内是&lt;strong&gt;无法访问的&lt;/strong&gt;，所以我们需要把在Vercel部署的绑定到自己的域名上，这样就可以访问了。&lt;/p&gt;
 &lt;p&gt;域名可以在&lt;a class=&#34;link&#34; href=&#34;https://www.aliyun.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;阿里云&lt;/a&gt;等域名供应商购买，我用的是&lt;a class=&#34;link&#34; href=&#34;https://www.west.cn/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;西部数码&lt;/a&gt;，便宜好用。&lt;/p&gt;
