@@ -1,6 +1,14 @@
 {
   "recentFiles": [
     {
+      "basename": "我的2024年度总结",
+      "path": "content/post/2024/我的2024年度总结.md"
+    },
+    {
+      "basename": "BLOG",
+      "path": "@fiveth/BLOG.md"
+    },
+    {
       "basename": "辗转相除法-求最大公因数",
       "path": "content/post/2022/辗转相除法-求最大公因数.md"
     },
@@ -15,10 +23,6 @@
     {
       "basename": "欧拉筛-高效地筛出质数",
       "path": "content/post/2022/欧拉筛-高效地筛出质数.md"
-    },
-    {
-      "basename": "BLOG",
-      "path": "@fiveth/BLOG.md"
     },
     {
       "basename": "2022款Thinkbook14+酷睿版续航优化方案",
@@ -43,10 +47,6 @@
     {
       "basename": "Hexo博客优化：如何优化Hexo的网站性能？",
       "path": "content/post/2023/Hexo博客优化：如何优化Hexo的网站性能？.md"
-    },
-    {
-      "basename": "我的2024年度总结",
-      "path": "content/post/2024/我的2024年度总结.md"
     },
     {
       "basename": "template",

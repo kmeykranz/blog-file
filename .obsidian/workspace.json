@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/2022/辗转相除法-求最大公因数.md",
+                "file": "content/post/2024/我的2024年度总结.md",
                 "mode": "source",
-                "source": true
+                "source": false
               },
               "icon": "lucide-file",
-              "title": "辗转相除法-求最大公因数"
+              "title": "我的2024年度总结"
             }
           }
         ]
@@ -111,10 +111,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/2022/辗转相除法-求最大公因数.md"
+                "file": "content/post/2024/我的2024年度总结.md"
               },
               "icon": "lucide-list",
-              "title": "辗转相除法-求最大公因数 的大纲"
+              "title": "我的2024年度总结 的大纲"
             }
           }
         ]
@@ -188,11 +188,14 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "@fiveth/BLOG.md",
+    "content/post/2024/我的2024年度总结.md",
+    "public/ts/main.c0363f7f1e1e1cb8bae946d9a1e2c3dea23e595eb933b18e88064b0c7ed73eed.js",
+    "@fiveth/theme.css",
+    "content/post/2022/辗转相除法-求最大公因数.md",
     "content/post/2022/高精度运算.md",
     "content/post/2022/如何用Hexo搭建个人博客.md",
     "content/post/2022/欧拉筛-高效地筛出质数.md",
-    "content/post/2022/辗转相除法-求最大公因数.md",
-    "@fiveth/BLOG.md",
     "themes/hugo-theme-stack/layouts/partials/math.html",
     "themes/hugo-theme-stack/layouts/partials/新建 文本文档.txt",
     "content/post/2023/2022款Thinkbook14+酷睿版续航优化方案.md",
@@ -203,13 +206,10 @@
     "content/post/2023/Hexo博客优化：如何优化Hexo的网站性能？.md",
     "themes/hugo-theme-stack/layouts/partials/extend_head.html",
     "public/scss/style.min.ca6722e88a4395e42bb9e0d007ae2f07b8c28b67dea924e6821120b8a2738c01.css",
-    "content/post/2024/我的2024年度总结.md",
     "public/p/2024review/index.html",
     "public/p/2024review",
     "public/p/review-2024/index.html",
     "public/p/review-2024",
-    "public/tags/年度总结/page/1/index.html",
-    "public/tags/年度总结/page/1",
     "content/post/Book/认知觉醒.md",
     "content/post/Book/当下的力量.md",
     "@fiveth/template.md",
@@ -222,7 +222,6 @@
     "content/page/links/index.md",
     "content/page/archives/index.md",
     "content/page/about/index.md",
-    "content/post/2025/Hugo Stack魔改.md",
-    "content/post/2025/hugo new.md"
+    "content/post/2025/Hugo Stack魔改.md"
   ]
 }
