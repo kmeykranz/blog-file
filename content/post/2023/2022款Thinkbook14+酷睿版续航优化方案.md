@@ -1,5 +1,6 @@
 ---
 title: 2022款Thinkbook14+酷睿版续航优化方案
+toc: false
 tags:
   - 干货
 categories: 教学干货

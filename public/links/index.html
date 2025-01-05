@@ -7,7 +7,7 @@
 
 <link rel='canonical' href='https://blog.fiveth.cc/links/'>
 
-<link rel="stylesheet" href="/scss/style.min.b965dc52eca1028ee7abbaa4d830fd94f095d4194c7e33440b9d04b0ee8b7b97.css"><meta property='og:title' content="友链">
+<link rel="stylesheet" href="/scss/style.min.ca6722e88a4395e42bb9e0d007ae2f07b8c28b67dea924e6821120b8a2738c01.css"><meta property='og:title' content="友链">
 <meta property='og:description' content="本站信息🙂\r我的名称: Fiveth 网站地址: https://blog.fiveth.cc/ 描述: 分享知识与生活🎈 头像: https://p.fiveth.cc/avatar.png 加入本站友链方式🥳\r添加本站友链后，参照以下格式留言即可\n- title: #站点名称 website: #站点链接 description: #站点描述 image: #站长头像 友链交换须知🤔\r🧂正常安全的网址，有一个稳定的域名. 🍿站点至少正常运行一个星期. 🍗只接受双向友链. 😀不要接入广告. 🍖不接受内容加载不完全的站点，不接受加载速度极慢的站点 😁尽量定期更新,如果长期不更新或者不维护的话我可能会将其撤掉!!!!! 😑文章需以生活类折腾类为主.（不接受纯技术类） 😅至少有10篇及以上原创文章. 🧨本站目前不再接受资源类、工具类、导航类、文章搬运类、纯技术文章搬运类等站点. 😗有时可能为了保持友链页质量删除一些较低质量的友链 ">
 <meta property='og:url' content='https://blog.fiveth.cc/links/'>
 <meta property='og:site_name' content='Fiveth'>
@@ -16,6 +16,29 @@
 <meta name="twitter:description" content="本站信息🙂\r我的名称: Fiveth 网站地址: https://blog.fiveth.cc/ 描述: 分享知识与生活🎈 头像: https://p.fiveth.cc/avatar.png 加入本站友链方式🥳\r添加本站友链后，参照以下格式留言即可\n- title: #站点名称 website: #站点链接 description: #站点描述 image: #站长头像 友链交换须知🤔\r🧂正常安全的网址，有一个稳定的域名. 🍿站点至少正常运行一个星期. 🍗只接受双向友链. 😀不要接入广告. 🍖不接受内容加载不完全的站点，不接受加载速度极慢的站点 😁尽量定期更新,如果长期不更新或者不维护的话我可能会将其撤掉!!!!! 😑文章需以生活类折腾类为主.（不接受纯技术类） 😅至少有10篇及以上原创文章. 🧨本站目前不再接受资源类、工具类、导航类、文章搬运类、纯技术文章搬运类等站点. 😗有时可能为了保持友链页质量删除一些较低质量的友链 ">
     <link rel="shortcut icon" href="/img/favicon.ico" />
 
+
+<style>
+    :root {
+        --sys-font-family: "LXGW WenKai";
+        --zh-font-family: "LXGW WenKai";
+        --base-font-family: "LXGW WenKai";
+        --code-font-family: "LXGW WenKai";
+        --article-font-family: "LXGW WenKai";
+    }
+</style>
+
+<script>
+    (function () {
+        const customFont = document.createElement("link");
+        customFont.href =
+            "https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkai/dist/LXGWWenKai-Bold/result.css";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    })();
+</script>
 </head>
 
 <body class="article-page keep-sidebar">
@@ -40,41 +63,36 @@
                 
             </div>
 
-            
-            <div class="menu-item mode-toggle-button" id="dark-mode-toggle">
-                <span>🌞</span>
-            </div>
+
 
             <a class="menu-item menu-toggle">☰</a>
 
+            
+            <li class="mode-toggle-button" id="dark-mode-toggle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+            </li>
+            
 
         </div>
     </div>
 </nav>
 
 <script>
-    
-    document.getElementById("dark-mode-toggle").addEventListener("click", function () {
-        const body = document.body;
-        body.classList.toggle("dark-mode");
-
-        
-        const modeText = body.classList.contains("dark-mode") ? "🌞" : "🌙";
-        this.querySelector("span").textContent = modeText;
-
-        
-        localStorage.setItem("theme", body.classList.contains("dark-mode") ? "dark" : "light");
-    });
-
-    
-    window.addEventListener("load", function () {
-        const savedTheme = localStorage.getItem("theme");
-        if (savedTheme === "dark") {
-            document.body.classList.add("dark-mode");
-            document.querySelector("#dark-mode-toggle span").textContent = "🌞";
-        }
-    });
-
     
     const menuToggleButton = document.querySelector('.menu-toggle');
     const menuLinks = document.querySelector('.menu-links');

@@ -107,10 +107,8 @@
 &lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1wm411S7jQ/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;【脊医博士鹏哥】眼睛重新校准训练&lt;/a&gt;（颈椎训练中的眼睛训练的补充，可以刺激脑干）&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h1 id=&#34;笔记&#34;&gt;笔记
-&lt;/h1&gt;&lt;p&gt;这是从视频中提取的笔记，建议结合视频实用。&lt;/p&gt;
-&lt;h2 id=&#34;基础&#34;&gt;💪基础
-&lt;/h2&gt;&lt;h3 id=&#34;1--平衡训练&#34;&gt;1.  平衡训练
+&lt;p&gt;这是从视频中提取的笔记，建议结合视频实用。&lt;/p&gt;
+&lt;h3 id=&#34;1--平衡训练&#34;&gt;1.  平衡训练
 &lt;/h3&gt;&lt;p&gt;&lt;strong&gt;目的&lt;/strong&gt;：训练前挺脊髓束
 单脚站立30s（进阶：闭眼）&lt;/p&gt;
 &lt;h3 id=&#34;2-练眼睛&#34;&gt;2. 练眼睛
@@ -214,13 +212,11 @@
         <pubDate>Mon, 29 Apr 2024 21:33:53 +0000</pubDate>
         
         <guid>https://blog.fiveth.cc/p/138e/</guid>
-        <description>&lt;img src="https://p.fiveth.cc/img/m/hexo.jpg" alt="Featured image of post Hexo搭建进阶：Vercel部署、主题安装、基础用法" /&gt;&lt;p&gt;{% note info flat %}&lt;/p&gt;
-&lt;ul&gt;
+        <description>&lt;img src="https://p.fiveth.cc/img/m/hexo.jpg" alt="Featured image of post Hexo搭建进阶：Vercel部署、主题安装、基础用法" /&gt;&lt;ul&gt;
 &lt;li&gt;本篇前文：&lt;a class=&#34;link&#34; href=&#34;https://blog.fiveth.cc/p/bb32.html&#34; &gt;如何用Hexo搭建个人博客?&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;本文基于&lt;a class=&#34;link&#34; href=&#34;https://www.fomal.cc/posts/4aa2d85f.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Hexo博客搭建基础教程(二)&lt;/a&gt;修改，部分转载&lt;/li&gt;
-&lt;li&gt;我的&lt;strong&gt;Hexo优化系列&lt;/strong&gt;：&lt;a class=&#34;link&#34; href=&#34;https://blog.fiveth.cc/tags/hexo&#34; &gt;Hexo文章目录&lt;/a&gt;
-{% endnote %}&lt;/li&gt;
+&lt;li&gt;我的&lt;strong&gt;Hexo优化系列&lt;/strong&gt;：&lt;a class=&#34;link&#34; href=&#34;https://blog.fiveth.cc/tags/hexo&#34; &gt;Hexo文章目录&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;我的博客搭建教程是一年前写的了，非常感谢&lt;a class=&#34;link&#34; href=&#34;https://www.fomal.cc/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;fomalhaut&lt;/a&gt;，当时我是跟着他的教程一步步搭建的。最近我终于在b站发了视频版的博客搭建教程，有很多朋友想进一步优化博客。这篇文章接上一篇，教大家将博客部署到vercel、主题安装、Hexo博客的基础用法。&lt;/p&gt;
@@ -575,7 +571,7 @@
         <pubDate>Tue, 23 Apr 2024 13:48:27 +0000</pubDate>
         
         <guid>https://blog.fiveth.cc/p/ef0e/</guid>
-        <description>&lt;img src="https://p.fiveth.cc/img/m/lowsun.webp" alt="Featured image of post 读书日：聊聊我的读书方法" /&gt;&lt;p&gt;{% tip sync %}4.23 今天是世界读书日📖{% endtip %}&lt;/p&gt;
+        <description>&lt;img src="https://p.fiveth.cc/img/m/lowsun.webp" alt="Featured image of post 读书日：聊聊我的读书方法" /&gt;&lt;p&gt;4.23 今天是世界读书日📖&lt;/p&gt;
 &lt;p&gt;正好最近我最近开始记录阅读，规划读书。&lt;/p&gt;
 &lt;p&gt;这篇文章就和大家聊聊我的读书方法&lt;/p&gt;
 &lt;h2 id=&#34;为什么读书&#34;&gt;为什么读书
@@ -604,7 +600,7 @@
 &lt;img src=&#34;https://p.fiveth.cc/img/2024/0423150751.jpg&#34; alt=&#34;我的kindle kwp3&#34; style=&#34;zoom:50%;&#34; /&gt;
 &lt;p&gt;我一般都是从zlibrary下书，而且还可以保存在amazon的图书馆云端上，要读的时候再下载。&lt;/p&gt;
 &lt;hr&gt;
-&lt;p&gt;{% tip info %}读书是一生的习惯，让我们一起读书吧📖。{% endtip %}&lt;/p&gt;
+&lt;p&gt;读书是一生的习惯，让我们一起读书吧📖。&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -1381,7 +1377,7 @@ After [HABIT I NEED], I will [HABIT I WANT].&lt;/p&gt;
         
         <guid>https://blog.fiveth.cc/p/a680/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/m/oula.webp" alt="Featured image of post 欧拉筛-高效筛选质数" /&gt;&lt;p&gt;如何高效筛素数？让我们来看看&lt;/p&gt;
-&lt;p&gt;**题目：**生成一个1到n范围内的质数数组&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;题目&lt;/strong&gt;：生成一个1到n范围内的质数数组&lt;/p&gt;
 &lt;h2 id=&#34;菜鸟这样做枚举法&#34;&gt;菜鸟这样做（枚举法）
 &lt;/h2&gt;&lt;p&gt;从1枚举到n，判断是素数就存入数组&lt;/p&gt;
 &lt;p&gt;下面是判断方法&lt;/p&gt;
@@ -1714,42 +1710,42 @@ After [HABIT I NEED], I will [HABIT I WANT].&lt;/p&gt;
 &lt;p&gt;这种方法在编程中很常用，在数学计算中也可以用来求很复杂的最大公因数问题。&lt;/p&gt;
 &lt;h2 id=&#34;如何使用&#34;&gt;如何使用
 &lt;/h2&gt;&lt;p&gt;题目：求最大公因数(36,14)&lt;/p&gt;
+&lt;p&gt;我们如何用辗转相除法做这道题呢？&lt;/p&gt;
 $$
-\displaylines{
-反复用除数除以余数直到除尽\\
+{
+反复用除数除以余数直到除尽 \\\\
 36{\div}14=2\dots8\\
 14{\div}8=1\dots6\\
 8{\div}6=1\dots2\\
 6{\div}2=3\\
 最后一个除数就是最大公约数，也就是2
 }
-$$&lt;p&gt;
-我们算出最大公约数(36,14)=2&lt;/p&gt;
+$$&lt;p&gt;我们算出最大公约数(36,14)=2&lt;/p&gt;
 &lt;p&gt;到这里，我们就知道如何使用辗转相除法了。&lt;/p&gt;
 &lt;p&gt;但是，鲁迅曾说过“我们学公式必须得懂得原理”，我们明白了原理才能灵活运用&lt;/p&gt;
 &lt;h2 id=&#34;原理&#34;&gt;原理
 &lt;/h2&gt;&lt;p&gt;求最大公因数(a,b)&lt;/p&gt;
+&lt;p&gt;首先我们推出这几条式子&lt;/p&gt;
 $$
-\displaylines{
+{
 a{\div}b=q\dots r \\
 a=bq+r \\
 r=a-bq
 }
-$$$$
-\displaylines{
+$$&lt;p&gt;&lt;strong&gt;这是我们辗转法的原理&lt;/strong&gt;&lt;/p&gt;
+$${
 (a,b)=(b,r) \\a和b的最大公约数就等于b和r的最大公约数
 }
-$$$$
-\displaylines{
-(1)设(a,b)=d\\
-那么a=dm,b=dn\\
-然后我们将其带入r=a-bq\\
+$$&lt;p&gt;接下来让我们证明这条公式&lt;/p&gt;
+$$
+{
+(1)设(a,b)=d \\那么a=dm,b=dn \\然后我们将其带入r=a-bq \\
 得r=d(m-nq)\\
 因为m,n,q都是整数，所以r是d的倍数，d是r的因数\\
 所以：只要是a,b的因数，就一定是d,r的约数\\
 }
 $$$$
-\displaylines{
+{
 (2)设(b,r)=d\\
 和之前一样，那么b=dx,r=dy\\
 然后将其代入a=bq+r\\
@@ -1785,8 +1781,10 @@ $$&lt;p&gt;这样，我们就得出(a,b)的因数和(b,r)的因数相同，它�
         <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
         
         <guid>https://blog.fiveth.cc/p/bb32/</guid>
-        <description>&lt;img src="https://p.fiveth.cc/img/m/hexo.jpg" alt="Featured image of post 如何用Hexo搭建个人博客?" /&gt;&lt;p&gt;{% tip info %}&lt;code&gt;2024.4&lt;/code&gt; 我出了视频版教程啦：&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1Ju4m1c7WR/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;bilibili视频链接&lt;/a&gt;{% endtip %}&lt;/p&gt;
+        <description>&lt;img src="https://p.fiveth.cc/img/m/hexo.jpg" alt="Featured image of post 如何用Hexo搭建个人博客?" /&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;2024.4&lt;/code&gt; 我出了视频版教程啦：&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1Ju4m1c7WR/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;bilibili视频链接&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;我的个人博客搭建成功啦！&lt;/p&gt;
 &lt;p&gt;这篇文章会给大家分享我是如何从0开始搭建我的个人独立博客的&lt;/p&gt;
 &lt;p&gt;接下来我们开始吧&lt;/p&gt;

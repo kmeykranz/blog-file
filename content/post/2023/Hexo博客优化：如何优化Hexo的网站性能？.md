@@ -1,5 +1,6 @@
 ---
 title: Hexo博客优化：如何优化Hexo的网站性能？
+toc: true
 tags:
   - 博客
   - Hexo

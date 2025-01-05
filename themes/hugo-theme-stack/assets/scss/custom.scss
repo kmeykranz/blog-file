@@ -9,7 +9,7 @@
     // 卡片间距
     --section-separation: 40px;
     // 全局字体大小
-    --article-font-size: 1.8rem;
+    --article-font-size: 2rem;
     // 行内代码背景色
     --code-background-color: #f8f8f8;
     // 行内代码前景色
@@ -52,6 +52,12 @@ code {
     @include respond(xl) {
         height: 285px !important;
     }
+}
+
+.article-page .main-article {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 //--------------------------------------------------
@@ -585,7 +591,7 @@ html {
 }
 
 .main-container .right-sidebar {
-    order: 2;
+    order: 1;
     max-width: var(--right-sidebar-max-width);
 
     /// Display right sidebar when min-width: lg
@@ -667,6 +673,7 @@ strong {
     padding: 10px 20px;
     box-shadow: var(--shadow-l1);
     height: var(--nav-height);
+    transition: 0.3s;
 }
 
 .menu-items {
@@ -738,9 +745,7 @@ strong {
 
 /* 深色模式切换按钮样式 */
 .mode-toggle-button {
-    cursor: pointer;
-    font-size: 18px;
-    margin-left: 15px;
+    margin-inline: 20px;
     padding: 10px;
 }
 

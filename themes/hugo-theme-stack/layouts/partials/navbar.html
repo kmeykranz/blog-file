@@ -11,41 +11,22 @@
                 {{ end }}
             </div>
 
-            <!-- 深色/浅色模式切换按钮 -->
-            <div class="menu-item mode-toggle-button" id="dark-mode-toggle">
-                <span>🌞</span>
-            </div>
+
 
             <a class="menu-item menu-toggle">☰</a>
 
+            {{ if (default false .Site.Params.colorScheme.toggle) }}
+            <li class="mode-toggle-button" id="dark-mode-toggle">
+                {{ partial "helper/icon" "toggle-left" }}
+                {{ partial "helper/icon" "toggle-right" }}
+            </li>
+            {{ end }}
 
         </div>
     </div>
 </nav>
 
 <script>
-    // 简单的深色浅色模式切换
-    document.getElementById("dark-mode-toggle").addEventListener("click", function () {
-        const body = document.body;
-        body.classList.toggle("dark-mode");
-
-        // 更新模式的图标
-        const modeText = body.classList.contains("dark-mode") ? "🌞" : "🌙";
-        this.querySelector("span").textContent = modeText;
-
-        // 如果有需要，可以在这里使用 localStorage 来保存用户的主题偏好
-        localStorage.setItem("theme", body.classList.contains("dark-mode") ? "dark" : "light");
-    });
-
-    // 页面加载时检测用户的主题偏好
-    window.addEventListener("load", function () {
-        const savedTheme = localStorage.getItem("theme");
-        if (savedTheme === "dark") {
-            document.body.classList.add("dark-mode");
-            document.querySelector("#dark-mode-toggle span").textContent = "🌞";
-        }
-    });
-
     // 获取按钮和菜单容器
     const menuToggleButton = document.querySelector('.menu-toggle');
     const menuLinks = document.querySelector('.menu-links');

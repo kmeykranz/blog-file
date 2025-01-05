@@ -14,7 +14,7 @@
         
         <guid>https://blog.fiveth.cc/p/a680/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/m/oula.webp" alt="Featured image of post 欧拉筛-高效筛选质数" /&gt;&lt;p&gt;如何高效筛素数？让我们来看看&lt;/p&gt;
-&lt;p&gt;**题目：**生成一个1到n范围内的质数数组&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;题目&lt;/strong&gt;：生成一个1到n范围内的质数数组&lt;/p&gt;
 &lt;h2 id=&#34;菜鸟这样做枚举法&#34;&gt;菜鸟这样做（枚举法）
 &lt;/h2&gt;&lt;p&gt;从1枚举到n，判断是素数就存入数组&lt;/p&gt;
 &lt;p&gt;下面是判断方法&lt;/p&gt;

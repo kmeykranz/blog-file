@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "@fiveth/BLOG.md",
+                "file": "content/post/2022/辗转相除法-求最大公因数.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
-              "title": "BLOG"
+              "title": "辗转相除法-求最大公因数"
             }
           }
         ]
@@ -111,10 +111,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "@fiveth/BLOG.md"
+                "file": "content/post/2022/辗转相除法-求最大公因数.md"
               },
               "icon": "lucide-list",
-              "title": "BLOG 的大纲"
+              "title": "辗转相除法-求最大公因数 的大纲"
             }
           }
         ]
@@ -188,6 +188,21 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "content/post/2022/高精度运算.md",
+    "content/post/2022/如何用Hexo搭建个人博客.md",
+    "content/post/2022/欧拉筛-高效地筛出质数.md",
+    "content/post/2022/辗转相除法-求最大公因数.md",
+    "@fiveth/BLOG.md",
+    "themes/hugo-theme-stack/layouts/partials/math.html",
+    "themes/hugo-theme-stack/layouts/partials/新建 文本文档.txt",
+    "content/post/2023/2022款Thinkbook14+酷睿版续航优化方案.md",
+    "content/post/2023/摆脱3DM启动器打开游戏：避免捆绑下载笑傲江湖.md",
+    "content/post/2023/链表.md",
+    "content/post/2023/排序算法.md",
+    "content/post/2023/深入浅出程序设计竞赛.md",
+    "content/post/2023/Hexo博客优化：如何优化Hexo的网站性能？.md",
+    "themes/hugo-theme-stack/layouts/partials/extend_head.html",
+    "public/scss/style.min.ca6722e88a4395e42bb9e0d007ae2f07b8c28b67dea924e6821120b8a2738c01.css",
     "content/post/2024/我的2024年度总结.md",
     "public/p/2024review/index.html",
     "public/p/2024review",
@@ -195,20 +210,12 @@
     "public/p/review-2024",
     "public/tags/年度总结/page/1/index.html",
     "public/tags/年度总结/page/1",
-    "public/tags/年度总结/page",
-    "public/tags/年度总结/index.xml",
-    "public/tags/年度总结/index.html",
-    "public/tags/年度总结",
-    "@fiveth/BLOG.md",
     "content/post/Book/认知觉醒.md",
     "content/post/Book/当下的力量.md",
     "@fiveth/template.md",
     "content/post/2024/颈椎训练.md",
     "content/post/2024/Hexo搭建进阶：Vercel部署、主题安装、基础用法.md",
-    "content/post/2023/2022款Thinkbook14+酷睿版续航优化方案.md",
-    "content/post/2023/Hexo博客优化：如何优化Hexo的网站性能？.md",
     "content/post/2024/Hexo博客优化：批量修改md文件名.md",
-    "content/post/2023/深入浅出程序设计竞赛.md",
     "content/_index.md",
     "content/_index.zh-cn.md",
     "archetypes/default.md",
@@ -216,8 +223,6 @@
     "content/page/archives/index.md",
     "content/page/about/index.md",
     "content/post/2025/Hugo Stack魔改.md",
-    "content/post/2025/hugo new.md",
-    "content/post/2025/Hugo-Stack博客魔改.md",
-    "content/post/2023/摆脱3DM启动器打开游戏：避免捆绑下载笑傲江湖.md"
+    "content/post/2025/hugo new.md"
   ]
 }

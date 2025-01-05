@@ -1,5 +1,6 @@
 ---
 title: 如何用Hexo搭建个人博客?
+toc: true
 date: 2022-12-10
 tags:
   - 博客
@@ -8,7 +9,7 @@ categories: 博客相关
 image: 'https://p.fiveth.cc/img/m/hexo.jpg'
 slug: bb32
 ---
-{% tip info %}`2024.4` 我出了视频版教程啦：[bilibili视频链接](https://www.bilibili.com/video/BV1Ju4m1c7WR/){% endtip %}
+> `2024.4` 我出了视频版教程啦：[bilibili视频链接](https://www.bilibili.com/video/BV1Ju4m1c7WR/)
 
 我的个人博客搭建成功啦！
 

@@ -1,5 +1,6 @@
 ---
 title: Hexo博客优化：批量修改md文件名
+toc: false
 tags:
   - 博客
   - Hexo

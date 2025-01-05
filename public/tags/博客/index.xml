@@ -78,13 +78,11 @@
         <pubDate>Mon, 29 Apr 2024 21:33:53 +0000</pubDate>
         
         <guid>https://blog.fiveth.cc/p/138e/</guid>
-        <description>&lt;img src="https://p.fiveth.cc/img/m/hexo.jpg" alt="Featured image of post Hexo搭建进阶：Vercel部署、主题安装、基础用法" /&gt;&lt;p&gt;{% note info flat %}&lt;/p&gt;
-&lt;ul&gt;
+        <description>&lt;img src="https://p.fiveth.cc/img/m/hexo.jpg" alt="Featured image of post Hexo搭建进阶：Vercel部署、主题安装、基础用法" /&gt;&lt;ul&gt;
 &lt;li&gt;本篇前文：&lt;a class=&#34;link&#34; href=&#34;https://blog.fiveth.cc/p/bb32.html&#34; &gt;如何用Hexo搭建个人博客?&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;本文基于&lt;a class=&#34;link&#34; href=&#34;https://www.fomal.cc/posts/4aa2d85f.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Hexo博客搭建基础教程(二)&lt;/a&gt;修改，部分转载&lt;/li&gt;
-&lt;li&gt;我的&lt;strong&gt;Hexo优化系列&lt;/strong&gt;：&lt;a class=&#34;link&#34; href=&#34;https://blog.fiveth.cc/tags/hexo&#34; &gt;Hexo文章目录&lt;/a&gt;
-{% endnote %}&lt;/li&gt;
+&lt;li&gt;我的&lt;strong&gt;Hexo优化系列&lt;/strong&gt;：&lt;a class=&#34;link&#34; href=&#34;https://blog.fiveth.cc/tags/hexo&#34; &gt;Hexo文章目录&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;我的博客搭建教程是一年前写的了，非常感谢&lt;a class=&#34;link&#34; href=&#34;https://www.fomal.cc/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;fomalhaut&lt;/a&gt;，当时我是跟着他的教程一步步搭建的。最近我终于在b站发了视频版的博客搭建教程，有很多朋友想进一步优化博客。这篇文章接上一篇，教大家将博客部署到vercel、主题安装、Hexo博客的基础用法。&lt;/p&gt;
@@ -606,8 +604,10 @@
         <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
         
         <guid>https://blog.fiveth.cc/p/bb32/</guid>
-        <description>&lt;img src="https://p.fiveth.cc/img/m/hexo.jpg" alt="Featured image of post 如何用Hexo搭建个人博客?" /&gt;&lt;p&gt;{% tip info %}&lt;code&gt;2024.4&lt;/code&gt; 我出了视频版教程啦：&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1Ju4m1c7WR/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
-    &gt;bilibili视频链接&lt;/a&gt;{% endtip %}&lt;/p&gt;
+        <description>&lt;img src="https://p.fiveth.cc/img/m/hexo.jpg" alt="Featured image of post 如何用Hexo搭建个人博客?" /&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;code&gt;2024.4&lt;/code&gt; 我出了视频版教程啦：&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1Ju4m1c7WR/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;bilibili视频链接&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
 &lt;p&gt;我的个人博客搭建成功啦！&lt;/p&gt;
 &lt;p&gt;这篇文章会给大家分享我是如何从0开始搭建我的个人独立博客的&lt;/p&gt;
 &lt;p&gt;接下来我们开始吧&lt;/p&gt;
