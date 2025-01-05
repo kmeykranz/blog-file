@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "BLOG",
+      "path": "@fiveth/BLOG.md"
+    },
+    {
       "basename": "我的2024年度总结",
       "path": "content/post/2024/我的2024年度总结.md"
     },
     {
-      "basename": "BLOG",
-      "path": "@fiveth/BLOG.md"
+      "basename": "template",
+      "path": "@fiveth/template.md"
     },
     {
       "basename": "辗转相除法-求最大公因数",
@@ -47,10 +51,6 @@
     {
       "basename": "Hexo博客优化：如何优化Hexo的网站性能？",
       "path": "content/post/2023/Hexo博客优化：如何优化Hexo的网站性能？.md"
-    },
-    {
-      "basename": "template",
-      "path": "@fiveth/template.md"
     },
     {
       "basename": "当下的力量",

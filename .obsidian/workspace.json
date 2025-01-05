@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/2024/我的2024年度总结.md",
+                "file": "@fiveth/BLOG.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "我的2024年度总结"
+              "title": "BLOG"
             }
           }
         ]
@@ -111,10 +111,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/2024/我的2024年度总结.md"
+                "file": "@fiveth/BLOG.md"
               },
               "icon": "lucide-list",
-              "title": "我的2024年度总结 的大纲"
+              "title": "BLOG 的大纲"
             }
           }
         ]
@@ -188,8 +188,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "@fiveth/BLOG.md",
     "content/post/2024/我的2024年度总结.md",
+    "@fiveth/BLOG.md",
+    "@fiveth/template.md",
     "public/ts/main.c0363f7f1e1e1cb8bae946d9a1e2c3dea23e595eb933b18e88064b0c7ed73eed.js",
     "@fiveth/theme.css",
     "content/post/2022/辗转相除法-求最大公因数.md",
@@ -212,7 +213,6 @@
     "public/p/review-2024",
     "content/post/Book/认知觉醒.md",
     "content/post/Book/当下的力量.md",
-    "@fiveth/template.md",
     "content/post/2024/颈椎训练.md",
     "content/post/2024/Hexo搭建进阶：Vercel部署、主题安装、基础用法.md",
     "content/post/2024/Hexo博客优化：批量修改md文件名.md",
