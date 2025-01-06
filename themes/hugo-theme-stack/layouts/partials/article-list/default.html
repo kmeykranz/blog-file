@@ -1,16 +1,4 @@
-<style>
-    article {
-        cursor: pointer;
-        transition: all 0.3s ease;  /* 平滑过渡 */
-
-        /* 鼠标悬停时显示点击光标 */
-        &:hover {
-            outline: 1px solid #28B9E6;
-            /* 橙色外边框 */
-        }
-    }
-</style>
 {{ $image := partialCached "helper/image" (dict "Context" . "Type" "articleList") .RelPermalink "articleList" }}
-<article class="{{ if $image.exists }}has-image{{ end }}" onclick="window.location='{{ .Permalink }}';">
+<article class="{{ if $image.exists }}has-image{{ end }}">
     {{ partial "article/components/header" . }}
 </article>

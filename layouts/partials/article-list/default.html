@@ -1,0 +1,17 @@
+<style>
+    article {
+        cursor: pointer;
+        transition: all 0.3s ease !important;  /* 平滑过渡 */
+
+        /* 鼠标悬停时显示点击光标 */
+        &:hover {
+            /* 鼠标悬停效果 */
+            transform: translateY(-10px);
+            box-shadow: 5px 5px 20px rgb(235, 103, 255) !important;
+        }
+    }
+</style>
+{{ $image := partialCached "helper/image" (dict "Context" . "Type" "articleList") .RelPermalink "articleList" }}
+<article class="{{ if $image.exists }}has-image{{ end }}" onclick="window.location='{{ .Permalink }}';">
+    {{ partial "article/components/header" . }}
+</article>

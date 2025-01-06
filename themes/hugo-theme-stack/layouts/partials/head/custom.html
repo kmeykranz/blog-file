@@ -1,13 +1,9 @@
-{{ if or .Params.math .Site.Params.math }}
-{{ partial "math.html" . }}
-{{ end }}
-
-<!-- <style>
+<style>
     :root {
-        --sys-font-family: "LXGW WenKai";
+        /* --sys-font-family: "Noto Serif SC";
         --zh-font-family: "LXGW WenKai";
-        --base-font-family: "LXGW WenKai";
-        --code-font-family: "LXGW WenKai";
+        --base-font-family: "Noto Serif SC";
+        --code-font-family: "Noto Serif SC"; */
         --article-font-family: "LXGW WenKai";
     }
 </style>
@@ -16,11 +12,11 @@
     (function () {
         const customFont = document.createElement("link");
         customFont.href =
-            "https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkai/dist/LXGWWenKai-Bold/result.css";
+            "https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkai/dist/LXGWWenKai-Regular/result.css";
 
         customFont.type = "text/css";
         customFont.rel = "stylesheet";
 
         document.head.appendChild(customFont);
     })();
-</script> -->
+</script>
