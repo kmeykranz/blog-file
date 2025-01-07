@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "@fiveth/BLOG.md",
+                "file": "content/post/2025/我的知识管理工具：UpNote和PARA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BLOG"
+              "title": "我的知识管理工具：UpNote和PARA"
             }
           }
         ]
@@ -111,10 +111,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "@fiveth/BLOG.md"
+                "file": "content/post/2025/我的知识管理工具：UpNote和PARA.md"
               },
               "icon": "lucide-list",
-              "title": "BLOG 的大纲"
+              "title": "我的知识管理工具：UpNote和PARA 的大纲"
             }
           }
         ]
@@ -173,7 +173,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -188,19 +188,28 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "public/scss/style.min.7de73bf7aed2794e3f4b6c6d39e4606411b5a6369612056178a1c6822117ceb2.css",
+    "public/scss/style.min.7de75da6a6deb711d41b333b25e5e99b33e01a8f5f7b95d81ded6bc0833b70c7.css",
+    "public/scss/style.min.dd2763ada2e1abf55355082f1ca149f6d551ddb493c02b269a5d88f88e0fc8fd.css",
+    "public/scss/style.min.fafe3b8510936ae178836c51261631b5bee9e6e73c274e8f9ce71d219e3176e5.css",
+    "public/scss/style.min.288979c076803a51dfe10b53e6eeeba71221a669da1a3305bd9725463f43c69a.css",
+    "public/scss/style.min.93c073804a87a35cf6020bdf3c2bcb114e3d248f8f256bad79e57a208aab6c46.css",
+    "public/scss/style.min.283a6d89e4e0fadd3ef6d5963ca1aa1e4b9b979a9a21f98411b48a51689a9e0b.css",
+    "public/scss/style.min.1044569ff1211dda049f688f5cf88cbe14503a3b230ee784159a9ed35f6c41cd.css",
+    "public/scss/style.min.41ca9a88a263407c7a63e9d51ea95fbccf397d2b5c312db87ba3d77cbe885678.css",
+    "public/scss/style.min.e7f6ef7f8fe08facde5e78e8e2bc7210fca90d5ce9a219be85155d568f91c2c2.css",
+    "public/scss/style.min.127e6b95eeee2f686be5ef06753a612550b2752def332a66ad25addaf86baf1a.css",
+    "content/post/2025/我的2024年度总结 1.md",
+    "content/post/2025/我的知识管理工具：UpNote和PARA.md",
+    "content/post/2024/我的2024年度总结.md",
+    "content/post/2024/Hexo搭建进阶：Vercel部署、主题安装、基础用法.md",
+    "@fiveth/template.md",
+    "public/img/code-header.svg",
+    "public/img/avatar.png",
+    "content/post/2024/雅思7分的教训：听力8.5，口语踩雷.md",
     "@fiveth/BLOG.md",
-    "public/scss/style.min.ad2c00ec8f8a549d3112d3c4dd71640547b8e077f075526d3e2bb3ebdf991f95.css",
     "themes/hugo-theme-stack/images/tn.png",
     "themes/hugo-theme-stack/images/screenshot.png",
-    "themes/hugo-theme-stack/images",
-    "layouts/head/custom.html",
-    "layouts/head/新建 文本文档.txt",
-    "layouts/head - 副本",
-    "themes/hugo-theme-stack/layouts/partials/head/custom.html",
-    "themes/hugo-theme-stack/layouts/partials/head/新建 文本文档.txt",
-    "layouts/head",
-    "layouts/新建文件夹",
-    "layouts/partials/article/components/details.html",
     "themes/hugo-theme-stack/archetypes/categories.md",
     "themes/hugo-theme-stack/archetypes/tags.md",
     "themes/hugo-theme-stack/archetypes/default.md",
@@ -221,17 +230,9 @@
     "themes/hugo-theme-stack/exampleSite/content/post/emoji-support/index.md",
     "themes/hugo-theme-stack/exampleSite/content/page/about/index.md",
     "themes/hugo-theme-stack/exampleSite/content/post/chinese-test/hudai-gayiran-3Od_VKcDEAA-unsplash.jpg",
-    "themes/hugo-theme-stack/exampleSite/content/post/chinese-test/helena-hertz-wWZzXlDpMog-unsplash.jpg",
-    "themes/hugo-theme-stack/exampleSite/content/post/chinese-test/florian-klauer-nptLmg6jqDo-unsplash.jpg",
     "themes/hugo-theme-stack/exampleSite/content/page/archives/index.md",
     "themes/hugo-theme-stack/exampleSite/content/categories/Test/_index.md",
     "themes/hugo-theme-stack/exampleSite/content/_index.md",
-    "themes/hugo-theme-stack/exampleSite/content/_index.zh-cn.md",
-    "themes/hugo-theme-stack/exampleSite/README.md",
-    "content/post/2025/follow.md",
-    "content/post/2024/我的2024年度总结.md",
-    "@fiveth/template.md",
-    "content/post/2022/辗转相除法-求最大公因数.md",
-    "content/post/2022/高精度运算.md"
+    "themes/hugo-theme-stack/exampleSite/content/_index.zh-cn.md"
   ]
 }

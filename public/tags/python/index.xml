@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Python on Fiveth</title>
-        <link>http://localhost:1313/tags/python/</link>
+        <link>http://localhost:6783/tags/python/</link>
         <description>Recent content in Python on Fiveth</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Fiveth</copyright>
-        <lastBuildDate>Tue, 09 Apr 2024 11:51:10 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 09 Apr 2024 11:51:10 +0000</lastBuildDate><atom:link href="http://localhost:6783/tags/python/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Hexo博客优化：批量修改md文件名</title>
-        <link>http://localhost:1313/p/fbe8/</link>
+        <link>http://localhost:6783/p/fbe8/</link>
         <pubDate>Tue, 09 Apr 2024 11:51:10 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/fbe8/</guid>
+        <guid>http://localhost:6783/p/fbe8/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/m/hexo.jpg" alt="Featured image of post Hexo博客优化：批量修改md文件名" /&gt;&lt;p&gt;今天整理博客，发现我给文章取的文件名比较混乱，要找文章的时候会很不方便。&lt;/p&gt;
 &lt;p&gt;一般我们都是用&lt;code&gt;hexo new file_name&lt;/code&gt;创建文章的md文件的，然后文章的标题是在md文件的信息栏定义的。而我们很多时候是开始写文章才想好标题，随着写作标题也会发生变动，这导致最后我们文章标题和文件名是不同的，加大了我们的管理难度。&lt;/p&gt;
 &lt;p&gt;所以我们会在改动文章标题的时候，将文件名也改成一样的。但是这样手动改非常麻烦。因此我配合ChatGPT用Python写了个一键批量修改文件名的小脚本。这样我们就可以很方便的一键将文件名全部都同步成文章的标题。&lt;/p&gt;

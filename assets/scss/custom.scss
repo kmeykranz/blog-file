@@ -647,7 +647,7 @@ strong {
 //     max-width: 1024px;
 // }
 
-//导航栏
+//-------------------导航栏样式---------------
 @media (min-width: 768px) {
     #main-menu {
         display: flex;
@@ -697,6 +697,7 @@ strong {
     margin-left: auto;
 }
 
+//导航栏按钮颜色
 .site-name {
     margin-inline: 30px !important;
     width: 80px;
@@ -721,8 +722,6 @@ strong {
     /* 可以根据需要调整内边距 */
 }
 
-#main-menu li.current a {}
-
 #main-menu li a {
     transition: .3s ease !important;
     border-radius: var(--card-border-radius);
@@ -744,4 +743,53 @@ strong {
         /* 鼠标悬停效果 */
         background-color: var(--theme-color);
     }
+}
+
+.article-list--compact article {
+    cursor: pointer;
+    transition: transform .3s ease, box-shadow .3s ease !important;
+
+    &:hover {
+        transform: translateY(-5px);
+        box-shadow: 0px 0px 10px var(--theme-color) !important;
+    }
+}
+
+.article-list article {
+    cursor: pointer;
+    transition: transform .3s ease, box-shadow .3s ease !important;
+
+    &:hover {
+        transform: translateY(-10px);
+        box-shadow: 0px 0px 20px var(--theme-color) !important;
+    }
+}
+
+.subsection-list .article-list--tile article {
+    cursor: pointer;
+    transition: transform .3s ease, box-shadow .3s ease !important;
+
+    &:hover {
+        transform: translateY(10px);
+    }
+}
+
+//文章图片样式调整
+.article-page .main-article .article-content img {
+    width: auto !important;
+    height: 400px !important;
+    box-shadow: var(--shadow-l1);
+}
+
+//归档分类卡片样式调整
+.subsection-list .article-list--tile article .article-details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px !important;
+}
+
+.subsection-list .article-list--tile article .article-title {
+    font-size: 3rem;
+    color: #000;
 }

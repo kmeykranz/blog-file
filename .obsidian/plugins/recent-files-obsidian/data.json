@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "BLOG",
-      "path": "@fiveth/BLOG.md"
+      "basename": "我的知识管理工具：UpNote和PARA",
+      "path": "content/post/2025/我的知识管理工具：UpNote和PARA.md"
     },
     {
       "basename": "我的2024年度总结",
       "path": "content/post/2024/我的2024年度总结.md"
     },
     {
+      "basename": "Hexo搭建进阶：Vercel部署、主题安装、基础用法",
+      "path": "content/post/2024/Hexo搭建进阶：Vercel部署、主题安装、基础用法.md"
+    },
+    {
       "basename": "template",
       "path": "@fiveth/template.md"
+    },
+    {
+      "basename": "雅思7分的教训：听力8.5，口语踩雷",
+      "path": "content/post/2024/雅思7分的教训：听力8.5，口语踩雷.md"
+    },
+    {
+      "basename": "BLOG",
+      "path": "@fiveth/BLOG.md"
     },
     {
       "basename": "辗转相除法-求最大公因数",
@@ -59,10 +71,6 @@
     {
       "basename": "颈椎训练",
       "path": "content/post/2024/颈椎训练.md"
-    },
-    {
-      "basename": "Hexo搭建进阶：Vercel部署、主题安装、基础用法",
-      "path": "content/post/2024/Hexo搭建进阶：Vercel部署、主题安装、基础用法.md"
     },
     {
       "basename": "Hexo博客优化：批量修改md文件名",
