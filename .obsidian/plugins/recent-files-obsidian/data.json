@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "BLOG",
+      "path": "@fiveth/BLOG.md"
+    },
+    {
       "basename": "我的知识管理工具：UpNote和PARA",
       "path": "content/post/2025/我的知识管理工具：UpNote和PARA.md"
     },
@@ -19,10 +23,6 @@
     {
       "basename": "雅思7分的教训：听力8.5，口语踩雷",
       "path": "content/post/2024/雅思7分的教训：听力8.5，口语踩雷.md"
-    },
-    {
-      "basename": "BLOG",
-      "path": "@fiveth/BLOG.md"
     },
     {
       "basename": "辗转相除法-求最大公因数",

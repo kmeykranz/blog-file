@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html lang="zh-cn" dir="ltr">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=6783&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="这是我第二次考雅思，考了7分。全靠听力8.5拉的分，口语甚至只考了个5.5，非常离谱。我对这份成绩是有些失望的，尤其是口语给我整无语了。\n我第一次考的是6.5分，当时口语还有6，这次给了个5.5，我个人认为发挥是差不多的，可能是考官的判断问题。值得一提的是我踩了个雷，在有一个问题的时候，我刚回答了个Of Course，之后考官立马地打断我，问下一个问题。当时我非常疑惑，回头考完一查发现Of Course是非常不礼貌的，意思相当于“这不废话吗”😅。\n">
 <title>雅思7分的教训：听力8.5，口语踩雷</title>
 
-<link rel='canonical' href='http://localhost:6783/p/938f/'>
+<link rel='canonical' href='http://localhost:1313/p/938f/'>
 
-<link rel="stylesheet" href="/scss/style.min.76dddee2fb5554cf98b173e47653e16b47544fc8de9c410988322338921ed80a.css"><meta property='og:title' content="雅思7分的教训：听力8.5，口语踩雷">
+<link rel="stylesheet" href="/scss/style.min.ae90ad4d3074cf401bb9ccbbf77eedd1d342ade9080d542a40c7092c4ea47fcb.css"><meta property='og:title' content="雅思7分的教训：听力8.5，口语踩雷">
 <meta property='og:description' content="这是我第二次考雅思，考了7分。全靠听力8.5拉的分，口语甚至只考了个5.5，非常离谱。我对这份成绩是有些失望的，尤其是口语给我整无语了。\n我第一次考的是6.5分，当时口语还有6，这次给了个5.5，我个人认为发挥是差不多的，可能是考官的判断问题。值得一提的是我踩了个雷，在有一个问题的时候，我刚回答了个Of Course，之后考官立马地打断我，问下一个问题。当时我非常疑惑，回头考完一查发现Of Course是非常不礼貌的，意思相当于“这不废话吗”😅。\n">
-<meta property='og:url' content='http://localhost:6783/p/938f/'>
+<meta property='og:url' content='http://localhost:1313/p/938f/'>
 <meta property='og:site_name' content='Fiveth'>
 <meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='日常' /><meta property='article:tag' content='雅思' /><meta property='article:published_time' content='2024-04-20T20:24:00&#43;00:00'/><meta property='article:modified_time' content='2024-04-20T20:24:00&#43;00:00'/><meta property='og:image' content='https://p.fiveth.cc/img/2024/0420213033.jpg' />
 <meta name="twitter:title" content="雅思7分的教训：听力8.5，口语踩雷">
@@ -18,8 +18,11 @@
     <link rel="shortcut icon" href="/img/favicon.ico" />
 <style>
     :root {
-         
-        --article-font-family: "LXGW WenKai";
+        --sys-font-family: "LXGW WenKai Screen";
+        --zh-font-family: "LXGW WenKai Screen";
+        --base-font-family: "LXGW WenKai Screen";
+        --code-font-family: "LXGW WenKai Screen";
+        --article-font-family: "LXGW WenKai Screen";
     }
 </style>
 
@@ -27,7 +30,7 @@
     (function () {
         const customFont = document.createElement("link");
         customFont.href =
-            "https://chinese-fonts-cdn.deno.dev/packages/lxgwwenkai/dist/LXGWWenKai-Regular/result.css";
+            "https://linsnow.cn/font/result.css";
 
         customFont.type = "text/css";
         customFont.rel = "stylesheet";
@@ -38,8 +41,8 @@
 </head>
 
 <body class="
-    article-page
-    " style="display:flex; flex-direction: column;">
+article-page
+" style="display:flex; flex-direction: column;">
     <script>
         (function() {
             const colorSchemeKey = 'StackColorScheme';
@@ -62,6 +65,9 @@
         }
     })();
 </script>
+
+
+
 <aside class="sidebar left-sidebar sticky ">
     <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
         <span class="hamburger-box">
@@ -201,11 +207,13 @@
         </li>
     </ol>
 </aside>
+
+
 <div class="container main-container flex on-phone--column extended">
-    
+
 
         <main class="main full-width">
-    <article class="has-image main-article">
+<article class="has-image main-article">
     <header class="article-header">
 
     <div class="article-details">
@@ -307,9 +315,9 @@
     
 </article>
 
-    
 
-    
+
+
 
 <aside class="related-content--wrapper">
     <h2 class="section-title">相关文章</h2>
@@ -317,7 +325,7 @@
         <div class="flex article-list--tile">
             
                 
-<article class="">
+<article class="article-card ">
     <a href="/p/note-tools/">
         
         
@@ -328,9 +336,24 @@
     </a>
 </article>
 
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        
+        const colors = ['#FF8383', '#FFF574', '#A1D6CB', '#A19AD3'];
+
+        
+        const articles = document.querySelectorAll('.article-card');
+
+        
+        articles.forEach((article, index) => {
+            
+            article.style.backgroundColor = colors[index % colors.length];
+        });
+    });
+</script>
             
                 
-<article class="">
+<article class="article-card ">
     <a href="/p/review-2024/">
         
         
@@ -341,9 +364,24 @@
     </a>
 </article>
 
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        
+        const colors = ['#FF8383', '#FFF574', '#A1D6CB', '#A19AD3'];
+
+        
+        const articles = document.querySelectorAll('.article-card');
+
+        
+        articles.forEach((article, index) => {
+            
+            article.style.backgroundColor = colors[index % colors.length];
+        });
+    });
+</script>
             
                 
-<article class="has-image">
+<article class="article-card has-image">
     <a href="/p/ef0e/">
         
         
@@ -360,14 +398,29 @@
     </a>
 </article>
 
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        
+        const colors = ['#FF8383', '#FFF574', '#A1D6CB', '#A19AD3'];
+
+        
+        const articles = document.querySelectorAll('.article-card');
+
+        
+        articles.forEach((article, index) => {
+            
+            article.style.backgroundColor = colors[index % colors.length];
+        });
+    });
+</script>
             
         </div>
     </div>
 </aside>
 
-     
-    
-        
+
+
+
     <script src="//cdn.jsdelivr.net/npm/twikoo@1.6.39/dist/twikoo.all.min.js"></script>
 <div id="tcomment"></div>
 <style>
@@ -413,11 +466,11 @@
         el: '#tcomment',lang: 'zh-cn',})
 </script>
 
-    
 
-    
 
-    
+
+
+
 <div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
 
     

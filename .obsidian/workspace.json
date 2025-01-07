@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/2025/我的知识管理工具：UpNote和PARA.md",
+                "file": "@fiveth/BLOG.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "我的知识管理工具：UpNote和PARA"
+              "title": "BLOG"
             }
           }
         ]
@@ -111,10 +111,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/2025/我的知识管理工具：UpNote和PARA.md"
+                "file": "@fiveth/BLOG.md"
               },
               "icon": "lucide-list",
-              "title": "我的知识管理工具：UpNote和PARA 的大纲"
+              "title": "BLOG 的大纲"
             }
           }
         ]
@@ -188,6 +188,7 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "content/post/2025/我的知识管理工具：UpNote和PARA.md",
     "public/scss/style.min.7de73bf7aed2794e3f4b6c6d39e4606411b5a6369612056178a1c6822117ceb2.css",
     "public/scss/style.min.7de75da6a6deb711d41b333b25e5e99b33e01a8f5f7b95d81ded6bc0833b70c7.css",
     "public/scss/style.min.dd2763ada2e1abf55355082f1ca149f6d551ddb493c02b269a5d88f88e0fc8fd.css",
@@ -198,9 +199,7 @@
     "public/scss/style.min.1044569ff1211dda049f688f5cf88cbe14503a3b230ee784159a9ed35f6c41cd.css",
     "public/scss/style.min.41ca9a88a263407c7a63e9d51ea95fbccf397d2b5c312db87ba3d77cbe885678.css",
     "public/scss/style.min.e7f6ef7f8fe08facde5e78e8e2bc7210fca90d5ce9a219be85155d568f91c2c2.css",
-    "public/scss/style.min.127e6b95eeee2f686be5ef06753a612550b2752def332a66ad25addaf86baf1a.css",
     "content/post/2025/我的2024年度总结 1.md",
-    "content/post/2025/我的知识管理工具：UpNote和PARA.md",
     "content/post/2024/我的2024年度总结.md",
     "content/post/2024/Hexo搭建进阶：Vercel部署、主题安装、基础用法.md",
     "@fiveth/template.md",

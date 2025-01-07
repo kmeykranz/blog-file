@@ -9,7 +9,7 @@
     // 卡片间距
     --section-separation: 40px;
     // 全局字体大小
-    --article-font-size: 1.8rem;
+    --article-font-size: 2rem;
     // 行内代码背景色
     --code-background-color: #f8f8f8;
     // 行内代码前景色
@@ -280,7 +280,6 @@ a {
     font-size: 1.6rem;
     background-color: var(--card-background);
 
-    box-shadow: var(--shadow-l2); //改个阴影
     display: none;
     margin: 0; //改为0
     border-radius: 10px; //加个圆角
@@ -660,8 +659,18 @@ strong {
 
 @media (min-width: 768px) {
     #main-menu li {
-        width: 150px;
+        width: 100px;
     }
+
+    #main-menu li.menu-bottom-section ol {
+        width: 140px;
+    }
+
+    #dark-mode-toggle {
+        width: 120px !important;
+        ;
+    }
+
 
     .left-sidebar {
         display: flex;
@@ -695,12 +704,13 @@ strong {
 
 #main-menu li.menu-bottom-section {
     margin-left: auto;
+    margin-right: 40px;
 }
 
 //导航栏按钮颜色
 .site-name {
     margin-inline: 30px !important;
-    width: 80px;
+    width: 70px;
     font-size: 1.8rem !important;
     transition: .3s ease !important;
     border-radius: var(--card-border-radius);
@@ -776,8 +786,8 @@ strong {
 
 //文章图片样式调整
 .article-page .main-article .article-content img {
-    width: auto !important;
-    height: 400px !important;
+    width: 400px !important;
+    height: autopx !important;
     box-shadow: var(--shadow-l1);
 }
 

@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>算法 on Fiveth</title>
-        <link>http://localhost:6783/tags/%E7%AE%97%E6%B3%95/</link>
+        <link>http://localhost:1313/tags/%E7%AE%97%E6%B3%95/</link>
         <description>Recent content in 算法 on Fiveth</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Fiveth</copyright>
-        <lastBuildDate>Tue, 28 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:6783/tags/%E7%AE%97%E6%B3%95/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 28 Feb 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E7%AE%97%E6%B3%95/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>排序算法</title>
-        <link>http://localhost:6783/p/92b9/</link>
+        <link>http://localhost:1313/p/92b9/</link>
         <pubDate>Tue, 28 Feb 2023 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:6783/p/92b9/</guid>
+        <guid>http://localhost:1313/p/92b9/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/m/sort.webp" alt="Featured image of post 排序算法" /&gt;&lt;h4 id=&#34;各种排序&#34;&gt;各种排序
 &lt;/h4&gt;&lt;table&gt;
   &lt;thead&gt;
@@ -98,10 +98,10 @@
         </item>
         <item>
         <title>链表</title>
-        <link>http://localhost:6783/p/c8a8/</link>
+        <link>http://localhost:1313/p/c8a8/</link>
         <pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:6783/p/c8a8/</guid>
+        <guid>http://localhost:1313/p/c8a8/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/m/linklist.webp" alt="Featured image of post 链表" /&gt;&lt;p&gt;我们存储很多数的时候，通常使用数组，但是数组不够灵活。&lt;/p&gt;
 &lt;p&gt;哦？为什么说不灵活？&lt;/p&gt;
 &lt;p&gt;我们如果要在一个数组前面或者中间插入一个数，就会很麻烦。&lt;/p&gt;
@@ -189,10 +189,10 @@
         </item>
         <item>
         <title>欧拉筛-高效筛选质数</title>
-        <link>http://localhost:6783/p/a680/</link>
+        <link>http://localhost:1313/p/a680/</link>
         <pubDate>Fri, 23 Dec 2022 11:29:22 +0000</pubDate>
         
-        <guid>http://localhost:6783/p/a680/</guid>
+        <guid>http://localhost:1313/p/a680/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/m/oula.webp" alt="Featured image of post 欧拉筛-高效筛选质数" /&gt;&lt;p&gt;如何高效筛素数？让我们来看看&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;题目&lt;/strong&gt;：生成一个1到n范围内的质数数组&lt;/p&gt;
 &lt;h2 id=&#34;菜鸟这样做枚举法&#34;&gt;菜鸟这样做（枚举法）
@@ -287,10 +287,10 @@
         </item>
         <item>
         <title>算法：高精度运算</title>
-        <link>http://localhost:6783/p/e08/</link>
+        <link>http://localhost:1313/p/e08/</link>
         <pubDate>Tue, 20 Dec 2022 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:6783/p/e08/</guid>
+        <guid>http://localhost:1313/p/e08/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/m/calculator.webp" alt="Featured image of post 算法：高精度运算" /&gt;&lt;p&gt;我们知道每种数据类型的储存空间是有限的，如果我们要储存非常大的数可以用long long，更大则unsigned long long，再大就是有些编译器提供的_int128类型，但是要是比这还要大呢?我们就需要用到&lt;strong&gt;高精度运算&lt;/strong&gt;，&lt;strong&gt;用数组来模拟非常大的整数&lt;/strong&gt;。&lt;/p&gt;
 &lt;p&gt;我们只要定义一个数组，把数字分别放入数组序列中就可以储存非常大的数。&lt;/p&gt;
 &lt;p&gt;接下来我们看看怎么使用高精度运算。&lt;/p&gt;
@@ -419,10 +419,10 @@
         </item>
         <item>
         <title>辗转相除法-求最大公因数</title>
-        <link>http://localhost:6783/p/72c/</link>
+        <link>http://localhost:1313/p/72c/</link>
         <pubDate>Wed, 14 Dec 2022 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:6783/p/72c/</guid>
+        <guid>http://localhost:1313/p/72c/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/m/gcd.webp" alt="Featured image of post 辗转相除法-求最大公因数" /&gt;&lt;p&gt;辗转相除法是一种求最大公因数的计算方法。&lt;/p&gt;
 &lt;p&gt;这种方法在编程中很常用，在数学计算中也可以用来求很复杂的最大公因数问题。&lt;/p&gt;
 &lt;h2 id=&#34;如何使用&#34;&gt;如何使用

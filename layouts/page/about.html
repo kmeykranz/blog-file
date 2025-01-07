@@ -3,26 +3,58 @@
 
 <head>
     <style>
-        /* 头像和名字容器 */
-        .profile {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            margin-bottom: 40px;
+        .site-avatar {
+            position: relative;
+            margin: 0;
+            width: 100px;
+            height: 100px;
+            flex-shrink: 0;
+            margin-inline: auto;
         }
 
-        .profile img {
-            border-radius: 50% !important;
-            /* 圆形效果 */
+        .site-avatar img{
+            border-radius: 50%;
+            position: relative;
             width: 100px;
-            /* 头像的宽度 */
-            ;
             height: 100px;
-            /* 头像的高度 */
-            ;
-            object-fit: cover;
-            /* 保持图片比例，裁剪填充圆形 */
-            margin-bottom: 10px;
+        }
+
+        .site-avatar .emoji {
+            position: absolute;
+            width: 30px;
+            height: 30px;
+            line-height: 30px;
+            border-radius: 100%;
+            bottom: 0;
+            right: 0;
+            text-align: center;
+            font-size:15px;
+            background-color: var(--card-background);
+            box-shadow: 30px;
+        }
+
+        .site-meta {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            justify-content: center;
+            margin-inline: auto;
+            align-items: center;
+        }
+
+        .about-site-name {
+            color: var(--accent-color);
+            margin: 0;
+            font-size: 2rem;
+            margin-top:10px;
+        }
+
+        .about-site-description {
+            margin-left: 15px;
+            color: var(--body-text-color);
+            font-weight: 400;
+            margin-top: 0;
+            font-size: 1.8rem;
         }
 
         .profile h1 {
@@ -73,7 +105,7 @@
             /* 中等卡片 */
         }
 
-        .card-2 img{
+        .card-2 img {
             height: 20rem;
         }
 
@@ -86,10 +118,12 @@
             flex: 2;
             /* 小卡片 */
         }
+
         .card-5 {
             flex: 2;
             /* 小卡片 */
         }
+
         .card-6 {
             flex: 2;
             /* 小卡片 */
@@ -155,6 +189,53 @@
     </style>
 </head>
 
+<header>
+    {{ with .Site.Params.sidebar.avatar }}
+    {{ if (default true .enabled) }}
+    <figure class="site-avatar">
+        <a href="{{ .Site.BaseURL | relLangURL }}">
+            {{ if not .local }}
+            <img src="{{ .src }}" width="300" height="300" class="site-logo" loading="lazy" alt="Avatar">
+            {{ else }}
+            {{ $avatar := resources.Get (.src) }}
+
+            {{ if $avatar }}
+            {{ $avatarResized := $avatar.Resize "300x" }}
+            <img src="{{ $avatarResized.RelPermalink }}" width="{{ $avatarResized.Width }}"
+                height="{{ $avatarResized.Height }}" class="site-logo" loading="lazy" alt="Avatar">
+            {{ else }}
+            {{ errorf "Failed loading avatar from %q" . }}
+            {{ end }}
+            {{ end }}
+        </a>
+        {{ with $.Site.Params.sidebar.emoji }}
+        <span class="emoji">{{ . }}</span>
+        {{ end }}
+    </figure>
+    {{ end }}
+    {{ end }}
+
+    <div class="site-meta">
+        <h1 class="about-site-name"><a href="{{ .Site.BaseURL | relLangURL }}">{{ .Site.Title }}</a></h1>
+        <h2 class="about-site-description">{{ .Site.Params.sidebar.subtitle }}</h2>
+        {{- with .Site.Menus.social -}}
+        <ol class="menu-social">
+            {{ range . }}
+            <li>
+                <a href='{{ .URL }}' {{ if eq (default true .Params.newTab) true }}target="_blank" {{ end }} {{ with .Name
+                    }}title="{{ . }}" {{ end }} rel="me">
+                    {{ $icon := default "link" .Params.Icon }}
+                    {{ with $icon }}
+                    {{ partial "helper/icon" . }}
+                    {{ end }}
+                </a>
+            </li>
+            {{ end }}
+        </ol>
+        {{- end -}}
+    </div>
+    
+</header>
 <body>
     <!-- 卡片容器 -->
     <div class="author-page-content">
@@ -190,7 +271,8 @@
             <!-- 卡片 4：座右铭 -->
             <div class="card card-4">
                 <a class="title">💭 座右铭</a>
-                <p class="motto">"Who looks outside, dreams; Who looks inside, awakes."<br> - <strong>Carl Jung</strong></p>
+                <p class="motto">"Who looks outside, dreams; Who looks inside, awakes."<br> - <strong>Carl Jung</strong>
+                </p>
             </div>
         </div>
         <div class="author-content">
@@ -203,19 +285,23 @@
                         <img src="https://img.shields.io/badge/-C++-00599C?style=flat-square&logo=c" alt="C++">
                     </span>
                     <span>
-                        <img src="https://img.shields.io/badge/c-%2300599C.svg?style=flat-square&logo=c&logoColor=white" alt="C">
+                        <img src="https://img.shields.io/badge/c-%2300599C.svg?style=flat-square&logo=c&logoColor=white"
+                            alt="C">
                     </span>
                     <span>
-                        <img src="https://img.shields.io/badge/Qt-%23217346.svg?style=flat-square&logo=Qt&logoColor=white" alt="Qt">
+                        <img src="https://img.shields.io/badge/Qt-%23217346.svg?style=flat-square&logo=Qt&logoColor=white"
+                            alt="Qt">
                     </span>
                     <span>
-                        <img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5">
+                        <img src="https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white"
+                            alt="HTML5">
                     </span>
                     <span>
                         <img src="https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3" alt="CSS3">
                     </span>
                     <span>
-                        <img src="https://img.shields.io/badge/-JavaScript-oringe?style=flat-square&logo=javascript" alt="JavaScript">
+                        <img src="https://img.shields.io/badge/-JavaScript-oringe?style=flat-square&logo=javascript"
+                            alt="JavaScript">
                     </span>
                     <span>
                         <img src="https://img.shields.io/badge/-Python-pink?style=flat-square&logo=Python" alt="Python">
