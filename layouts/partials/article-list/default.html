@@ -1,13 +1,13 @@
 <style>
     article {
         cursor: pointer;
-        transition: all 0.3s ease !important;  /* 平滑过渡 */
+        transition: transform .3s ease, box-shadow .3s ease !important;
 
         /* 鼠标悬停时显示点击光标 */
         &:hover {
             /* 鼠标悬停效果 */
             transform: translateY(-10px);
-            box-shadow: 5px 5px 20px rgb(235, 103, 255) !important;
+            box-shadow: 5px 5px 20px var(--theme-color) !important;
         }
     }
 </style>

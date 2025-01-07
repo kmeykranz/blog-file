@@ -1,6 +1,6 @@
 ---
 title: 摆脱3DM启动器打开游戏：避免捆绑下载笑傲江湖
-toc: false
+toc: true
 tags:
   - 游戏
   - 干货

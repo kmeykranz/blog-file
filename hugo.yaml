@@ -68,7 +68,7 @@ params:
 
     article:
         math: false
-        toc: false
+        toc: true
         readingTime: false
         license:
             enabled: true

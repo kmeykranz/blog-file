@@ -1,6 +1,6 @@
 ---
 title: 关于博客框架迁移
-toc: false
+toc: true
 tags:
   - 博客
   - Hexo
