@@ -649,11 +649,19 @@ strong {
 //-------------------导航栏样式---------------
 @media (min-width: 768px) {
     #main-menu {
+        justify-content: center;
         display: flex;
         flex-direction: row;
         background-color: transparent;
         padding: 0;
         box-shadow: none;
+    }
+}
+
+
+@media (max-width: 768px) {
+    #main-menu li a {
+        width: 100% !important;
     }
 }
 
@@ -666,15 +674,12 @@ strong {
         width: 140px;
     }
 
-    #dark-mode-toggle {
-        width: 120px !important;
-        ;
-    }
 
 
     .left-sidebar {
         display: flex;
         flex-direction: row;
+        align-items: center;
         z-index: 1000;
         background-color: var(--card-background);
         box-shadow: var(--shadow-l1);
@@ -682,10 +687,6 @@ strong {
 
     #main-menu li a {
         gap: 5px !important;
-    }
-
-    #dark-mode-toggle {
-        gap: 10px !important;
     }
 }
 
@@ -698,7 +699,7 @@ strong {
 
 @media (max-width: 768px) {
     .site-name {
-        margin-top: 15px !important;
+        margin-top: 8px !important;
     }
 }
 
@@ -709,7 +710,7 @@ strong {
 
 //导航栏按钮颜色
 .site-name {
-    margin-inline: 30px !important;
+    margin-inline: 20px !important;
     width: 70px;
     font-size: 1.8rem !important;
     transition: .3s ease !important;
@@ -802,4 +803,64 @@ strong {
 .subsection-list .article-list--tile article .article-title {
     font-size: 3rem;
     color: #000;
+}
+
+.right-menu {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+
+@media (max-width: 768px) {
+    .right-menu {
+        justify-content: flex-end;
+    }
+}
+
+
+.travelling-button {
+    display: block;
+
+    border-radius: 50%;
+}
+
+#travelling {
+    margin-top: auto;
+    color: var(--body-text-color);
+    display: flex;
+    align-items: center;
+    gap: var(--menu-icon-separation);
+    padding: 10px !important;
+
+    transition: .3s ease !important;
+    border-radius: var(--card-border-radius);
+
+    &:hover {
+        /* 鼠标悬停效果 */
+        background-color: var(--theme-color);
+    }
+}
+
+#travelling a {
+    display: block;
+    /* 如果有需要，可以加上这行 */
+    text-decoration: none;
+    /* 移除默认链接下划线 */
+}
+
+#travelling {
+    color: var(--accent-color);
+    font-weight: 700;
+    margin-top: auto;
+    color: var(--body-text-color);
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: var(--menu-icon-separation);
+}
+
+.hamburger {
+    margin-top: 5px;
 }

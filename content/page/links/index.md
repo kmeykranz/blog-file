@@ -9,6 +9,31 @@ menu:
             icon: link
 readingtime: false
 comments: true
+sites:
+- title: BlogFinder
+  website: https://bf.zzxworld.com/
+  image: https://bf.zzxworld.com/images/logo-v2.png
+  description: 每个博客都是一座宝藏
+- title: 博客圈
+  website: https://www.boyouquan.com/
+  image: https://www.boyouquan.com/assets/images/sites/logo/logo-small.png
+  description: 博客人的朋友圈
+- title: 十年之约Forever
+  website: https://www.foreverblog.cn
+  image: https://www.evan.xin/wp-content/uploads/2024/04/favicon.ico
+  description: 一个人的寂寞，一群人
+- title: 开往Travelling
+  website: https://www.travellings.cn/
+  image: https://www.travellings.cn/assets/travelling-dark.png
+  description: 友链接力
+- title: BlogWe
+  website: https://blogwe.com/
+  image: https://blogwe.com/img/logo200.png
+  description: 我们，一直都在！
+- title: 博客录
+  website: https://boke.lu/
+  image: https://boke.lu/logo/透明底圆底.png
+  description: 博客收录展示平台
 links:
 - title: 张洪Heo
   website: https://blog.zhheo.com/
@@ -110,8 +135,6 @@ links:
   description: 抱怨身处黑暗，不如提灯前行
   website: https://blog.1zxbc.cn
   image: https://q2.qlogo.cn/g?b=qq&nk=2694199949&s=100
-
-
 ---
 
 ## 本站信息🙂
