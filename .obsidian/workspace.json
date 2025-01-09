@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "@fiveth/BLOG.md",
+                "file": "content/post/2024/我的2024年度总结.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BLOG"
+              "title": "我的2024年度总结"
             }
           }
         ]
@@ -111,10 +111,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "@fiveth/BLOG.md"
+                "file": "content/post/2024/我的2024年度总结.md"
               },
               "icon": "lucide-list",
-              "title": "BLOG 的大纲"
+              "title": "我的2024年度总结 的大纲"
             }
           }
         ]
@@ -188,25 +188,31 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "@fiveth/BLOG.md",
+    "content/post/Book/当下的力量.md",
+    "content/post/Book/认知觉醒.md",
+    "content/post/2025/Medium解锁：用脚本一键解锁Medium付费文章.md",
     "content/post/2025/我的知识管理工具：UpNote和PARA.md",
+    "content/post/2024/我的2024年度总结.md",
+    "content/post/2024/Hexo博客优化：批量修改md文件名.md",
+    "content/post/2024/Hexo搭建进阶：Vercel部署、主题安装、基础用法.md",
+    "content/post/Book/原子习惯.md",
+    "content/post/2024/更换博客框架-hugo.md",
+    "@fiveth/template.md",
+    "@fiveth/BLOG.md",
+    "public/p/medium-unlock/index.html",
+    "public/p/medium-unlock",
+    "public/categories/经验分享/page/1/index.html",
+    "public/categories/经验分享/page/1",
+    "public/categories/经验分享/index.xml",
+    "public/categories/经验分享/page",
+    "public/categories/经验分享/index.html",
+    "public/categories/经验分享",
+    "content/post/2024/雅思7分的教训：听力8.5，口语踩雷.md",
     "public/scss/style.min.7de73bf7aed2794e3f4b6c6d39e4606411b5a6369612056178a1c6822117ceb2.css",
     "public/scss/style.min.7de75da6a6deb711d41b333b25e5e99b33e01a8f5f7b95d81ded6bc0833b70c7.css",
-    "public/scss/style.min.dd2763ada2e1abf55355082f1ca149f6d551ddb493c02b269a5d88f88e0fc8fd.css",
-    "public/scss/style.min.fafe3b8510936ae178836c51261631b5bee9e6e73c274e8f9ce71d219e3176e5.css",
-    "public/scss/style.min.288979c076803a51dfe10b53e6eeeba71221a669da1a3305bd9725463f43c69a.css",
-    "public/scss/style.min.93c073804a87a35cf6020bdf3c2bcb114e3d248f8f256bad79e57a208aab6c46.css",
-    "public/scss/style.min.283a6d89e4e0fadd3ef6d5963ca1aa1e4b9b979a9a21f98411b48a51689a9e0b.css",
-    "public/scss/style.min.1044569ff1211dda049f688f5cf88cbe14503a3b230ee784159a9ed35f6c41cd.css",
-    "public/scss/style.min.41ca9a88a263407c7a63e9d51ea95fbccf397d2b5c312db87ba3d77cbe885678.css",
-    "public/scss/style.min.e7f6ef7f8fe08facde5e78e8e2bc7210fca90d5ce9a219be85155d568f91c2c2.css",
     "content/post/2025/我的2024年度总结 1.md",
-    "content/post/2024/我的2024年度总结.md",
-    "content/post/2024/Hexo搭建进阶：Vercel部署、主题安装、基础用法.md",
-    "@fiveth/template.md",
     "public/img/code-header.svg",
     "public/img/avatar.png",
-    "content/post/2024/雅思7分的教训：听力8.5，口语踩雷.md",
     "themes/hugo-theme-stack/images/tn.png",
     "themes/hugo-theme-stack/images/screenshot.png",
     "themes/hugo-theme-stack/archetypes/categories.md",
@@ -227,11 +233,6 @@
     "themes/hugo-theme-stack/exampleSite/content/post/chinese-test/index.zh-cn.md",
     "themes/hugo-theme-stack/exampleSite/content/page/about/index.zh-cn.md",
     "themes/hugo-theme-stack/exampleSite/content/post/emoji-support/index.md",
-    "themes/hugo-theme-stack/exampleSite/content/page/about/index.md",
-    "themes/hugo-theme-stack/exampleSite/content/post/chinese-test/hudai-gayiran-3Od_VKcDEAA-unsplash.jpg",
-    "themes/hugo-theme-stack/exampleSite/content/page/archives/index.md",
-    "themes/hugo-theme-stack/exampleSite/content/categories/Test/_index.md",
-    "themes/hugo-theme-stack/exampleSite/content/_index.md",
-    "themes/hugo-theme-stack/exampleSite/content/_index.zh-cn.md"
+    "themes/hugo-theme-stack/exampleSite/content/post/chinese-test/hudai-gayiran-3Od_VKcDEAA-unsplash.jpg"
   ]
 }

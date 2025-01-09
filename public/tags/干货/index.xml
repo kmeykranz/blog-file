@@ -2,17 +2,123 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>干货 on Fiveth</title>
-        <link>http://localhost:1313/tags/%E5%B9%B2%E8%B4%A7/</link>
+        <link>https://blog.fiveth.cc/tags/%E5%B9%B2%E8%B4%A7/</link>
         <description>Recent content in 干货 on Fiveth</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Fiveth</copyright>
-        <lastBuildDate>Tue, 27 Feb 2024 16:03:50 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E5%B9%B2%E8%B4%A7/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 09 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.fiveth.cc/tags/%E5%B9%B2%E8%B4%A7/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Medium解锁：用脚本一键解锁Medium付费文章</title>
+        <link>https://blog.fiveth.cc/p/medium-unlock/</link>
+        <pubDate>Thu, 09 Jan 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://blog.fiveth.cc/p/medium-unlock/</guid>
+        <description>&lt;img src="https://p.fiveth.cc/img/2025/0109193039.png" alt="Featured image of post Medium解锁：用脚本一键解锁Medium付费文章" /&gt;&lt;p&gt;Medium 是外网一个阅读文章的平台，他的特点是&lt;strong&gt;文章质量高&lt;/strong&gt;，在里面可以学到很多知识，涉及各种领域，非常适合日常浏览，打破信息差。但是很多的高质量的内容需要订阅会员才能阅读。这篇文章就给大家提供一个白嫖的方法。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://p.fiveth.cc/img/2025/0109174219.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;我们要用到的破解网站是 &lt;a class=&#34;link&#34; href=&#34;https://readmedium.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ReadMedium&lt;/a&gt;，在这个网站内填入 Medium 的付费文章链接，就可以自动获取隐藏的文章内容，进行阅读。网站还提供了一个方法，就是在 medium 的文章页面，把域名改成 readmedium.com 就可以跳转。网站还提供了一个 AI 概览的功能。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://p.fiveth.cc/img/2025/0109174335.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;但是这样还是略显麻烦，所以我们可以用油猴上的一个脚本 &lt;a class=&#34;link&#34; href=&#34;https://greasyfork.org/zh-CN/scripts/481493-medium-unlocker-2023-12-06-updated&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Medium-Unlock&lt;/a&gt; ，它会在 medium 页面上加入一个快捷按钮，点击就会自动跳转到对应的 readmedium 页面。&lt;/p&gt;
+&lt;p&gt;接下来，我会教大家怎么安装这个脚本，以及如何在 ios 系统 Safari上使用这个脚本，这样我们在手机上也可以使用。&lt;/p&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;在chrome上安装&#34;&gt;在Chrome上安装
+&lt;/h2&gt;&lt;blockquote&gt;
+&lt;p&gt;这里演示 &lt;code&gt;chrome 浏览器&lt;/code&gt;（edge 同理），首先打开谷歌应用商店，然后搜索 &lt;code&gt;Tampermonkey&lt;/code&gt;  安装油猴扩展。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://p.fiveth.cc/img/2025/0109174736.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://p.fiveth.cc/img/2025/0109174857.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;image.png&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;然后我们打开这个链接 &lt;a class=&#34;link&#34; href=&#34;https://greasyfork.org/zh-CN/scripts/481493-medium-unlocker-2023-12-06-updated&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Medium-Unlock&lt;/a&gt; ，点击安装脚本，然后在弹出的页面再次点击安装即可。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;hr&gt;
+&lt;h2 id=&#34;ios系统在safari上安装&#34;&gt;IOS系统在Safari上安装
+&lt;/h2&gt;&lt;p&gt;要在 Safari 上安装拓展，我们要先安装这个软件：&lt;code&gt;Userscript &lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://p.fiveth.cc/img/2025/0109175638.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;35999d1fb9c881cfae2615d677ad834.jpg&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;打开后，我们点击 change directory，在文件中新建一个文件夹用于储存脚本，名称随意。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;接下来，我们到 &lt;code&gt;设置-&amp;gt;App-&amp;gt;扩展 &lt;/code&gt; 中打开 &lt;code&gt;userscript&lt;/code&gt; 的权限。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://p.fiveth.cc/img/2025/0109175952.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;df532cf29104145e27ef0bd0112d777.jpg&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;然后打开浏览器，在上方扩展按钮，点管理拓展，然后打开 &lt;code&gt;userscript&lt;/code&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://p.fiveth.cc/img/2025/0109175957.jpg&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;fd0a2a307f4b787901a94bd2b3ba0c3.jpg&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;p&gt;现在我们再打开 medium，就可以看到旁边的解锁按钮啦。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>2022款Thinkbook14&#43;酷睿版续航优化方案</title>
-        <link>http://localhost:1313/p/4b21/</link>
+        <link>https://blog.fiveth.cc/p/4b21/</link>
         <pubDate>Tue, 27 Feb 2024 16:03:50 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/4b21/</guid>
+        <guid>https://blog.fiveth.cc/p/4b21/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/m/thinkbook-battery-cover.jpg" alt="Featured image of post 2022款Thinkbook14&#43;酷睿版续航优化方案" /&gt;&lt;p&gt;使用Thinkbook14+也有两年了，我是在22年买的。后悔自己买的太早，因为22年酷睿款的续航十分鸡肋（23及24款在续航有很大提升），相信一样用这款的朋友们应该深有体会。离电不到2小时的续航，堪比游戏本。作为一个学生，在学校中基本上只能离电使用，所以我对续航有一定需求。&lt;/p&gt;
 &lt;p&gt;在我的一番调教下，它的续航最终达到了静置10小时，低负办公8小时的理论成绩。这对我日常使用体验的提升非常大，终于不用再频繁地把电脑放到充电仓。今天就来分享一下我自用的续航调教方案。本篇部分适用于所有笔记本，部分是针对22 Thinkbook14+酷睿版的。&lt;/p&gt;
 &lt;p&gt;文章部分参考自&lt;a class=&#34;link&#34; href=&#34;https://zhuanlan.zhihu.com/p/662648384&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -113,10 +219,10 @@
         </item>
         <item>
         <title>摆脱3DM启动器打开游戏：避免捆绑下载笑傲江湖</title>
-        <link>http://localhost:1313/p/134b/</link>
+        <link>https://blog.fiveth.cc/p/134b/</link>
         <pubDate>Tue, 06 Jun 2023 22:15:15 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/134b/</guid>
+        <guid>https://blog.fiveth.cc/p/134b/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/m/3dm.jpg" alt="Featured image of post 摆脱3DM启动器打开游戏：避免捆绑下载笑傲江湖" /&gt;&lt;p&gt;经常白嫖游戏的小伙伴应该都对&lt;a class=&#34;link&#34; href=&#34;https://www.3dmgame.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;3DM&lt;/a&gt;不陌生，里面有很多盗版游戏资源。但是呢，很多3dm下来的游戏都要用3dm启动器去打开，你说用你启动器打开就算了，就多点两下的事对吧。但是每次打开你启动器，你都要下载个“笑傲江湖”到我电脑里，删了还没用，下次启动的时候又会跳出来，这跟流氓软件有什么区别。今天就教大家怎么摆脱3DM流氓启动器，直接打开游戏。&lt;/p&gt;
 &lt;img src=&#34;https://p.fiveth.cc/img/m/xiaoao.webp&#34; /&gt;

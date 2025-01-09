@@ -1,24 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "BLOG",
-      "path": "@fiveth/BLOG.md"
+      "basename": "我的2024年度总结",
+      "path": "content/post/2024/我的2024年度总结.md"
+    },
+    {
+      "basename": "当下的力量",
+      "path": "content/post/Book/当下的力量.md"
+    },
+    {
+      "basename": "认知觉醒",
+      "path": "content/post/Book/认知觉醒.md"
+    },
+    {
+      "basename": "Medium解锁：用脚本一键解锁Medium付费文章",
+      "path": "content/post/2025/Medium解锁：用脚本一键解锁Medium付费文章.md"
     },
     {
       "basename": "我的知识管理工具：UpNote和PARA",
       "path": "content/post/2025/我的知识管理工具：UpNote和PARA.md"
     },
     {
-      "basename": "我的2024年度总结",
-      "path": "content/post/2024/我的2024年度总结.md"
+      "basename": "Hexo博客优化：批量修改md文件名",
+      "path": "content/post/2024/Hexo博客优化：批量修改md文件名.md"
     },
     {
       "basename": "Hexo搭建进阶：Vercel部署、主题安装、基础用法",
       "path": "content/post/2024/Hexo搭建进阶：Vercel部署、主题安装、基础用法.md"
     },
     {
+      "basename": "原子习惯",
+      "path": "content/post/Book/原子习惯.md"
+    },
+    {
+      "basename": "更换博客框架-hugo",
+      "path": "content/post/2024/更换博客框架-hugo.md"
+    },
+    {
       "basename": "template",
       "path": "@fiveth/template.md"
+    },
+    {
+      "basename": "BLOG",
+      "path": "@fiveth/BLOG.md"
     },
     {
       "basename": "雅思7分的教训：听力8.5，口语踩雷",
@@ -65,20 +89,8 @@
       "path": "content/post/2023/Hexo博客优化：如何优化Hexo的网站性能？.md"
     },
     {
-      "basename": "当下的力量",
-      "path": "content/post/Book/当下的力量.md"
-    },
-    {
       "basename": "颈椎训练",
       "path": "content/post/2024/颈椎训练.md"
-    },
-    {
-      "basename": "Hexo博客优化：批量修改md文件名",
-      "path": "content/post/2024/Hexo博客优化：批量修改md文件名.md"
-    },
-    {
-      "basename": "认知觉醒",
-      "path": "content/post/Book/认知觉醒.md"
     },
     {
       "basename": "_index",

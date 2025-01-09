@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>日常 on Fiveth</title>
-        <link>http://localhost:1313/tags/%E6%97%A5%E5%B8%B8/</link>
+        <link>https://blog.fiveth.cc/tags/%E6%97%A5%E5%B8%B8/</link>
         <description>Recent content in 日常 on Fiveth</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Fiveth</copyright>
-        <lastBuildDate>Tue, 07 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/%E6%97%A5%E5%B8%B8/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Tue, 07 Jan 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.fiveth.cc/tags/%E6%97%A5%E5%B8%B8/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>我的知识管理工具：笔记软件UpNote和PARA系统</title>
-        <link>http://localhost:1313/p/note-tools/</link>
+        <link>https://blog.fiveth.cc/p/note-tools/</link>
         <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/note-tools/</guid>
-        <description>&lt;p&gt;之前也折腾过很多笔记软件，从 &lt;code&gt;Typora&lt;/code&gt; 到 &lt;code&gt;Notion&lt;/code&gt; 到 &lt;code&gt;Obsidian&lt;/code&gt;。直到最近发现了 &lt;code&gt;UpNote&lt;/code&gt;。&lt;/p&gt;
+        <guid>https://blog.fiveth.cc/p/note-tools/</guid>
+        <description>&lt;img src="https://p.fiveth.cc/img/2025/0109192517.png" alt="Featured image of post 我的知识管理工具：笔记软件UpNote和PARA系统" /&gt;&lt;p&gt;之前也折腾过很多笔记软件，从 &lt;code&gt;Typora&lt;/code&gt; 到 &lt;code&gt;Notion&lt;/code&gt; 到 &lt;code&gt;Obsidian&lt;/code&gt;。直到最近发现了 &lt;code&gt;UpNote&lt;/code&gt;。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;Obsidian&lt;/code&gt; 的问题：多端同步不方便，我经常用ipad写笔记，&lt;code&gt;obsidian&lt;/code&gt; 在手机端显得有些拥挤，操作不方便。&lt;/li&gt;
 &lt;li&gt;我的需求：我的电脑是 &lt;code&gt;windows&lt;/code&gt;，手机和ipad是 &lt;code&gt;ios&lt;/code&gt;，需要全平台同步。我在ipad上使用较多，所以需要app在 &lt;code&gt;ios&lt;/code&gt; 上方便好用。偏向文件夹式的笔记管理方式，文件夹要能多层嵌套。&lt;/li&gt;
@@ -78,11 +78,11 @@
         </item>
         <item>
         <title>我的2024年度总结</title>
-        <link>http://localhost:1313/p/review-2024/</link>
+        <link>https://blog.fiveth.cc/p/review-2024/</link>
         <pubDate>Tue, 31 Dec 2024 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/review-2024/</guid>
-        <description>&lt;p&gt;2024 发生了很多事，是我人生重大的一个节点。今年是我 18 岁成年了，今年是我个人提升最大的一年。在今年，我曾陷入谷底，痛苦不堪，而这痛苦和失败也让我迎来重生。&lt;/p&gt;
+        <guid>https://blog.fiveth.cc/p/review-2024/</guid>
+        <description>&lt;img src="https://p.fiveth.cc/img/2025/0109193303.png" alt="Featured image of post 我的2024年度总结" /&gt;&lt;p&gt;2024 发生了很多事，是我人生重大的一个节点。今年是我 18 岁成年了，今年是我个人提升最大的一年。在今年，我曾陷入谷底，痛苦不堪，而这痛苦和失败也让我迎来重生。&lt;/p&gt;
 &lt;h2 id=&#34;情感和身体受挫&#34;&gt;情感和身体受挫
 &lt;/h2&gt;&lt;p&gt;今年年初，我面临着情感和身体上的痛苦。在年初，我和前女友分手了，我在恋爱中的过度内耗，使这段感情不欢而散。而后，我陷入了极大的痛苦之中。身体的反应也来的很快，在情绪极度悲伤时的身体激素紊乱和睡眠不足，导致我一直潜在的鼻窦炎复发了。去年夏天开始，我就一直有潜在的咳嗽和鼻炎，一直没有完全痊愈。年初那段时间，我的鼻窦炎越来越严重，止不住地头痛，1 月份很重要的大考也很自然地考砸了。那场考试我是头痛着考的，还用掉了一整抽纸巾。&lt;/p&gt;
 &lt;p&gt;健身一直是我的一大精神支柱，曾经一天不健身我有罪恶感，那段时间的病让我也没法健身。精神和肉体上的折磨，让我几乎看不到光。后来医生建议做鼻窦炎手术，疾病已经严重影响了生活，每天都头疼，家人决定让我做手术。&lt;/p&gt;
@@ -124,10 +124,10 @@
         </item>
         <item>
         <title>雅思7分的教训：听力8.5，口语踩雷</title>
-        <link>http://localhost:1313/p/938f/</link>
+        <link>https://blog.fiveth.cc/p/938f/</link>
         <pubDate>Sat, 20 Apr 2024 20:24:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/938f/</guid>
+        <guid>https://blog.fiveth.cc/p/938f/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/2024/0420213033.jpg" alt="Featured image of post 雅思7分的教训：听力8.5，口语踩雷" /&gt;&lt;p&gt;这是我第二次考雅思，考了7分。全靠听力8.5拉的分，口语甚至只考了个5.5，非常离谱。我对这份成绩是有些失望的，尤其是口语给我整无语了。&lt;/p&gt;
 &lt;img src=&#34;https://p.fiveth.cc/img/2024/0420203736.jpg&#34; style=&#34;zoom:50%;&#34; /&gt;
 &lt;p&gt;我第一次考的是6.5分，当时口语还有6，这次给了个5.5，我个人认为发挥是差不多的，可能是考官的判断问题。值得一提的是我踩了个雷，在有一个问题的时候，我刚回答了个&lt;code&gt;Of Course&lt;/code&gt;，之后考官立马地打断我，问下一个问题。当时我非常疑惑，回头考完一查发现&lt;code&gt;Of Course&lt;/code&gt;是非常不礼貌的，意思相当于&lt;code&gt;“这不废话吗”&lt;/code&gt;😅。&lt;/p&gt;

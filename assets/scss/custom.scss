@@ -55,7 +55,7 @@ code {
     }
 
     @include respond(xl) {
-        height: 285px !important;
+        height: 180px !important;
     }
 }
 
@@ -384,6 +384,24 @@ html {
 }
 
 //  ~\blog\assets\scss\custom.scss
+
+@media (min-width: 1024px) {
+    .article-list{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background: none;
+        box-shadow: none;
+        gap: 1rem;
+
+        article {
+            background: var(--card-background);
+            border: none;
+            box-shadow: var(--shadow-l2);
+            margin-bottom: 8px;
+            border-radius: 16px;
+        }
+    }
+}
 
 //--------------------------------------------------
 //归档页面双栏

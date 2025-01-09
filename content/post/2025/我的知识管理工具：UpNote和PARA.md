@@ -2,10 +2,11 @@
 title: 我的知识管理工具：笔记软件UpNote和PARA系统
 slug: note-tools
 date: 2025-01-07
-categories: 闲聊杂谈
+categories: 经验分享
 toc: true
 tags:
   - 日常
+image: https://p.fiveth.cc/img/2025/0109192517.png
 ---
 之前也折腾过很多笔记软件，从 `Typora` 到 `Notion` 到 `Obsidian`。直到最近发现了 `UpNote`。
 
