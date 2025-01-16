@@ -17,6 +17,8 @@
     //主题色
     --theme-color: rgb(62, 204, 255);
 
+    --author-background: linear-gradient(45deg, #0f3fa5, #8aacd2);
+
     // 暗色模式下样式
     &[data-scheme="dark"] {
         // 行内代码背景色
@@ -30,6 +32,7 @@
         //主题色
         --theme-color: rgb(235, 103, 255);
 
+        --author-background: linear-gradient(45deg, #570fa5, #ad8ad2);
     }
 }
 

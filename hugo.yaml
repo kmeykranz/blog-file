@@ -160,6 +160,10 @@ params:
             id:
     widgets:
         homepage:
+            - type: author
+              params:
+                  limit: 5
+            - type: card
             - type: search
             - type: archives
               params:
@@ -170,6 +174,8 @@ params:
             - type: tag-cloud
               params:
                   limit: 10
+            
+
         page:
             - type: toc
 

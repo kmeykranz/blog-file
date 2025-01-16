@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Gcd on Fiveth</title>
-        <link>https://blog.fiveth.cc/tags/gcd/</link>
+        <link>http://localhost:1313/tags/gcd/</link>
         <description>Recent content in Gcd on Fiveth</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Fiveth</copyright>
-        <lastBuildDate>Wed, 14 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.fiveth.cc/tags/gcd/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 14 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/gcd/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>辗转相除法-求最大公因数</title>
-        <link>https://blog.fiveth.cc/p/72c/</link>
+        <link>http://localhost:1313/p/72c/</link>
         <pubDate>Wed, 14 Dec 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://blog.fiveth.cc/p/72c/</guid>
+        <guid>http://localhost:1313/p/72c/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/m/gcd.webp" alt="Featured image of post 辗转相除法-求最大公因数" /&gt;&lt;p&gt;辗转相除法是一种求最大公因数的计算方法。&lt;/p&gt;
 &lt;p&gt;这种方法在编程中很常用，在数学计算中也可以用来求很复杂的最大公因数问题。&lt;/p&gt;
 &lt;h2 id=&#34;如何使用&#34;&gt;如何使用

@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/2024/我的2024年度总结.md",
+                "file": "@fiveth/BLOG.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "我的2024年度总结"
+              "title": "BLOG"
             }
           }
         ]
@@ -111,10 +111,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/2024/我的2024年度总结.md"
+                "file": "@fiveth/BLOG.md"
               },
               "icon": "lucide-list",
-              "title": "我的2024年度总结 的大纲"
+              "title": "BLOG 的大纲"
             }
           }
         ]
@@ -188,28 +188,31 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "public/p/why-reading/index.html",
+    "public/p/why-reading",
+    "public/tags/提升/page/1/index.html",
+    "public/tags/提升/page/1",
+    "public/tags/提升/page",
+    "public/tags/提升/index.xml",
+    "public/tags/提升/index.html",
+    "public/tags/提升",
+    "content/post/2025/媒体上这么多知识，为什么还要读书？.md",
+    "content/post/2024/读书日：聊聊我的读书方法.md",
     "content/post/Book/当下的力量.md",
+    "content/post/Book/原子习惯.md",
     "content/post/Book/认知觉醒.md",
+    "@fiveth/BLOG.md",
+    "content/post/2024/我的2024年度总结.md",
     "content/post/2025/Medium解锁：用脚本一键解锁Medium付费文章.md",
     "content/post/2025/我的知识管理工具：UpNote和PARA.md",
-    "content/post/2024/我的2024年度总结.md",
     "content/post/2024/Hexo博客优化：批量修改md文件名.md",
     "content/post/2024/Hexo搭建进阶：Vercel部署、主题安装、基础用法.md",
-    "content/post/Book/原子习惯.md",
     "content/post/2024/更换博客框架-hugo.md",
     "@fiveth/template.md",
-    "@fiveth/BLOG.md",
     "public/p/medium-unlock/index.html",
     "public/p/medium-unlock",
     "public/categories/经验分享/page/1/index.html",
-    "public/categories/经验分享/page/1",
-    "public/categories/经验分享/index.xml",
-    "public/categories/经验分享/page",
-    "public/categories/经验分享/index.html",
-    "public/categories/经验分享",
     "content/post/2024/雅思7分的教训：听力8.5，口语踩雷.md",
-    "public/scss/style.min.7de73bf7aed2794e3f4b6c6d39e4606411b5a6369612056178a1c6822117ceb2.css",
-    "public/scss/style.min.7de75da6a6deb711d41b333b25e5e99b33e01a8f5f7b95d81ded6bc0833b70c7.css",
     "content/post/2025/我的2024年度总结 1.md",
     "public/img/code-header.svg",
     "public/img/avatar.png",
@@ -230,9 +233,6 @@
     "themes/hugo-theme-stack/exampleSite/content/page/links/ts-logo-128.jpg",
     "themes/hugo-theme-stack/exampleSite/content/post/markdown-syntax/index.md",
     "themes/hugo-theme-stack/exampleSite/content/post/emoji-support/the-creative-exchange-d2zvqp3fpro-unsplash.jpg",
-    "themes/hugo-theme-stack/exampleSite/content/post/chinese-test/index.zh-cn.md",
-    "themes/hugo-theme-stack/exampleSite/content/page/about/index.zh-cn.md",
-    "themes/hugo-theme-stack/exampleSite/content/post/emoji-support/index.md",
     "themes/hugo-theme-stack/exampleSite/content/post/chinese-test/hudai-gayiran-3Od_VKcDEAA-unsplash.jpg"
   ]
 }

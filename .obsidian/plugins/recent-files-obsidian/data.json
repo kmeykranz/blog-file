@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "我的2024年度总结",
-      "path": "content/post/2024/我的2024年度总结.md"
+      "basename": "BLOG",
+      "path": "@fiveth/BLOG.md"
+    },
+    {
+      "basename": "媒体上这么多知识，为什么还要读书？",
+      "path": "content/post/2025/媒体上这么多知识，为什么还要读书？.md"
+    },
+    {
+      "basename": "读书日：聊聊我的读书方法",
+      "path": "content/post/2024/读书日：聊聊我的读书方法.md"
     },
     {
       "basename": "当下的力量",
       "path": "content/post/Book/当下的力量.md"
     },
     {
+      "basename": "原子习惯",
+      "path": "content/post/Book/原子习惯.md"
+    },
+    {
       "basename": "认知觉醒",
       "path": "content/post/Book/认知觉醒.md"
+    },
+    {
+      "basename": "我的2024年度总结",
+      "path": "content/post/2024/我的2024年度总结.md"
     },
     {
       "basename": "Medium解锁：用脚本一键解锁Medium付费文章",
@@ -29,20 +45,12 @@
       "path": "content/post/2024/Hexo搭建进阶：Vercel部署、主题安装、基础用法.md"
     },
     {
-      "basename": "原子习惯",
-      "path": "content/post/Book/原子习惯.md"
-    },
-    {
       "basename": "更换博客框架-hugo",
       "path": "content/post/2024/更换博客框架-hugo.md"
     },
     {
       "basename": "template",
       "path": "@fiveth/template.md"
-    },
-    {
-      "basename": "BLOG",
-      "path": "@fiveth/BLOG.md"
     },
     {
       "basename": "雅思7分的教训：听力8.5，口语踩雷",

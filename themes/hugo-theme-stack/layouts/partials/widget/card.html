@@ -1,0 +1,86 @@
+<div class="widget">
+    <div class="wechat">
+        <div class="face"></div>
+        <div class="back face"></div>
+    </div>
+</div>
+
+<style>
+    .wechat {
+        background: #3e9f50;
+    }
+
+    .wechat {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        padding: 0;
+        cursor: pointer;
+        border: none;
+        height: 110px;
+
+        &:hover {
+            .face {
+                opacity: 0;
+                visibility: hidden;
+                /* 使其不可见 */
+            }
+
+            .back.face {
+                opacity: 1;
+                visibility: visible;
+                /* 使其可见 */
+            }
+        }
+    }
+
+    .wechat {
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+
+        transition: .3s;
+        position: relative;
+        overflow: hidden;
+        padding: 1rem;
+        display: flex;
+        gap: 8px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .face {
+        background: url(https://p.zhheo.com/Y87vtG22690881691546426143.png!cover) center center no-repeat;
+        background-size: cover;
+        transition: .3s;
+    }
+
+    .face {
+        position: absolute;
+        width: 90%;
+        height: 90%;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+
+        transition: opacity 0.3s ease, visibility 0.3s ease;
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .back.face {
+        background: url(https://p.fiveth.cc/img/2025/0110103746.png) center center no-repeat;
+        background-size: cover;
+        transition: .3s;
+    }
+
+    .face {
+        /* 初始状态：显示 */
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .back.face {
+        /* 初始状态：隐藏 */
+        opacity: 0;
+        visibility: hidden;
+    }
+</style>
