@@ -30,10 +30,6 @@ sites:
   website: https://blogwe.com/
   image: https://blogwe.com/img/logo200.png
   description: 我们，一直都在！
-- title: 博客录
-  website: https://boke.lu/
-  image: https://boke.lu/logo/透明底圆底.png
-  description: 博客收录展示平台
 links:
 - title: 张洪Heo
   website: https://blog.zhheo.com/
@@ -41,7 +37,7 @@ links:
   description: 分享设计与科技生活
 - title: L1nSn0w’s Site
   website: https://linsnow.cn
-  image: https://linsnow.cn/avatar.png
+  image: https://cravatar.cn/avatar/9702b0e102b4524329aca1d057d3b65e?d=retro
   description: 无限进步.🎈
 - title: 安知鱼`Blog
   website: https://blog.anheyu.com/
@@ -105,7 +101,7 @@ links:
   description: 以有涯随无涯
 - title: 刘郎阁
   website: https://yjvc.cn/
-  image: https://yjvc.cn/usr/uploads/logo.jpeg
+  image: https://vjo.cc/usr/uploads/logo.jpeg
   description: 一个积极向上的生活探索者！
 - title: Fgaoxing
   description: 一个少年的博客
@@ -135,6 +131,10 @@ links:
   description: 抱怨身处黑暗，不如提灯前行
   website: https://blog.1zxbc.cn
   image: https://q2.qlogo.cn/g?b=qq&nk=2694199949&s=100
+- title: 猪猪的博客
+  description: 一个简单的博客
+  website: blog.yizhixiaozhu.top
+  image: https://s.nmxc.ltd/sakurairo_vision/@2.7/basic/favicon.ico
 ---
 
 ## 本站信息🙂
