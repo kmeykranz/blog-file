@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>链表 on Fiveth</title>
-        <link>https://blog.fiveth.cc/tags/%E9%93%BE%E8%A1%A8/</link>
+        <link>http://localhost:56056/tags/%E9%93%BE%E8%A1%A8/</link>
         <description>Recent content in 链表 on Fiveth</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Fiveth</copyright>
-        <lastBuildDate>Mon, 09 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.fiveth.cc/tags/%E9%93%BE%E8%A1%A8/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Mon, 09 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:56056/tags/%E9%93%BE%E8%A1%A8/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>链表</title>
-        <link>https://blog.fiveth.cc/p/c8a8/</link>
+        <link>http://localhost:56056/p/c8a8/</link>
         <pubDate>Mon, 09 Jan 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://blog.fiveth.cc/p/c8a8/</guid>
+        <guid>http://localhost:56056/p/c8a8/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/m/linklist.webp" alt="Featured image of post 链表" /&gt;&lt;p&gt;我们存储很多数的时候，通常使用数组，但是数组不够灵活。&lt;/p&gt;
 &lt;p&gt;哦？为什么说不灵活？&lt;/p&gt;
 &lt;p&gt;我们如果要在一个数组前面或者中间插入一个数，就会很麻烦。&lt;/p&gt;

@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>我的项目 on Fiveth</title>
-        <link>https://blog.fiveth.cc/categories/%E6%88%91%E7%9A%84%E9%A1%B9%E7%9B%AE/</link>
+        <link>http://localhost:56056/categories/%E6%88%91%E7%9A%84%E9%A1%B9%E7%9B%AE/</link>
         <description>Recent content in 我的项目 on Fiveth</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>Fiveth</copyright><atom:link href="https://blog.fiveth.cc/categories/%E6%88%91%E7%9A%84%E9%A1%B9%E7%9B%AE/index.xml" rel="self" type="application/rss+xml" />
+        <copyright>Fiveth</copyright><atom:link href="http://localhost:56056/categories/%E6%88%91%E7%9A%84%E9%A1%B9%E7%9B%AE/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>
