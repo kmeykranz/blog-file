@@ -16,8 +16,71 @@
 <meta name="twitter:description" content="初看到书名时，我本以为这是一本普通的鸡汤。实则不然，在短短阅读十几页后，我就感受到了这本书强大的力量。某种角度来讲，这本书能解决一切你在生活中的问题，无论是疾病、焦虑还是痛苦。这是一本心灵之书，文章开篇就提到，不要用理性去思考文中的内容，内容也包含了很多宗教思想。到目前为止，我认为这可能是我看过收益最大的一本书，因为他撼动了我对生命的思考。今天就跟大家分享下一些内容。\n"><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='https://p.fiveth.cc/img/2025/0109192819.png' />
     <link rel="shortcut icon" href="/img/favicon.ico" />
+<div class="loading">
+    
+      
+     
+    <div class="spinner">
+        <div class="spinner1"></div>
+    </div>
+    
+</div>
 
+<style>
+    .loading {
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1001;
+        background-color: #2a2a2ac5;
+    }
+	
+     
+      
+      
+    .spinner {
+    background-image: linear-gradient(rgb(186, 66, 255) 35%,rgb(0, 225, 255));
+    width: 100px;
+    height: 100px;
+    animation: spinning82341 1.7s linear infinite;
+    text-align: center;
+    border-radius: 50px;
+    filter: blur(1px);
+    box-shadow: 0px -5px 20px 0px rgb(186, 66, 255), 0px 5px 20px 0px rgb(0, 225, 255);
+    }
 
+    .spinner1 {
+    background-color: rgb(36, 36, 36);
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    filter: blur(10px);
+    }
+
+    @keyframes spinning82341 {
+    to {
+        transform: rotate(360deg);
+    }
+    }
+
+</style>
+
+<script>	
+    function initLoading() {
+        let loading = document.querySelector(".loading");
+        document.addEventListener('DOMContentLoaded', function() {
+            
+            loading.style.display = "none";
+        });
+    }
+
+    initLoading();
+</script>
 
 </head>
 

@@ -16,8 +16,71 @@
 <meta name="twitter:description" content="对一个网站来说，性能是非常重要的，它决定了用户在网页停留的时长。\n如果网页的加载速度很慢的话，用户很容易就会离去。\n有朋友说我的博客速度挺快的，这篇文章就讲讲我是如何优化我的网站性能的。\n"><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='https://p.fiveth.cc/img/m/perf.jpg' />
     <link rel="shortcut icon" href="/img/favicon.ico" />
+<div class="loading">
+    
+      
+     
+    <div class="spinner">
+        <div class="spinner1"></div>
+    </div>
+    
+</div>
 
+<style>
+    .loading {
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1001;
+        background-color: #2a2a2ac5;
+    }
+	
+     
+      
+      
+    .spinner {
+    background-image: linear-gradient(rgb(186, 66, 255) 35%,rgb(0, 225, 255));
+    width: 100px;
+    height: 100px;
+    animation: spinning82341 1.7s linear infinite;
+    text-align: center;
+    border-radius: 50px;
+    filter: blur(1px);
+    box-shadow: 0px -5px 20px 0px rgb(186, 66, 255), 0px 5px 20px 0px rgb(0, 225, 255);
+    }
 
+    .spinner1 {
+    background-color: rgb(36, 36, 36);
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    filter: blur(10px);
+    }
+
+    @keyframes spinning82341 {
+    to {
+        transform: rotate(360deg);
+    }
+    }
+
+</style>
+
+<script>	
+    function initLoading() {
+        let loading = document.querySelector(".loading");
+        document.addEventListener('DOMContentLoaded', function() {
+            
+            loading.style.display = "none";
+        });
+    }
+
+    initLoading();
+</script>
 
 </head>
 

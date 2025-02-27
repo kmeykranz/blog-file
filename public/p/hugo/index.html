@@ -16,8 +16,71 @@
 <meta name="twitter:description" content="hi，大家应该发现了，我的博客变样了\n因为我把博客从Hexo迁移到了Hugo\n2022年疫情上网课的时候，我用Hexo搭建了我的个人博客\n2024将博客迁移至了Hugo\n"><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='https://p.fiveth.cc/img/2024/0518131750.webp' />
     <link rel="shortcut icon" href="/img/favicon.ico" />
+<div class="loading">
+    
+      
+     
+    <div class="spinner">
+        <div class="spinner1"></div>
+    </div>
+    
+</div>
 
+<style>
+    .loading {
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1001;
+        background-color: #2a2a2ac5;
+    }
+	
+     
+      
+      
+    .spinner {
+    background-image: linear-gradient(rgb(186, 66, 255) 35%,rgb(0, 225, 255));
+    width: 100px;
+    height: 100px;
+    animation: spinning82341 1.7s linear infinite;
+    text-align: center;
+    border-radius: 50px;
+    filter: blur(1px);
+    box-shadow: 0px -5px 20px 0px rgb(186, 66, 255), 0px 5px 20px 0px rgb(0, 225, 255);
+    }
 
+    .spinner1 {
+    background-color: rgb(36, 36, 36);
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    filter: blur(10px);
+    }
+
+    @keyframes spinning82341 {
+    to {
+        transform: rotate(360deg);
+    }
+    }
+
+</style>
+
+<script>	
+    function initLoading() {
+        let loading = document.querySelector(".loading");
+        document.addEventListener('DOMContentLoaded', function() {
+            
+            loading.style.display = "none";
+        });
+    }
+
+    initLoading();
+</script>
 
 </head>
 

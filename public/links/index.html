@@ -15,8 +15,71 @@
 <meta name="twitter:title" content="友链">
 <meta name="twitter:description" content="本站信息🙂\r我的名称: Fiveth 网站地址: https://blog.fiveth.cc/ 描述: 分享知识与生活🎈 头像: https://p.fiveth.cc/avatar.png 加入本站友链方式🥳\r添加本站友链后，参照以下格式留言即可\n- title: #站点名称 website: #站点链接 description: #站点描述 image: #站长头像 友链交换须知🤔\r🧂正常安全的网址，有一个稳定的域名. 🍿站点至少正常运行一个星期. 🍗只接受双向友链. 😀不要接入广告. 🍖不接受内容加载不完全的站点，不接受加载速度极慢的站点 😁尽量定期更新,如果长期不更新或者不维护的话我可能会将其撤掉!!!!! 😑文章需以生活类折腾类为主.（不接受纯技术类） 😅至少有10篇及以上原创文章. 🧨本站目前不再接受资源类、工具类、导航类、文章搬运类、纯技术文章搬运类等站点. 😗有时可能为了保持友链页质量删除一些较低质量的友链 ">
     <link rel="shortcut icon" href="/img/favicon.ico" />
+<div class="loading">
+    
+      
+     
+    <div class="spinner">
+        <div class="spinner1"></div>
+    </div>
+    
+</div>
 
+<style>
+    .loading {
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1001;
+        background-color: #2a2a2ac5;
+    }
+	
+     
+      
+      
+    .spinner {
+    background-image: linear-gradient(rgb(186, 66, 255) 35%,rgb(0, 225, 255));
+    width: 100px;
+    height: 100px;
+    animation: spinning82341 1.7s linear infinite;
+    text-align: center;
+    border-radius: 50px;
+    filter: blur(1px);
+    box-shadow: 0px -5px 20px 0px rgb(186, 66, 255), 0px 5px 20px 0px rgb(0, 225, 255);
+    }
 
+    .spinner1 {
+    background-color: rgb(36, 36, 36);
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    filter: blur(10px);
+    }
+
+    @keyframes spinning82341 {
+    to {
+        transform: rotate(360deg);
+    }
+    }
+
+</style>
+
+<script>	
+    function initLoading() {
+        let loading = document.querySelector(".loading");
+        document.addEventListener('DOMContentLoaded', function() {
+            
+            loading.style.display = "none";
+        });
+    }
+
+    initLoading();
+</script>
 
 </head>
 

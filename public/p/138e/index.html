@@ -16,8 +16,71 @@
 <meta name="twitter:description" content=" 本篇前文：如何用Hexo搭建个人博客? 本文基于Hexo博客搭建基础教程(二)修改，部分转载 我的Hexo优化系列：Hexo文章目录 我的博客搭建教程是一年前写的了，非常感谢fomalhaut，当时我是跟着他的教程一步步搭建的。最近我终于在b站发了视频版的博客搭建教程，有很多朋友想进一步优化博客。这篇文章接上一篇，教大家将博客部署到vercel、主题安装、Hexo博客的基础用法。\n"><meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:image" content='https://p.fiveth.cc/img/m/hexo.jpg' />
     <link rel="shortcut icon" href="/img/favicon.ico" />
+<div class="loading">
+    
+      
+     
+    <div class="spinner">
+        <div class="spinner1"></div>
+    </div>
+    
+</div>
 
+<style>
+    .loading {
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1001;
+        background-color: #2a2a2ac5;
+    }
+	
+     
+      
+      
+    .spinner {
+    background-image: linear-gradient(rgb(186, 66, 255) 35%,rgb(0, 225, 255));
+    width: 100px;
+    height: 100px;
+    animation: spinning82341 1.7s linear infinite;
+    text-align: center;
+    border-radius: 50px;
+    filter: blur(1px);
+    box-shadow: 0px -5px 20px 0px rgb(186, 66, 255), 0px 5px 20px 0px rgb(0, 225, 255);
+    }
 
+    .spinner1 {
+    background-color: rgb(36, 36, 36);
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    filter: blur(10px);
+    }
+
+    @keyframes spinning82341 {
+    to {
+        transform: rotate(360deg);
+    }
+    }
+
+</style>
+
+<script>	
+    function initLoading() {
+        let loading = document.querySelector(".loading");
+        document.addEventListener('DOMContentLoaded', function() {
+            
+            loading.style.display = "none";
+        });
+    }
+
+    initLoading();
+</script>
 
 </head>
 
