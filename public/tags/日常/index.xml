@@ -2,21 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>日常 on Fiveth</title>
-        <link>http://localhost:56056/tags/%E6%97%A5%E5%B8%B8/</link>
+        <link>https://blog.fiveth.cc/tags/%E6%97%A5%E5%B8%B8/</link>
         <description>Recent content in 日常 on Fiveth</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Fiveth</copyright>
-        <lastBuildDate>Wed, 19 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:56056/tags/%E6%97%A5%E5%B8%B8/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Wed, 19 Feb 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.fiveth.cc/tags/%E6%97%A5%E5%B8%B8/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>图灵完备：一款教你搭建计算机的游戏</title>
-        <link>http://localhost:56056/p/turing-complete/</link>
+        <link>https://blog.fiveth.cc/p/turing-complete/</link>
         <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:56056/p/turing-complete/</guid>
+        <guid>https://blog.fiveth.cc/p/turing-complete/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/2025%2F0219212425.png" alt="Featured image of post 图灵完备：一款教你搭建计算机的游戏" /&gt;&lt;p&gt;最近在 Steam 上发现了一个神仙游戏，《Turing Complete》。&lt;/p&gt;
 &lt;p&gt;这是一款模拟电路，搭建计算机的游戏，从开始的 &lt;code&gt;或门、非门、与门...&lt;/code&gt;，到 &lt;code&gt;存储器、计算引擎、条件控制器&lt;/code&gt;，然后组出一个 &lt;code&gt;计算机&lt;/code&gt;，再之后用 &lt;code&gt;汇编语言&lt;/code&gt;，写一些简单的小游戏。&lt;/p&gt;
 &lt;p&gt;作为还是一个高中生的我，第一次了解了计算机电路的底层原理，电线的开（1）、关（0），被先人们运用到了极致，非常巧妙的组出了各种逻辑门，然后层层递进，到做出各种元件。&lt;/p&gt;
 &lt;p&gt;以前刷到过在 MC 里搭建计算机的视频，当时完全还不懂，觉得用了命令块之类的，在玩了这款游戏之后我恍然大悟，原来只要用那几个基础的红石元件，完全可以一点一点地做出一个计算机。&lt;/p&gt;
+&lt;p&gt;这下真的是在边玩游戏边学习了，游戏里还普及了德摩根定律：对四个基础逻辑门的输入或输出进行取反，即可互相转换。&lt;/p&gt;
+&lt;p&gt;这样通过玩游戏的形式，一点一点的过关斩将，模拟做出计算机，是个不错的办法。在以后实际上手的时候，或者在学习这个知识的时候，会轻松很多。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;https://p.fiveth.cc/img/2025%2F0219215324.png&#34;
 	
 	
@@ -29,10 +31,10 @@
         </item>
         <item>
         <title>我的知识管理工具：笔记软件UpNote和PARA系统</title>
-        <link>http://localhost:56056/p/note-tools/</link>
+        <link>https://blog.fiveth.cc/p/note-tools/</link>
         <pubDate>Tue, 07 Jan 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:56056/p/note-tools/</guid>
+        <guid>https://blog.fiveth.cc/p/note-tools/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/2025/0109192517.png" alt="Featured image of post 我的知识管理工具：笔记软件UpNote和PARA系统" /&gt;&lt;p&gt;之前也折腾过很多笔记软件，从 &lt;code&gt;Typora&lt;/code&gt; 到 &lt;code&gt;Notion&lt;/code&gt; 到 &lt;code&gt;Obsidian&lt;/code&gt;。直到最近发现了 &lt;code&gt;UpNote&lt;/code&gt;。&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code&gt;Obsidian&lt;/code&gt; 的问题：多端同步不方便，我经常用ipad写笔记，&lt;code&gt;obsidian&lt;/code&gt; 在手机端显得有些拥挤，操作不方便。&lt;/li&gt;
@@ -98,10 +100,10 @@
         </item>
         <item>
         <title>雅思7分的教训：听力8.5，口语踩雷</title>
-        <link>http://localhost:56056/p/938f/</link>
+        <link>https://blog.fiveth.cc/p/938f/</link>
         <pubDate>Sat, 20 Apr 2024 20:24:00 +0000</pubDate>
         
-        <guid>http://localhost:56056/p/938f/</guid>
+        <guid>https://blog.fiveth.cc/p/938f/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/2024/0420213033.jpg" alt="Featured image of post 雅思7分的教训：听力8.5，口语踩雷" /&gt;&lt;p&gt;这是我第二次考雅思，考了7分。全靠听力8.5拉的分，口语甚至只考了个5.5，非常离谱。我对这份成绩是有些失望的，尤其是口语给我整无语了。&lt;/p&gt;
 &lt;img src=&#34;https://p.fiveth.cc/img/2024/0420203736.jpg&#34; style=&#34;zoom:50%;&#34; /&gt;
 &lt;p&gt;我第一次考的是6.5分，当时口语还有6，这次给了个5.5，我个人认为发挥是差不多的，可能是考官的判断问题。值得一提的是我踩了个雷，在有一个问题的时候，我刚回答了个&lt;code&gt;Of Course&lt;/code&gt;，之后考官立马地打断我，问下一个问题。当时我非常疑惑，回头考完一查发现&lt;code&gt;Of Course&lt;/code&gt;是非常不礼貌的，意思相当于&lt;code&gt;“这不废话吗”&lt;/code&gt;😅。&lt;/p&gt;

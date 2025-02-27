@@ -15,9 +15,11 @@
     // 行内代码前景色
     --code-text-color: #e96900;
     //主题色
-    --theme-color: rgb(62, 204, 255);
+    --theme-color: rgb(235, 103, 255);
 
-    --author-background: linear-gradient(45deg, #0f3fa5, #8aacd2);
+    --author-background: #a36edb;
+
+    --border: 1px solid #e3e8f7;
 
     // 暗色模式下样式
     &[data-scheme="dark"] {
@@ -26,13 +28,15 @@
         // 行内代码前景色
         --code-text-color: #e96900;
         // 暗黑模式下背景色
-        --body-background: #000;
+        --body-background: #18171d;
         // 暗黑模式下卡片背景色
-        --card-background: hsl(225 13% 12% / 1);
+        --card-background: #21242f;
         //主题色
         --theme-color: rgb(235, 103, 255);
 
-        --author-background: linear-gradient(45deg, #570fa5, #ad8ad2);
+        --author-background: #7341a8;
+
+        --border: 1px solid #3d3d3f;
     }
 }
 
@@ -459,12 +463,32 @@ html {
 //---------------------------------------------------------
 //首页欢迎板块样式
 .welcome {
-    color: var(--card-text-color-main);
+    // color: var(--card-text-color-main);
+    // background: var(--card-background);
+    // box-shadow: var(--shadow-l2);
+    // border-radius: 30px;
+    display: inline-block;
+}
+
+.welcome-image {
+    margin-top:10px;
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    color: #d6dee1;
     background: var(--card-background);
     box-shadow: var(--shadow-l2);
     border-radius: 30px;
-    display: inline-block;
+    background-image: url('https://p.fiveth.cc/img/2025%2F0226163723.gif');
+    background-size: cover;
+    background-position: center;
+    border:var(--border);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
 }
+
 
 // 👋emoji实现摆动效果
 .shake {
@@ -713,8 +737,8 @@ strong {
 
 @media (min-width: 768px) {
     .left-sidebar {
-        padding-top: 15px;
-        padding-bottom: 15px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 }
 
@@ -783,7 +807,7 @@ strong {
 
     &:hover {
         transform: translateY(-5px);
-        box-shadow: 0px 0px 10px var(--theme-color) !important;
+        // box-shadow: 0px 0px 10px var(--theme-color) !important;
     }
 }
 
@@ -793,7 +817,7 @@ strong {
 
     &:hover {
         transform: translateY(-10px);
-        box-shadow: 0px 0px 20px var(--theme-color) !important;
+        // box-shadow: 0px 0px 20px var(--theme-color) !important;
     }
 }
 
@@ -823,7 +847,7 @@ strong {
 
 .subsection-list .article-list--tile article .article-title {
     font-size: 3rem;
-    color: #000;
+    color: #ffffff;
 }
 
 .right-menu {
@@ -885,3 +909,4 @@ strong {
 .hamburger {
     margin-top: 5px;
 }
+

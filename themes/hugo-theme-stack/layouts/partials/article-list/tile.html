@@ -37,19 +37,3 @@
         </div>
     </a>
 </article>
-
-<script>
-    document.addEventListener('DOMContentLoaded', function () {
-        // 预设的颜色数组
-        const colors = ['#FF8383', '#FFF574', '#A1D6CB', '#A19AD3'];
-
-        // 获取所有的article元素
-        const articles = document.querySelectorAll('.article-card');
-
-        // 遍历每个article，设置背景色
-        articles.forEach((article, index) => {
-            // 使用预设的颜色，循环应用颜色
-            article.style.backgroundColor = colors[index % colors.length];
-        });
-    });
-</script>

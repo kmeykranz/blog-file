@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>筛质数 on Fiveth</title>
-        <link>http://localhost:56056/tags/%E7%AD%9B%E8%B4%A8%E6%95%B0/</link>
+        <link>https://blog.fiveth.cc/tags/%E7%AD%9B%E8%B4%A8%E6%95%B0/</link>
         <description>Recent content in 筛质数 on Fiveth</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Fiveth</copyright>
-        <lastBuildDate>Fri, 23 Dec 2022 11:29:22 +0000</lastBuildDate><atom:link href="http://localhost:56056/tags/%E7%AD%9B%E8%B4%A8%E6%95%B0/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Fri, 23 Dec 2022 11:29:22 +0000</lastBuildDate><atom:link href="https://blog.fiveth.cc/tags/%E7%AD%9B%E8%B4%A8%E6%95%B0/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>欧拉筛-高效筛选质数</title>
-        <link>http://localhost:56056/p/a680/</link>
+        <link>https://blog.fiveth.cc/p/a680/</link>
         <pubDate>Fri, 23 Dec 2022 11:29:22 +0000</pubDate>
         
-        <guid>http://localhost:56056/p/a680/</guid>
+        <guid>https://blog.fiveth.cc/p/a680/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/m/oula.webp" alt="Featured image of post 欧拉筛-高效筛选质数" /&gt;&lt;p&gt;如何高效筛素数？让我们来看看&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;题目&lt;/strong&gt;：生成一个1到n范围内的质数数组&lt;/p&gt;
 &lt;h2 id=&#34;菜鸟这样做枚举法&#34;&gt;菜鸟这样做（枚举法）

@@ -163,7 +163,6 @@ params:
             - type: author
               params:
                   limit: 5
-            - type: card
             - type: search
             - type: archives
               params:
