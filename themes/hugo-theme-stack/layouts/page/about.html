@@ -12,7 +12,7 @@
             margin-inline: auto;
         }
 
-        .site-avatar img{
+        .site-avatar img {
             border-radius: 50%;
             position: relative;
             width: 100px;
@@ -28,7 +28,7 @@
             bottom: 0;
             right: 0;
             text-align: center;
-            font-size:15px;
+            font-size: 15px;
             background-color: var(--card-background);
             box-shadow: 30px;
         }
@@ -46,7 +46,7 @@
             color: var(--accent-color);
             margin: 0;
             font-size: 2rem;
-            margin-top:10px;
+            margin-top: 10px;
         }
 
         .about-site-description {
@@ -176,6 +176,14 @@
                 flex-direction: column;
                 /* 卡片一列排列 */
             }
+
+            /* 针对每个卡片内容样式 */
+            .author-content {
+                flex-direction: column;
+                /* 确保每个作者内容部分也是一列 */
+                align-items: center;
+                /* 居中对齐 */
+            }
         }
 
         @media screen and (max-width: 480px) {
@@ -222,8 +230,8 @@
         <ol class="menu-social">
             {{ range . }}
             <li>
-                <a href='{{ .URL }}' {{ if eq (default true .Params.newTab) true }}target="_blank" {{ end }} {{ with .Name
-                    }}title="{{ . }}" {{ end }} rel="me">
+                <a href='{{ .URL }}' {{ if eq (default true .Params.newTab) true }}target="_blank" {{ end }} {{ with
+                    .Name }}title="{{ . }}" {{ end }} rel="me">
                     {{ $icon := default "link" .Params.Icon }}
                     {{ with $icon }}
                     {{ partial "helper/icon" . }}
@@ -234,8 +242,9 @@
         </ol>
         {{- end -}}
     </div>
-    
+
 </header>
+
 <body>
     <!-- 卡片容器 -->
     <div class="author-page-content">
