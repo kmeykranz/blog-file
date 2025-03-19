@@ -1,0 +1,36 @@
+{{ define "body-class" }}article-page keep-sidebar{{ end }}
+{{ define "main" }}
+
+
+<header>
+    <h2 class="section-title" style="margin-bottom: -20px;">我的小伙伴们</h2>
+</header>
+
+{{ if .Params.links }}
+{{ partial "article/components/links" . }}
+{{ end }}
+
+<header>
+    <h2 class="section-title" style="margin-bottom: -20px;">博客组织</h2>
+</header>
+
+{{ if .Params.sites }}
+{{ partial "article/components/sites" . }}
+{{ end }}
+
+
+<article class="{{ if .Params.image }}has-image {{ end }}main-article">
+    {{ partial "article/components/content" . }}
+
+    {{ if or .Params.math .Site.Params.article.math }}
+    {{ partialCached "article/components/math.html" . }}
+    {{ end }}
+</article>
+
+{{ if not (eq .Params.comments false) }}
+{{ partial "comments/include" . }}
+{{ end }}
+
+{{ partialCached "footer/footer" . }}
+
+{{ end }}

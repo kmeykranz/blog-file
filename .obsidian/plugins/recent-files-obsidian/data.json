@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "我的知识管理工具：UpNote和PARA",
+      "path": "content/post/2025/我的知识管理工具：UpNote和PARA.md"
+    },
+    {
       "basename": "BLOG",
       "path": "@fiveth/BLOG.md"
     },
@@ -9,28 +13,28 @@
       "path": "content/post/Book/认知觉醒.md"
     },
     {
-      "basename": "我的知识管理工具：UpNote和PARA",
-      "path": "content/post/2025/我的知识管理工具：UpNote和PARA.md"
+      "basename": "媒体上这么多知识，为什么还要读书？",
+      "path": "content/post/2025/媒体上这么多知识，为什么还要读书？.md"
     },
     {
       "basename": "Medium解锁：用脚本一键解锁Medium付费文章",
       "path": "content/post/2025/Medium解锁：用脚本一键解锁Medium付费文章.md"
     },
     {
-      "basename": "原子习惯",
-      "path": "content/post/Book/原子习惯.md"
-    },
-    {
       "basename": "当下的力量",
       "path": "content/post/Book/当下的力量.md"
     },
     {
-      "basename": "图灵完备：一个教你搭建计算机的游戏",
-      "path": "content/post/2025/图灵完备：一个教你搭建计算机的游戏.md"
+      "basename": "雅思7分的教训：听力8.5，口语踩雷",
+      "path": "content/post/2024/雅思7分的教训：听力8.5，口语踩雷.md"
     },
     {
-      "basename": "媒体上这么多知识，为什么还要读书？",
-      "path": "content/post/2025/媒体上这么多知识，为什么还要读书？.md"
+      "basename": "原子习惯",
+      "path": "content/post/Book/原子习惯.md"
+    },
+    {
+      "basename": "图灵完备：一个教你搭建计算机的游戏",
+      "path": "content/post/2025/图灵完备：一个教你搭建计算机的游戏.md"
     },
     {
       "basename": "颈椎训练",
@@ -71,10 +75,6 @@
     {
       "basename": "更换博客框架-hugo",
       "path": "content/post/2024/更换博客框架-hugo.md"
-    },
-    {
-      "basename": "雅思7分的教训：听力8.5，口语踩雷",
-      "path": "content/post/2024/雅思7分的教训：听力8.5，口语踩雷.md"
     },
     {
       "basename": "辗转相除法-求最大公因数",

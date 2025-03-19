@@ -135,6 +135,10 @@ links:
   description: 一个简单的博客
   website: blog.yizhixiaozhu.top
   image: https://s.nmxc.ltd/sakurairo_vision/@2.7/basic/favicon.ico
+- title: 时光博客
+  website: https://blog.3ms.run/
+  description: 探索科技与生活的交汇。
+  image: https://blog.3ms.run/img/avatar-icon.jpg
 ---
 
 ## 本站信息🙂

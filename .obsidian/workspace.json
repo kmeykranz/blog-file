@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "@fiveth/BLOG.md",
+                "file": "content/post/2025/我的知识管理工具：UpNote和PARA.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "BLOG"
+              "title": "我的知识管理工具：UpNote和PARA"
             }
           }
         ]
@@ -107,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "2963cec0ad45d214",
@@ -123,13 +123,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "@fiveth/BLOG.md",
+                "file": "content/post/2025/我的知识管理工具：UpNote和PARA.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "BLOG 的大纲"
+              "title": "Outline of 我的知识管理工具：UpNote和PARA"
             }
           }
         ]
@@ -150,7 +150,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "标签"
+              "title": "Tags"
             }
           },
           {
@@ -159,12 +159,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "@fiveth/BLOG.md",
+                "file": "content/post/2025/我的知识管理工具：UpNote和PARA.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "BLOG 的出链列表"
+              "title": "Outgoing links from 我的知识管理工具：UpNote和PARA"
             }
           },
           {
@@ -173,7 +173,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "@fiveth/BLOG.md",
+                "file": "content/post/2025/我的知识管理工具：UpNote和PARA.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +183,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "BLOG 的反向链接列表"
+              "title": "Backlinks for 我的知识管理工具：UpNote和PARA"
             }
           }
         ]
@@ -194,8 +194,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:打开快速切换": false,
-      "command-palette:打开命令面板": false,
+      "switcher:Open quick switcher": false,
+      "command-palette:Open command palette": false,
       "obsidian-shellcommands:Shell commands: Custom variables": false,
       "quickadd:QuickAdd": false,
       "homepage:Open homepage": false,
@@ -203,16 +203,17 @@
       "cmdr:publish": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "08c14c6ffa12fcd5",
   "lastOpenFiles": [
-    "content/post/Book/认知觉醒.md",
     "@fiveth/BLOG.md",
-    "content/post/2025/我的知识管理工具：UpNote和PARA.md",
-    "content/post/2025/Medium解锁：用脚本一键解锁Medium付费文章.md",
-    "content/post/Book/原子习惯.md",
-    "content/post/Book/当下的力量.md",
-    "content/post/2025/图灵完备：一个教你搭建计算机的游戏.md",
+    "content/post/Book/认知觉醒.md",
     "content/post/2025/媒体上这么多知识，为什么还要读书？.md",
+    "content/post/2025/Medium解锁：用脚本一键解锁Medium付费文章.md",
+    "content/post/2025/我的知识管理工具：UpNote和PARA.md",
+    "content/post/Book/当下的力量.md",
+    "content/post/2024/雅思7分的教训：听力8.5，口语踩雷.md",
+    "content/post/Book/原子习惯.md",
+    "content/post/2025/图灵完备：一个教你搭建计算机的游戏.md",
     "content/post/2024/我的2024年度总结.md",
     "content/post/2024/颈椎训练.md",
     "content/post/2024/Hexo搭建进阶：Vercel部署、主题安装、基础用法.md",
@@ -234,7 +235,6 @@
     "content/post/2024/更换博客框架-hugo.md",
     "public/p/medium-unlock/index.html",
     "public/p/medium-unlock",
-    "content/post/2024/雅思7分的教训：听力8.5，口语踩雷.md",
     "content/post/2025/我的2024年度总结 1.md",
     "public/img/code-header.svg",
     "public/img/avatar.png",

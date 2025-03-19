@@ -1,37 +1,70 @@
 <div class="widget">
     <div class="author">
-        <p>Hello</p>
-        {{ with .Site.Params.sidebar.avatar }}
-        {{ if (default true .enabled) }}
-        <figure class="site-avatar">
-            <a href="{{ .Site.BaseURL | relLangURL }}">
-                {{ if not .local }}
-                <img src="{{ .src }}" width="300" height="300" class="site-logo" loading="lazy" alt="Avatar">
-                {{ else }}
-                {{ $avatar := resources.Get (.src) }}
+            <figure class="site-avatar">
+                <a href="/">
         
-                {{ if $avatar }}
-                {{ $avatarResized := $avatar.Resize "300x" }}
-                <img src="{{ $avatarResized.RelPermalink }}" width="{{ $avatarResized.Width }}"
-                    height="{{ $avatarResized.Height }}" class="site-logo" loading="lazy" alt="Avatar">
-                {{ else }}
-                {{ errorf "Failed loading avatar from %q" . }}
-                {{ end }}
-                {{ end }}
-            </a>
-            {{ with $.Site.Params.sidebar.emoji }}
-            <span class="emoji">{{ . }}</span>
-            {{ end }}
-        </figure>
-        {{ end }}
-        {{ end }}
+                    <img src="/img/avatar.png" width="300" height="300" class="site-logo" loading="lazy" alt="Avatar">
+        
+                </a>
+        
+                <span class="emoji">🍥</span>
+        
+            </figure>
+        
+        
+        
+            <div class="site-meta">
+                <h1 class="about-site-name"><a href="/">Fiveth</a></h1>
+                <h2 class="about-site-description">分享知识与生活🎈</h2>
+                <ol class="menu-social">
+        
+                    <li>
+                        <a href="https://github.com/kmeykranz" target="_blank" title="GitHub" rel="me">
+        
+        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24"
+                                height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                                <path
+                                    d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5">
+                                </path>
+                            </svg>
+        
+        
+        
+        
+                        </a>
+                    </li>
+        
+                    <li>
+                        <a href="/index.xml" target="_blank" title="RSS" rel="me">
+        
+        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-rss" width="24"
+                                height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path stroke="none" d="M0 0h24v24H0z"></path>
+                                <circle cx="5" cy="19" r="1"></circle>
+                                <path d="M4 4a16 16 0 0 1 16 16"></path>
+                                <path d="M4 11a9 9 0 0 1 9 9"></path>
+                            </svg>
+        
+        
+        
+        
+                        </a>
+                    </li>
+        
+                </ol>
+            </div>
 
     </div>
 </div>
 
 <style>
     .author {
-        background: var(--theme-color);
+        background: var(--author-background);
     }
 
     .author {
@@ -62,24 +95,26 @@
     .site-avatar {
         position: relative;
         margin: 0;
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
         flex-shrink: 0;
         margin-inline: auto;
+        user-select: none;
     }
 
     .site-avatar img {
         border-radius: 50%;
         position: relative;
-        width: 100px;
-        height: 100px;
+        width: 80px;
+        height: 80px;
+        user-select: none;
     }
 
     .site-avatar .emoji {
         position: absolute;
-        width: 30px;
-        height: 30px;
-        line-height: 30px;
+        width: 25px;
+        height: 25px;
+        line-height: 25px;
         border-radius: 100%;
         bottom: 0;
         right: 0;
@@ -96,20 +131,31 @@
         justify-content: center;
         margin-inline: auto;
         align-items: center;
+        user-select: none;
     }
 
     .about-site-name {
-        color: var(--accent-color);
+        color: #ecf0f1 !important;
         margin: 0;
-        font-size: 2rem;
+        font-size: 1.8rem;
         margin-top: 10px;
+        user-select: none;
+    }
+
+    .about-site-name a{
+        color: #ecf0f1 !important;
     }
 
     .about-site-description {
         margin-left: 15px;
-        color: var(--body-text-color);
+        color: rgba(255, 255, 255, 0.7);
         font-weight: 400;
         margin-top: 0;
-        font-size: 1.8rem;
+        font-size: 1.6rem;
+        user-select: none;
+    }
+
+    .menu-social svg{
+        stroke: rgba(255, 255, 255, 0.7);
     }
 </style>
