@@ -1,28 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "我的知识管理工具：UpNote和PARA",
-      "path": "content/post/2025/我的知识管理工具：UpNote和PARA.md"
-    },
-    {
-      "basename": "BLOG",
-      "path": "@fiveth/BLOG.md"
-    },
-    {
-      "basename": "认知觉醒",
-      "path": "content/post/Book/认知觉醒.md"
-    },
-    {
-      "basename": "媒体上这么多知识，为什么还要读书？",
-      "path": "content/post/2025/媒体上这么多知识，为什么还要读书？.md"
-    },
-    {
-      "basename": "Medium解锁：用脚本一键解锁Medium付费文章",
-      "path": "content/post/2025/Medium解锁：用脚本一键解锁Medium付费文章.md"
-    },
-    {
-      "basename": "当下的力量",
-      "path": "content/post/Book/当下的力量.md"
+      "basename": "Hugo Theme Cybe：分享一下我自己魔改的博客主题",
+      "path": "content/post/2025/Hugo Theme Cybe：分享一下我自己魔改的博客主题.md"
     },
     {
       "basename": "雅思7分的教训：听力8.5，口语踩雷",
@@ -33,8 +13,36 @@
       "path": "content/post/Book/原子习惯.md"
     },
     {
+      "basename": "BLOG",
+      "path": "@fiveth/BLOG.md"
+    },
+    {
+      "basename": "我的知识管理工具：UpNote和PARA",
+      "path": "content/post/2025/我的知识管理工具：UpNote和PARA.md"
+    },
+    {
+      "basename": "Medium解锁：用脚本一键解锁Medium付费文章",
+      "path": "content/post/2025/Medium解锁：用脚本一键解锁Medium付费文章.md"
+    },
+    {
+      "basename": "媒体上这么多知识，为什么还要读书？",
+      "path": "content/post/2025/媒体上这么多知识，为什么还要读书？.md"
+    },
+    {
       "basename": "图灵完备：一个教你搭建计算机的游戏",
       "path": "content/post/2025/图灵完备：一个教你搭建计算机的游戏.md"
+    },
+    {
+      "basename": "template",
+      "path": "@fiveth/template.md"
+    },
+    {
+      "basename": "认知觉醒",
+      "path": "content/post/Book/认知觉醒.md"
+    },
+    {
+      "basename": "当下的力量",
+      "path": "content/post/Book/当下的力量.md"
     },
     {
       "basename": "颈椎训练",
@@ -63,10 +71,6 @@
     {
       "basename": "摆脱3DM启动器打开游戏：避免捆绑下载笑傲江湖",
       "path": "content/post/2023/摆脱3DM启动器打开游戏：避免捆绑下载笑傲江湖.md"
-    },
-    {
-      "basename": "template",
-      "path": "@fiveth/template.md"
     },
     {
       "basename": "读书日：聊聊我的读书方法",
@@ -131,30 +135,6 @@
     {
       "basename": "自制-深色",
       "path": "自制-深色.md"
-    },
-    {
-      "basename": "AnuPpuccin设置对照",
-      "path": "AnuPpuccin设置对照.md"
-    },
-    {
-      "basename": "回避型依恋人格",
-      "path": "回避型依恋人格.md"
-    },
-    {
-      "basename": "风景",
-      "path": "精选壁纸/风景.md"
-    },
-    {
-      "basename": "极简",
-      "path": "精选壁纸/极简.md"
-    },
-    {
-      "basename": "场景",
-      "path": "精选壁纸/场景.md"
-    },
-    {
-      "basename": "什么是回避型依恋人格",
-      "path": "什么是回避型依恋人格.md"
     }
   ],
   "omittedPaths": [],

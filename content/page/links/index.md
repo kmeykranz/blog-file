@@ -133,7 +133,7 @@ links:
   image: https://q2.qlogo.cn/g?b=qq&nk=2694199949&s=100
 - title: 猪猪的博客
   description: 一个简单的博客
-  website: blog.yizhixiaozhu.top
+  website: https://blog.yizhixiaozhu.top
   image: https://s.nmxc.ltd/sakurairo_vision/@2.7/basic/favicon.ico
 - title: 时光博客
   website: https://blog.3ms.run/

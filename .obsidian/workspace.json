@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/post/2025/我的知识管理工具：UpNote和PARA.md",
+                "file": "content/post/2025/Hugo Theme Cybe：分享一下我自己魔改的博客主题.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "我的知识管理工具：UpNote和PARA"
+              "title": "Hugo Theme Cybe：分享一下我自己魔改的博客主题"
             }
           }
         ]
@@ -33,7 +33,7 @@
       {
         "id": "32012980b61c0e1b",
         "type": "tabs",
-        "dimension": 64.3979057591623,
+        "dimension": 62.19281663516069,
         "children": [
           {
             "id": "5b6c54491a107585",
@@ -45,7 +45,7 @@
                 "autoReveal": false
               },
               "icon": "lucide-folder-closed",
-              "title": "文件列表"
+              "title": "Files"
             }
           },
           {
@@ -91,7 +91,7 @@
       {
         "id": "8af99d7064903c60",
         "type": "tabs",
-        "dimension": 35.602094240837694,
+        "dimension": 37.80718336483932,
         "children": [
           {
             "id": "9f705daa05b4a129",
@@ -123,13 +123,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/post/2025/我的知识管理工具：UpNote和PARA.md",
+                "file": "content/post/2025/Hugo Theme Cybe：分享一下我自己魔改的博客主题.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 我的知识管理工具：UpNote和PARA"
+              "title": "Hugo Theme Cybe：分享一下我自己魔改的博客主题 的大纲"
             }
           }
         ]
@@ -150,7 +150,7 @@
                 "searchQuery": ""
               },
               "icon": "lucide-tags",
-              "title": "Tags"
+              "title": "标签"
             }
           },
           {
@@ -194,8 +194,8 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "switcher:Open quick switcher": false,
-      "command-palette:Open command palette": false,
+      "switcher:打开快速切换": false,
+      "command-palette:打开命令面板": false,
       "obsidian-shellcommands:Shell commands: Custom variables": false,
       "quickadd:QuickAdd": false,
       "homepage:Open homepage": false,
@@ -203,17 +203,21 @@
       "cmdr:publish": false
     }
   },
-  "active": "08c14c6ffa12fcd5",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "@fiveth/BLOG.md",
-    "content/post/Book/认知觉醒.md",
-    "content/post/2025/媒体上这么多知识，为什么还要读书？.md",
-    "content/post/2025/Medium解锁：用脚本一键解锁Medium付费文章.md",
-    "content/post/2025/我的知识管理工具：UpNote和PARA.md",
-    "content/post/Book/当下的力量.md",
+    "public/p/cybe/index.html",
+    "public/p/cybe",
     "content/post/2024/雅思7分的教训：听力8.5，口语踩雷.md",
     "content/post/Book/原子习惯.md",
+    "content/post/2025/Hugo Theme Cybe：分享一下我自己魔改的博客主题.md",
+    "@fiveth/BLOG.md",
+    "content/post/2025/我的知识管理工具：UpNote和PARA.md",
+    "content/post/2025/Medium解锁：用脚本一键解锁Medium付费文章.md",
+    "content/post/2025/媒体上这么多知识，为什么还要读书？.md",
     "content/post/2025/图灵完备：一个教你搭建计算机的游戏.md",
+    "@fiveth/template.md",
+    "content/post/Book/认知觉醒.md",
+    "content/post/Book/当下的力量.md",
     "content/post/2024/我的2024年度总结.md",
     "content/post/2024/颈椎训练.md",
     "content/post/2024/Hexo搭建进阶：Vercel部署、主题安装、基础用法.md",
@@ -222,7 +226,6 @@
     "content/post/2023/Hexo博客优化：如何优化Hexo的网站性能？.md",
     "content/post/2023/2022款Thinkbook14+酷睿版续航优化方案.md",
     "content/post/2023/摆脱3DM启动器打开游戏：避免捆绑下载笑傲江湖.md",
-    "@fiveth/template.md",
     "public/p/why-reading/index.html",
     "public/p/why-reading",
     "public/tags/提升/page/1/index.html",
@@ -234,7 +237,6 @@
     "content/post/2024/读书日：聊聊我的读书方法.md",
     "content/post/2024/更换博客框架-hugo.md",
     "public/p/medium-unlock/index.html",
-    "public/p/medium-unlock",
     "content/post/2025/我的2024年度总结 1.md",
     "public/img/code-header.svg",
     "public/img/avatar.png",
@@ -243,9 +245,7 @@
     "themes/hugo-theme-stack/archetypes/categories.md",
     "themes/hugo-theme-stack/archetypes/tags.md",
     "themes/hugo-theme-stack/archetypes/default.md",
-    "themes/hugo-theme-stack/exampleSite/content/post/placeholder-text/index.ar.md",
     "themes/hugo-theme-stack/exampleSite/content/post/placeholder-text/matt-le-SJSpo9hQf7s-unsplash.jpg",
-    "themes/hugo-theme-stack/exampleSite/content/post/rich-content/index.md",
     "themes/hugo-theme-stack/exampleSite/content/post/chinese-test/luca-bravo-alS7ewQ41M8-unsplash.jpg",
     "themes/hugo-theme-stack/exampleSite/content/post/markdown-syntax/pawel-czerwinski-8uZPynIu-rQ-unsplash.jpg",
     "themes/hugo-theme-stack/exampleSite/content/page/links/ts-logo-128.jpg",

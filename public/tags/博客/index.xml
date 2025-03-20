@@ -2,17 +2,95 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>博客 on Fiveth</title>
-        <link>https://blog.fiveth.cc/tags/%E5%8D%9A%E5%AE%A2/</link>
+        <link>http://localhost:59954/tags/%E5%8D%9A%E5%AE%A2/</link>
         <description>Recent content in 博客 on Fiveth</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>Fiveth</copyright>
-        <lastBuildDate>Fri, 17 May 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://blog.fiveth.cc/tags/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 20 Mar 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:59954/tags/%E5%8D%9A%E5%AE%A2/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Hugo Theme Cybe：分享一下我自己魔改的博客主题</title>
+        <link>http://localhost:59954/p/cybe/</link>
+        <pubDate>Thu, 20 Mar 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:59954/p/cybe/</guid>
+        <description>&lt;img src="https://p.fiveth.cc/img/2025%2F0320083703.png" alt="Featured image of post Hugo Theme Cybe：分享一下我自己魔改的博客主题" /&gt;&lt;h1 id=&#34;主题魔改&#34;&gt;💻主题魔改
+&lt;/h1&gt;&lt;p&gt;前段时间我对Stack主题进行了很大的魔改，魔改内容大概如下：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;将原先的左侧导航栏换成了传统的顶部导航栏&lt;/li&gt;
+&lt;li&gt;在主页添加一个块状头图，内部显示欢迎语&lt;/li&gt;
+&lt;li&gt;右侧边栏添加名片卡片&lt;/li&gt;
+&lt;li&gt;主页文章双栏展示&lt;/li&gt;
+&lt;li&gt;关于页面的自我介绍卡&lt;/li&gt;
+&lt;li&gt;对手机端的优化&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;这样网站首先是继承了Stack主题的&lt;strong&gt;卡片风格&lt;/strong&gt;，以及&lt;strong&gt;加载速度快&lt;/strong&gt;的优点。而在整体布局上则是换成了现在&lt;strong&gt;流行的博客网站布局&lt;/strong&gt;，充分利用屏幕空间。&lt;/p&gt;
+&lt;h1 id=&#34;主题的分享&#34;&gt;🔗主题的分享
+&lt;/h1&gt;&lt;p&gt;看到有朋友对我的主题感兴趣，询问我页面的修改问题，于是我就想着发布这个主题，提供文档，让一些喜欢的朋友可以使用。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;主题仓库：&lt;a class=&#34;link&#34; href=&#34;https://github.com/kmeykranz/hugo-theme-cybe&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;Hugo Theme Cybe&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;主题配置文档&#34;&gt;👾主题配置文档
+&lt;/h1&gt;&lt;p&gt;下面是主题的安装方法和配置文档：&lt;/p&gt;
+&lt;h2 id=&#34;安装&#34;&gt;安装
+&lt;/h2&gt;&lt;p&gt;1.删掉默认的配置文件&lt;code&gt;config.toml&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;2.在&lt;code&gt;blog&lt;/code&gt;根目录打开终端输入以下命令&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git init
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;&lt;span class=&#34;c1&#34;&gt;#获取主题文件&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;git submodule add https://github.com/kmeykranz/hugo-theme-cybe/ themes/hugo-theme-cybe
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;3.将获取到的主题文件中的&lt;code&gt;exampleSite&lt;/code&gt;中的所有文件拷贝到&lt;code&gt;blog&lt;/code&gt;根目录&lt;/p&gt;
+&lt;p&gt;4.打开&lt;code&gt;hugo.yaml&lt;/code&gt;根据自己需要进行配置&lt;/p&gt;
+&lt;h2 id=&#34;自定义头像&#34;&gt;自定义头像
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;打开主题文件中的&lt;code&gt;\assets\img&lt;/code&gt;文件夹&lt;/li&gt;
+&lt;li&gt;把里面的avatar.png换成你的头像&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;自定义主页侧边栏名片&#34;&gt;自定义主页侧边栏名片
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;（用任意编辑器）打开主题文件中的&lt;code&gt;\layouts\partials\widget\author.html&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;在里面自行修改对应文字和链接即可&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h2 id=&#34;自定义关于页面&#34;&gt;自定义”关于“页面
+&lt;/h2&gt;&lt;ol&gt;
+&lt;li&gt;打开主题文件中的&lt;code&gt;\layouts\page\about.html&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;往下划就会找到这段代码，更换里面的文字和链接就可以了&lt;/li&gt;
+&lt;/ol&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; class=&#34;chroma&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c&#34;&gt;&amp;lt;!-- ---------在这里自定义关于页面--------- --&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c&#34;&gt;&amp;lt;!-- 卡片容器 --&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt; &lt;span class=&#34;na&#34;&gt;class&lt;/span&gt;&lt;span class=&#34;o&#34;&gt;=&lt;/span&gt;&lt;span class=&#34;s&#34;&gt;&amp;#34;author-page-content&amp;#34;&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;c&#34;&gt;&amp;lt;!-- 卡片 1：关于我 --&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        ...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;c&#34;&gt;&amp;lt;!-- 卡片 2：我的人格 --&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        ...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;c&#34;&gt;&amp;lt;!-- 卡片 3：我的爱好 --&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        ...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;c&#34;&gt;&amp;lt;!-- 卡片 4：座右铭 --&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        ...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;c&#34;&gt;&amp;lt;!-- 卡片 5：我的技能 --&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;c&#34;&gt;&amp;lt;!-- 技能图标可以从这个网站获取 https://shields.io/ --&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        ...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        &lt;span class=&#34;c&#34;&gt;&amp;lt;!-- 卡片 6：与我联系 --&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;        ...
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;p&#34;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&#34;nt&#34;&gt;div&lt;/span&gt;&lt;span class=&#34;p&#34;&gt;&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;line&#34;&gt;&lt;span class=&#34;cl&#34;&gt;    &lt;span class=&#34;c&#34;&gt;&amp;lt;!-- ---------在上面自定义关于页面--------- --&amp;gt;&lt;/span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;主页头图文字修改&#34;&gt;主页头图文字修改
+&lt;/h2&gt;&lt;p&gt;在主题文件中打开&lt;code&gt;layouts\index.html&lt;/code&gt;修改&lt;/p&gt;
+&lt;h2 id=&#34;自定义页脚&#34;&gt;自定义页脚
+&lt;/h2&gt;&lt;p&gt;在主题文件中打开&lt;code&gt;layouts\partials\footer\custom.html&lt;/code&gt;修改&lt;/p&gt;
+&lt;h2 id=&#34;其余设置&#34;&gt;其余设置
+&lt;/h2&gt;&lt;p&gt;其余设置请参考原主题文档进行配置 &lt;a class=&#34;link&#34; href=&#34;https://stack.jimmycai.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;https://stack.jimmycai.com/&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;支持&#34;&gt;支持
+&lt;/h2&gt;&lt;p&gt;如遇到问题，可以提交&lt;a class=&#34;link&#34; href=&#34;https://github.com/kmeykranz/hugo-theme-cybe/issues&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;github issue&lt;/a&gt;。&lt;/p&gt;
+</description>
+        </item>
+        <item>
         <title>关于博客框架迁移</title>
-        <link>https://blog.fiveth.cc/p/hugo/</link>
+        <link>http://localhost:59954/p/hugo/</link>
         <pubDate>Fri, 17 May 2024 00:00:00 +0000</pubDate>
         
-        <guid>https://blog.fiveth.cc/p/hugo/</guid>
+        <guid>http://localhost:59954/p/hugo/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/2024/0518131750.webp" alt="Featured image of post 关于博客框架迁移" /&gt;&lt;p&gt;hi，大家应该发现了，我的博客变样了&lt;/p&gt;
 &lt;p&gt;因为我把博客从&lt;code&gt;Hexo&lt;/code&gt;迁移到了&lt;code&gt;Hugo&lt;/code&gt;&lt;/p&gt;
 &lt;blockquote&gt;
@@ -74,15 +152,15 @@
         </item>
         <item>
         <title>Hexo搭建进阶：Vercel部署、主题安装、基础用法</title>
-        <link>https://blog.fiveth.cc/p/138e/</link>
+        <link>http://localhost:59954/p/138e/</link>
         <pubDate>Mon, 29 Apr 2024 21:33:53 +0000</pubDate>
         
-        <guid>https://blog.fiveth.cc/p/138e/</guid>
+        <guid>http://localhost:59954/p/138e/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/m/hexo.jpg" alt="Featured image of post Hexo搭建进阶：Vercel部署、主题安装、基础用法" /&gt;&lt;ul&gt;
-&lt;li&gt;本篇前文：&lt;a class=&#34;link&#34; href=&#34;https://blog.fiveth.cc/p/bb32.html&#34; &gt;如何用Hexo搭建个人博客?&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;本篇前文：&lt;a class=&#34;link&#34; href=&#34;http://localhost:59954/p/bb32.html&#34; &gt;如何用Hexo搭建个人博客?&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;本文基于&lt;a class=&#34;link&#34; href=&#34;https://www.fomal.cc/posts/4aa2d85f.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Hexo博客搭建基础教程(二)&lt;/a&gt;修改，部分转载&lt;/li&gt;
-&lt;li&gt;我的&lt;strong&gt;Hexo优化系列&lt;/strong&gt;：&lt;a class=&#34;link&#34; href=&#34;https://blog.fiveth.cc/tags/hexo&#34; &gt;Hexo文章目录&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;我的&lt;strong&gt;Hexo优化系列&lt;/strong&gt;：&lt;a class=&#34;link&#34; href=&#34;http://localhost:59954/tags/hexo&#34; &gt;Hexo文章目录&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;我的博客搭建教程是一年前写的了，非常感谢&lt;a class=&#34;link&#34; href=&#34;https://www.fomal.cc/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;fomalhaut&lt;/a&gt;，当时我是跟着他的教程一步步搭建的。最近我终于在b站发了视频版的博客搭建教程，有很多朋友想进一步优化博客。这篇文章接上一篇，教大家将博客部署到vercel、主题安装、Hexo博客的基础用法。&lt;/p&gt;
@@ -433,10 +511,10 @@
         </item>
         <item>
         <title>Hexo博客优化：批量修改md文件名</title>
-        <link>https://blog.fiveth.cc/p/fbe8/</link>
+        <link>http://localhost:59954/p/fbe8/</link>
         <pubDate>Tue, 09 Apr 2024 11:51:10 +0000</pubDate>
         
-        <guid>https://blog.fiveth.cc/p/fbe8/</guid>
+        <guid>http://localhost:59954/p/fbe8/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/m/hexo.jpg" alt="Featured image of post Hexo博客优化：批量修改md文件名" /&gt;&lt;p&gt;今天整理博客，发现我给文章取的文件名比较混乱，要找文章的时候会很不方便。&lt;/p&gt;
 &lt;p&gt;一般我们都是用&lt;code&gt;hexo new file_name&lt;/code&gt;创建文章的md文件的，然后文章的标题是在md文件的信息栏定义的。而我们很多时候是开始写文章才想好标题，随着写作标题也会发生变动，这导致最后我们文章标题和文件名是不同的，加大了我们的管理难度。&lt;/p&gt;
 &lt;p&gt;所以我们会在改动文章标题的时候，将文件名也改成一样的。但是这样手动改非常麻烦。因此我配合ChatGPT用Python写了个一键批量修改文件名的小脚本。这样我们就可以很方便的一键将文件名全部都同步成文章的标题。&lt;/p&gt;
@@ -519,10 +597,10 @@
         </item>
         <item>
         <title>Hexo博客优化：如何优化Hexo的网站性能？</title>
-        <link>https://blog.fiveth.cc/p/95d6/</link>
+        <link>http://localhost:59954/p/95d6/</link>
         <pubDate>Wed, 11 Oct 2023 12:06:31 +0000</pubDate>
         
-        <guid>https://blog.fiveth.cc/p/95d6/</guid>
+        <guid>http://localhost:59954/p/95d6/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/m/perf.jpg" alt="Featured image of post Hexo博客优化：如何优化Hexo的网站性能？" /&gt;&lt;p&gt;对一个网站来说，性能是非常重要的，它决定了用户在网页停留的时长。&lt;/p&gt;
 &lt;p&gt;如果网页的加载速度很慢的话，用户很容易就会离去。&lt;/p&gt;
 &lt;p&gt;有朋友说我的博客速度挺快的，这篇文章就讲讲我是如何&lt;strong&gt;优化我的网站性能&lt;/strong&gt;的。&lt;/p&gt;
@@ -600,10 +678,10 @@
         </item>
         <item>
         <title>如何用Hexo搭建个人博客?</title>
-        <link>https://blog.fiveth.cc/p/bb32/</link>
+        <link>http://localhost:59954/p/bb32/</link>
         <pubDate>Sat, 10 Dec 2022 00:00:00 +0000</pubDate>
         
-        <guid>https://blog.fiveth.cc/p/bb32/</guid>
+        <guid>http://localhost:59954/p/bb32/</guid>
         <description>&lt;img src="https://p.fiveth.cc/img/m/hexo.jpg" alt="Featured image of post 如何用Hexo搭建个人博客?" /&gt;&lt;blockquote&gt;
 &lt;p&gt;&lt;code&gt;2024.4&lt;/code&gt; 我出了视频版教程啦：&lt;a class=&#34;link&#34; href=&#34;https://www.bilibili.com/video/BV1Ju4m1c7WR/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;bilibili视频链接&lt;/a&gt;&lt;/p&gt;
@@ -735,7 +813,7 @@
 &lt;p&gt;大家可以参阅主题文档进行安装配置&lt;/p&gt;
 &lt;p&gt;有什么问题的话欢迎评论。&lt;/p&gt;
 &lt;p&gt;{% tip info %}&lt;/p&gt;
-&lt;p&gt;本篇下文：&lt;a class=&#34;link&#34; href=&#34;https://blog.fiveth.cc/p/138e.html&#34; &gt;Hexo搭建进阶：Vercel部署、主题安装、基础用法&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;本篇下文：&lt;a class=&#34;link&#34; href=&#34;http://localhost:59954/p/138e.html&#34; &gt;Hexo搭建进阶：Vercel部署、主题安装、基础用法&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;我的&lt;strong&gt;Hexo优化系列&lt;/strong&gt;：&lt;a class=&#34;link&#34; href=&#34;https://www.fomal.cc/posts/4aa2d85f.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;Hexo文章目录&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;{% endtip %}&lt;/p&gt;
