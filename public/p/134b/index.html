@@ -1,542 +1,548 @@
 <!DOCTYPE html>
-<html lang="zh-cn" dir="ltr">
+<html lang="en-US">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=59954&amp;path=livereload" data-no-instant defer></script><meta charset='utf-8'>
-<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content="经常白嫖游戏的小伙伴应该都对3DM不陌生，里面有很多盗版游戏资源。但是呢，很多3dm下来的游戏都要用3dm启动器去打开，你说用你启动器打开就算了，就多点两下的事对吧。但是每次打开你启动器，你都要下载个“笑傲江湖”到我电脑里，删了还没用，下次启动的时候又会跳出来，这跟流氓软件有什么区别。今天就教大家怎么摆脱3DM流氓启动器，直接打开游戏。\n">
-<title>摆脱3DM启动器打开游戏：避免捆绑下载笑傲江湖</title>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+  <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<link rel="shortcut icon" href="http://localhost:1313/images/favicon.png" />
+<title>摆脱3DM启动器打开游戏：避免捆绑下载笑傲江湖 | Fiveth&#39;s Blog</title>
+<meta name="title" content="摆脱3DM启动器打开游戏：避免捆绑下载笑傲江湖" />
+<meta name="description" content="经常白嫖游戏的小伙伴应该都对3DM不陌生，里面有很多盗版游戏资源。但是呢，很多3dm下来的游戏都要用3dm启动器去打开，你说用你启动器打开就算了，就多点两下的事对吧。但是每次打开你启动器，你都要下载个“笑傲江湖”到我电脑里，删了还没用，下次启动的时候又会跳出来，这跟流氓软件有什么区别。今天就教大家怎么摆脱3DM流氓启动器，直接打开游戏。
 
-<link rel='canonical' href='http://localhost:59954/p/134b/'>
+首先我们打开3dm启动器目录，如图，打开3dmConfig.ini文件，找到游戏exe文件的路径。
 
-<link rel="stylesheet" href="/scss/style.min.c7fca8cfbd9a0db04bc682bb8ac9cbc9d070fd0189cb30577c797c13597f9402.css"><meta property='og:title' content="摆脱3DM启动器打开游戏：避免捆绑下载笑傲江湖">
-<meta property='og:description' content="经常白嫖游戏的小伙伴应该都对3DM不陌生，里面有很多盗版游戏资源。但是呢，很多3dm下来的游戏都要用3dm启动器去打开，你说用你启动器打开就算了，就多点两下的事对吧。但是每次打开你启动器，你都要下载个“笑傲江湖”到我电脑里，删了还没用，下次启动的时候又会跳出来，这跟流氓软件有什么区别。今天就教大家怎么摆脱3DM流氓启动器，直接打开游戏。\n">
-<meta property='og:url' content='http://localhost:59954/p/134b/'>
-<meta property='og:site_name' content='Fiveth'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:tag' content='游戏' /><meta property='article:tag' content='干货' /><meta property='article:published_time' content='2023-06-06T22:15:15&#43;00:00'/><meta property='article:modified_time' content='2023-06-06T22:15:15&#43;00:00'/><meta property='og:image' content='https://p.fiveth.cc/img/m/3dm.jpg' />
-<meta name="twitter:title" content="摆脱3DM启动器打开游戏：避免捆绑下载笑傲江湖">
-<meta name="twitter:description" content="经常白嫖游戏的小伙伴应该都对3DM不陌生，里面有很多盗版游戏资源。但是呢，很多3dm下来的游戏都要用3dm启动器去打开，你说用你启动器打开就算了，就多点两下的事对吧。但是每次打开你启动器，你都要下载个“笑傲江湖”到我电脑里，删了还没用，下次启动的时候又会跳出来，这跟流氓软件有什么区别。今天就教大家怎么摆脱3DM流氓启动器，直接打开游戏。\n"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://p.fiveth.cc/img/m/3dm.jpg' />
-    <link rel="shortcut icon" href="/img/favicon.ico" />
+接下来我们顺着路径去寻找，会发现根本就找不到游戏的exe文件。别慌，这是3dm耍的小把戏，把游戏启动的exe文件给隐藏了。我们要做的就是把被隐藏的文件给显示出来。
+我们打开cmd窗口，进入对应的目录，然后执行dos命令：
+
+如何打开cmd窗口？win&#43;r，然后输入cmd，点确定
+attrib -s -a -h -r {name}.exe
+
+然后我们就能看到游戏的exe文件在目录中显示出来了，我们可以右键然后将快捷方式创建到桌面，之后我们就不需要用3dm启动器来打开游戏了😎。
+" />
+<meta name="keywords" content="游戏,干货," />
+
+<link rel="canonical" href="http://localhost:1313/p/134b/">
 
 
+<meta property="og:url" content="http://localhost:1313/p/134b/">
+  <meta property="og:site_name" content="Fiveth&#39;s Blog">
+  <meta property="og:title" content="摆脱3DM启动器打开游戏：避免捆绑下载笑傲江湖">
+  <meta property="og:description" content="经常白嫖游戏的小伙伴应该都对3DM不陌生，里面有很多盗版游戏资源。但是呢，很多3dm下来的游戏都要用3dm启动器去打开，你说用你启动器打开就算了，就多点两下的事对吧。但是每次打开你启动器，你都要下载个“笑傲江湖”到我电脑里，删了还没用，下次启动的时候又会跳出来，这跟流氓软件有什么区别。今天就教大家怎么摆脱3DM流氓启动器，直接打开游戏。
+首先我们打开3dm启动器目录，如图，打开3dmConfig.ini文件，找到游戏exe文件的路径。
+接下来我们顺着路径去寻找，会发现根本就找不到游戏的exe文件。别慌，这是3dm耍的小把戏，把游戏启动的exe文件给隐藏了。我们要做的就是把被隐藏的文件给显示出来。
+我们打开cmd窗口，进入对应的目录，然后执行dos命令：
+如何打开cmd窗口？win&#43;r，然后输入cmd，点确定
+attrib -s -a -h -r {name}.exe 然后我们就能看到游戏的exe文件在目录中显示出来了，我们可以右键然后将快捷方式创建到桌面，之后我们就不需要用3dm启动器来打开游戏了😎。">
+  <meta property="og:locale" content="en_US">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="blog">
+    <meta property="article:published_time" content="2023-06-06T00:00:00+00:00">
+    <meta property="article:modified_time" content="2023-06-06T00:00:00+00:00">
+    <meta property="article:tag" content="游戏">
+    <meta property="article:tag" content="干货">
+    <meta property="og:image" content="http://localhost:1313/images/share.png">
+
+
+
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/images/share.png">
+  <meta name="twitter:title" content="摆脱3DM启动器打开游戏：避免捆绑下载笑傲江湖">
+  <meta name="twitter:description" content="经常白嫖游戏的小伙伴应该都对3DM不陌生，里面有很多盗版游戏资源。但是呢，很多3dm下来的游戏都要用3dm启动器去打开，你说用你启动器打开就算了，就多点两下的事对吧。但是每次打开你启动器，你都要下载个“笑傲江湖”到我电脑里，删了还没用，下次启动的时候又会跳出来，这跟流氓软件有什么区别。今天就教大家怎么摆脱3DM流氓启动器，直接打开游戏。
+首先我们打开3dm启动器目录，如图，打开3dmConfig.ini文件，找到游戏exe文件的路径。
+接下来我们顺着路径去寻找，会发现根本就找不到游戏的exe文件。别慌，这是3dm耍的小把戏，把游戏启动的exe文件给隐藏了。我们要做的就是把被隐藏的文件给显示出来。
+我们打开cmd窗口，进入对应的目录，然后执行dos命令：
+如何打开cmd窗口？win&#43;r，然后输入cmd，点确定
+attrib -s -a -h -r {name}.exe 然后我们就能看到游戏的exe文件在目录中显示出来了，我们可以右键然后将快捷方式创建到桌面，之后我们就不需要用3dm启动器来打开游戏了😎。">
+
+
+
+
+  <meta itemprop="name" content="摆脱3DM启动器打开游戏：避免捆绑下载笑傲江湖">
+  <meta itemprop="description" content="经常白嫖游戏的小伙伴应该都对3DM不陌生，里面有很多盗版游戏资源。但是呢，很多3dm下来的游戏都要用3dm启动器去打开，你说用你启动器打开就算了，就多点两下的事对吧。但是每次打开你启动器，你都要下载个“笑傲江湖”到我电脑里，删了还没用，下次启动的时候又会跳出来，这跟流氓软件有什么区别。今天就教大家怎么摆脱3DM流氓启动器，直接打开游戏。
+首先我们打开3dm启动器目录，如图，打开3dmConfig.ini文件，找到游戏exe文件的路径。
+接下来我们顺着路径去寻找，会发现根本就找不到游戏的exe文件。别慌，这是3dm耍的小把戏，把游戏启动的exe文件给隐藏了。我们要做的就是把被隐藏的文件给显示出来。
+我们打开cmd窗口，进入对应的目录，然后执行dos命令：
+如何打开cmd窗口？win&#43;r，然后输入cmd，点确定
+attrib -s -a -h -r {name}.exe 然后我们就能看到游戏的exe文件在目录中显示出来了，我们可以右键然后将快捷方式创建到桌面，之后我们就不需要用3dm启动器来打开游戏了😎。">
+  <meta itemprop="datePublished" content="2023-06-06T00:00:00+00:00">
+  <meta itemprop="dateModified" content="2023-06-06T00:00:00+00:00">
+  <meta itemprop="wordCount" content="12">
+  <meta itemprop="image" content="http://localhost:1313/images/share.png">
+  <meta itemprop="keywords" content="游戏,干货">
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+   
+  :root {
+    --width-max: 720px;
+    --font-primary: Verdana, sans-serif;
+    --font-secondary: monospace;
+    --font-size-primary: 1em;
+    --font-size-secondary: 0.8em;
+    --body-bg-color: #fcfcfc;
+    --bold-text-color: #222;
+    --body-text-color: #444;
+    --link-color: #3273dc;
+    --link-visited-color: #8b6fcb;
+    --table-border-color: #f2f2f2;
+    --table-th-bg-color: #f2f2f2;
+    --img-border-color: #f2f2f2;
+    --code-bg-color: #f2f2f2;
+    --code-text-color: #222;
+    --blockquote-border-color: #666;
+    --blockquote-text-color: #666;
+    --upvoted-color: #FA8072;
+    --caption-text-color: #666;
+    --toc-text-color: #e5e5e5;
+    --toc-hover-color: #655e5e;
+  }
+
+  @media (prefers-color-scheme: dark) {
+     
+    :root {
+      --body-bg-color: #1c1c1c;
+      --bold-text-color: #eee;
+      --body-text-color: #ddd;
+      --link-color: #8cc2dd;
+      --link-visited-color: #c3b1ee;
+      --table-border-color: #999;
+      --table-th-bg-color: #999;
+      --img-border-color: #999;
+      --code-bg-color: #555;
+      --code-text-color: #ddd;
+      --blockquote-border-color: #ccc;
+      --blockquote-text-color: #ccc;
+      --caption-text-color: #aaa;
+      --toc-text-color: #373737;
+      --toc-hover-color: #CAC3C3;
+    }
+  }
+
+  body {
+    font-family: var(--font-primary);
+    font-size: var(--font-size-primary);
+    margin: auto;
+    padding: 20px;
+    max-width: var(--width-max);
+    text-align: left;
+    background-color: var(--body-bg-color);
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: var(--body-text-color);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+    color: var(--bold-text-color);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 16px 0;
+  }
+
+  a {
+    color: var(--link-color);
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
+
+  .title:hover {
+    text-decoration: none;
+  }
+
+  .title span {
+    font-weight: 400;
+  }
+
+  nav a {
+    margin-right: 8px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  input {
+    font-size: 14px;
+  }
+
+  content {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid var(--table-border-color);
+    border-radius: 4px;
+  }
+
+  th,
+  td {
+    border: 1px solid var(--table-border-color);
+    padding: 4px;
+  }
+
+  th {
+    background-color: var(--table-th-bg-color);
+  }
+
+  hr {
+    border: 0;
+    border-top: 1px dashed;
+  }
+
+  img {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid var(--img-border-color);
+    border-radius: 4px;
+    content-visibility: auto;
+    loading: lazy;
+  }
+
+  img[src*="#minipic"] {
+    max-width: 50%;
+    margin-left: 0;
+    margin-right: auto;
+  }
+
+  .image-caption figcaption {
+    text-align: center;
+    font-style: italic;
+    font-size: 0.8em;
+    margin-top: 0.6em;
+    color: var(--caption-text-color);
+  }
+
+  .image-caption {
+    margin: auto;
+  }
+
+  i {
+    font-style: normal;
+  }
+
+  time {
+    font-family: var(--font-secondary);
+    font-size: 15px;
+  }
+
+  code {
+    font-family: var(--font-secondary);
+    background-color: var(--code-bg-color);
+    color: var(--code-text-color);
+    padding: 2px;
+    border-radius: 4px;
+  }
+
+  pre code {
+    display: block;
+    padding: 16px;
+    white-space: pre-wrap;
+    overflow-x: auto;
+  }
+
+  div.highlight pre {
+    border-radius: 4px;
+  }
+
+  div.highlight code {
+    background-color: var(--code-bg-color);
+    color: var(--code-text-color);
+  }
+
+  blockquote {
+    border-left: 2px solid var(--blockquote-border-color);
+    color: var(--blockquote-text-color);
+    margin: 0;
+    padding-left: 16px;
+    font-style: normal;
+  }
+
+  blockquote p {
+    margin: 0;
+  }
+
+  footer {
+    padding: 25px 0;
+    text-align: center;
+    font-size: var(--font-size-secondary);
+  }
+
+  ul li:has(input) {
+    list-style-type: none;
+    margin-left: -25.5px;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li span.grouped {
+    flex: 0 0 80px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: var(--link-visited-color);
+  }
+
+   
+    div.toc {
+        position: fixed;  
+        top: 50%;  
+        left: calc((100vw + var(--width-max)) / 2);  
+        transform: translateY(-50%);  
+        width: calc((90vw - var(--width-max)) / 2);  
+        max-height: 80vh;  
+        overflow-y: auto;  
+        border: none;  
+        padding: 0;  
+        margin: 0;  
+        z-index: 99;  
+
+         
+        &::-webkit-scrollbar {  
+            display: none;  
+        }
+
+        -ms-overflow-style: none;  
+        scrollbar-width: none;  
+    }
+
+    .toc-nav {  
+        padding: 1.5rem;  
+    }
+
+    .toc-nav ul {  
+        list-style: none;  
+        padding: 0;  
+        margin: 0;  
+    }
+
+    .toc-nav li {  
+        margin: 8px 0;  
+    }
+
+    .toc-nav a {  
+        display: block;  
+        text-decoration: none;  
+        color: transparent;  
+        padding: 0 12px;  
+        transition: all 0.2s ease;  
+        font-size: 0.9rem;  
+        line-height: 1.4;  
+        text-align: left;  
+        white-space: nowrap;  
+        overflow: hidden;  
+        text-overflow: ellipsis;  
+        max-width: 100%;  
+    }
+    
+    .toc-nav:hover a {
+        color: var(--toc-text-color);  
+    }
+
+    .toc-nav a::before {  
+        content: '';  
+        display: inline-block;  
+        width: 16px;  
+        height: 4px;  
+        background-color: var(--toc-text-color);  
+        border-radius: 16px;  
+        margin-right: 12px;  
+        vertical-align: middle;  
+    }
+
+    .toc-nav ul ul a::before {  
+        width: 12px;  
+        margin-right: 16px;  
+    }
+
+    .toc-nav ul ul ul a::before {  
+        width: 8px;  
+        margin-right: 20px;  
+    }
+
+    .toc-nav a.active,  
+    .toc-nav a:hover {
+        text-decoration: none;  
+        color: var(--toc-hover-color);  
+    }
+
+    .toc-nav a.active::before,  
+    .toc-nav a:hover::before {
+        background-color: var(--toc-hover-color);  
+    }
+
+   
+  button.upvote-btn {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--body-text-color);
+  }
+
+  button.upvoted {
+    color: var(--upvoted-color);
+  }
+
+  span.upvote-count {
+    margin-top: -4px;
+    font-size: smaller;
+  }
+
+  @media (max-width: 800px) {
+    img[src*="#minipic"] {
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    div.toc {
+      display: none;
+    }
+  }
+</style>
 
 </head>
 
-<body class="
-    article-page
-    " style="display:flex; flex-direction: column;">
-    <script>
-        (function() {
-            const colorSchemeKey = 'StackColorScheme';
-            if(!localStorage.getItem(colorSchemeKey)){
-                localStorage.setItem(colorSchemeKey, "auto");
-            }
-        })();
-    </script><script>
-    (function() {
-        const colorSchemeKey = 'StackColorScheme';
-        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
-        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+<body>
+  <header><a href="/" class="title">
+  <h1>Fiveth&#39;s Blog</h1>
+</a>
+<nav><a href="/">Home</a>
 
-        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
-            
-
-            document.documentElement.dataset.scheme = 'dark';
-        } else {
-            document.documentElement.dataset.scheme = 'light';
-        }
-    })();
-</script>
-<aside class="sidebar left-sidebar sticky ">
-    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="切换菜单">
-        <span class="hamburger-box">
-            <span class="hamburger-inner"></span>
-        </span>
-    </button>
-
-    <header>        
-            <l1 class="site-name"><a href="/">Fiveth</a></l1>
-    </header>
-
-    <ol class="menu" id="main-menu">
-        
-        
-        
-        <li >
-            <a href='/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <polyline points="5 12 3 12 12 3 21 12 19 12" />
-  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
-  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
-</svg>
+<a href="/books/">Books</a>
 
 
+<a href="/blog/">Blog</a>
 
-                
-                <span>主页</span>
-            </a>
-        </li>
-        
-        
-        <li >
-            <a href='/archives/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <rect x="3" y="4" width="18" height="4" rx="2" />
-  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
-  <line x1="10" y1="12" x2="14" y2="12" />
-</svg>
-
-
-
-                
-                <span>归档</span>
-            </a>
-        </li>
-        
-        
-        <li >
-            <a href='/search/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="10" cy="10" r="7" />
-  <line x1="21" y1="21" x2="15" y2="15" />
-</svg>
-
-
-
-                
-                <span>搜索</span>
-            </a>
-        </li>
-        
-        
-        <li >
-            <a href='/links/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
-  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
-</svg>
-
-
-
-                
-                <span>友链</span>
-            </a>
-        </li>
-        
-        
-        <li >
-            <a href='/about/' >
-                
-                
-                
-                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="7" r="4" />
-  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
-</svg>
-
-
-
-                
-                <span>关于</span>
-            </a>
-        </li>
-        
-        
-    </ol>
-
-    <ol class="right-menu">
-        <a href="https://www.travellings.cn/go.html" target="_blank" class="travelling-button">
-            <li id="travelling">
-                <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="currentColor"  class="icon icon-tabler icons-tabler-filled icon-tabler-train"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M11 5c6.634 0 10.853 3.11 10.996 7.754l.004 .246a3 3 0 0 1 -3 3h-16a1 1 0 0 1 -1 -1v-9a1 1 0 0 1 1 -1zm-4 2h-3v3h3zm4 0h-2v3h3v-2.974a19 19 0 0 0 -1 -.026m3.001 .257l-.001 2.743h5.04c-.979 -1.337 -2.689 -2.306 -5.039 -2.743m6.999 10.743a1 1 0 0 1 0 2h-18a1 1 0 0 1 0 -2z" /></svg>
-            </li>
-        </a>
-
-        
-        <li id="dark-mode-toggle">
-            <svg  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="currentColor"  class="icon icon-tabler icons-tabler-filled icon-tabler-moon"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M12 1.992a10 10 0 1 0 9.236 13.838c.341 -.82 -.476 -1.644 -1.298 -1.31a6.5 6.5 0 0 1 -6.864 -10.787l.077 -.08c.551 -.63 .113 -1.653 -.758 -1.653h-.266l-.068 -.006l-.06 -.002z" /></svg>
-        </li>
-        
-    </ol>
-</aside>
-
-<div class="container main-container flex on-phone--column extended">
-    
-
-        <main class="main full-width">
-    <article class="has-image main-article">
-    <header class="article-header">
-        <div class="article-image">
-            <a href="/p/134b/">
-                
-                    <img src="https://p.fiveth.cc/img/m/3dm.jpg" loading="lazy" alt="Featured image of post 摆脱3DM启动器打开游戏：避免捆绑下载笑傲江湖" />
-                
-            </a>
-        </div>
-    
-
-    <div class="article-details">
-
-    <div class="article-title-wrapper">
-        <h2 class="article-title">
-            <a href="/p/134b/">摆脱3DM启动器打开游戏：避免捆绑下载笑傲江湖</a>
-        </h2>
-
-        
-    </div>
-    
-    
-    
-    
-    <footer class="article-time">
-
-        
-        <header class="article-category">
-            
-            <a href="/categories/%E6%95%99%E5%AD%A6%E5%B9%B2%E8%B4%A7/">
-                教学干货
-            </a>
-            
-        </header>
-        
-
-        
-        <div>
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
-  <circle cx="18" cy="18" r="4" />
-  <path d="M15 3v4" />
-  <path d="M7 3v4" />
-  <path d="M3 11h16" />
-  <path d="M18 16.496v1.504l1 1" />
-</svg>
-            <time class="article-time--published">Jun 06, 2023</time>
-        </div>
-        
-
-        
-    </footer>
-    
-
-    
-</div>
+</nav>
 </header>
+  <main>
 
-    <section class="article-content">
-    
-    
-    <p>经常白嫖游戏的小伙伴应该都对<a class="link" href="https://www.3dmgame.com/"  target="_blank" rel="noopener"
-    >3DM</a>不陌生，里面有很多盗版游戏资源。但是呢，很多3dm下来的游戏都要用3dm启动器去打开，你说用你启动器打开就算了，就多点两下的事对吧。但是每次打开你启动器，你都要下载个“笑傲江湖”到我电脑里，删了还没用，下次启动的时候又会跳出来，这跟流氓软件有什么区别。今天就教大家怎么摆脱3DM流氓启动器，直接打开游戏。</p>
+
+<h1>摆脱3DM启动器打开游戏：避免捆绑下载笑傲江湖</h1>
+
+<p>
+  <i>
+    <time datetime='2023-06-06' pubdate>
+      06 Jun, 2023
+    </time>
+  </i>
+</p>
+
+
+ 
+
+<content> <p>经常白嫖游戏的小伙伴应该都对<a href="https://www.3dmgame.com/">3DM</a>不陌生，里面有很多盗版游戏资源。但是呢，很多3dm下来的游戏都要用3dm启动器去打开，你说用你启动器打开就算了，就多点两下的事对吧。但是每次打开你启动器，你都要下载个“笑傲江湖”到我电脑里，删了还没用，下次启动的时候又会跳出来，这跟流氓软件有什么区别。今天就教大家怎么摆脱3DM流氓启动器，直接打开游戏。</p>
 <img src="https://p.fiveth.cc/img/m/xiaoao.webp" />
 <p>首先我们打开3dm启动器目录，如图，打开<code>3dmConfig.ini</code>文件，找到游戏exe文件的路径。</p>
 <img src="https://p.fiveth.cc/img/m/3dmpath.webp"/>
 <p>接下来我们顺着路径去寻找，会发现根本就找不到游戏的exe文件。别慌，这是3dm耍的小把戏，把游戏启动的exe文件给隐藏了。我们要做的就是把被隐藏的文件给显示出来。</p>
 <p>我们打开cmd窗口，进入对应的目录，然后执行dos命令：</p>
 <blockquote>
-<p>如何打开cmd窗口？win+r，然后输入cmd，点确定</p>
-</blockquote>
-<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">attrib -s -a -h -r wwzRetailEgs.exe
-</span></span></code></pre></div><img src="https://p.fiveth.cc/img/m/cmd.webp"/>
+<p>如何打开cmd窗口？win+r，然后输入cmd，点确定</p></blockquote>
+<pre tabindex="0"><code>attrib -s -a -h -r {name}.exe
+</code></pre><img src="https://p.fiveth.cc/img/m/cmd.webp"/>
 <p>然后我们就能看到游戏的exe文件在目录中显示出来了，我们可以右键然后将快捷方式创建到桌面，之后我们就不需要用3dm启动器来打开游戏了😎。</p>
 <img src="https://p.fiveth.cc/img/m/3dmexe.webp"/>
+ </content>
 
-</section>
-
-    <footer class="article-footer">
-    
-    <section class="article-tags">
-        
-            <a href="/tags/%E6%B8%B8%E6%88%8F/">游戏</a>
-        
-            <a href="/tags/%E5%B9%B2%E8%B4%A7/">干货</a>
-        
-    </section>
-
-
-    
-    <section class="article-copyright">
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-  <path stroke="none" d="M0 0h24v24H0z"/>
-  <circle cx="12" cy="12" r="9" />
-  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
-</svg>
+<p>
+  
+  <a href="http://localhost:1313/blog/%E6%B8%B8%E6%88%8F/">#游戏</a>
+  
+  <a href="http://localhost:1313/blog/%E5%B9%B2%E8%B4%A7/">#干货</a>
+  
+</p>
 
 
 
-        <span>Licensed under CC BY-NC-SA 4.0</span>
-    </section>
-    </footer>
 
 
-    
-</article>
 
-    
+ 
+<div class="toc">
 
-    
 
-<aside class="related-content--wrapper">
-    <h2 class="section-title">相关文章</h2>
-    <div class="related-content">
-        <div class="flex article-list--tile">
-            
-                
-<article class="article-card has-image">
-    <a href="/p/4b21/">
-        
-        
-            <div class="article-image">
-                
-                    <img src="https://p.fiveth.cc/img/m/thinkbook-battery-cover.jpg" loading="lazy" data-key="4b21" data-hash="https://p.fiveth.cc/img/m/thinkbook-battery-cover.jpg"/>
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">2022款Thinkbook14&#43;酷睿版续航优化方案</h2>
-        </div>
-    </a>
-</article>
-            
-        </div>
-    </div>
-</aside>
-
-     
-    
-        
-    <script src="//cdn.jsdelivr.net/npm/twikoo@1.6.39/dist/twikoo.all.min.js"></script>
-<div id="tcomment"></div>
-<style>
-    .twikoo {
-        background-color: var(--card-background);
-        border-radius: var(--card-border-radius);
-        box-shadow: var(--shadow-l1);
-        padding: var(--card-padding);
-    }
-    :root[data-scheme="dark"] {
-        --twikoo-body-text-color-main: rgba(255, 255, 255, 0.9);
-        --twikoo-body-text-color: rgba(255, 255, 255, 0.7);
-    }
-    .twikoo .el-input-group__prepend,
-    .twikoo .tk-action-icon,
-    .twikoo .tk-submit-action-icon,
-    .twikoo .tk-time,
-    .twikoo .tk-comments-no,
-    .twikoo .tk-comments-count {
-        color: var(--twikoo-body-text-color);
-    }
-    .twikoo .el-input__inner,
-    .twikoo .el-textarea__inner,
-    .twikoo .tk-preview-container,
-    .twikoo .tk-content,
-    .twikoo .tk-nick,
-    .twikoo .tk-send {
-        color: var(--twikoo-body-text-color-main);
-    }
-    .twikoo .el-button{
-        color: var(--twikoo-body-text-color)!important;
-    }
-    .twikoo .el-input__count {
-        color: var(--twikoo-body-text-color) !important;
-    }
-    .OwO .OwO-body {
-        background-color: var(--body-background) !important;
-        color: var(--body-text-color) !important;
-    }
-</style><script>
-    twikoo.init({
-        envId: 'https:\/\/c.fiveth.cc\/',
-        el: '#tcomment',lang: 'zh-cn',})
-</script>
-
-    
-
-    
-
-    
-<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
-
-    
-    <div class="pswp__bg"></div>
-
-    
-    <div class="pswp__scroll-wrap">
-
-        
-        <div class="pswp__container">
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-            <div class="pswp__item"></div>
-        </div>
-
-        
-        <div class="pswp__ui pswp__ui--hidden">
-
-            <div class="pswp__top-bar">
-
-                
-
-                <div class="pswp__counter"></div>
-
-                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
-
-                <button class="pswp__button pswp__button--share" title="Share"></button>
-
-                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
-
-                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
-
-                
-                
-                <div class="pswp__preloader">
-                    <div class="pswp__preloader__icn">
-                        <div class="pswp__preloader__cut">
-                            <div class="pswp__preloader__donut"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
-                <div class="pswp__share-tooltip"></div>
-            </div>
-
-            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
-            </button>
-
-            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
-            </button>
-
-            <div class="pswp__caption">
-                <div class="pswp__caption__center"></div>
-            </div>
-
-        </div>
-
-    </div>
-
-</div><script 
-                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
-                defer
-                >
-            </script><script 
-                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
-                defer
-                >
-            </script><link 
-                rel="stylesheet" 
-                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
-            ><link 
-                rel="stylesheet" 
-                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
-            >
-
-        </main>
-    </div>
-    <script 
-                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
-                
-                >
-            </script><script type="text/javascript" src="/ts/main.c0363f7f1e1e1cb8bae946d9a1e2c3dea23e595eb933b18e88064b0c7ed73eed.js" defer></script>
-<script>
-    (function () {
-        const customFont = document.createElement('link');
-        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
-
-        customFont.type = "text/css";
-        customFont.rel = "stylesheet";
-
-        document.head.appendChild(customFont);
-    }());
-</script>
-<style>
-    footer.site-footer {
-        width: 100%;
-        position: relative;
-        bottom: 0;
-        padding: 20px 10px;
-        font-size: 1.3rem;
-        font-weight: 600;
-        line-height: 1.75;
-        color: var(--card-text-color-secondary);
-        background-color: var(--footer-bg);
-        box-shadow: 0 -3px 1px -3px var(--card-text-color-main);
-        padding: 20px;
-        user-select: none;
-    }
-
-    .footer-info {
-        display: grid;
-        grid-template-columns: 1fr auto;
-    }
-
-    .right-footer {
-        text-align: left;
-        display: flex;
-        align-items: right;
-    }
-
-    footer.site-footer a {
-        font-size: 15px;
-        color: var(--card-text-color-main);
-        transition: color .2s ease-in-out;
-        margin-inline: 15px;
-    }
-
-    .copyright{
-        font-size: 15px;
-        color: var(--card-text-color-main) !important;
-        transition: color .2s ease-in-out;
-        margin-inline: 15px;
-    }
-
-</style><div style="display: flex;
-    justify-content: center; 
-    align-items: center; flex-direction: column;margin-top: 60px; color:var(--card-text-color-main); margin:40px;">
 </div>
-<footer class="site-footer">
-    <div class="footer-info">
-        <div class="left-footer">
-            <section class="copyright">
-                &copy;
-                
-                2022 -
-                
-                2025 Fiveth
-            </section>
-        </div>
-        <div class="right-footer">
-            <span class="hugo">
-                <a href="https://gohugo.io/" target="_blank">Frame</a>
-            </span>
 
-            <span class="cybe">
-                <a href="https://github.com/kmeykranz/hugo-theme-cybe" target="_blank">Theme</a>
-            </span>
 
-            <span class="ICP">
-                <a href="https://icp.gov.moe/?keyword=20246616" target="_blank">萌ICP备20246616</a>
-            </span>
-        </div>
-    </div>
+
+  </main>
+  <footer>
+
+
+Subscribe via <a href="/index.xml">RSS</a> or just <a href="mailto:kmeykranz@qq.com">say hello</a>.
+<br />
+
+
+
+
+
+
+
+
+Made with
+<a href="https://github.com/rokcso/hugo-bearneo/">Hugo Bear Neo</a>.
+<br />
+
+
+
+
+Copyright © 2022-2025, Fiveth.
+
+
+🗺️ <a href="/sitemap.xml">Sitemap</a>.
+
 </footer>
+
+    
+
+
 </body>
 
 </html>

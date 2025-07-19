@@ -1,9 +1,8 @@
 ---
-title: {{ replace .Name "-" " " | title }}
-slug: {{ .Name }}
-date: {{ .Date }}
-categories: 闲聊杂谈
-tags:
-  - 日常
+title: {{NAME}}
+slug: {{NAME}}
+date: {{DATE:YYYY-MM-DD}}
+categories: 
+tags: 
+toc: false
 ---
-

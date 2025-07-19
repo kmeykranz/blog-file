@@ -5,7 +5,7 @@
       "name": "Article",
       "type": "Template",
       "command": false,
-      "templatePath": "@fiveth/template",
+      "templatePath": "archetypes/default.md",
       "fileNameFormat": {
         "enabled": false,
         "format": ""
@@ -13,7 +13,7 @@
       "folder": {
         "enabled": true,
         "folders": [
-          "content/post/2025"
+          "content/blog/2025"
         ],
         "chooseWhenCreatingNote": false,
         "createInSameFolderAsActiveFile": false,
