@@ -6,18 +6,25 @@
   "fileMenu": [],
   "leftRibbon": [
     {
-      "id": "obsidian-shellcommands:shell-command-vvjqdgvihc",
+      "id": "obsidian-shellcommands:shell-command-64pns2aczd",
       "icon": "lucide-server",
-      "name": "preview",
+      "name": "Shell commands: Execute: Server",
       "mode": "any",
-      "color": "#8acccb"
+      "color": "#377da0"
     },
     {
-      "id": "obsidian-shellcommands:shell-command-s71ytoxamc",
-      "icon": "lucide-file-output",
-      "name": "publish",
+      "id": "obsidian-shellcommands:shell-command-e5zx0e5jgi",
+      "icon": "lucide-upload",
+      "name": "Shell commands: Execute: Deploy",
       "mode": "any",
-      "color": "#778cca"
+      "color": "#b57be5"
+    },
+    {
+      "id": "obsidian-shellcommands:shell-command-3aqi7q17ii",
+      "icon": "lucide-stop-circle",
+      "name": "Shell commands: Execute: Stop Server",
+      "mode": "any",
+      "color": "#e21818"
     }
   ],
   "rightRibbon": [],

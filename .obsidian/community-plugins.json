@@ -1,8 +1,8 @@
 [
-  "obsidian-shellcommands",
   "quickadd",
   "homepage",
   "dataview",
   "cmdr",
-  "buttons"
+  "buttons",
+  "obsidian-shellcommands"
 ]

@@ -1,6 +1,0 @@
-<h2>✨ Recent Posts</h2>
-<ul>
-{{ range first 5 (where .Site.RegularPages "Type" "blog") }}
-  <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
-{{ end }}
-</ul>

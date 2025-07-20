@@ -1,0 +1,13 @@
+{{ $type := .Get 0 | default "blog" }} <!-- 第一个参数：内容类型，默认为"blog" -->
+{{ $count := .Get 1 | default 5 }}    <!-- 第二个参数：显示数量，默认为5 -->
+
+{{ $pages := where .Site.RegularPages "Type" $type }}
+{{ if eq $count "all" }}
+  {{ $count = len $pages }}  <!-- 如果参数为"all"，则显示全部 -->
+{{ end }}
+
+<ul>
+  {{ range first $count $pages }}
+    <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+  {{ end }}
+</ul>

@@ -13,5 +13,8 @@ Welcome to my blog ❤️ where only words matters.
 
 I write [some texts]({{< ref "blog/_index.md" >}}), about my programming journey👨‍💻, [the books I've read📚]({{< ref "books.md" >}}), and my reflections💭.
 
+## ✨ Recent Posts
+{{< latest-content blog >}}
 
-{{< latest-posts >}}
+## 📚 Recent Book Notes
+{{< latest-content book >}}
