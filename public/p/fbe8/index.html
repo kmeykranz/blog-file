@@ -608,6 +608,29 @@ import os dir_path = &#34;./&#34; i = 0 for file in os.listdir(dir_path): ## Ski
 <p>另外，去年我一直是随缘更博客，接下来我会开始有规律性的定期发文章，分享我的生活和学习到的知识。做博客的精髓在于长期坚持，一直有新内容才会有人关注。一起加油吧😊</p>
  </content>
 
+
+<div id="twikoo-container" class="mt-12 pt-8 border-t border-gray-200">
+    <h3 class="text-xl font-semibold mb-6">Comments</h3>
+    <div id="twikoo" class="prose max-w-none"></div>
+  </div>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/twikoo@1.6.25/dist/twikoo.all.min.js"></script>
+  <script>
+    twikoo.init({
+      envId: "https://c.fiveth.cc", 
+      el: "#twikoo",
+      
+    
+    
+    
+      onCommentLoaded: function() {
+        
+        console.log("Twikoo comments loaded");
+      }
+    });
+  </script>
+
 <p>
   
   <a href="http://localhost:1313/blog/%E5%8D%9A%E5%AE%A2/">#博客</a>

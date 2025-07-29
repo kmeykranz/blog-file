@@ -1,0 +1,25 @@
+/* 自定义 Twikoo 评论区样式 */
+#twikoo-container {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e5e7eb;
+}
+
+#twikoo .tk-comment-content {
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+#twikoo .tk-submit {
+  margin-top: 1.5rem;
+}
+
+#twikoo .tk-owo-emotion, .twikoo .OwO-item img {
+    display: none;
+    /* display: inline;
+    border:none; */
+}
+
+#twikoo .tk-avatar{
+    display:none;
+}

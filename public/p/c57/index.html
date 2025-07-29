@@ -663,6 +663,29 @@ QQ链接 上“qq推广”官网
 <p>图片来源于b站狂神说的html课程，推荐。</p>
  </content>
 
+
+<div id="twikoo-container" class="mt-12 pt-8 border-t border-gray-200">
+    <h3 class="text-xl font-semibold mb-6">Comments</h3>
+    <div id="twikoo" class="prose max-w-none"></div>
+  </div>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/twikoo@1.6.25/dist/twikoo.all.min.js"></script>
+  <script>
+    twikoo.init({
+      envId: "https://c.fiveth.cc", 
+      el: "#twikoo",
+      
+    
+    
+    
+      onCommentLoaded: function() {
+        
+        console.log("Twikoo comments loaded");
+      }
+    });
+  </script>
+
 <p>
   
   <a href="http://localhost:1313/blog/html/">#HTML</a>

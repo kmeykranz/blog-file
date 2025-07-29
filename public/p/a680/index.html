@@ -621,6 +621,29 @@ bool numlist[100000]; //0代表质数，1代表非质数 int prime[100000], coun
 </table>
  </content>
 
+
+<div id="twikoo-container" class="mt-12 pt-8 border-t border-gray-200">
+    <h3 class="text-xl font-semibold mb-6">Comments</h3>
+    <div id="twikoo" class="prose max-w-none"></div>
+  </div>
+  
+  
+  <script src="https://cdn.jsdelivr.net/npm/twikoo@1.6.25/dist/twikoo.all.min.js"></script>
+  <script>
+    twikoo.init({
+      envId: "https://c.fiveth.cc", 
+      el: "#twikoo",
+      
+    
+    
+    
+      onCommentLoaded: function() {
+        
+        console.log("Twikoo comments loaded");
+      }
+    });
+  </script>
+
 <p>
   
   <a href="http://localhost:1313/blog/%E7%AE%97%E6%B3%95/">#算法</a>

@@ -94,27 +94,16 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/_index.md",
+                "file": "@INDEX/Home.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of _index"
-            }
-          },
-          {
-            "id": "d223005af0a9dc56",
-            "type": "leaf",
-            "state": {
-              "type": "SC-custom-variables-view",
-              "state": {},
-              "icon": "code-glyph",
-              "title": "Shell commands: Custom variables"
+              "title": "Outline of Home"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "3338d36f24ed159e",
@@ -172,8 +161,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,13 +177,21 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "public/css/custom.min.c12d7c44468a845ec89be1fb693d6e6e7e801efa9eefa215196c72b406dc10b2.css",
+    "public/css/custom.min.f9d8d983aa03553fdc450b7606c7a04e37d4d56b1d1dc828f5dbc63e790692e3.css",
+    "public/css/custom.min.0212585df585fa35cc743b133697d7f611901461f80c22f09f4f3bdbdd133f93.css",
+    "public/css/custom.min.d882feda99c05680ee85042ed2b5173607520443078a8271174dcd2ab833ccdc.css",
+    "public/css/custom.min.b39caa546e9f35a6a47f40f99c6cb377f6b03164bd340c87f5aee77c057eb32a.css",
+    "public/css/custom.min.fbc3738c14766ed3f39809d5104974ec1fc431b3d4272ee46d1be88dd4be17a3.css",
+    "public/css/custom.min.8aedd1989fed452260df9efd6732b463a47e1da0ca9b7db4d14380dfde5ab8c4.css",
+    "public/css/custom.min.512dd6c8cb845fde68414414c4b7f1ab0a3d548fc0539d66a599633fcae79880.css",
+    "public/css/custom.min.5c407e69991af166bf7976de1528a8450446b162ce849a991fd581eeacb920ce.css",
+    "public/css/custom.min.ba1e6630a540d668604cb4d275d016e214c1e150f1de04438b46f3ebd4368b34.css",
+    "public/css/custom.min.8fed7315bf204024084f7982a99eacf13c2272b621ddf8491f57a731ae459236.css",
+    "@INDEX/Home.md",
     "content/now.md",
     "content/books.md",
-    "@INDEX/Home.md",
     "content/_index.md",
-    "public/now/index.html",
-    "public/now",
-    "content/now",
     "content/Untitled 1.md",
     "archetypes/default.md",
     "content/blog/高精度运算.md",
@@ -205,13 +201,6 @@
     "content/blog/Hugo Theme Cybe：分享一下我自己魔改的博客主题.md",
     "content/book/深入浅出程序设计竞赛.md",
     "content/book/Show Your Work.md",
-    "layouts/shortcodes/latest-content.html",
-    "layouts/shortcodes/latest-contents.html",
-    "public/book/98d7/index.html",
-    "public/book/98d7",
-    "public/book/贪婪的多巴胺/index.html",
-    "public/book/贪婪的多巴胺",
-    "public/book/请停止精神内耗/index.html",
     "content/book/《被讨厌的勇气》.md",
     "content/book/《请停止精神内耗》.md",
     "content/book/《当下的力量》.md",
