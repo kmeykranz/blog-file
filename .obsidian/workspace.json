@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "@INDEX/Home.md",
+                "file": "content/now.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "now"
             }
           }
         ]
@@ -94,13 +94,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "@INDEX/Home.md",
+                "file": "content/now.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Home"
+              "title": "Outline of now"
             }
           }
         ]
@@ -165,18 +165,32 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "homepage:Open homepage": false,
       "switcher:Open quick switcher": true,
       "command-palette:Open command palette": true,
       "obsidian-shellcommands:Shell commands: Custom variables": true,
       "quickadd:QuickAdd": false,
-      "cmdr:Shell commands: Execute: Stop Server": false,
       "cmdr:Shell commands: Execute: Server": false,
-      "cmdr:Shell commands: Execute: Deploy": false
+      "cmdr:Shell commands: Execute: Deploy": false,
+      "cmdr:Shell commands: Execute: Stop Server": false,
+      "local-backup:Run local backup": false
     }
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "content/now/2025-07.md",
+    "content/blog/Hugo Theme Cybe：分享一下我自己魔改的博客主题.md",
+    "@INDEX/Home.md",
+    "content/now.md",
+    "public/now/2025-07/index.html",
+    "public/now/2025-07",
+    "content/_index.md",
+    "content/books.md",
+    "content/blog/摆脱3DM启动器打开游戏：避免捆绑下载笑傲江湖.md",
+    "content/now/Untitled.md",
+    "content/blog/2022款Thinkbook14+酷睿版续航优化方案.md",
+    "content/blog/_index.md",
     "public/css/custom.min.c12d7c44468a845ec89be1fb693d6e6e7e801efa9eefa215196c72b406dc10b2.css",
     "public/css/custom.min.f9d8d983aa03553fdc450b7606c7a04e37d4d56b1d1dc828f5dbc63e790692e3.css",
     "public/css/custom.min.0212585df585fa35cc743b133697d7f611901461f80c22f09f4f3bdbdd133f93.css",
@@ -185,20 +199,11 @@
     "public/css/custom.min.fbc3738c14766ed3f39809d5104974ec1fc431b3d4272ee46d1be88dd4be17a3.css",
     "public/css/custom.min.8aedd1989fed452260df9efd6732b463a47e1da0ca9b7db4d14380dfde5ab8c4.css",
     "public/css/custom.min.512dd6c8cb845fde68414414c4b7f1ab0a3d548fc0539d66a599633fcae79880.css",
-    "public/css/custom.min.5c407e69991af166bf7976de1528a8450446b162ce849a991fd581eeacb920ce.css",
-    "public/css/custom.min.ba1e6630a540d668604cb4d275d016e214c1e150f1de04438b46f3ebd4368b34.css",
-    "public/css/custom.min.8fed7315bf204024084f7982a99eacf13c2272b621ddf8491f57a731ae459236.css",
-    "@INDEX/Home.md",
-    "content/now.md",
-    "content/books.md",
-    "content/_index.md",
     "content/Untitled 1.md",
     "archetypes/default.md",
     "content/blog/高精度运算.md",
     "content/blog/辗转相除法-求最大公因数.md",
-    "content/blog/2022款Thinkbook14+酷睿版续航优化方案.md",
     "content/blog/更换博客框架-hugo.md",
-    "content/blog/Hugo Theme Cybe：分享一下我自己魔改的博客主题.md",
     "content/book/深入浅出程序设计竞赛.md",
     "content/book/Show Your Work.md",
     "content/book/《被讨厌的勇气》.md",
@@ -209,10 +214,6 @@
     "content/book/Computational Fairy Tales.md",
     "content/book/《掌控谈话》.md",
     "content/book/《原子习惯》.md",
-    "content/book/《小狗钱钱》.md",
-    "content/book/《未来简史》.md",
-    "content/book/《贪婪的多巴胺》.md",
-    "content/book/《睡眠革命》.md",
     "public/images/favicon.png",
     "public/images/share.png",
     "static/images/share.png",

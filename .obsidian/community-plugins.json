@@ -4,5 +4,6 @@
   "dataview",
   "cmdr",
   "buttons",
-  "obsidian-shellcommands"
+  "obsidian-shellcommands",
+  "local-backup"
 ]

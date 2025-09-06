@@ -16,7 +16,7 @@
     <copyright>Copyright © 2022-2025, Fiveth.</copyright>
     
     
-    <lastBuildDate>Thu, 29 May 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 06 Sep 2025 00:00:00 +0000</lastBuildDate>
     
     
     <follow_challenge>
@@ -25,6 +25,13 @@
     </follow_challenge>
     
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2025-07</title>
+      <link>http://localhost:1313/now/2025-07/</link>
+      <pubDate>Sat, 06 Sep 2025 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author>
+      <guid>http://localhost:1313/now/2025-07/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Updated 2025-07-20&lt;/p&gt;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;-毕业暑假&#34;&gt;☀️ 毕业暑假&lt;/h3&gt;&#xA;&lt;p&gt;在考完高三最后的几场考试后，我迎来了高中毕业后的暑假。这是一个重大的人生节点，我从一个高中生转变成了一名准大学生。暑假应该让生活步入正轨，锻炼实用的技能。&lt;/p&gt;&#xA;&lt;h3 id=&#34;-等待结果&#34;&gt;💭 等待结果&lt;/h3&gt;&#xA;&lt;p&gt;考试成绩在8月中旬才出来，所以最后的择校也要等到那时才能确定。最近在做一些大学入学的准备（材料递交、宿舍申请、签证申请）。&lt;/p&gt;&#xA;&lt;h3 id=&#34;-新战友&#34;&gt;💻 新战友&lt;/h3&gt;&#xA;&lt;p&gt;入手了Macbook Air M4，从今天起它就是我的新战友，我们一起前行。慢慢的已经熟悉了macos，配置了iTerm终端，装了RayCast，用Orbstack装上了Linux虚拟机。&lt;/p&gt;&#xA;&lt;h3 id=&#34;-lets-rust&#34;&gt;🦀 Let&amp;rsquo;s Rust&lt;/h3&gt;&#xA;&lt;p&gt;回顾高中时期，我熟悉了C++的基础和面向对象编程，写了很多程序和游戏，也是时候往深处走了，学习底层的原理和更深的知识。最近开始学习Rust，不只因为Rust是一个非常有前景的语言，对它的学习还可以提升我写C++的程序设计能力。&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; 学习&lt;a href=&#34;https://course.rs/about-book.html&#34;&gt;《Rust语言圣经》&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h3 id=&#34;-生命在于运动&#34;&gt;🏋️‍♂️ 生命在于运动&lt;/h3&gt;&#xA;&lt;p&gt;因为考试一个月多月没运动了，本来热爱健身的我，现在也懒了起来。久坐在家中，身体也传来不详的信号，意识到不对，最近重启了健身习惯。&lt;/p&gt;&#xA;</description>
+    </item>
     <item>
       <title>《刻意暂停》</title>
       <link>http://localhost:1313/book/%E5%88%BB%E6%84%8F%E6%9A%82%E5%81%9C/</link>
@@ -87,13 +94,6 @@
       <pubDate>Tue, 04 Mar 2025 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author>
       <guid>http://localhost:1313/book/%E8%B4%AA%E5%A9%AA%E7%9A%84%E5%A4%9A%E5%B7%B4%E8%83%BA/</guid>
       <description>&lt;p&gt;多巴胺是预期带来的兴奋。当我们获得某件东西后，它看起来就没那么好了。当一切变成日常后，就不会有多巴胺了。&lt;/p&gt;&#xA;&lt;h2 id=&#34;爱情中的多巴胺&#34;&gt;爱情中的多巴胺&lt;/h2&gt;&#xA;&lt;p&gt;&lt;strong&gt;爱情&lt;/strong&gt;先是由多巴胺驱动的激烈爱情，后是由当下分子维持的陪伴之爱。&lt;/p&gt;&#xA;&lt;h2 id=&#34;对抗不良多巴胺的方法&#34;&gt;对抗不良多巴胺的方法：&lt;/h2&gt;&#xA;&lt;h3 id=&#34;动机增强疗法&#34;&gt;动机增强疗法&lt;/h3&gt;&#xA;&lt;p&gt;（用欲望多巴胺对抗欲望多巴胺）&#xA;让患者谈论对健康的欲望来建立动机&#xA;我们不相信所听到的，但相信自己所说的&lt;/p&gt;&#xA;&lt;h3 id=&#34;认知行为疗法&#34;&gt;认知行为疗法&lt;/h3&gt;&#xA;&lt;p&gt;（用控制多巴胺对抗欲望多巴胺）&lt;br&gt;&#xA;消除一切可以激起欲望的物品&lt;/p&gt;&#xA;&lt;h3 id=&#34;十二步促进疗法&#34;&gt;十二步促进疗法&lt;/h3&gt;&#xA;&lt;p&gt;（用当下分子对抗欲望多巴胺）&lt;br&gt;&#xA;参加匿名戒酒会，寻求支持&lt;br&gt;&#xA;如果复饮，就会有很大内疚感，让他们失望了&lt;br&gt;&#xA;用当下的内疚感、当下同理心对抗多巴胺&lt;/p&gt;&#xA;</description>
-    </item>
-    <item>
-      <title>图灵完备：一款教你搭建计算机的游戏</title>
-      <link>http://localhost:1313/p/turing-complete/</link>
-      <pubDate>Wed, 19 Feb 2025 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author>
-      <guid>http://localhost:1313/p/turing-complete/</guid>
-      <description>&lt;p&gt;最近在 Steam 上发现了一个神仙游戏，《Turing Complete》。&lt;/p&gt;&#xA;&lt;p&gt;这是一款模拟电路，搭建计算机的游戏，从开始的 &lt;code&gt;或门、非门、与门...&lt;/code&gt;，到 &lt;code&gt;存储器、计算引擎、条件控制器&lt;/code&gt;，然后组出一个 &lt;code&gt;计算机&lt;/code&gt;，再之后用 &lt;code&gt;汇编语言&lt;/code&gt;，写一些简单的小游戏。&lt;/p&gt;&#xA;&lt;p&gt;作为还是一个高中生的我，第一次了解了计算机电路的底层原理，电线的开（1）、关（0），被先人们运用到了极致，非常巧妙的组出了各种逻辑门，然后层层递进，到做出各种元件。&lt;/p&gt;&#xA;&lt;p&gt;以前刷到过在 MC 里搭建计算机的视频，当时完全还不懂，觉得用了命令块之类的，在玩了这款游戏之后我恍然大悟，原来只要用那几个基础的红石元件，完全可以一点一点地做出一个计算机。&lt;/p&gt;&#xA;&lt;p&gt;这下真的是在边玩游戏边学习了，游戏里还普及了德摩根定律：对四个基础逻辑门的输入或输出进行取反，即可互相转换。&lt;/p&gt;&#xA;&lt;p&gt;这样通过玩游戏的形式，一点一点的过关斩将，模拟做出计算机，是个不错的办法。在以后实际上手的时候，或者在学习这个知识的时候，会轻松很多。&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;https://p.fiveth.cc/img/2025%2F0219215324.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;</description>
     </item>
   </channel>
 </rss>

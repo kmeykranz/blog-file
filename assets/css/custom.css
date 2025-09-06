@@ -14,6 +14,7 @@
   margin-top: 1.5rem;
 }
 
+/* 取消表情包显示和头像显示 */
 #twikoo .tk-owo-emotion, .twikoo .OwO-item img {
     display: none;
     /* display: inline;
