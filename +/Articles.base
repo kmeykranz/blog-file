@@ -1,0 +1,16 @@
+formulas:
+  date: date
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.inFolder("content/blog")
+    order:
+      - file.name
+      - formula.date
+    sort:
+      - property: formula.date
+        direction: DESC
+    columnSize:
+      file.name: 456

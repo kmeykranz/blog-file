@@ -1,9 +1,6 @@
 [
-  "quickadd",
   "homepage",
-  "dataview",
-  "cmdr",
-  "buttons",
   "obsidian-shellcommands",
-  "local-backup"
+  "local-backup",
+  "templater-obsidian"
 ]

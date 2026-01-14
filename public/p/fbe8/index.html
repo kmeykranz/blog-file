@@ -61,8 +61,12 @@ for file in os.listdir(dir_path):
     i &#43;= 1
 print(i)
 
+然后将文件名后缀修改成.py
+在文件夹空白处右键，点击在终端中打开
+在终端中输入python rename.py即可运行脚本
 
-然后将文件名后缀修改成.py" />
+
+另外，去年我一直是随缘更博客，接下来我会开始有规律性的定期发文章，分享我的生活和学习到的知识。做博客的精髓在于长期坚持，一直有新内容才会有人关注。一起加油吧😊" />
 <meta name="keywords" content="博客,Hexo,Python," />
 
 <link rel="canonical" href="http://localhost:1313/p/fbe8/">
@@ -82,7 +86,7 @@ https://wwf.lanzoum.com/icY4q1ufi7na 密码:ff6u
 下面是方法：
 首先要安装python。
 在_posts文件夹中创建一个rename.txt文件，复制粘贴下列代码进去：
-import os dir_path = &#34;./&#34; i = 0 for file in os.listdir(dir_path): ## Skip &#39;.&#39; and &#39;..&#39; if file == &#34;.&#34; or file == &#34;..&#34;: continue ## Construct the full path to the file file_path = os.path.join(dir_path, file) ## Read the file try: with open(file_path, &#39;r&#39;, encoding=&#39;utf-8&#39;) as f: lines = f.readlines() except UnicodeDecodeError: print(f&#34;Skipping file due to encoding issue: {file}&#34;) continue ## Skip files with less than 2 lines if len(lines) &lt; 2: continue ## Extract and process the title from the second line title = lines[1].strip().replace(&#39;title:&#39;, &#39;&#39;).strip() ## Remove any marks from the title title = title.replace(&#39;?&#39;, &#39;&#39;) title = title.replace(&#39;|&#39;, &#39;-&#39;) ## Rename new_filename = title &#43; &#39;.md&#39; new_file_path = os.path.join(dir_path, new_filename) os.rename(file_path, new_file_path) i &#43;= 1 print(i) 然后将文件名后缀修改成.py">
+import os dir_path = &#34;./&#34; i = 0 for file in os.listdir(dir_path): ## Skip &#39;.&#39; and &#39;..&#39; if file == &#34;.&#34; or file == &#34;..&#34;: continue ## Construct the full path to the file file_path = os.path.join(dir_path, file) ## Read the file try: with open(file_path, &#39;r&#39;, encoding=&#39;utf-8&#39;) as f: lines = f.readlines() except UnicodeDecodeError: print(f&#34;Skipping file due to encoding issue: {file}&#34;) continue ## Skip files with less than 2 lines if len(lines) &lt; 2: continue ## Extract and process the title from the second line title = lines[1].strip().replace(&#39;title:&#39;, &#39;&#39;).strip() ## Remove any marks from the title title = title.replace(&#39;?&#39;, &#39;&#39;) title = title.replace(&#39;|&#39;, &#39;-&#39;) ## Rename new_filename = title &#43; &#39;.md&#39; new_file_path = os.path.join(dir_path, new_filename) os.rename(file_path, new_file_path) i &#43;= 1 print(i) 然后将文件名后缀修改成.py 在文件夹空白处右键，点击在终端中打开 在终端中输入python rename.py即可运行脚本 另外，去年我一直是随缘更博客，接下来我会开始有规律性的定期发文章，分享我的生活和学习到的知识。做博客的精髓在于长期坚持，一直有新内容才会有人关注。一起加油吧😊">
   <meta property="og:locale" content="en_US">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blog">
@@ -110,7 +114,7 @@ https://wwf.lanzoum.com/icY4q1ufi7na 密码:ff6u
 下面是方法：
 首先要安装python。
 在_posts文件夹中创建一个rename.txt文件，复制粘贴下列代码进去：
-import os dir_path = &#34;./&#34; i = 0 for file in os.listdir(dir_path): ## Skip &#39;.&#39; and &#39;..&#39; if file == &#34;.&#34; or file == &#34;..&#34;: continue ## Construct the full path to the file file_path = os.path.join(dir_path, file) ## Read the file try: with open(file_path, &#39;r&#39;, encoding=&#39;utf-8&#39;) as f: lines = f.readlines() except UnicodeDecodeError: print(f&#34;Skipping file due to encoding issue: {file}&#34;) continue ## Skip files with less than 2 lines if len(lines) &lt; 2: continue ## Extract and process the title from the second line title = lines[1].strip().replace(&#39;title:&#39;, &#39;&#39;).strip() ## Remove any marks from the title title = title.replace(&#39;?&#39;, &#39;&#39;) title = title.replace(&#39;|&#39;, &#39;-&#39;) ## Rename new_filename = title &#43; &#39;.md&#39; new_file_path = os.path.join(dir_path, new_filename) os.rename(file_path, new_file_path) i &#43;= 1 print(i) 然后将文件名后缀修改成.py">
+import os dir_path = &#34;./&#34; i = 0 for file in os.listdir(dir_path): ## Skip &#39;.&#39; and &#39;..&#39; if file == &#34;.&#34; or file == &#34;..&#34;: continue ## Construct the full path to the file file_path = os.path.join(dir_path, file) ## Read the file try: with open(file_path, &#39;r&#39;, encoding=&#39;utf-8&#39;) as f: lines = f.readlines() except UnicodeDecodeError: print(f&#34;Skipping file due to encoding issue: {file}&#34;) continue ## Skip files with less than 2 lines if len(lines) &lt; 2: continue ## Extract and process the title from the second line title = lines[1].strip().replace(&#39;title:&#39;, &#39;&#39;).strip() ## Remove any marks from the title title = title.replace(&#39;?&#39;, &#39;&#39;) title = title.replace(&#39;|&#39;, &#39;-&#39;) ## Rename new_filename = title &#43; &#39;.md&#39; new_file_path = os.path.join(dir_path, new_filename) os.rename(file_path, new_file_path) i &#43;= 1 print(i) 然后将文件名后缀修改成.py 在文件夹空白处右键，点击在终端中打开 在终端中输入python rename.py即可运行脚本 另外，去年我一直是随缘更博客，接下来我会开始有规律性的定期发文章，分享我的生活和学习到的知识。做博客的精髓在于长期坚持，一直有新内容才会有人关注。一起加油吧😊">
 
 
 
@@ -127,7 +131,7 @@ https://wwf.lanzoum.com/icY4q1ufi7na 密码:ff6u
 下面是方法：
 首先要安装python。
 在_posts文件夹中创建一个rename.txt文件，复制粘贴下列代码进去：
-import os dir_path = &#34;./&#34; i = 0 for file in os.listdir(dir_path): ## Skip &#39;.&#39; and &#39;..&#39; if file == &#34;.&#34; or file == &#34;..&#34;: continue ## Construct the full path to the file file_path = os.path.join(dir_path, file) ## Read the file try: with open(file_path, &#39;r&#39;, encoding=&#39;utf-8&#39;) as f: lines = f.readlines() except UnicodeDecodeError: print(f&#34;Skipping file due to encoding issue: {file}&#34;) continue ## Skip files with less than 2 lines if len(lines) &lt; 2: continue ## Extract and process the title from the second line title = lines[1].strip().replace(&#39;title:&#39;, &#39;&#39;).strip() ## Remove any marks from the title title = title.replace(&#39;?&#39;, &#39;&#39;) title = title.replace(&#39;|&#39;, &#39;-&#39;) ## Rename new_filename = title &#43; &#39;.md&#39; new_file_path = os.path.join(dir_path, new_filename) os.rename(file_path, new_file_path) i &#43;= 1 print(i) 然后将文件名后缀修改成.py">
+import os dir_path = &#34;./&#34; i = 0 for file in os.listdir(dir_path): ## Skip &#39;.&#39; and &#39;..&#39; if file == &#34;.&#34; or file == &#34;..&#34;: continue ## Construct the full path to the file file_path = os.path.join(dir_path, file) ## Read the file try: with open(file_path, &#39;r&#39;, encoding=&#39;utf-8&#39;) as f: lines = f.readlines() except UnicodeDecodeError: print(f&#34;Skipping file due to encoding issue: {file}&#34;) continue ## Skip files with less than 2 lines if len(lines) &lt; 2: continue ## Extract and process the title from the second line title = lines[1].strip().replace(&#39;title:&#39;, &#39;&#39;).strip() ## Remove any marks from the title title = title.replace(&#39;?&#39;, &#39;&#39;) title = title.replace(&#39;|&#39;, &#39;-&#39;) ## Rename new_filename = title &#43; &#39;.md&#39; new_file_path = os.path.join(dir_path, new_filename) os.rename(file_path, new_file_path) i &#43;= 1 print(i) 然后将文件名后缀修改成.py 在文件夹空白处右键，点击在终端中打开 在终端中输入python rename.py即可运行脚本 另外，去年我一直是随缘更博客，接下来我会开始有规律性的定期发文章，分享我的生活和学习到的知识。做博客的精髓在于长期坚持，一直有新内容才会有人关注。一起加油吧😊">
   <meta itemprop="datePublished" content="2024-04-09T00:00:00+00:00">
   <meta itemprop="dateModified" content="2024-04-09T00:00:00+00:00">
   <meta itemprop="wordCount" content="145">
@@ -595,41 +599,13 @@ import os dir_path = &#34;./&#34; i = 0 for file in os.listdir(dir_path): ## Ski
 </span></span><span style="display:flex;"><span>    i <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>
 </span></span><span style="display:flex;"><span>print(i)
 </span></span></code></pre></div><ul>
-<li>
-<p>然后将文件名后缀修改成<code>.py</code></p>
-</li>
-<li>
-<p>在文件夹空白处右键，点击<code>在终端中打开</code></p>
-</li>
-<li>
-<p>在终端中输入<code>python rename.py</code>即可运行脚本</p>
-</li>
+<li>然后将文件名后缀修改成<code>.py</code></li>
+<li>在文件夹空白处右键，点击<code>在终端中打开</code></li>
+<li>在终端中输入<code>python rename.py</code>即可运行脚本</li>
 </ul>
 <hr>
 <p>另外，去年我一直是随缘更博客，接下来我会开始有规律性的定期发文章，分享我的生活和学习到的知识。做博客的精髓在于长期坚持，一直有新内容才会有人关注。一起加油吧😊</p>
  </content>
-
-
-<div id="twikoo-container" class="mt-12 pt-8 border-t border-gray-200">
-    <div id="twikoo" class="prose max-w-none"></div>
-  </div>
-  
-  
-  <script src="https://cdn.jsdelivr.net/npm/twikoo@1.6.9/dist/twikoo.min.js"></script>
-  <script>
-    twikoo.init({
-      envId: "https://c.fiveth.cc", 
-      el: "#twikoo",
-      
-    
-    
-    
-      onCommentLoaded: function() {
-        
-        console.log("Twikoo comments loaded");
-      }
-    });
-  </script>
 
 <p>
   
