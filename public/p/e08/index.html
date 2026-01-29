@@ -483,8 +483,7 @@ A&#43;B **题目：**高精度加法，相当于 a&#43;b problem，不用考虑�
   }
 </style>
 
-
-<link rel="stylesheet" href="/css/custom.min.0d091ed675d75a33ade411918cbf897c19202887a30275a23a96d1a287749a36.css" integrity="sha256-DQke1nXXWjOt5BGRjL&#43;JfBkgKIejAnWiOpbRood0mjY="></head>
+</head>
 
 <body>
   <header><a href="/" class="title">
@@ -494,7 +493,7 @@ A&#43;B **题目：**高精度加法，相当于 a&#43;b problem，不用考虑�
 
 <a href="/books/">Books</a>
 
-<a href="/now/">Now</a>
+<a href="/about/">Now</a>
 
 
 <a href="/blog/">Blog</a>
@@ -527,31 +526,31 @@ A&#43;B **题目：**高精度加法，相当于 a&#43;b problem，不用考虑�
 <p>首先我们看看加法的竖式</p>
 <img src="https://p.fiveth.cc/img/m/a+b.webp" style="zoom: 15%;" />
 <p>如果<strong>超过10</strong>就要向下一位<strong>进位</strong>，进位的数字和下一位的值相加</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">#include&lt;iostream&gt;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">#include&lt;iostream&gt;
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">#include&lt;string&gt;
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">#include&lt;algorithm&gt;</span><span style="color:#75715e">//包含max函数
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">using</span> <span style="color:#66d9ef">namespace</span> std;
+</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">using</span> <span style="color:#66d9ef">namespace</span> std;
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> A[<span style="color:#ae81ff">500</span>], B[<span style="color:#ae81ff">500</span>], C[<span style="color:#ae81ff">500</span>];<span style="color:#75715e">//这个定义必须放在主函数外!!!这样它才会初始化，我被这个坑惨了
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>(){
+</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>(){
 </span></span><span style="display:flex;"><span>    string a,b;
 </span></span><span style="display:flex;"><span>    cin <span style="color:#f92672">&gt;&gt;</span> a <span style="color:#f92672">&gt;&gt;</span> b;
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> lena <span style="color:#f92672">=</span> a.length(), lenb <span style="color:#f92672">=</span> b.length();
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> len <span style="color:#f92672">=</span> max(lena, lenb);
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e">//把字符变成对应的数字，并倒序存入
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> lena; i<span style="color:#f92672">++</span>) A[i] <span style="color:#f92672">=</span> a[lena<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span><span style="color:#f92672">-</span>i] <span style="color:#f92672">-</span> <span style="color:#e6db74">&#39;0&#39;</span>;
+</span></span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> lena; i<span style="color:#f92672">++</span>) A[i] <span style="color:#f92672">=</span> a[lena<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span><span style="color:#f92672">-</span>i] <span style="color:#f92672">-</span> <span style="color:#e6db74">&#39;0&#39;</span>;
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> lenb; i<span style="color:#f92672">++</span>) B[i] <span style="color:#f92672">=</span> b[lenb<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span><span style="color:#f92672">-</span>i] <span style="color:#f92672">-</span> <span style="color:#e6db74">&#39;0&#39;</span>;
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e">//相加并处理进位
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> len; i<span style="color:#f92672">++</span>) {
+</span></span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; i <span style="color:#f92672">&lt;</span> len; i<span style="color:#f92672">++</span>) {
 </span></span><span style="display:flex;"><span>        <span style="color:#75715e">//相加
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        C[i] <span style="color:#f92672">+=</span> A[i] <span style="color:#f92672">+</span> B[i];  
+</span></span></span><span style="display:flex;"><span>        C[i] <span style="color:#f92672">+=</span> A[i] <span style="color:#f92672">+</span> B[i];  
 </span></span><span style="display:flex;"><span>        <span style="color:#75715e">//进位
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        C[i <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>] <span style="color:#f92672">=</span> C[i] <span style="color:#f92672">/</span> <span style="color:#ae81ff">10</span>;
+</span></span></span><span style="display:flex;"><span>        C[i <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>] <span style="color:#f92672">=</span> C[i] <span style="color:#f92672">/</span> <span style="color:#ae81ff">10</span>;
 </span></span><span style="display:flex;"><span>        C[i] <span style="color:#f92672">=</span> C[i] <span style="color:#f92672">%</span> <span style="color:#ae81ff">10</span>;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e">//如果进位使得位数增加，我们就多输出一位
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">if</span> (C[len]) len<span style="color:#f92672">++</span>;
+</span></span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (C[len]) len<span style="color:#f92672">++</span>;
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e">//因为我们之前是倒序存入，所以现在倒序输出就又正了
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> len<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span> ; i <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">0</span>; i<span style="color:#f92672">--</span>) cout <span style="color:#f92672">&lt;&lt;</span> C[i];
+</span></span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> len<span style="color:#f92672">-</span><span style="color:#ae81ff">1</span> ; i <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">0</span>; i<span style="color:#f92672">--</span>) cout <span style="color:#f92672">&lt;&lt;</span> C[i];
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><h2 id="ab-1">A*B</h2>
@@ -566,33 +565,33 @@ A&#43;B **题目：**高精度加法，相当于 a&#43;b problem，不用考虑�
 <li><strong>乘积的位数不超过两数的位数之和</strong>。</li>
 </ul>
 <p>知道了这个，我们就可以开始了。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">#include&lt;iostream&gt;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">#include&lt;iostream&gt;
 </span></span></span><span style="display:flex;"><span><span style="color:#75715e">#include&lt;string&gt;
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">using</span> <span style="color:#66d9ef">namespace</span> std;
+</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">using</span> <span style="color:#66d9ef">namespace</span> std;
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> A[<span style="color:#ae81ff">5000</span>], B[<span style="color:#ae81ff">5000</span>], C[<span style="color:#ae81ff">5000</span>];
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>(){
 </span></span><span style="display:flex;"><span>    string a, b;
 </span></span><span style="display:flex;"><span>    cin <span style="color:#f92672">&gt;&gt;</span> a <span style="color:#f92672">&gt;&gt;</span> b;
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> lena <span style="color:#f92672">=</span> a.length(), lenb <span style="color:#f92672">=</span> b.length();
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e">//转化成对应数字并倒序存入
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;=</span> lena; i<span style="color:#f92672">++</span>) A[i] <span style="color:#f92672">=</span> a[lena <span style="color:#f92672">-</span> i]<span style="color:#f92672">-</span><span style="color:#e6db74">&#39;0&#39;</span>;
+</span></span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;=</span> lena; i<span style="color:#f92672">++</span>) A[i] <span style="color:#f92672">=</span> a[lena <span style="color:#f92672">-</span> i]<span style="color:#f92672">-</span><span style="color:#e6db74">&#39;0&#39;</span>;
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;=</span> lenb; i<span style="color:#f92672">++</span>) B[i] <span style="color:#f92672">=</span> b[lenb <span style="color:#f92672">-</span> i]<span style="color:#f92672">-</span><span style="color:#e6db74">&#39;0&#39;</span>;
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e">//计算乘积
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;=</span> lena; i<span style="color:#f92672">++</span>) {
+</span></span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;=</span> lena; i<span style="color:#f92672">++</span>) {
 </span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> j <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; j <span style="color:#f92672">&lt;=</span> lenb; j<span style="color:#f92672">++</span>) C[i <span style="color:#f92672">+</span> j <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>] <span style="color:#f92672">+=</span> A[i] <span style="color:#f92672">*</span> B[j];
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> len <span style="color:#f92672">=</span> lena <span style="color:#f92672">+</span> lenb;<span style="color:#75715e">//乘积的位数不超过两数的位数之和
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#75715e">//处理进位
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;=</span> len; i<span style="color:#f92672">++</span>) {
+</span></span></span><span style="display:flex;"><span>    <span style="color:#75715e">//处理进位
+</span></span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;=</span> len; i<span style="color:#f92672">++</span>) {
 </span></span><span style="display:flex;"><span>        C[i <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>] <span style="color:#f92672">+=</span> C[i] <span style="color:#f92672">/</span> <span style="color:#ae81ff">10</span>;
 </span></span><span style="display:flex;"><span>        C[i] <span style="color:#f92672">%=</span> <span style="color:#ae81ff">10</span>;
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e">//去掉多余输出的位数
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">while</span> (<span style="color:#f92672">!</span>C[len]) len<span style="color:#f92672">--</span>;
+</span></span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">while</span> (<span style="color:#f92672">!</span>C[len]) len<span style="color:#f92672">--</span>;
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e">//特殊情况，乘积等于0
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">if</span> (len <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">1</span>) len <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
+</span></span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">if</span> (len <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">1</span>) len <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e">//输出
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> len ; i <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">1</span>; i<span style="color:#f92672">--</span>) cout <span style="color:#f92672">&lt;&lt;</span> C[i];
+</span></span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> len ; i <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">1</span>; i<span style="color:#f92672">--</span>) cout <span style="color:#f92672">&lt;&lt;</span> C[i];
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><hr>
@@ -603,26 +602,26 @@ A&#43;B **题目：**高精度加法，相当于 a&#43;b problem，不用考虑�
 <p>输入n，输出s。（<a href="https://www.luogu.com.cn/problem/P1009">洛谷P1009题</a>）</p>
 <p>这道题可以说是前两道题的结合。</p>
 <p>这是我的解法，因为这道题较特殊，所以可以做到比前两道的代码还短，可能有点抽象，要仔细思考</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">#include&lt;iostream&gt;
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">using</span> <span style="color:#66d9ef">namespace</span> std;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">#include&lt;iostream&gt;
+</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">using</span> <span style="color:#66d9ef">namespace</span> std;
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>()
 </span></span><span style="display:flex;"><span>{
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">int</span> i, A[<span style="color:#ae81ff">1005</span>] <span style="color:#f92672">=</span> { <span style="color:#ae81ff">0</span> }, B[<span style="color:#ae81ff">1005</span>] <span style="color:#f92672">=</span> { <span style="color:#ae81ff">0</span> }, n, j;
 </span></span><span style="display:flex;"><span>    cin <span style="color:#f92672">&gt;&gt;</span> n;
 </span></span><span style="display:flex;"><span>    A[<span style="color:#ae81ff">0</span>] <span style="color:#f92672">=</span> B[<span style="color:#ae81ff">0</span>] <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e">//这个循环是外面的加法
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">for</span> (i <span style="color:#f92672">=</span> <span style="color:#ae81ff">2</span>; i <span style="color:#f92672">&lt;=</span> n; i<span style="color:#f92672">++</span>) {
+</span></span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (i <span style="color:#f92672">=</span> <span style="color:#ae81ff">2</span>; i <span style="color:#f92672">&lt;=</span> n; i<span style="color:#f92672">++</span>) {
 </span></span><span style="display:flex;"><span>        <span style="color:#75715e">//阶乘的相乘
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">for</span> (j <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; j <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">100</span>; j<span style="color:#f92672">++</span>)
+</span></span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (j <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; j <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">100</span>; j<span style="color:#f92672">++</span>)
 </span></span><span style="display:flex;"><span>            B[j] <span style="color:#f92672">*=</span> i;
 </span></span><span style="display:flex;"><span>        <span style="color:#75715e">//阶乘的进位
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">for</span> (j <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; j <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">100</span>; j<span style="color:#f92672">++</span>)
+</span></span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (j <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; j <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">100</span>; j<span style="color:#f92672">++</span>)
 </span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (B[j] <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">9</span>) {
 </span></span><span style="display:flex;"><span>                B[j <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>] <span style="color:#f92672">+=</span> B[j] <span style="color:#f92672">/</span> <span style="color:#ae81ff">10</span>;
 </span></span><span style="display:flex;"><span>                B[j] <span style="color:#f92672">%=</span> <span style="color:#ae81ff">10</span>;
 </span></span><span style="display:flex;"><span>            }
 </span></span><span style="display:flex;"><span>        <span style="color:#75715e">//每算完一个阶乘就加进结果并处理进位
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>        <span style="color:#66d9ef">for</span> (j <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; j <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">100</span>; j<span style="color:#f92672">++</span>) {
+</span></span></span><span style="display:flex;"><span>        <span style="color:#66d9ef">for</span> (j <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; j <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">100</span>; j<span style="color:#f92672">++</span>) {
 </span></span><span style="display:flex;"><span>            A[j] <span style="color:#f92672">+=</span> B[j];
 </span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">if</span> (A[j] <span style="color:#f92672">&gt;</span> <span style="color:#ae81ff">9</span>) {
 </span></span><span style="display:flex;"><span>                A[j <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>] <span style="color:#f92672">+=</span> A[j] <span style="color:#f92672">/</span> <span style="color:#ae81ff">10</span>;
@@ -631,9 +630,9 @@ A&#43;B **题目：**高精度加法，相当于 a&#43;b problem，不用考虑�
 </span></span><span style="display:flex;"><span>        }
 </span></span><span style="display:flex;"><span>    }
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e">//去除多余的位数
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">for</span> (i <span style="color:#f92672">=</span> <span style="color:#ae81ff">100</span>; i <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">&amp;&amp;</span> A[i] <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>; i<span style="color:#f92672">--</span>);
+</span></span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (i <span style="color:#f92672">=</span> <span style="color:#ae81ff">100</span>; i <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">0</span> <span style="color:#f92672">&amp;&amp;</span> A[i] <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>; i<span style="color:#f92672">--</span>);
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e">//输出
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>    <span style="color:#66d9ef">for</span> (j <span style="color:#f92672">=</span> i; j <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">0</span>; j<span style="color:#f92672">--</span>) cout<span style="color:#f92672">&lt;&lt;</span> A[j];
+</span></span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">for</span> (j <span style="color:#f92672">=</span> i; j <span style="color:#f92672">&gt;=</span> <span style="color:#ae81ff">0</span>; j<span style="color:#f92672">--</span>) cout<span style="color:#f92672">&lt;&lt;</span> A[j];
 </span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
 </span></span><span style="display:flex;"><span>}
 </span></span></code></pre></div><hr>
@@ -779,7 +778,7 @@ Made with
 
 
 
-Copyright © 2022-2025, Fiveth.
+Copyright © 2022-2026, Fiveth.
 
 
 🗺️ <a href="/sitemap.xml">Sitemap</a>.

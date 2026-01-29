@@ -520,8 +520,7 @@ int main()
   }
 </style>
 
-
-<link rel="stylesheet" href="/css/custom.min.0d091ed675d75a33ade411918cbf897c19202887a30275a23a96d1a287749a36.css" integrity="sha256-DQke1nXXWjOt5BGRjL&#43;JfBkgKIejAnWiOpbRood0mjY="></head>
+</head>
 
 <body>
   <header><a href="/" class="title">
@@ -531,7 +530,7 @@ int main()
 
 <a href="/books/">Books</a>
 
-<a href="/now/">Now</a>
+<a href="/about/">Now</a>
 
 
 <a href="/blog/">Blog</a>
@@ -599,8 +598,8 @@ int main()
 <p>选出一个哨兵，比哨兵小的数全放左边，比他大的全放右边。</p>
 <p>再分别在左边和右边选出哨兵，进行分类。</p>
 <p>以此循环，直到排序完成。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;iostream&gt;</span><span style="color:#75715e">
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">using</span> <span style="color:#66d9ef">namespace</span> std;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;iostream&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">using</span> <span style="color:#66d9ef">namespace</span> std;
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">qsort</span>(<span style="color:#66d9ef">int</span> num[],<span style="color:#66d9ef">int</span> first,<span style="color:#66d9ef">int</span> last) {
 </span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> first, j <span style="color:#f92672">=</span> last, flag <span style="color:#f92672">=</span> num[(first <span style="color:#f92672">+</span> last) <span style="color:#f92672">/</span> <span style="color:#ae81ff">2</span>], temp;
@@ -614,7 +613,7 @@ int main()
 </span></span><span style="display:flex;"><span>			i<span style="color:#f92672">++</span>; j<span style="color:#f92672">--</span>;
 </span></span><span style="display:flex;"><span>		}
 </span></span><span style="display:flex;"><span>	} <span style="color:#66d9ef">while</span> (i <span style="color:#f92672">&lt;=</span> j); <span style="color:#75715e">//带=为了让i和j交错而过，这样才可以用递归
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	<span style="color:#66d9ef">if</span>(first<span style="color:#f92672">&lt;</span>j) qsort(num, first, j);
+</span></span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span>(first<span style="color:#f92672">&lt;</span>j) qsort(num, first, j);
 </span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">if</span>(i<span style="color:#f92672">&lt;</span>last) qsort(num, i, last);
 </span></span><span style="display:flex;"><span>}
 </span></span><span style="display:flex;"><span>
@@ -623,7 +622,7 @@ int main()
 </span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">int</span> n, num[<span style="color:#ae81ff">100000</span>];
 </span></span><span style="display:flex;"><span>	cin <span style="color:#f92672">&gt;&gt;</span> n;
 </span></span><span style="display:flex;"><span>    <span style="color:#75715e">//必须从i=1开始
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	<span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;=</span> n; i<span style="color:#f92672">++</span>) {
+</span></span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;=</span> n; i<span style="color:#f92672">++</span>) {
 </span></span><span style="display:flex;"><span>		cin <span style="color:#f92672">&gt;&gt;</span> num[i];
 </span></span><span style="display:flex;"><span>	}
 </span></span><span style="display:flex;"><span>	qsort(num,<span style="color:#ae81ff">1</span>,n);
@@ -778,7 +777,7 @@ Made with
 
 
 
-Copyright © 2022-2025, Fiveth.
+Copyright © 2022-2026, Fiveth.
 
 
 🗺️ <a href="/sitemap.xml">Sitemap</a>.

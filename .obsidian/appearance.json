@@ -1,6 +1,6 @@
 {
   "cssTheme": "Obsidian gruvbox",
-  "baseFontSize": 16,
+  "baseFontSize": 20,
   "enabledCssSnippets": [
     "【AnuPpuccin】浮动搜索栏",
     "【AnuPpuccin】扩展的颜色方案",
@@ -8,5 +8,8 @@
     "【AnuPpuccin】its-frontmatter",
     "【AnuPpuccin】minimal-cards",
     "【AnuPpuccin】notion-cards"
-  ]
+  ],
+  "interfaceFontFamily": "JetBrains Maple Mono",
+  "textFontFamily": "JetBrains Maple Mono",
+  "monospaceFontFamily": "JetBrains Maple Mono"
 }

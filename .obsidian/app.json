@@ -1,4 +1,13 @@
 {
   "newFileLocation": "folder",
-  "newFileFolderPath": "content/blog"
+  "newFileFolderPath": "content/blog",
+  "useMarkdownLinks": true,
+  "alwaysUpdateLinks": true,
+  "userIgnoreFilters": [
+    "public/",
+    "themes/",
+    "layouts/"
+  ],
+  "newLinkFormat": "shortest",
+  "attachmentFolderPath": "static/images"
 }

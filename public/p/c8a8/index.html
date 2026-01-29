@@ -553,8 +553,7 @@ int main()
   }
 </style>
 
-
-<link rel="stylesheet" href="/css/custom.min.0d091ed675d75a33ade411918cbf897c19202887a30275a23a96d1a287749a36.css" integrity="sha256-DQke1nXXWjOt5BGRjL&#43;JfBkgKIejAnWiOpbRood0mjY="></head>
+</head>
 
 <body>
   <header><a href="/" class="title">
@@ -564,7 +563,7 @@ int main()
 
 <a href="/books/">Books</a>
 
-<a href="/now/">Now</a>
+<a href="/about/">Now</a>
 
 
 <a href="/blog/">Blog</a>
@@ -607,13 +606,13 @@ int main()
 <p>这里我们设计一个程序实现一下链表，首先输入四个按大小顺序排列的数字，然后再输入要插入的数字，</p>
 <p>程序会输出插入后的排列</p>
 <p>先上代码</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;iostream&gt;</span><span style="color:#75715e">
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">using</span> <span style="color:#66d9ef">namespace</span> std;
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;iostream&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">using</span> <span style="color:#66d9ef">namespace</span> std;
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">struct</span> <span style="color:#a6e22e">node</span> {
 </span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">int</span> data;<span style="color:#75715e">//存数据
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	node<span style="color:#f92672">*</span> next;<span style="color:#75715e">//后继指针
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>};
+</span></span></span><span style="display:flex;"><span>	node<span style="color:#f92672">*</span> next;<span style="color:#75715e">//后继指针
+</span></span></span><span style="display:flex;"><span>};
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>()
 </span></span><span style="display:flex;"><span>{
@@ -622,46 +621,46 @@ int main()
 </span></span><span style="display:flex;"><span>	head <span style="color:#f92672">=</span> NULL;
 </span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; i <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">5</span>; i<span style="color:#f92672">++</span>) {
 </span></span><span style="display:flex;"><span>		<span style="color:#75715e">//用指针p指向一个动态申请的node大小的空间
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>		p <span style="color:#f92672">=</span> (node<span style="color:#f92672">*</span>)malloc(<span style="color:#66d9ef">sizeof</span>(node));
+</span></span></span><span style="display:flex;"><span>		p <span style="color:#f92672">=</span> (node<span style="color:#f92672">*</span>)malloc(<span style="color:#66d9ef">sizeof</span>(node));
 </span></span><span style="display:flex;"><span>		cin <span style="color:#f92672">&gt;&gt;</span> a;
 </span></span><span style="display:flex;"><span>		<span style="color:#75715e">//将数据存入当前结点(p指向的结点)
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>		p<span style="color:#f92672">-&gt;</span>data <span style="color:#f92672">=</span> a;
+</span></span></span><span style="display:flex;"><span>		p<span style="color:#f92672">-&gt;</span>data <span style="color:#f92672">=</span> a;
 </span></span><span style="display:flex;"><span>		p<span style="color:#f92672">-&gt;</span>next <span style="color:#f92672">=</span> NULL;
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">if</span> (head <span style="color:#f92672">==</span> NULL)head <span style="color:#f92672">=</span> p;<span style="color:#75715e">//如果是第一个结点，就将头指针指向当前结点
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>		<span style="color:#66d9ef">else</span> q<span style="color:#f92672">-&gt;</span>next <span style="color:#f92672">=</span> p;<span style="color:#75715e">//否则将上一个结点的后继指针指向当前结点
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>		q <span style="color:#f92672">=</span> p;<span style="color:#75715e">//将q指向当前结点
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	}
+</span></span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">else</span> q<span style="color:#f92672">-&gt;</span>next <span style="color:#f92672">=</span> p;<span style="color:#75715e">//否则将上一个结点的后继指针指向当前结点
+</span></span></span><span style="display:flex;"><span>		q <span style="color:#f92672">=</span> p;<span style="color:#75715e">//将q指向当前结点
+</span></span></span><span style="display:flex;"><span>	}
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>	<span style="color:#75715e">//插入数据
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	<span style="color:#66d9ef">int</span> b;
+</span></span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">int</span> b;
 </span></span><span style="display:flex;"><span>	cin <span style="color:#f92672">&gt;&gt;</span> b;
 </span></span><span style="display:flex;"><span>	node<span style="color:#f92672">*</span> t <span style="color:#f92672">=</span> head;<span style="color:#75715e">//从链表头开始遍历
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	<span style="color:#66d9ef">while</span> (t <span style="color:#f92672">!=</span> NULL) {
+</span></span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">while</span> (t <span style="color:#f92672">!=</span> NULL) {
 </span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">if</span> (t<span style="color:#f92672">-&gt;</span>next<span style="color:#f92672">-&gt;</span>data <span style="color:#f92672">&gt;</span> b) {
 </span></span><span style="display:flex;"><span>			p <span style="color:#f92672">=</span> (node<span style="color:#f92672">*</span>)malloc(<span style="color:#66d9ef">sizeof</span>(node));
 </span></span><span style="display:flex;"><span>			<span style="color:#75715e">//将数据存入当前结点(p指向的结点)
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>			p<span style="color:#f92672">-&gt;</span>data <span style="color:#f92672">=</span> b;
+</span></span></span><span style="display:flex;"><span>			p<span style="color:#f92672">-&gt;</span>data <span style="color:#f92672">=</span> b;
 </span></span><span style="display:flex;"><span>			p<span style="color:#f92672">-&gt;</span>next <span style="color:#f92672">=</span> t<span style="color:#f92672">-&gt;</span>next;<span style="color:#75715e">//将当前结点的后继指针指向下一结点
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>			t<span style="color:#f92672">-&gt;</span>next <span style="color:#f92672">=</span> p;<span style="color:#75715e">//将上一结点的后继指针指向当前结点
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>			<span style="color:#66d9ef">break</span>;
+</span></span></span><span style="display:flex;"><span>			t<span style="color:#f92672">-&gt;</span>next <span style="color:#f92672">=</span> p;<span style="color:#75715e">//将上一结点的后继指针指向当前结点
+</span></span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">break</span>;
 </span></span><span style="display:flex;"><span>		}
 </span></span><span style="display:flex;"><span>		t <span style="color:#f92672">=</span> t<span style="color:#f92672">-&gt;</span>next;<span style="color:#75715e">//下一结点
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	}
+</span></span></span><span style="display:flex;"><span>	}
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>	<span style="color:#75715e">//输出
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	t <span style="color:#f92672">=</span> head;<span style="color:#75715e">//从链表头开始遍历
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	<span style="color:#66d9ef">while</span> (t <span style="color:#f92672">!=</span> NULL) {
+</span></span></span><span style="display:flex;"><span>	t <span style="color:#f92672">=</span> head;<span style="color:#75715e">//从链表头开始遍历
+</span></span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">while</span> (t <span style="color:#f92672">!=</span> NULL) {
 </span></span><span style="display:flex;"><span>		cout <span style="color:#f92672">&lt;&lt;</span> t<span style="color:#f92672">-&gt;</span>data <span style="color:#f92672">&lt;&lt;</span> endl;
 </span></span><span style="display:flex;"><span>		t <span style="color:#f92672">=</span> t<span style="color:#f92672">-&gt;</span>next;<span style="color:#75715e">//下一结点
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	}
+</span></span></span><span style="display:flex;"><span>	}
 </span></span><span style="display:flex;"><span>
 </span></span><span style="display:flex;"><span>	<span style="color:#75715e">//释放动态申请的空间(确保安全)
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>	t <span style="color:#f92672">=</span> head;
+</span></span></span><span style="display:flex;"><span>	t <span style="color:#f92672">=</span> head;
 </span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">while</span> (t <span style="color:#f92672">!=</span> NULL) {
 </span></span><span style="display:flex;"><span>		node<span style="color:#f92672">*</span> current <span style="color:#f92672">=</span> t;<span style="color:#75715e">//记录当前结点
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>		t <span style="color:#f92672">=</span> t<span style="color:#f92672">-&gt;</span>next;<span style="color:#75715e">//下一结点
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>		free(current);
+</span></span></span><span style="display:flex;"><span>		t <span style="color:#f92672">=</span> t<span style="color:#f92672">-&gt;</span>next;<span style="color:#75715e">//下一结点
+</span></span></span><span style="display:flex;"><span>		free(current);
 </span></span><span style="display:flex;"><span>	}
 </span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">return</span> <span style="color:#ae81ff">0</span>;
 </span></span><span style="display:flex;"><span>}
@@ -716,7 +715,7 @@ Made with
 
 
 
-Copyright © 2022-2025, Fiveth.
+Copyright © 2022-2026, Fiveth.
 
 
 🗺️ <a href="/sitemap.xml">Sitemap</a>.

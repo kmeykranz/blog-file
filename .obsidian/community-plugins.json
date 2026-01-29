@@ -2,5 +2,7 @@
   "homepage",
   "obsidian-shellcommands",
   "local-backup",
-  "templater-obsidian"
+  "templater-obsidian",
+  "open-vscode",
+  "cmdr"
 ]

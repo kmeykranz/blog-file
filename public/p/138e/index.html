@@ -20,6 +20,7 @@ Github提供的网址在国内的访问速度较慢，所以推荐在搭建完�
 域名可以在阿里云等域名供应商购买，我用的是西部数码，便宜好用。
 
 建议选用com，cn或cc等常用好记的顶域，对SEO比较友好，自定义部分的长度尽可能短，别人才会更容易地记住你的网站，域名就是网站的名片。
+
 使用Vercel部署
 
 首先需要一个Vercel账号，这里推荐用GitHub账户关联，这样你就可以在vercel中直接托管你的GitHub库中的项目了，实现开发部署一步到位（网络不流畅可以考虑挂梯子）。
@@ -35,11 +36,13 @@ Github提供的网址在国内的访问速度较慢，所以推荐在搭建完�
 
 我买的域名是fiveth.cc，我决定用二级域名blog.fiveth.cc当我博客的域名，大家也可以直接用根域名
 
+
 接下来在域名解析记录里面添加记录，其中记录类型对应Type，主机记录对应Name，记录值对应Value，其他的设置默认即可。
 
 
 如果不成功，可以尝试统一用A记录，值76.223.126.88
 如下是我的示例，blog解析出来的域名是blog.fiveth.cc，@解析出来的是根域名fiveth.cc
+
 
 
 回到Vercel刚刚查看域名的地方，如果操作没问题，应该会显示域名配置成功的提示，此时就可以通过自定义域名来访问我们搭建的网站了。
@@ -626,7 +629,7 @@ Page Front-matter：
 
 <a href="/books/">Books</a>
 
-<a href="/now/">Now</a>
+<a href="/about/">Now</a>
 
 
 <a href="/blog/">Blog</a>
@@ -660,7 +663,8 @@ Page Front-matter：
 <p>因为Vercel给我们分配的域名在国内是<strong>无法访问的</strong>，所以我们需要把在Vercel部署的绑定到自己的域名上，这样就可以访问了。</p>
 <p>域名可以在<a href="https://www.aliyun.com/">阿里云</a>等域名供应商购买，我用的是<a href="https://www.west.cn/">西部数码</a>，便宜好用。</p>
 <blockquote>
-<p>建议选用<code>com</code>，<code>cn</code>或<code>cc</code>等常用好记的顶域，对SEO比较友好，自定义部分的长度尽可能短，别人才会更容易地记住你的网站，域名就是网站的名片。</p></blockquote>
+<p>建议选用<code>com</code>，<code>cn</code>或<code>cc</code>等常用好记的顶域，对SEO比较友好，自定义部分的长度尽可能短，别人才会更容易地记住你的网站，域名就是网站的名片。</p>
+</blockquote>
 <h3 id="使用vercel部署">使用Vercel部署</h3>
 <ol>
 <li>首先需要一个<a href="https://vercel.com/">Vercel</a>账号，这里<strong>推荐用GitHub账户关联，这样你就可以在vercel中直接托管你的GitHub库中的项目了</strong>，实现开发部署一步到位（网络不流畅可以考虑挂梯子）。</li>
@@ -674,13 +678,15 @@ Page Front-matter：
 <li>点击Vercel控制面板右上角的<code>View Domains</code>查看当前的域，我们可以看到仅有Vercel给你预分配的一个域名，此时我们输入我们要用的域名，添加后他会提示你添加一条DNS解析记录。</li>
 </ol>
 <blockquote>
-<p>我买的域名是<code>fiveth.cc</code>，我决定用二级域名<code>blog.fiveth.cc</code>当我博客的域名，大家也可以直接用根域名</p></blockquote>
+<p>我买的域名是<code>fiveth.cc</code>，我决定用二级域名<code>blog.fiveth.cc</code>当我博客的域名，大家也可以直接用根域名</p>
+</blockquote>
 <ol start="2">
 <li>接下来在域名解析记录里面添加记录，其中记录类型对应<code>Type</code>，主机记录对应<code>Name</code>，记录值对应<code>Value</code>，其他的设置默认即可。</li>
 </ol>
 <blockquote>
 <p>如果不成功，可以尝试统一用<code>A记录</code>，值<code>76.223.126.88</code></p>
-<p>如下是我的示例，<code>blog</code>解析出来的域名是<code>blog.fiveth.cc</code>，<code>@</code>解析出来的是根域名<code>fiveth.cc</code></p></blockquote>
+<p>如下是我的示例，<code>blog</code>解析出来的域名是<code>blog.fiveth.cc</code>，<code>@</code>解析出来的是根域名<code>fiveth.cc</code></p>
+</blockquote>
 <img src="https://p.fiveth.cc/img/2024/0429203503.png" style="zoom:33%;" />
 <ol start="3">
 <li>回到Vercel刚刚查看域名的地方，如果操作没问题，应该会显示域名配置成功的提示，此时就可以通过自定义域名来访问我们搭建的网站了。</li>
@@ -711,7 +717,7 @@ Page Front-matter：
 </ul>
 <p>如果标注可选的参数，可根据自己需要添加，不用全部都写</p>
 <p><strong>Page Front-matter：</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-MARKDOWN" data-lang="MARKDOWN"><span style="display:flex;"><span>---
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-MARKDOWN" data-lang="MARKDOWN"><span style="display:flex;"><span>---
 </span></span><span style="display:flex;"><span>title:
 </span></span><span style="display:flex;"><span>date:
 </span></span><span style="display:flex;"><span>updated:
@@ -789,7 +795,7 @@ Page Front-matter：
   </tbody>
 </table>
 <p><strong>Post Front-matter：</strong></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-MARKDOWN" data-lang="MARKDOWN"><span style="display:flex;"><span>---
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-MARKDOWN" data-lang="MARKDOWN"><span style="display:flex;"><span>---
 </span></span><span style="display:flex;"><span>title:
 </span></span><span style="display:flex;"><span>date:
 </span></span><span style="display:flex;"><span>updated:
@@ -921,14 +927,14 @@ Page Front-matter：
 <ol>
 <li>
 <p>前往你的Hexo博客根目录，打开<code>Git Bash</code>执行如下命令：</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-SHELL" data-lang="SHELL"><span style="display:flex;"><span>hexo new page tags
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-SHELL" data-lang="SHELL"><span style="display:flex;"><span>hexo new page tags
 </span></span></code></pre></div></li>
 <li>
 <p>在<code>[BlogRoot]\source\</code>会生成一个含有<code>index.md</code>文件的<code>tags</code>文件夹。</p>
 </li>
 <li>
 <p>修改<code>[BlogRoot]\source\tags\index.md</code>，添加<code>type: &quot;tags&quot;</code>。</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-MARKDOWN" data-lang="MARKDOWN"><span style="display:flex;"><span>---
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-MARKDOWN" data-lang="MARKDOWN"><span style="display:flex;"><span>---
 </span></span><span style="display:flex;"><span>title: tags
 </span></span><span style="display:flex;"><span>date: 2022-10-28 12:00:00
 </span></span><span style="display:flex;"><span>type: &#34;tags&#34;
@@ -939,14 +945,14 @@ Page Front-matter：
 <ol>
 <li>
 <p>前往你的Hexo博客根目录，打开cmd命令窗口执行如下命令：</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>hexo new page link
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-shell" data-lang="shell"><span style="display:flex;"><span>hexo new page link
 </span></span></code></pre></div></li>
 <li>
 <p>在<code>[BlogRoot]\source\</code>会生成一个含有<code>index.md</code>文件的<code>link</code>文件夹</p>
 </li>
 <li>
 <p>修改<code>[BlogRoot]\source\link\index.md</code>，添加<code>type: &quot;link&quot;</code></p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>---
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-markdown" data-lang="markdown"><span style="display:flex;"><span>---
 </span></span><span style="display:flex;"><span>title: link
 </span></span><span style="display:flex;"><span>date: 2024-4-29 12:00:00
 </span></span><span style="display:flex;"><span>type: &#34;link&#34;
@@ -954,7 +960,7 @@ Page Front-matter：
 </span></span></code></pre></div></li>
 <li>
 <p>前往<code>[BlogRoot]\source\_data</code>创建一个<code>link.yml</code>文件（如果沒有 <code>_data</code> 文件夹，请自行创建），并写入如下信息（根据你的需要写）：</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span>- <span style="color:#f92672">class_name</span>: <span style="color:#ae81ff">1.</span><span style="color:#ae81ff">技术支持</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span>- <span style="color:#f92672">class_name</span>: <span style="color:#ae81ff">1.</span><span style="color:#ae81ff">技术支持</span>
 </span></span><span style="display:flex;"><span>  <span style="color:#f92672">class_desc</span>: <span style="color:#ae81ff">本网站的搭建由以下开源作者提供技术支持</span>
 </span></span><span style="display:flex;"><span>  <span style="color:#f92672">link_list</span>: 
 </span></span><span style="display:flex;"><span>    - <span style="color:#f92672">name</span>: <span style="color:#ae81ff">Hexo </span>
@@ -979,7 +985,7 @@ Page Front-matter：
 <h3 id="404页面">404页面</h3>
 <p>主題內置了一个简单的404页面，可在设置中开放。</p>
 <p>如需本地预览，请访问 http://localhost:4000/404.html</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#75715e">## A simple 404 page</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-yaml" data-lang="yaml"><span style="display:flex;"><span><span style="color:#75715e">## A simple 404 page</span>
 </span></span><span style="display:flex;"><span><span style="color:#f92672">error_404</span>:
 </span></span><span style="display:flex;"><span>  <span style="color:#f92672">enable</span>: <span style="color:#66d9ef">true</span>
 </span></span><span style="display:flex;"><span>  <span style="color:#f92672">subtitle</span>: <span style="color:#e6db74">&#34;页面沒有找到&#34;</span>
@@ -1143,7 +1149,7 @@ Made with
 
 
 
-Copyright © 2022-2025, Fiveth.
+Copyright © 2022-2026, Fiveth.
 
 
 🗺️ <a href="/sitemap.xml">Sitemap</a>.

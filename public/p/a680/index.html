@@ -496,8 +496,7 @@ bool numlist[100000]; //0代表质数，1代表非质数 int prime[100000], coun
   }
 </style>
 
-
-<link rel="stylesheet" href="/css/custom.min.0d091ed675d75a33ade411918cbf897c19202887a30275a23a96d1a287749a36.css" integrity="sha256-DQke1nXXWjOt5BGRjL&#43;JfBkgKIejAnWiOpbRood0mjY="></head>
+</head>
 
 <body>
   <header><a href="/" class="title">
@@ -507,7 +506,7 @@ bool numlist[100000]; //0代表质数，1代表非质数 int prime[100000], coun
 
 <a href="/books/">Books</a>
 
-<a href="/now/">Now</a>
+<a href="/about/">Now</a>
 
 
 <a href="/blog/">Blog</a>
@@ -543,15 +542,15 @@ bool numlist[100000]; //0代表质数，1代表非质数 int prime[100000], coun
 <h2 id="高手版">高手版</h2>
 <h3 id="埃氏筛">埃氏筛</h3>
 <p>这样筛掉后每次下一位没被筛掉的数就都是质数</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">bool</span> numlist[<span style="color:#ae81ff">100000</span>];
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">bool</span> numlist[<span style="color:#ae81ff">100000</span>];
 </span></span><span style="display:flex;"><span><span style="color:#75715e">//0代表质数，1代表非质数
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">int</span> prime[<span style="color:#ae81ff">100000</span>], count;
+</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> prime[<span style="color:#ae81ff">100000</span>], count;
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">work</span>(<span style="color:#66d9ef">int</span> n){
 </span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> i<span style="color:#f92672">=</span><span style="color:#ae81ff">2</span>; i<span style="color:#f92672">&lt;=</span>n; i<span style="color:#f92672">++</span>){
 </span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">if</span>(numlist[i]<span style="color:#f92672">==</span><span style="color:#ae81ff">0</span>){  <span style="color:#75715e">//如果是质数
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>			prime[<span style="color:#f92672">++</span>count] <span style="color:#f92672">=</span> i ;  <span style="color:#75715e">//就先存入
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>			<span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> j<span style="color:#f92672">=</span>i; i<span style="color:#f92672">*</span>j<span style="color:#f92672">&lt;=</span>n; j<span style="color:#f92672">++</span>) numlist[i<span style="color:#f92672">*</span>j] <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;  <span style="color:#75715e">//然后将其平方后的所有倍数筛掉
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>		}
+</span></span></span><span style="display:flex;"><span>			prime[<span style="color:#f92672">++</span>count] <span style="color:#f92672">=</span> i ;  <span style="color:#75715e">//就先存入
+</span></span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">int</span> j<span style="color:#f92672">=</span>i; i<span style="color:#f92672">*</span>j<span style="color:#f92672">&lt;=</span>n; j<span style="color:#f92672">++</span>) numlist[i<span style="color:#f92672">*</span>j] <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>;  <span style="color:#75715e">//然后将其平方后的所有倍数筛掉
+</span></span></span><span style="display:flex;"><span>		}
 </span></span><span style="display:flex;"><span>	}
 </span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">return</span>;
 </span></span><span style="display:flex;"><span>}
@@ -561,16 +560,16 @@ bool numlist[100000]; //0代表质数，1代表非质数 int prime[100000], coun
 <img src="https://p.fiveth.cc/img/m/欧拉.webp">
 <p>这个筛法避免了重复筛，思路就是：每个合数只会被其<strong>最大非自身因数</strong>筛除</p>
 <p>多说无益，先上代码：</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">bool</span> numlist[<span style="color:#ae81ff">100000</span>];
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-cpp" data-lang="cpp"><span style="display:flex;"><span><span style="color:#66d9ef">bool</span> numlist[<span style="color:#ae81ff">100000</span>];
 </span></span><span style="display:flex;"><span><span style="color:#75715e">//0代表质数，1代表非质数
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">int</span> prime[<span style="color:#ae81ff">100000</span>], count;
+</span></span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> prime[<span style="color:#ae81ff">100000</span>], count;
 </span></span><span style="display:flex;"><span><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">work</span>(<span style="color:#66d9ef">int</span> n){
 </span></span><span style="display:flex;"><span>	<span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> i <span style="color:#f92672">=</span> <span style="color:#ae81ff">2</span>; i <span style="color:#f92672">&lt;=</span> n; i<span style="color:#f92672">++</span>) {
 </span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">if</span> (numlist[i]<span style="color:#f92672">==</span><span style="color:#ae81ff">0</span>) ans[<span style="color:#f92672">++</span>count] <span style="color:#f92672">=</span> i;<span style="color:#75715e">//是质数就先存入数组
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>		<span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> j <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; j <span style="color:#f92672">&lt;=</span> count <span style="color:#f92672">&amp;&amp;</span> i<span style="color:#f92672">*</span>prime[j] <span style="color:#f92672">&lt;=</span> n; j<span style="color:#f92672">++</span>) {
+</span></span></span><span style="display:flex;"><span>		<span style="color:#66d9ef">for</span> (<span style="color:#66d9ef">int</span> j <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; j <span style="color:#f92672">&lt;=</span> count <span style="color:#f92672">&amp;&amp;</span> i<span style="color:#f92672">*</span>prime[j] <span style="color:#f92672">&lt;=</span> n; j<span style="color:#f92672">++</span>) {
 </span></span><span style="display:flex;"><span>			numlist[prime[j] <span style="color:#f92672">*</span> i] <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>; <span style="color:#75715e">//每次让i乘已放入的质数，然后标记非质数
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>			<span style="color:#66d9ef">if</span> (i <span style="color:#f92672">%</span> prime[j] <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>) <span style="color:#66d9ef">break</span>;<span style="color:#75715e">//但是如果i可以被该数整除就停止（关键）
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span>		}
+</span></span></span><span style="display:flex;"><span>			<span style="color:#66d9ef">if</span> (i <span style="color:#f92672">%</span> prime[j] <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>) <span style="color:#66d9ef">break</span>;<span style="color:#75715e">//但是如果i可以被该数整除就停止（关键）
+</span></span></span><span style="display:flex;"><span>		}
 </span></span><span style="display:flex;"><span>	}
 </span></span></code></pre></div><p>现在我们再来分析下。</p>
 <p>从表可以看出，我们会筛掉每个质数p的平方之后的p的倍数，但是如果i是p的倍数，那就说明它们的乘积那个合数的最大非自身因数不是i，所以不筛。</p>
@@ -770,7 +769,7 @@ Made with
 
 
 
-Copyright © 2022-2025, Fiveth.
+Copyright © 2022-2026, Fiveth.
 
 
 🗺️ <a href="/sitemap.xml">Sitemap</a>.

@@ -1,17 +1,14 @@
 ---
-# This title is used as the og:title on Hugo's internal
-# opengraph structured data template on the home page.
-# See https://ogp.me/ and https://gohugo.io/templates/internal#open-graph.
-title: "Fiveth's Blog"
+title: about
 ---
+# Hi! 👋 This is Kevin Meykranz.
 
-# Hi! 👋 This is Fiveth.
+I'm Kevin. You may also know me as Fiveth, currently an Information Engineering student at CUHK. A few links to explore:
 
-Welcome to my blog ❤️ where only words matters. 
+- [Projects💻]({{< ref "projects.md" >}})
+- [Blogs✍️]({{< ref "blog/_index.md" >}})
+- [Books Notes📚]({{< ref "books.md" >}})
 
-**I‘m an undergraduate student majoring in Computer Science**. 💻
-
-I write [some texts]({{< ref "blog/_index.md" >}}), about my programming journey👨‍💻, [the books I've read📚]({{< ref "books.md" >}}), and my reflections💭.
 
 ## ✨ Recent Posts
 {{< latest-content blog >}}

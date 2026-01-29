@@ -19,6 +19,7 @@ Vercel网站托管
 我使用的是Vercel来托管我的网站，它在全球以及国内都有非常优秀的速度。如果想要让其在国内可以浏览的话，需要准备一个域名。
 
 具体如何使用可以参考Fomalhaut的文章Hexo博客搭建基础教程(二)中有详细教程。
+
 注意：cname的解析方法目前会导致无法在国内访问，需要做一些修改
 **失效方法：**记录值类型cname，值为cname.vercel-dns.com
 **解决方法：**记录值类型A类型，值为76.223.126.88
@@ -26,16 +27,19 @@ Vercel网站托管
 Vercel加速节点（新）
 
 此章为2024.4新添加内容
+
 这是一个vercel加速节点，使用是会自动解析至附近可用节点，尽可能的选择优质节点。
 食用方法：将原来解析至 cname.vercel.com 改为 vercel.cdn.yt-blog.top（CNAME记录）
 
 由Fgaoxing提供，原文链接：【推一下Vercel加速节点】
+
 图片压缩
 在我们的博客中，最消耗流量的应该就是图片了。所以为了提升加载速度，对图片的压缩非常重要。
 1.每次将图片上传到图床之前，我都会对其进行压缩（控制在50kb以下）
 2.同时，将图片转换成webp格式也会大大提高加载速度。
 
 这里推荐一个我一直在用的多功能在线图片压缩工具，非常方便快捷。
+
 lazyload
 **lazyload(懒加载)**是一个对提升性能非常有效的功能，它会优先加载处于屏幕显示区域内的资源，而不是等待一整个页面的资源加载完毕。这让许多资源可以在用户边浏览的时候边加载，节省时间。
 我给我的评论模块开启了lazyload，因为很多时候评论模块加载都会慢，导致用户要在加载页面等待。
@@ -43,10 +47,12 @@ gulp压缩
 gulp插件可以帮助我们自动压缩博客静态资源。
 
 具体如何安装使用可以参考Akilar的文章【使用gulp压缩博客静态资源】
+
 CDN
 让所有的静态资源通过**CDN(内容分发网络)**加载，可以提高资源加载速度。
 
 我使用的是HEO大佬分享的【Butterfly CDN链接更改指南】中给出的cdn
+
 这里给出我在butterfly中的cdn列表：
     pjax: https://lib.baomitu.com/pjax/0.2.8/pjax.min.js
     twikoo: https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/twikoo/1.4.18/twikoo.all.min.js
@@ -549,8 +555,7 @@ pjax: https://lib.baomitu.com/pjax/0.2.8/pjax.min.js twikoo: https://lf6-cdn-tos
   }
 </style>
 
-
-<link rel="stylesheet" href="/css/custom.min.0d091ed675d75a33ade411918cbf897c19202887a30275a23a96d1a287749a36.css" integrity="sha256-DQke1nXXWjOt5BGRjL&#43;JfBkgKIejAnWiOpbRood0mjY="></head>
+</head>
 
 <body>
   <header><a href="/" class="title">
@@ -560,7 +565,7 @@ pjax: https://lib.baomitu.com/pjax/0.2.8/pjax.min.js twikoo: https://lf6-cdn-tos
 
 <a href="/books/">Books</a>
 
-<a href="/now/">Now</a>
+<a href="/about/">Now</a>
 
 
 <a href="/blog/">Blog</a>
@@ -593,37 +598,43 @@ pjax: https://lib.baomitu.com/pjax/0.2.8/pjax.min.js twikoo: https://lf6-cdn-tos
 <h2 id="vercel网站托管">Vercel网站托管</h2>
 <p>我使用的是<a href="https://vercel.com/dashboard">Vercel</a>来托管我的网站，它在全球以及国内都有非常优秀的速度。如果想要让其在国内可以浏览的话，需要准备一个域名。</p>
 <blockquote>
-<p>具体如何使用可以参考<a href="https://www.fomal.cc/">Fomalhaut</a>的文章<a href="https://www.fomal.cc/posts/4aa2d85f.html">Hexo博客搭建基础教程(二)</a>中有详细教程。</p></blockquote>
+<p>具体如何使用可以参考<a href="https://www.fomal.cc/">Fomalhaut</a>的文章<a href="https://www.fomal.cc/posts/4aa2d85f.html">Hexo博客搭建基础教程(二)</a>中有详细教程。</p>
+</blockquote>
 <p><code>注意</code>：cname的解析方法目前会导致无法在国内访问，需要做一些修改
 **失效方法：**记录值类型cname，值为cname.vercel-dns.com
 **解决方法：**记录值类型A类型，值为76.223.126.88</p>
 <img src="https://p.fiveth.cc/img/m/jiexi.webp" alt="解析记录" />
 <h2 id="vercel加速节点新">Vercel加速节点（新）</h2>
 <blockquote>
-<p>此章为2024.4新添加内容</p></blockquote>
+<p>此章为2024.4新添加内容</p>
+</blockquote>
 <p>这是一个vercel加速节点，使用是会自动解析至附近可用节点，尽可能的选择优质节点。</p>
 <p><strong>食用方法</strong>：将原来解析至 <code>cname.vercel.com</code> 改为 <code>vercel.cdn.yt-blog.top</code>（CNAME记录）</p>
 <blockquote>
-<p>由<a href="https://www.yt-blog.top/">Fgaoxing</a>提供，原文链接：<a href="https://www.yt-blog.top/9952/">【推一下Vercel加速节点】</a></p></blockquote>
+<p>由<a href="https://www.yt-blog.top/">Fgaoxing</a>提供，原文链接：<a href="https://www.yt-blog.top/9952/">【推一下Vercel加速节点】</a></p>
+</blockquote>
 <h2 id="图片压缩">图片压缩</h2>
 <p>在我们的博客中，最消耗流量的应该就是图片了。所以为了提升加载速度，对图片的压缩非常重要。</p>
 <p>1.每次将图片上传到图床之前，我都会对其进行压缩（控制在50kb以下）</p>
 <p>2.同时，将图片转换成webp格式也会大大提高加载速度。</p>
 <blockquote>
-<p>这里推荐一个我一直在用的<a href="https://imagestool.com/webp2jpg-online/">多功能在线图片压缩</a>工具，非常方便快捷。</p></blockquote>
+<p>这里推荐一个我一直在用的<a href="https://imagestool.com/webp2jpg-online/">多功能在线图片压缩</a>工具，非常方便快捷。</p>
+</blockquote>
 <h2 id="lazyload">lazyload</h2>
 <p>**lazyload(懒加载)**是一个对提升性能非常有效的功能，它会优先加载处于屏幕显示区域内的资源，而不是等待一整个页面的资源加载完毕。这让许多资源可以在用户边浏览的时候边加载，节省时间。</p>
 <p>我给我的评论模块开启了lazyload，因为很多时候评论模块加载都会慢，导致用户要在加载页面等待。</p>
 <h2 id="gulp压缩">gulp压缩</h2>
 <p><a href="https://www.gulpjs.com.cn/">gulp插件</a>可以帮助我们自动压缩博客静态资源。</p>
 <blockquote>
-<p>具体如何安装使用可以参考<a href="https://akilar.top/">Akilar</a>的文章<a href="https://akilar.top/posts/49b73b87/">【使用gulp压缩博客静态资源】</a></p></blockquote>
+<p>具体如何安装使用可以参考<a href="https://akilar.top/">Akilar</a>的文章<a href="https://akilar.top/posts/49b73b87/">【使用gulp压缩博客静态资源】</a></p>
+</blockquote>
 <h2 id="cdn">CDN</h2>
 <p>让所有的静态资源通过**CDN(内容分发网络)**加载，可以提高资源加载速度。</p>
 <blockquote>
-<p>我使用的是<a href="https://blog.zhheo.com/">HEO</a>大佬分享的<a href="https://blog.zhheo.com/p/790087d9.html">【Butterfly CDN链接更改指南】</a>中给出的cdn</p></blockquote>
+<p>我使用的是<a href="https://blog.zhheo.com/">HEO</a>大佬分享的<a href="https://blog.zhheo.com/p/790087d9.html">【Butterfly CDN链接更改指南】</a>中给出的cdn</p>
+</blockquote>
 <p>这里给出我在butterfly中的cdn列表：</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-yml" data-lang="yml"><span style="display:flex;"><span>    <span style="color:#f92672">pjax</span>: <span style="color:#ae81ff">https://lib.baomitu.com/pjax/0.2.8/pjax.min.js</span>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;-webkit-text-size-adjust:none;"><code class="language-yml" data-lang="yml"><span style="display:flex;"><span>    <span style="color:#f92672">pjax</span>: <span style="color:#ae81ff">https://lib.baomitu.com/pjax/0.2.8/pjax.min.js</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#f92672">twikoo</span>: <span style="color:#ae81ff">https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/twikoo/1.4.18/twikoo.all.min.js</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#f92672">sharejs</span>: <span style="color:#ae81ff">https://lib.baomitu.com/social-share.js/1.0.16/js/social-share.min.js</span>
 </span></span><span style="display:flex;"><span>    <span style="color:#f92672">sharejs_css</span>: <span style="color:#ae81ff">https://lib.baomitu.com/social-share.js/1.0.16/css/share.min.css</span>
@@ -785,7 +796,7 @@ Made with
 
 
 
-Copyright © 2022-2025, Fiveth.
+Copyright © 2022-2026, Fiveth.
 
 
 🗺️ <a href="/sitemap.xml">Sitemap</a>.
