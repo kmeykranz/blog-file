@@ -94,5 +94,15 @@
       ],
       "key": "M"
     }
+  ],
+  "templater-obsidian:insert-templater": [
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl",
+        "Mod"
+      ],
+      "key": "T"
+    }
   ]
 }

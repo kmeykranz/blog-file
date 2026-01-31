@@ -7,6 +7,7 @@ status: complete
 tags: 
   - cognition
 ---
+# Make it stick
 ## Learning is Misunderstood
 learning is an acquired skill, most effective strategies are often counter-intuitive 反直觉的
 

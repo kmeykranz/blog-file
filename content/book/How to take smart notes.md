@@ -7,7 +7,7 @@ status: complete
 tags:
   - note-taking
 ---
-# 📒Notes
+# How to take smart notes
 ## 1.fleeting notes
 随时记录想法
 ## 2.literature notes
