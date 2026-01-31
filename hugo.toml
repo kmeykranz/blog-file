@@ -1,12 +1,12 @@
 # 生成页面链接时使用的基本 URL，设置为你网站的 URL
 # The basic URL used to generate page links, set it to your website's URL.
-baseURL = "https://blog.fiveth.cc/"
+baseURL = "https://fiveth.cc/"
 
 theme = "hugo-bearneo"
 
 # 网站的名称，同时将应用到生成的 HTML 元数据中
 # The name of the website, which will also be applied to the generated HTML metadata.
-title = "Fiveth's Blog"
+title = "Fiveth"
 # 网站的首选语言，将应用到生成的 HTML 元数据中
 # The preferred language of the website, which will be applied to the generated HTML metadata.
 languageCode = "en-US"
