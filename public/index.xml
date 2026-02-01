@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>about on Fiveth</title>
+    <title>Hi on Fiveth</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in about on Fiveth</description>
+    <description>Recent content in Hi on Fiveth</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     
@@ -16,7 +16,7 @@
     <copyright>Copyright © 2022-2026, Fiveth.</copyright>
     
     
-    <lastBuildDate>Sat, 31 Jan 2026 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 01 Feb 2026 00:00:00 +0000</lastBuildDate>
     
     
     <follow_challenge>
@@ -25,6 +25,13 @@
     </follow_challenge>
     
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About AI Learning Tools</title>
+      <link>http://localhost:1313/p/about-ai-learning-tools/</link>
+      <pubDate>Sun, 01 Feb 2026 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author>
+      <guid>http://localhost:1313/p/about-ai-learning-tools/</guid>
+      <description>&lt;h1 id=&#34;about-ai-learning-tools&#34;&gt;About AI Learning Tools&lt;/h1&gt;&#xA;&lt;p&gt;First of all, I believe that as long as the note-taking method and mindset are correct, any note-taking software can be used. The most important thing for making good atomic notes is that the software must have the &lt;strong&gt;bidirectional linking&lt;/strong&gt; function, because we need to build connections between knowledge.&lt;/p&gt;&#xA;&lt;p&gt;Now let me talk about tools like IMA and NotebookLM. These are AI knowledge bases. How do they work? You throw in the books and videos you’ve found, and let the AI study them for you. It goes through all the material, summarizes and extracts the key points, then produces notes or even generates mind maps for you. I don’t recommend relying entirely on this method to manage your knowledge, because the learning process isn’t done by you, and the notes produced aren’t created by you either.&lt;/p&gt;&#xA;&lt;p&gt;Here’s a concept: &lt;strong&gt;cognitive debt&lt;/strong&gt;. When we use AI tools to think in place of our own brains, our efficiency improves in the short term, but in the long run our cognitive abilities weaken significantly. Our capacity for thinking and problem-solving will deteriorate.&lt;/p&gt;&#xA;&lt;p&gt;So, we still need to manage our own knowledge—organize and learn it ourselves. That’s where &lt;strong&gt;Obsidian&lt;/strong&gt; comes in: it’s our own personal knowledge management software.&lt;/p&gt;&#xA;&lt;p&gt;An ideal workflow would be: use NotebookLM or similar tools to let AI summarize the knowledge points from books and videos, reducing some of the burden of reading them yourself. Then, treat the AI’s output as study material, and make your own notes from it.&lt;/p&gt;&#xA;&lt;p&gt;Another concept is &lt;strong&gt;desirable difficulty&lt;/strong&gt;: when learning, we should keep the difficulty level within an optimal range. If it’s too hard, we won’t understand and may give up. If it’s too easy, it won’t provide any real training.&lt;/p&gt;&#xA;&lt;p&gt;When making your own notes, don’t just copy and paste. Use your own words to express the ideas. This is an application of the &lt;strong&gt;Feynman learning technique&lt;/strong&gt;—input, then output.&lt;/p&gt;&#xA;</description>
+    </item>
     <item>
       <title>Dream Detective</title>
       <link>http://localhost:1313/projects/dream-detective/</link>
@@ -87,13 +94,6 @@
       <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author>
       <guid>http://localhost:1313/projects/zoo-todo/</guid>
       <description>&lt;h1 id=&#34;zootodo&#34;&gt;ZooTodo&lt;/h1&gt;&#xA;&lt;p&gt;03/2024&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Gamified Productivity To‑Do App with Virtual Rewards made with C++ and Qt.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://github.com/kmeykranz/ZooTodo&#34;&gt;Github Link&lt;/a&gt; | &lt;a href=&#34;https://www.bilibili.com/video/BV16j421D7yJ/&#34;&gt;Showcase Video&lt;/a&gt;&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Designed a motivational to do system where users earn interactive virtual animals.&lt;/li&gt;&#xA;&lt;li&gt;Supports usage record checking and global shortcut keys for high efficiency.&lt;/li&gt;&#xA;&lt;li&gt;Strongly aligns with my interest in productivity, knowledge systems, and user motivation.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;</description>
-    </item>
-    <item>
-      <title>2025-09</title>
-      <link>http://localhost:1313/now/2025-09/</link>
-      <pubDate>Wed, 14 Jan 2026 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author>
-      <guid>http://localhost:1313/now/2025-09/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;Updated 2025-09-06&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;新的旅程&#34;&gt;🏫新的旅程&lt;/h3&gt;&#xA;&lt;p&gt;在等了一个暑假后，我的成绩总算出来了，在开学前几天，才落实下来要去上的大学。现在已经正式入读CUHK了！非常期待接下来的旅程！&lt;/p&gt;&#xA;&lt;p&gt;来到大学，最大的转变就是，没有人再盯着了。全部的事情都要自己做，所有机会都要自己把握。每天的十几封邮件，都要一一查阅、归档，理出重要信息。&lt;/p&gt;&#xA;&lt;p&gt;我觉得一个观点很好，大学相当于人生的新手村，在这里我可以低风险的去试错，从经历中去学习。不要把大学单纯当成一个获取文凭的地方，而是一个真正的训练场，在这里培养能力、技能。&lt;/p&gt;&#xA;&lt;h3 id=&#34;理想和焦虑&#34;&gt;☁️理想和焦虑&lt;/h3&gt;&#xA;&lt;p&gt;初来到大学的我，雄心壮志，希望能够参加一些奖学金项目，挑战一些有难度的课程。因为我是advanced standing，空缺的学分，让我可以现在自己选报三门课，我现在正在谨慎思考报哪些课。我还希望能有有去清北夏校交换的机会，目前也在查阅相关的项目。以及希望毕业能拿到直博的机会。这些理想也给我带来了焦虑，害怕自己实现不了，精神紧绷、不敢放松。我接下来应该做的是享受过程，向着目标前进，而不要太在意结果。努力一定会有回报的！&lt;/p&gt;&#xA;&lt;h3 id=&#34;这个年纪应该做的事情&#34;&gt;🍀这个年纪应该做的事情&lt;/h3&gt;&#xA;&lt;p&gt;最近看了一个视频让我颇有收获，讲的是20岁应该做的事情。20岁的人还有很大可塑性，这个年纪奠定了自己人生未来的思维方式、能力和品质。所以对这些方面的培养至关重要，相比短期的利益，要把重心放在能够让自己受益终身的事情上，比如培养自己学习新知识的能力、抗压能力、时间管理能力。&lt;/p&gt;&#xA;&lt;h3 id=&#34;删掉社媒&#34;&gt;📱删掉社媒&lt;/h3&gt;&#xA;&lt;p&gt;最近做的最正确的一件事是把手机上的社媒（bilibili、小红书）删了，只允许自己在笔记本上的网页版使用（有时候要查询一些信息）。这让我的时间和精力都大大提高，完全是质变的程度。社交媒体不只占用了我们大量的时间，还消耗了很多的能量和精力，要知道我们一天的能量是有限的。&lt;/p&gt;&#xA;&lt;h3 id=&#34;前路漫漫&#34;&gt;🚶‍♂️前路漫漫&lt;/h3&gt;&#xA;&lt;p&gt;来到这个人生阶段，感慨万千，无数条路摆在我的面前，加油吧少年。去探索，去绽放。&lt;/p&gt;&#xA;</description>
     </item>
   </channel>
 </rss>

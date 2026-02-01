@@ -1,5 +1,5 @@
 ---
-title: about
+title: Hi
 ---
 # Hi! 👋 This is Kevin Meykranz.
 
@@ -7,12 +7,13 @@ I'm Kevin. You may also know me as Fiveth, currently an Information Engineering 
 
 - [Projects💻]({{< ref "project.md" >}})
 - [Blogs✍️]({{< ref "blog/_index.md" >}})
-- [Books Notes📚]({{< ref "books.md" >}})
+- [Books Notes📚]({{< ref "book.md" >}})
 
 ## ✨ Recent Posts
 {{< latest-content blog >}}
 
 ## 📚 Recent Book Notes
-{{< latest-content book >}}
+{{< latest-content books >}}
 
-
+---
+Also check out [My Friends Websites🔗]({{< ref "link.md" >}})!
