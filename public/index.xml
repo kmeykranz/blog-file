@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>about on Fiveth&#39;s Blog</title>
+    <title>about on Fiveth</title>
     <link>http://localhost:1313/</link>
-    <description>Recent content in about on Fiveth&#39;s Blog</description>
+    <description>Recent content in about on Fiveth</description>
     <generator>Hugo</generator>
     <language>en-US</language>
     
@@ -25,6 +25,13 @@
     </follow_challenge>
     
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dream Detective</title>
+      <link>http://localhost:1313/projects/dream-detective/</link>
+      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author>
+      <guid>http://localhost:1313/projects/dream-detective/</guid>
+      <description>&lt;h1 id=&#34;dream-detective-梦境侦探&#34;&gt;Dream Detective 梦境侦探&lt;/h1&gt;&#xA;&lt;p&gt;02/2026&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;GGJ China 2026 Game Project&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://globalgamejam.org/games/2026/mengjingzhentan-0&#34;&gt;GGJ Webpage&lt;/a&gt; | &lt;a href=&#34;https://mambojiang.itch.io/dream-detective&#34;&gt;Play on itch.io&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;《梦境侦探》是一款2D剧情解谜游戏，你将成为一位拥有特殊能力的侦探，走进生者与死者的“梦境”。你将戴上面具，伪装成他们熟悉的人（或是小猫！），在人们的潜意识中寻找被刻意隐藏的线索。&lt;br&gt;&#xA;随着调查的深入，你竟发现，这起诡异的案件也与你的身份息息相关……&lt;br&gt;&#xA;面具之下，你能找到真相吗？&lt;/p&gt;&#xA;&lt;p&gt;Dream Detective is a 2D narrative puzzle game. You take on the role of a detective with special abilities, stepping into the “dreams” of both the living and the dead. By wearing masks, you disguise yourself as someone familiar to them (or even a little cat!) and search within their subconscious for clues deliberately hidden away.&lt;/p&gt;&#xA;&lt;p&gt;As the investigation deepens, you uncover that this strange case is closely tied to your own identity… Behind the mask, can you discover the truth?&lt;/p&gt;&#xA;</description>
+    </item>
     <item>
       <title>DuckChat</title>
       <link>http://localhost:1313/projects/duck-chat/</link>
@@ -59,13 +66,6 @@
       <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author>
       <guid>http://localhost:1313/projects/self-media/</guid>
       <description>&lt;h1 id=&#34;selfmedia-on-digital-productivity--ai-learning&#34;&gt;Self‑Media on Digital Productivity &amp;amp; AI Learning&lt;/h1&gt;&#xA;&lt;p&gt;Ongoing&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Coaching &amp;amp; knowledge-sharing with a growing community of 176k+ followers across major platforms.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://space.bilibili.com/358065206&#34;&gt;Bilibili&lt;/a&gt; | &lt;a href=&#34;https://www.xiaohongshu.com/user/profile/610ffa94000000002002f971&#34;&gt;RedNote&lt;/a&gt; | &lt;a href=&#34;https://www.douyin.com/user/MS4wLjABAAAA1uyDMa-Bzw76mU9fCH2j-rRzf88eFeW_E2glGXzA0tE&#34;&gt;Douyin&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;I create tutorials on Obsidian, helping people organize their life, work, and knowledge.&lt;/p&gt;&#xA;&lt;p&gt;I also provide guidance on leveraging AI for smarter learning, showing practical methods to integrate AI into personal growth and productivity.&lt;/p&gt;&#xA;</description>
-    </item>
-    <item>
-      <title>Untitled</title>
-      <link>http://localhost:1313/p/untitled/</link>
-      <pubDate>Sat, 31 Jan 2026 00:00:00 +0000</pubDate><author>kmeykranz@qq.com (Fiveth)</author>
-      <guid>http://localhost:1313/p/untitled/</guid>
-      <description>&lt;h1 id=&#34;untitled&#34;&gt;Untitled&lt;/h1&gt;&#xA;</description>
     </item>
     <item>
       <title>V-Ray</title>

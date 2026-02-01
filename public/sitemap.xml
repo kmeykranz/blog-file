@@ -5,6 +5,9 @@
     <loc>http://localhost:1313/</loc>
     <lastmod>2026-01-31T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/projects/dream-detective/</loc>
+    <lastmod>2026-01-31T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/projects/duck-chat/</loc>
     <lastmod>2026-01-31T00:00:00+00:00</lastmod>
   </url><url>
@@ -38,13 +41,25 @@
     <loc>http://localhost:1313/now/</loc>
     <lastmod>2026-01-14T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>http://localhost:1313/book/%E7%88%B1%E7%9A%84%E8%89%BA%E6%9C%AF/</loc>
+    <lastmod>2026-01-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/book/</loc>
+    <lastmod>2026-01-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/book/%E6%8C%AA%E5%A8%81%E7%9A%84%E6%A3%AE%E6%9E%97/</loc>
+    <lastmod>2025-11-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/book/%E6%88%91%E8%BF%98%E8%83%BD%E7%9C%8B%E5%88%B0%E5%A4%9A%E5%B0%91%E6%AC%A1%E6%BB%A1%E6%9C%88%E5%8D%87%E8%B5%B7/</loc>
+    <lastmod>2025-10-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/book/%E9%95%BF%E5%AE%89%E7%9A%84%E8%8D%94%E6%9E%9D/</loc>
+    <lastmod>2025-10-03T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>http://localhost:1313/now/2025-07/</loc>
     <lastmod>2025-09-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/book/%E5%88%BB%E6%84%8F%E6%9A%82%E5%81%9C/</loc>
-    <lastmod>2025-05-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/book/</loc>
     <lastmod>2025-05-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/blog/cognition/</loc>
