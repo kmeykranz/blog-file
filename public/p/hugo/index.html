@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=51643&amp;path=livereload" data-no-instant defer></script>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="shortcut icon" href="http://localhost:51643/images/favicon.png" />
+<link rel="shortcut icon" href="http://localhost:1313/images/favicon.png" />
 <title>关于博客框架迁移 | Fiveth</title>
 <meta name="title" content="关于博客框架迁移" />
 <meta name="description" content="hi，大家应该发现了，我的博客变样了
@@ -35,7 +35,13 @@ Hugo在国内的社区没有Hexo的大，意味着遇到问题比较难找到解
 所以
 大家可以根据个人需求和喜好选择，看看自己是要简约的，还是多功能、自定义化高的。
 
-这里奉上我的Hexo博客搭建教程
+这里奉上我的
+
+    
+        Hexo博客搭建教程
+    
+
+
 
 
 关于Hugo安装
@@ -43,16 +49,40 @@ Hugo在国内的社区没有Hexo的大，意味着遇到问题比较难找到解
 
 
 
-【L1nSn0w】(1)带着Stack主题入坑Hugo
 
 
-【L1nSn0w】(2)部署你的Hugo博客
+    
+        【L1nSn0w】(1)带着Stack主题入坑Hugo
+    
 
 
-【CSDN】GitHub Action自动化部署Hugo博客
 
 
-【L1nSn0w】(3)Stack主题的自定义
+
+
+    
+        【L1nSn0w】(2)部署你的Hugo博客
+    
+
+
+
+
+
+
+    
+        【CSDN】GitHub Action自动化部署Hugo博客
+    
+
+
+
+
+
+
+    
+        【L1nSn0w】(3)Stack主题的自定义
+    
+
+
 
 
 
@@ -60,10 +90,10 @@ Hugo在国内的社区没有Hexo的大，意味着遇到问题比较难找到解
 把deploy_key那行换成PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}，然后在仓库设置添加secret变量PERSONAL_TOKEN，里面填token。token在用户设置中创建，要勾选repo和workflow权限。" />
 <meta name="keywords" content="博客,Hexo," />
 
-<link rel="canonical" href="http://localhost:51643/p/hugo/">
+<link rel="canonical" href="http://localhost:1313/p/hugo/">
 
 
-<meta property="og:url" content="http://localhost:51643/p/hugo/">
+<meta property="og:url" content="http://localhost:1313/p/hugo/">
   <meta property="og:site_name" content="Fiveth">
   <meta property="og:title" content="关于博客框架迁移">
   <meta property="og:description" content="hi，大家应该发现了，我的博客变样了
@@ -71,13 +101,8 @@ Hugo在国内的社区没有Hexo的大，意味着遇到问题比较难找到解
 2022年疫情上网课的时候，我用Hexo搭建了我的个人博客
 2024将博客迁移至了Hugo
 原因 优点 相比Hexo，Hugo的静态生成速度更快。在本地运行后半秒不到就能在本地生成完页面，方便调试。 最主要是为了减少折腾，这让我可以专心地写文章。不再反复折腾博客页面。 缺点 Hugo在国内的社区没有Hexo的大，意味着遇到问题比较难找到解决方法，需要一定Debug能力 没有Hexo那么多插件功能 所以 大家可以根据个人需求和喜好选择，看看自己是要简约的，还是多功能、自定义化高的。
-这里奉上我的Hexo博客搭建教程
-关于Hugo安装 这里列出我在hugo博客搭建过程中阅读的文章：
-【L1nSn0w】(1)带着Stack主题入坑Hugo
-【L1nSn0w】(2)部署你的Hugo博客
-【CSDN】GitHub Action自动化部署Hugo博客
-【L1nSn0w】(3)Stack主题的自定义
-我在自动部署处做了些改动： 把deploy_key那行换成PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}，然后在仓库设置添加secret变量PERSONAL_TOKEN，里面填token。token在用户设置中创建，要勾选repo和workflow权限。">
+这里奉上我的 Hexo博客搭建教程 关于Hugo安装 这里列出我在hugo博客搭建过程中阅读的文章：
+【L1nSn0w】(1)带着Stack主题入坑Hugo 【L1nSn0w】(2)部署你的Hugo博客 【CSDN】GitHub Action自动化部署Hugo博客 【L1nSn0w】(3)Stack主题的自定义 我在自动部署处做了些改动： 把deploy_key那行换成PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}，然后在仓库设置添加secret变量PERSONAL_TOKEN，里面填token。token在用户设置中创建，要勾选repo和workflow权限。">
   <meta property="og:locale" content="en_US">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blog">
@@ -85,26 +110,21 @@ Hugo在国内的社区没有Hexo的大，意味着遇到问题比较难找到解
     <meta property="article:modified_time" content="2024-05-17T00:00:00+00:00">
     <meta property="article:tag" content="博客">
     <meta property="article:tag" content="Hexo">
-    <meta property="og:image" content="http://localhost:51643/images/share.png">
+    <meta property="og:image" content="http://localhost:1313/images/share.png">
 
 
 
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="http://localhost:51643/images/share.png">
+  <meta name="twitter:image" content="http://localhost:1313/images/share.png">
   <meta name="twitter:title" content="关于博客框架迁移">
   <meta name="twitter:description" content="hi，大家应该发现了，我的博客变样了
 因为我把博客从Hexo迁移到了Hugo
 2022年疫情上网课的时候，我用Hexo搭建了我的个人博客
 2024将博客迁移至了Hugo
 原因 优点 相比Hexo，Hugo的静态生成速度更快。在本地运行后半秒不到就能在本地生成完页面，方便调试。 最主要是为了减少折腾，这让我可以专心地写文章。不再反复折腾博客页面。 缺点 Hugo在国内的社区没有Hexo的大，意味着遇到问题比较难找到解决方法，需要一定Debug能力 没有Hexo那么多插件功能 所以 大家可以根据个人需求和喜好选择，看看自己是要简约的，还是多功能、自定义化高的。
-这里奉上我的Hexo博客搭建教程
-关于Hugo安装 这里列出我在hugo博客搭建过程中阅读的文章：
-【L1nSn0w】(1)带着Stack主题入坑Hugo
-【L1nSn0w】(2)部署你的Hugo博客
-【CSDN】GitHub Action自动化部署Hugo博客
-【L1nSn0w】(3)Stack主题的自定义
-我在自动部署处做了些改动： 把deploy_key那行换成PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}，然后在仓库设置添加secret变量PERSONAL_TOKEN，里面填token。token在用户设置中创建，要勾选repo和workflow权限。">
+这里奉上我的 Hexo博客搭建教程 关于Hugo安装 这里列出我在hugo博客搭建过程中阅读的文章：
+【L1nSn0w】(1)带着Stack主题入坑Hugo 【L1nSn0w】(2)部署你的Hugo博客 【CSDN】GitHub Action自动化部署Hugo博客 【L1nSn0w】(3)Stack主题的自定义 我在自动部署处做了些改动： 把deploy_key那行换成PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}，然后在仓库设置添加secret变量PERSONAL_TOKEN，里面填token。token在用户设置中创建，要勾选repo和workflow权限。">
 
 
 
@@ -115,17 +135,12 @@ Hugo在国内的社区没有Hexo的大，意味着遇到问题比较难找到解
 2022年疫情上网课的时候，我用Hexo搭建了我的个人博客
 2024将博客迁移至了Hugo
 原因 优点 相比Hexo，Hugo的静态生成速度更快。在本地运行后半秒不到就能在本地生成完页面，方便调试。 最主要是为了减少折腾，这让我可以专心地写文章。不再反复折腾博客页面。 缺点 Hugo在国内的社区没有Hexo的大，意味着遇到问题比较难找到解决方法，需要一定Debug能力 没有Hexo那么多插件功能 所以 大家可以根据个人需求和喜好选择，看看自己是要简约的，还是多功能、自定义化高的。
-这里奉上我的Hexo博客搭建教程
-关于Hugo安装 这里列出我在hugo博客搭建过程中阅读的文章：
-【L1nSn0w】(1)带着Stack主题入坑Hugo
-【L1nSn0w】(2)部署你的Hugo博客
-【CSDN】GitHub Action自动化部署Hugo博客
-【L1nSn0w】(3)Stack主题的自定义
-我在自动部署处做了些改动： 把deploy_key那行换成PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}，然后在仓库设置添加secret变量PERSONAL_TOKEN，里面填token。token在用户设置中创建，要勾选repo和workflow权限。">
+这里奉上我的 Hexo博客搭建教程 关于Hugo安装 这里列出我在hugo博客搭建过程中阅读的文章：
+【L1nSn0w】(1)带着Stack主题入坑Hugo 【L1nSn0w】(2)部署你的Hugo博客 【CSDN】GitHub Action自动化部署Hugo博客 【L1nSn0w】(3)Stack主题的自定义 我在自动部署处做了些改动： 把deploy_key那行换成PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }}，然后在仓库设置添加secret变量PERSONAL_TOKEN，里面填token。token在用户设置中创建，要勾选repo和workflow权限。">
   <meta itemprop="datePublished" content="2024-05-17T00:00:00+00:00">
   <meta itemprop="dateModified" content="2024-05-17T00:00:00+00:00">
-  <meta itemprop="wordCount" content="26">
-  <meta itemprop="image" content="http://localhost:51643/images/share.png">
+  <meta itemprop="wordCount" content="27">
+  <meta itemprop="image" content="http://localhost:1313/images/share.png">
   <meta itemprop="keywords" content="博客,Hexo">
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
@@ -510,7 +525,7 @@ Hugo在国内的社区没有Hexo的大，意味着遇到问题比较难找到解
 </a>
 <nav><a href="/">Home</a>
 
-<a href="/books/">Books</a>
+<a href="/book/">Books</a>
 
 <a href="/now/">Now</a>
 
@@ -562,7 +577,13 @@ Hugo在国内的社区没有Hexo的大，意味着遇到问题比较难找到解
 <h3 id="所以">所以</h3>
 <p>大家可以根据个人需求和喜好选择，看看自己是要简约的，还是多功能、自定义化高的。</p>
 <blockquote>
-<p>这里奉上我的<a href="https://blog.fiveth.cc/tags/hexo/">Hexo博客搭建教程</a></p>
+<p>这里奉上我的<a  href="https://blog.fiveth.cc/tags/hexo/"    target="_blank" rel="nofollow noopener noreferrer" >
+
+    <span>
+        Hexo博客搭建教程
+    </span>
+
+</a></p>
 </blockquote>
 <hr>
 <h2 id="关于hugo安装">关于Hugo安装</h2>
@@ -570,16 +591,40 @@ Hugo在国内的社区没有Hexo的大，意味着遇到问题比较难找到解
 <blockquote>
 <ul>
 <li>
-<p><a href="https://blog.linsnow.cn/p/join-hugo-and-stack/">【L1nSn0w】(1)带着Stack主题入坑Hugo</a></p>
+<p><a  href="https://blog.linsnow.cn/p/join-hugo-and-stack/"    target="_blank" rel="nofollow noopener noreferrer" >
+
+    <span>
+        【L1nSn0w】(1)带着Stack主题入坑Hugo
+    </span>
+
+</a></p>
 </li>
 <li>
-<p><a href="https://blog.linsnow.cn/p/deploy-hugo/">【L1nSn0w】(2)部署你的Hugo博客</a></p>
+<p><a  href="https://blog.linsnow.cn/p/deploy-hugo/"    target="_blank" rel="nofollow noopener noreferrer" >
+
+    <span>
+        【L1nSn0w】(2)部署你的Hugo博客
+    </span>
+
+</a></p>
 </li>
 <li>
-<p><a href="https://blog.csdn.net/m0_51993913/article/details/132657065">【CSDN】GitHub Action自动化部署Hugo博客</a></p>
+<p><a  href="https://blog.csdn.net/m0_51993913/article/details/132657065"    target="_blank" rel="nofollow noopener noreferrer" >
+
+    <span>
+        【CSDN】GitHub Action自动化部署Hugo博客
+    </span>
+
+</a></p>
 </li>
 <li>
-<p><a href="https://blog.linsnow.cn/p/modify-hugo/">【L1nSn0w】(3)Stack主题的自定义</a></p>
+<p><a  href="https://blog.linsnow.cn/p/modify-hugo/"    target="_blank" rel="nofollow noopener noreferrer" >
+
+    <span>
+        【L1nSn0w】(3)Stack主题的自定义
+    </span>
+
+</a></p>
 </li>
 </ul>
 </blockquote>
@@ -589,9 +634,9 @@ Hugo在国内的社区没有Hexo的大，意味着遇到问题比较难找到解
 
 <p>
   
-  <a href="http://localhost:51643/blog/%E5%8D%9A%E5%AE%A2/">#博客</a>
+  <a href="http://localhost:1313/blog/%E5%8D%9A%E5%AE%A2/">#博客</a>
   
-  <a href="http://localhost:51643/blog/hexo/">#Hexo</a>
+  <a href="http://localhost:1313/blog/hexo/">#Hexo</a>
   
 </p>
 

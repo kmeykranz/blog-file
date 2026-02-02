@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=51643&amp;path=livereload" data-no-instant defer></script>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="shortcut icon" href="http://localhost:51643/images/favicon.png" />
+<link rel="shortcut icon" href="http://localhost:1313/images/favicon.png" />
 <title>2022款Thinkbook14&#43;酷睿版续航优化方案 | Fiveth</title>
 <meta name="title" content="2022款Thinkbook14&#43;酷睿版续航优化方案" />
 <meta name="description" content="使用Thinkbook14&#43;也有两年了，我是在22年买的。后悔自己买的太早，因为22年酷睿款的续航十分鸡肋（23及24款在续航有很大提升），相信一样用这款的朋友们应该深有体会。离电不到2小时的续航，堪比游戏本。作为一个学生，在学校中基本上只能离电使用，所以我对续航有一定需求。
 在我的一番调教下，它的续航最终达到了静置10小时，低负办公8小时的理论成绩。这对我日常使用体验的提升非常大，终于不用再频繁地把电脑放到充电仓。今天就来分享一下我自用的续航调教方案。本篇部分适用于所有笔记本，部分是针对22 Thinkbook14&#43;酷睿版的。
-文章部分参考自【知乎】2022款ThinkBook 14&#43;/16&#43;酷睿版的电池续航优化更新
+文章部分参考自
+
+    
+        【知乎】2022款ThinkBook 14&#43;/16&#43;酷睿版的电池续航优化更新
+    
+
+
 基础
 在离电使用时，做如下设置延长电池续航：
 
@@ -26,7 +32,13 @@ Fn&#43;R把屏幕刷新率调整为60Hz（配置了高刷屏的机型）
 近期，官方在驱动程序上对22酷睿款更新了优化续航的措施，我们需要上官网下载更新。操作如下：
 
 
-进入官网Lenovo服务与支持
+进入官网
+
+    
+        Lenovo服务与支持
+    
+
+
 
 
 在搜索框中输入自己的机型（机型可以在笔记本机身底部找到）
@@ -57,43 +69,34 @@ Fn&#43;R把屏幕刷新率调整为60Hz（配置了高刷屏的机型）
 现在我们在桌面右键打开更多选项，就会发现Nvidia控制面板没了，我们成功关闭了独显。
 之后若要开启使用，还是一样的操作进入BIOS调回混合模式即可。
 ThrottleStop
-Throttlestop是一个CPU调节工具，可以用来超频/降频/降温/降压。中文版下载
-
-上面四个选项是选择不同场景，可以分别配置不同场景下的参数，场景的名字可以在设置中自定义。下面是配置选项，这里我们只需要用到Speed Shift EPP（变速EPP）。EPP 允许设置范围为0~255，数值越大越省电，数值越小性能越好。
-这里给大家参考下我的四个场景配置：
-
-性能：高性能，EPP 32
-插电：平衡，EPP 128
-离电：省电模式，EPP 192
-节能：省电模式，EPP 255
-
-设置开启自动启动
-
-在桌面右键此电脑，点击管理
-左侧展开任务计划程序，点击任务计划程序库
-右侧创建任务
-取名”Throttlestop“
-触发器页面，新建选择当任何用户登陆时
-操作页面，新建然后点击浏览，找到并选择Throttlestop.exe
-条件页面，取消勾选只有在计算机使用交流电源时才启动此任务
 
 
-如果需要进一步提升续航，还可以在FIVR中限制CPU的电压，硬核延长续航，此操作有一定风险，并且新版BIOS限制了电压控制的功能，还需要先解锁电压控制，此处不做展开。" />
+    
+        Throttlestop
+    
+
+是一个CPU调节工具，可以用来超频/降频/降温/降压。
+
+    
+        中文版下载
+    
+
+
+
+上面四个选项是选择不同场景，可以分别配置不同场景下的参数，场景的名字可以在设置中自定义。下面是配置选项，这里我们只需要用到Speed Shift EPP（变速EPP）。EPP 允许设置范围为0~255，数值越大越省电，数值越小性能越好。" />
 <meta name="keywords" content="干货," />
 
-<link rel="canonical" href="http://localhost:51643/p/4b21/">
+<link rel="canonical" href="http://localhost:1313/p/4b21/">
 
 
-<meta property="og:url" content="http://localhost:51643/p/4b21/">
+<meta property="og:url" content="http://localhost:1313/p/4b21/">
   <meta property="og:site_name" content="Fiveth">
   <meta property="og:title" content="2022款Thinkbook14&#43;酷睿版续航优化方案">
   <meta property="og:description" content="使用Thinkbook14&#43;也有两年了，我是在22年买的。后悔自己买的太早，因为22年酷睿款的续航十分鸡肋（23及24款在续航有很大提升），相信一样用这款的朋友们应该深有体会。离电不到2小时的续航，堪比游戏本。作为一个学生，在学校中基本上只能离电使用，所以我对续航有一定需求。
 在我的一番调教下，它的续航最终达到了静置10小时，低负办公8小时的理论成绩。这对我日常使用体验的提升非常大，终于不用再频繁地把电脑放到充电仓。今天就来分享一下我自用的续航调教方案。本篇部分适用于所有笔记本，部分是针对22 Thinkbook14&#43;酷睿版的。
-文章部分参考自【知乎】2022款ThinkBook 14&#43;/16&#43;酷睿版的电池续航优化更新
-基础 在离电使用时，做如下设置延长电池续航：
+文章部分参考自 【知乎】2022款ThinkBook 14&#43;/16&#43;酷睿版的电池续航优化更新 基础 在离电使用时，做如下设置延长电池续航：
 Fn&#43;Q 切换到节能模式（显示电池图标的那个） Fn&#43;空格键 关闭键盘背光 Fn&#43;R把屏幕刷新率调整为60Hz（配置了高刷屏的机型） 右键点击屏幕右下角的电池图标打开电源和睡眠设置，将电源模式设置为最佳能效 打开节电模式 不使用蓝牙时就关掉（WIFI同理） 适当降低屏幕亮度 更新驱动 近期，官方在驱动程序上对22酷睿款更新了优化续航的措施，我们需要上官网下载更新。操作如下：
-进入官网Lenovo服务与支持
-在搜索框中输入自己的机型（机型可以在笔记本机身底部找到）
+进入官网 Lenovo服务与支持 在搜索框中输入自己的机型（机型可以在笔记本机身底部找到）
 比如我的是ThinkBook 14 G4&#43; IAP
 点击驱动下载
 下载以下程序的最新版本并安装
@@ -101,32 +104,26 @@ BIOS升级程序 （IAP - HYCN45WW或ARA - J6CN46WW之后版本） Intel显卡�
 所以最后干脆直接在BIOS中关闭独显，以最大程度提升续航，操作如下：
 重启电脑，在开机页面按Enter 按F1进入BIOS控制面板 显示模式选择集显模式 退出并保存 现在我们在桌面右键打开更多选项，就会发现Nvidia控制面板没了，我们成功关闭了独显。
 之后若要开启使用，还是一样的操作进入BIOS调回混合模式即可。
-ThrottleStop Throttlestop是一个CPU调节工具，可以用来超频/降频/降温/降压。中文版下载
-上面四个选项是选择不同场景，可以分别配置不同场景下的参数，场景的名字可以在设置中自定义。下面是配置选项，这里我们只需要用到Speed Shift EPP（变速EPP）。EPP 允许设置范围为0~255，数值越大越省电，数值越小性能越好。
-这里给大家参考下我的四个场景配置：
-性能：高性能，EPP 32 插电：平衡，EPP 128 离电：省电模式，EPP 192 节能：省电模式，EPP 255 设置开启自动启动
-在桌面右键此电脑，点击管理 左侧展开任务计划程序，点击任务计划程序库 右侧创建任务 取名”Throttlestop“ 触发器页面，新建选择当任何用户登陆时 操作页面，新建然后点击浏览，找到并选择Throttlestop.exe 条件页面，取消勾选只有在计算机使用交流电源时才启动此任务 如果需要进一步提升续航，还可以在FIVR中限制CPU的电压，硬核延长续航，此操作有一定风险，并且新版BIOS限制了电压控制的功能，还需要先解锁电压控制，此处不做展开。">
+ThrottleStop Throttlestop 是一个CPU调节工具，可以用来超频/降频/降温/降压。 中文版下载 上面四个选项是选择不同场景，可以分别配置不同场景下的参数，场景的名字可以在设置中自定义。下面是配置选项，这里我们只需要用到Speed Shift EPP（变速EPP）。EPP 允许设置范围为0~255，数值越大越省电，数值越小性能越好。">
   <meta property="og:locale" content="en_US">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blog">
     <meta property="article:published_time" content="2024-02-27T00:00:00+00:00">
     <meta property="article:modified_time" content="2024-02-27T00:00:00+00:00">
     <meta property="article:tag" content="干货">
-    <meta property="og:image" content="http://localhost:51643/images/share.png">
+    <meta property="og:image" content="http://localhost:1313/images/share.png">
 
 
 
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="http://localhost:51643/images/share.png">
+  <meta name="twitter:image" content="http://localhost:1313/images/share.png">
   <meta name="twitter:title" content="2022款Thinkbook14&#43;酷睿版续航优化方案">
   <meta name="twitter:description" content="使用Thinkbook14&#43;也有两年了，我是在22年买的。后悔自己买的太早，因为22年酷睿款的续航十分鸡肋（23及24款在续航有很大提升），相信一样用这款的朋友们应该深有体会。离电不到2小时的续航，堪比游戏本。作为一个学生，在学校中基本上只能离电使用，所以我对续航有一定需求。
 在我的一番调教下，它的续航最终达到了静置10小时，低负办公8小时的理论成绩。这对我日常使用体验的提升非常大，终于不用再频繁地把电脑放到充电仓。今天就来分享一下我自用的续航调教方案。本篇部分适用于所有笔记本，部分是针对22 Thinkbook14&#43;酷睿版的。
-文章部分参考自【知乎】2022款ThinkBook 14&#43;/16&#43;酷睿版的电池续航优化更新
-基础 在离电使用时，做如下设置延长电池续航：
+文章部分参考自 【知乎】2022款ThinkBook 14&#43;/16&#43;酷睿版的电池续航优化更新 基础 在离电使用时，做如下设置延长电池续航：
 Fn&#43;Q 切换到节能模式（显示电池图标的那个） Fn&#43;空格键 关闭键盘背光 Fn&#43;R把屏幕刷新率调整为60Hz（配置了高刷屏的机型） 右键点击屏幕右下角的电池图标打开电源和睡眠设置，将电源模式设置为最佳能效 打开节电模式 不使用蓝牙时就关掉（WIFI同理） 适当降低屏幕亮度 更新驱动 近期，官方在驱动程序上对22酷睿款更新了优化续航的措施，我们需要上官网下载更新。操作如下：
-进入官网Lenovo服务与支持
-在搜索框中输入自己的机型（机型可以在笔记本机身底部找到）
+进入官网 Lenovo服务与支持 在搜索框中输入自己的机型（机型可以在笔记本机身底部找到）
 比如我的是ThinkBook 14 G4&#43; IAP
 点击驱动下载
 下载以下程序的最新版本并安装
@@ -134,11 +131,7 @@ BIOS升级程序 （IAP - HYCN45WW或ARA - J6CN46WW之后版本） Intel显卡�
 所以最后干脆直接在BIOS中关闭独显，以最大程度提升续航，操作如下：
 重启电脑，在开机页面按Enter 按F1进入BIOS控制面板 显示模式选择集显模式 退出并保存 现在我们在桌面右键打开更多选项，就会发现Nvidia控制面板没了，我们成功关闭了独显。
 之后若要开启使用，还是一样的操作进入BIOS调回混合模式即可。
-ThrottleStop Throttlestop是一个CPU调节工具，可以用来超频/降频/降温/降压。中文版下载
-上面四个选项是选择不同场景，可以分别配置不同场景下的参数，场景的名字可以在设置中自定义。下面是配置选项，这里我们只需要用到Speed Shift EPP（变速EPP）。EPP 允许设置范围为0~255，数值越大越省电，数值越小性能越好。
-这里给大家参考下我的四个场景配置：
-性能：高性能，EPP 32 插电：平衡，EPP 128 离电：省电模式，EPP 192 节能：省电模式，EPP 255 设置开启自动启动
-在桌面右键此电脑，点击管理 左侧展开任务计划程序，点击任务计划程序库 右侧创建任务 取名”Throttlestop“ 触发器页面，新建选择当任何用户登陆时 操作页面，新建然后点击浏览，找到并选择Throttlestop.exe 条件页面，取消勾选只有在计算机使用交流电源时才启动此任务 如果需要进一步提升续航，还可以在FIVR中限制CPU的电压，硬核延长续航，此操作有一定风险，并且新版BIOS限制了电压控制的功能，还需要先解锁电压控制，此处不做展开。">
+ThrottleStop Throttlestop 是一个CPU调节工具，可以用来超频/降频/降温/降压。 中文版下载 上面四个选项是选择不同场景，可以分别配置不同场景下的参数，场景的名字可以在设置中自定义。下面是配置选项，这里我们只需要用到Speed Shift EPP（变速EPP）。EPP 允许设置范围为0~255，数值越大越省电，数值越小性能越好。">
 
 
 
@@ -146,11 +139,9 @@ ThrottleStop Throttlestop是一个CPU调节工具，可以用来超频/降频/�
   <meta itemprop="name" content="2022款Thinkbook14&#43;酷睿版续航优化方案">
   <meta itemprop="description" content="使用Thinkbook14&#43;也有两年了，我是在22年买的。后悔自己买的太早，因为22年酷睿款的续航十分鸡肋（23及24款在续航有很大提升），相信一样用这款的朋友们应该深有体会。离电不到2小时的续航，堪比游戏本。作为一个学生，在学校中基本上只能离电使用，所以我对续航有一定需求。
 在我的一番调教下，它的续航最终达到了静置10小时，低负办公8小时的理论成绩。这对我日常使用体验的提升非常大，终于不用再频繁地把电脑放到充电仓。今天就来分享一下我自用的续航调教方案。本篇部分适用于所有笔记本，部分是针对22 Thinkbook14&#43;酷睿版的。
-文章部分参考自【知乎】2022款ThinkBook 14&#43;/16&#43;酷睿版的电池续航优化更新
-基础 在离电使用时，做如下设置延长电池续航：
+文章部分参考自 【知乎】2022款ThinkBook 14&#43;/16&#43;酷睿版的电池续航优化更新 基础 在离电使用时，做如下设置延长电池续航：
 Fn&#43;Q 切换到节能模式（显示电池图标的那个） Fn&#43;空格键 关闭键盘背光 Fn&#43;R把屏幕刷新率调整为60Hz（配置了高刷屏的机型） 右键点击屏幕右下角的电池图标打开电源和睡眠设置，将电源模式设置为最佳能效 打开节电模式 不使用蓝牙时就关掉（WIFI同理） 适当降低屏幕亮度 更新驱动 近期，官方在驱动程序上对22酷睿款更新了优化续航的措施，我们需要上官网下载更新。操作如下：
-进入官网Lenovo服务与支持
-在搜索框中输入自己的机型（机型可以在笔记本机身底部找到）
+进入官网 Lenovo服务与支持 在搜索框中输入自己的机型（机型可以在笔记本机身底部找到）
 比如我的是ThinkBook 14 G4&#43; IAP
 点击驱动下载
 下载以下程序的最新版本并安装
@@ -158,15 +149,11 @@ BIOS升级程序 （IAP - HYCN45WW或ARA - J6CN46WW之后版本） Intel显卡�
 所以最后干脆直接在BIOS中关闭独显，以最大程度提升续航，操作如下：
 重启电脑，在开机页面按Enter 按F1进入BIOS控制面板 显示模式选择集显模式 退出并保存 现在我们在桌面右键打开更多选项，就会发现Nvidia控制面板没了，我们成功关闭了独显。
 之后若要开启使用，还是一样的操作进入BIOS调回混合模式即可。
-ThrottleStop Throttlestop是一个CPU调节工具，可以用来超频/降频/降温/降压。中文版下载
-上面四个选项是选择不同场景，可以分别配置不同场景下的参数，场景的名字可以在设置中自定义。下面是配置选项，这里我们只需要用到Speed Shift EPP（变速EPP）。EPP 允许设置范围为0~255，数值越大越省电，数值越小性能越好。
-这里给大家参考下我的四个场景配置：
-性能：高性能，EPP 32 插电：平衡，EPP 128 离电：省电模式，EPP 192 节能：省电模式，EPP 255 设置开启自动启动
-在桌面右键此电脑，点击管理 左侧展开任务计划程序，点击任务计划程序库 右侧创建任务 取名”Throttlestop“ 触发器页面，新建选择当任何用户登陆时 操作页面，新建然后点击浏览，找到并选择Throttlestop.exe 条件页面，取消勾选只有在计算机使用交流电源时才启动此任务 如果需要进一步提升续航，还可以在FIVR中限制CPU的电压，硬核延长续航，此操作有一定风险，并且新版BIOS限制了电压控制的功能，还需要先解锁电压控制，此处不做展开。">
+ThrottleStop Throttlestop 是一个CPU调节工具，可以用来超频/降频/降温/降压。 中文版下载 上面四个选项是选择不同场景，可以分别配置不同场景下的参数，场景的名字可以在设置中自定义。下面是配置选项，这里我们只需要用到Speed Shift EPP（变速EPP）。EPP 允许设置范围为0~255，数值越大越省电，数值越小性能越好。">
   <meta itemprop="datePublished" content="2024-02-27T00:00:00+00:00">
   <meta itemprop="dateModified" content="2024-02-27T00:00:00+00:00">
-  <meta itemprop="wordCount" content="71">
-  <meta itemprop="image" content="http://localhost:51643/images/share.png">
+  <meta itemprop="wordCount" content="75">
+  <meta itemprop="image" content="http://localhost:1313/images/share.png">
   <meta itemprop="keywords" content="干货">
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
@@ -551,7 +538,7 @@ ThrottleStop Throttlestop是一个CPU调节工具，可以用来超频/降频/�
 </a>
 <nav><a href="/">Home</a>
 
-<a href="/books/">Books</a>
+<a href="/book/">Books</a>
 
 <a href="/now/">Now</a>
 
@@ -578,7 +565,13 @@ ThrottleStop Throttlestop是一个CPU调节工具，可以用来超频/降频/�
 
 <content> <p>使用Thinkbook14+也有两年了，我是在22年买的。后悔自己买的太早，因为22年酷睿款的续航十分鸡肋（23及24款在续航有很大提升），相信一样用这款的朋友们应该深有体会。离电不到2小时的续航，堪比游戏本。作为一个学生，在学校中基本上只能离电使用，所以我对续航有一定需求。</p>
 <p>在我的一番调教下，它的续航最终达到了静置10小时，低负办公8小时的理论成绩。这对我日常使用体验的提升非常大，终于不用再频繁地把电脑放到充电仓。今天就来分享一下我自用的续航调教方案。本篇部分适用于所有笔记本，部分是针对22 Thinkbook14+酷睿版的。</p>
-<p>文章部分参考自<a href="https://zhuanlan.zhihu.com/p/662648384">【知乎】2022款ThinkBook 14+/16+酷睿版的电池续航优化更新</a></p>
+<p>文章部分参考自<a  href="https://zhuanlan.zhihu.com/p/662648384"    target="_blank" rel="nofollow noopener noreferrer" >
+
+    <span>
+        【知乎】2022款ThinkBook 14+/16+酷睿版的电池续航优化更新
+    </span>
+
+</a></p>
 <h2 id="基础">基础</h2>
 <p>在离电使用时，做如下设置延长电池续航：</p>
 <ol>
@@ -594,7 +587,13 @@ ThrottleStop Throttlestop是一个CPU调节工具，可以用来超频/降频/�
 <p>近期，官方在驱动程序上对22酷睿款更新了优化续航的措施，我们需要上官网下载更新。操作如下：</p>
 <ol>
 <li>
-<p>进入官网<a href="https://newthink.lenovo.com.cn/">Lenovo服务与支持</a></p>
+<p>进入官网<a  href="https://newthink.lenovo.com.cn/"    target="_blank" rel="nofollow noopener noreferrer" >
+
+    <span>
+        Lenovo服务与支持
+    </span>
+
+</a></p>
 </li>
 <li>
 <p>在搜索框中输入自己的机型（机型可以在笔记本机身底部找到）</p>
@@ -625,7 +624,19 @@ ThrottleStop Throttlestop是一个CPU调节工具，可以用来超频/降频/�
 <p>现在我们在桌面右键打开更多选项，就会发现Nvidia控制面板没了，我们成功关闭了独显。</p>
 <p>之后若要开启使用，还是一样的操作进入BIOS调回<code>混合模式</code>即可。</p>
 <h2 id="throttlestop">ThrottleStop</h2>
-<p><a href="https://www.techpowerup.com/download/techpowerup-throttlestop/">Throttlestop</a>是一个CPU调节工具，可以用来超频/降频/降温/降压。<a href="https://wwf.lanzoum.com/iCRUv1pjepza">中文版下载</a></p>
+<p><a  href="https://www.techpowerup.com/download/techpowerup-throttlestop/"    target="_blank" rel="nofollow noopener noreferrer" >
+
+    <span>
+        Throttlestop
+    </span>
+
+</a>是一个CPU调节工具，可以用来超频/降频/降温/降压。<a  href="https://wwf.lanzoum.com/iCRUv1pjepza"    target="_blank" rel="nofollow noopener noreferrer" >
+
+    <span>
+        中文版下载
+    </span>
+
+</a></p>
 <p><img src="https://p.fiveth.cc/img/m/throttlestop.png" alt="Throttlestop"></p>
 <p>上面四个选项是选择不同场景，可以分别配置不同场景下的参数，场景的名字可以在设置中自定义。下面是配置选项，这里我们只需要用到<code>Speed Shift EPP（变速EPP）</code>。EPP 允许设置范围为0~255，数值越大越省电，数值越小性能越好。</p>
 <p>这里给大家参考下我的四个场景配置：</p>
@@ -654,7 +665,7 @@ ThrottleStop Throttlestop是一个CPU调节工具，可以用来超频/降频/�
 
 <p>
   
-  <a href="http://localhost:51643/blog/%E5%B9%B2%E8%B4%A7/">#干货</a>
+  <a href="http://localhost:1313/blog/%E5%B9%B2%E8%B4%A7/">#干货</a>
   
 </p>
 

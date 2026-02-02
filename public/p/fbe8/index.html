@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en-US">
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=51643&amp;path=livereload" data-no-instant defer></script>
+<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
   <meta http-equiv="X-Clacks-Overhead" content="GNU Terry Pratchett" />
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="shortcut icon" href="http://localhost:51643/images/favicon.png" />
+<link rel="shortcut icon" href="http://localhost:1313/images/favicon.png" />
 <title>Hexo博客优化：批量修改md文件名 | Fiveth</title>
 <meta name="title" content="Hexo博客优化：批量修改md文件名" />
 <meta name="description" content="今天整理博客，发现我给文章取的文件名比较混乱，要找文章的时候会很不方便。
@@ -15,7 +15,13 @@
 使用方法
 方法1. exe文件
 脚本已经打包成exe文件，大家可以直接下载使用，下载后放到_posts文件夹下运行即可。
-https://wwf.lanzoum.com/icY4q1ufi7na 密码:ff6u
+
+
+    
+        https://wwf.lanzoum.com/icY4q1ufi7na
+    
+
+ 密码:ff6u
 
 注意：如果标题中有不支持的特殊符号，会导致运行失败。可以往下看，自行用python调整源代码后运行
 
@@ -25,7 +31,13 @@ https://wwf.lanzoum.com/icY4q1ufi7na 密码:ff6u
 下面是方法：
 
 
-首先要安装python。
+首先要安装
+
+    
+        python
+    
+
+。
 
 
 在_posts文件夹中创建一个rename.txt文件，复制粘贴下列代码进去：
@@ -70,10 +82,10 @@ print(i)
 另外，去年我一直是随缘更博客，接下来我会开始有规律性的定期发文章，分享我的生活和学习到的知识。做博客的精髓在于长期坚持，一直有新内容才会有人关注。一起加油吧😊" />
 <meta name="keywords" content="博客,Hexo,Python," />
 
-<link rel="canonical" href="http://localhost:51643/p/fbe8/">
+<link rel="canonical" href="http://localhost:1313/p/fbe8/">
 
 
-<meta property="og:url" content="http://localhost:51643/p/fbe8/">
+<meta property="og:url" content="http://localhost:1313/p/fbe8/">
   <meta property="og:site_name" content="Fiveth">
   <meta property="og:title" content="Hexo博客优化：批量修改md文件名">
   <meta property="og:description" content="今天整理博客，发现我给文章取的文件名比较混乱，要找文章的时候会很不方便。
@@ -85,7 +97,7 @@ https://wwf.lanzoum.com/icY4q1ufi7na 密码:ff6u
 记得运行完后将脚本移出文件夹，防止被上传。
 方法2. python运行 如果有调试需求，大家也可以自己用python编译使用。
 下面是方法：
-首先要安装python。
+首先要安装 python 。
 在_posts文件夹中创建一个rename.txt文件，复制粘贴下列代码进去：
 import os dir_path = &#34;./&#34; i = 0 for file in os.listdir(dir_path): ## Skip &#39;.&#39; and &#39;..&#39; if file == &#34;.&#34; or file == &#34;..&#34;: continue ## Construct the full path to the file file_path = os.path.join(dir_path, file) ## Read the file try: with open(file_path, &#39;r&#39;, encoding=&#39;utf-8&#39;) as f: lines = f.readlines() except UnicodeDecodeError: print(f&#34;Skipping file due to encoding issue: {file}&#34;) continue ## Skip files with less than 2 lines if len(lines) &lt; 2: continue ## Extract and process the title from the second line title = lines[1].strip().replace(&#39;title:&#39;, &#39;&#39;).strip() ## Remove any marks from the title title = title.replace(&#39;?&#39;, &#39;&#39;) title = title.replace(&#39;|&#39;, &#39;-&#39;) ## Rename new_filename = title &#43; &#39;.md&#39; new_file_path = os.path.join(dir_path, new_filename) os.rename(file_path, new_file_path) i &#43;= 1 print(i) 然后将文件名后缀修改成.py 在文件夹空白处右键，点击在终端中打开 在终端中输入python rename.py即可运行脚本 另外，去年我一直是随缘更博客，接下来我会开始有规律性的定期发文章，分享我的生活和学习到的知识。做博客的精髓在于长期坚持，一直有新内容才会有人关注。一起加油吧😊">
   <meta property="og:locale" content="en_US">
@@ -96,13 +108,13 @@ import os dir_path = &#34;./&#34; i = 0 for file in os.listdir(dir_path): ## Ski
     <meta property="article:tag" content="博客">
     <meta property="article:tag" content="Hexo">
     <meta property="article:tag" content="Python">
-    <meta property="og:image" content="http://localhost:51643/images/share.png">
+    <meta property="og:image" content="http://localhost:1313/images/share.png">
 
 
 
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="http://localhost:51643/images/share.png">
+  <meta name="twitter:image" content="http://localhost:1313/images/share.png">
   <meta name="twitter:title" content="Hexo博客优化：批量修改md文件名">
   <meta name="twitter:description" content="今天整理博客，发现我给文章取的文件名比较混乱，要找文章的时候会很不方便。
 一般我们都是用hexo new file_name创建文章的md文件的，然后文章的标题是在md文件的信息栏定义的。而我们很多时候是开始写文章才想好标题，随着写作标题也会发生变动，这导致最后我们文章标题和文件名是不同的，加大了我们的管理难度。
@@ -113,7 +125,7 @@ https://wwf.lanzoum.com/icY4q1ufi7na 密码:ff6u
 记得运行完后将脚本移出文件夹，防止被上传。
 方法2. python运行 如果有调试需求，大家也可以自己用python编译使用。
 下面是方法：
-首先要安装python。
+首先要安装 python 。
 在_posts文件夹中创建一个rename.txt文件，复制粘贴下列代码进去：
 import os dir_path = &#34;./&#34; i = 0 for file in os.listdir(dir_path): ## Skip &#39;.&#39; and &#39;..&#39; if file == &#34;.&#34; or file == &#34;..&#34;: continue ## Construct the full path to the file file_path = os.path.join(dir_path, file) ## Read the file try: with open(file_path, &#39;r&#39;, encoding=&#39;utf-8&#39;) as f: lines = f.readlines() except UnicodeDecodeError: print(f&#34;Skipping file due to encoding issue: {file}&#34;) continue ## Skip files with less than 2 lines if len(lines) &lt; 2: continue ## Extract and process the title from the second line title = lines[1].strip().replace(&#39;title:&#39;, &#39;&#39;).strip() ## Remove any marks from the title title = title.replace(&#39;?&#39;, &#39;&#39;) title = title.replace(&#39;|&#39;, &#39;-&#39;) ## Rename new_filename = title &#43; &#39;.md&#39; new_file_path = os.path.join(dir_path, new_filename) os.rename(file_path, new_file_path) i &#43;= 1 print(i) 然后将文件名后缀修改成.py 在文件夹空白处右键，点击在终端中打开 在终端中输入python rename.py即可运行脚本 另外，去年我一直是随缘更博客，接下来我会开始有规律性的定期发文章，分享我的生活和学习到的知识。做博客的精髓在于长期坚持，一直有新内容才会有人关注。一起加油吧😊">
 
@@ -130,13 +142,13 @@ https://wwf.lanzoum.com/icY4q1ufi7na 密码:ff6u
 记得运行完后将脚本移出文件夹，防止被上传。
 方法2. python运行 如果有调试需求，大家也可以自己用python编译使用。
 下面是方法：
-首先要安装python。
+首先要安装 python 。
 在_posts文件夹中创建一个rename.txt文件，复制粘贴下列代码进去：
 import os dir_path = &#34;./&#34; i = 0 for file in os.listdir(dir_path): ## Skip &#39;.&#39; and &#39;..&#39; if file == &#34;.&#34; or file == &#34;..&#34;: continue ## Construct the full path to the file file_path = os.path.join(dir_path, file) ## Read the file try: with open(file_path, &#39;r&#39;, encoding=&#39;utf-8&#39;) as f: lines = f.readlines() except UnicodeDecodeError: print(f&#34;Skipping file due to encoding issue: {file}&#34;) continue ## Skip files with less than 2 lines if len(lines) &lt; 2: continue ## Extract and process the title from the second line title = lines[1].strip().replace(&#39;title:&#39;, &#39;&#39;).strip() ## Remove any marks from the title title = title.replace(&#39;?&#39;, &#39;&#39;) title = title.replace(&#39;|&#39;, &#39;-&#39;) ## Rename new_filename = title &#43; &#39;.md&#39; new_file_path = os.path.join(dir_path, new_filename) os.rename(file_path, new_file_path) i &#43;= 1 print(i) 然后将文件名后缀修改成.py 在文件夹空白处右键，点击在终端中打开 在终端中输入python rename.py即可运行脚本 另外，去年我一直是随缘更博客，接下来我会开始有规律性的定期发文章，分享我的生活和学习到的知识。做博客的精髓在于长期坚持，一直有新内容才会有人关注。一起加油吧😊">
   <meta itemprop="datePublished" content="2024-04-09T00:00:00+00:00">
   <meta itemprop="dateModified" content="2024-04-09T00:00:00+00:00">
-  <meta itemprop="wordCount" content="145">
-  <meta itemprop="image" content="http://localhost:51643/images/share.png">
+  <meta itemprop="wordCount" content="147">
+  <meta itemprop="image" content="http://localhost:1313/images/share.png">
   <meta itemprop="keywords" content="博客,Hexo,Python">
 <meta name="referrer" content="no-referrer-when-downgrade" />
 
@@ -521,7 +533,7 @@ import os dir_path = &#34;./&#34; i = 0 for file in os.listdir(dir_path): ## Ski
 </a>
 <nav><a href="/">Home</a>
 
-<a href="/books/">Books</a>
+<a href="/book/">Books</a>
 
 <a href="/now/">Now</a>
 
@@ -553,7 +565,13 @@ import os dir_path = &#34;./&#34; i = 0 for file in os.listdir(dir_path): ## Ski
 <h2 id="使用方法">使用方法</h2>
 <h3 id="方法1-exe文件">方法1. exe文件</h3>
 <p>脚本已经打包成exe文件，大家可以直接下载使用，下载后放到<code>_posts</code>文件夹下运行即可。</p>
-<p><a href="https://wwf.lanzoum.com/icY4q1ufi7na">https://wwf.lanzoum.com/icY4q1ufi7na</a> 密码:ff6u</p>
+<p><a  href="https://wwf.lanzoum.com/icY4q1ufi7na"    target="_blank" rel="nofollow noopener noreferrer" >
+
+    <span>
+        https://wwf.lanzoum.com/icY4q1ufi7na
+    </span>
+
+</a> 密码:ff6u</p>
 <blockquote>
 <p>注意：如果标题中有不支持的特殊符号，会导致运行失败。可以往下看，自行用python调整源代码后运行</p>
 </blockquote>
@@ -563,7 +581,13 @@ import os dir_path = &#34;./&#34; i = 0 for file in os.listdir(dir_path): ## Ski
 <p><strong>下面是方法</strong>：</p>
 <ul>
 <li>
-<p>首先要安装<a href="https://www.python.org/">python</a>。</p>
+<p>首先要安装<a  href="https://www.python.org/"    target="_blank" rel="nofollow noopener noreferrer" >
+
+    <span>
+        python
+    </span>
+
+</a>。</p>
 </li>
 <li>
 <p>在<code>_posts</code>文件夹中创建一个<code>rename.txt</code>文件，复制粘贴下列代码进去：</p>
@@ -610,11 +634,11 @@ import os dir_path = &#34;./&#34; i = 0 for file in os.listdir(dir_path): ## Ski
 
 <p>
   
-  <a href="http://localhost:51643/blog/%E5%8D%9A%E5%AE%A2/">#博客</a>
+  <a href="http://localhost:1313/blog/%E5%8D%9A%E5%AE%A2/">#博客</a>
   
-  <a href="http://localhost:51643/blog/hexo/">#Hexo</a>
+  <a href="http://localhost:1313/blog/hexo/">#Hexo</a>
   
-  <a href="http://localhost:51643/blog/python/">#Python</a>
+  <a href="http://localhost:1313/blog/python/">#Python</a>
   
 </p>
 
