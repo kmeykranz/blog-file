@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "content/now.md",
+                "file": "+/Home.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "now"
+              "title": "Home"
             }
           }
         ]
@@ -100,13 +100,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "content/now.md",
+                "file": "+/Home.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of now"
+              "title": "Outline of Home"
             }
           },
           {
@@ -197,8 +197,14 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "content/now.md",
     "+/Home.md",
+    "content/blog/about-ai-learning-tools.md",
+    "content/blog/Hexo博客优化：如何优化Hexo的网站性能？.md",
+    "content/blog/2022款Thinkbook14+酷睿版续航优化方案.md",
+    "content/blog/_index.md",
+    "content/blog/Hexo博客优化：批量修改md文件名.md",
+    "content/blog/Hexo搭建进阶：Vercel部署、主题安装、基础用法.md",
+    "content/now.md",
     "+/draft.md",
     "layouts/_markup/render-link.html",
     "layouts/_markup",
@@ -220,10 +226,6 @@
     "content/projects/dream-detective.md",
     "+/templates/Add Heading 1.md",
     "+/templates/default.md",
-    "content/blog/about-ai-learning-tools.md",
-    "content/blog/2022款Thinkbook14+酷睿版续航优化方案.md",
-    "content/blog/_index.md",
-    "content/blog/Hexo博客优化：如何优化Hexo的网站性能？.md",
     "content/blog/Hexo博客优化：如何优化Hexo的网站性能？ 1.md",
     "content/blog/更换博客框架-hugo.md",
     "content/about.md",
@@ -232,7 +234,6 @@
     "public/images/favicon.png",
     "content/projects/inspiration.md",
     "content/books/《你当像鸟飞往你的山》.md",
-    "content/books/《人类简史》.md",
     "themes/hugo-bearneo/exampleSite/static/images/favicon.png",
     "themes/hugo-bearneo/exampleSite/static/images/share.png",
     "themes/hugo-bearneo/images/tn.png",

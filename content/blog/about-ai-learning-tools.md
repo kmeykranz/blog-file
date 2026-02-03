@@ -7,7 +7,6 @@ tags:
   - AI
 toc: false
 ---
-# About AI Learning Tools
 
 First of all, I believe that as long as the note-taking method and mindset are correct, any note-taking software can be used. The most important thing for making good atomic notes is that the software must have the **bidirectional linking** function, because we need to build connections between knowledge.
 
