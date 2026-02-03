@@ -10,55 +10,27 @@
 <meta name="title" content="Hexo搭建进阶：Vercel部署、主题安装、基础用法" />
 <meta name="description" content="
 本篇前文：
-
-    
-        如何用Hexo搭建个人博客?
-    
-
+    如何用Hexo搭建个人博客?
 
 本文基于
-
-    
-        Hexo博客搭建基础教程(二)
-    
-
+    Hexo博客搭建基础教程(二)
 修改，部分转载
 我的Hexo优化系列：
-
-    
-        Hexo文章目录
-    
-
+    Hexo文章目录
 
 
 我的博客搭建教程是一年前写的了，非常感谢
-
-    
-        fomalhaut
-    
-
+    fomalhaut
 ，当时我是跟着他的教程一步步搭建的。最近我终于在b站发了视频版的博客搭建教程，有很多朋友想进一步优化博客。这篇文章接上一篇，教大家将博客部署到vercel、主题安装、Hexo博客的基础用法。
 Vercel部署
 Github提供的网址在国内的访问速度较慢，所以推荐在搭建完后用
-
-    
-        Vercel
-    
-
+    Vercel
 部署，再通过Vercel绑定到自己的域名上，这样会速度会很快。
 因为Vercel给我们分配的域名在国内是无法访问的，所以我们需要把在Vercel部署的绑定到自己的域名上，这样就可以访问了。
 域名可以在
-
-    
-        阿里云
-    
-
+    阿里云
 等域名供应商购买，我用的是
-
-    
-        西部数码
-    
-
+    西部数码
 ，便宜好用。
 
 建议选用com，cn或cc等常用好记的顶域，对SEO比较友好，自定义部分的长度尽可能短，别人才会更容易地记住你的网站，域名就是网站的名片。
@@ -66,11 +38,7 @@ Github提供的网址在国内的访问速度较慢，所以推荐在搭建完�
 使用Vercel部署
 
 首先需要一个
-
-    
-        Vercel
-    
-
+    Vercel
 账号，这里推荐用GitHub账户关联，这样你就可以在vercel中直接托管你的GitHub库中的项目了，实现开发部署一步到位（网络不流畅可以考虑挂梯子）。
 当你用你的Github账户关联并绑定手机号登录之后，点击右上角的Add New Project创建新的项目，之后导入选项那里选择Continue with Github，这时候应该能看到你Github账号的仓库，选择你刚刚部署成功的存储静态博客的仓库&lt;username&gt;.github.io右边的Import选项，表示你要导入该仓库。
 起一个只能有字母、数字或者或者连字符的项目名称，然后其他默认，点击Deploy，等待一分钟即可部署成功，部署成功后电极Continue to Dashboard跳转到控制面板，下图所示就是控制面板，看到就代表成功部署到了，但是我们现在还不能访问他给出的域，因为GFW把Vercel屏蔽了。
@@ -99,21 +67,8 @@ Github提供的网址在国内的访问速度较慢，所以推荐在搭建完�
 安装主题
 Butterfly主题
 
-
-    
-        Butterfly主题
-    
-
-是最流行的主题，拥有很大的社区，自定义度高，还可以用来魔改。
-
-
-这是官方的安装文档：
-
-    
-        【Butterfly 安裝文檔】
-    
-
-" />
+    Butterfly主题
+是最流行的主题，拥有很大的社区，自定义度高，还可以用来魔改。" />
 <meta name="keywords" content="博客,Hexo," />
 
 <link rel="canonical" href="http://localhost:1313/p/138e/">
@@ -132,8 +87,7 @@ Vercel部署 Github提供的网址在国内的访问速度较慢，所以推荐�
 点击Vercel控制面板右上角的View Domains查看当前的域，我们可以看到仅有Vercel给你预分配的一个域名，此时我们输入我们要用的域名，添加后他会提示你添加一条DNS解析记录。 我买的域名是fiveth.cc，我决定用二级域名blog.fiveth.cc当我博客的域名，大家也可以直接用根域名
 接下来在域名解析记录里面添加记录，其中记录类型对应Type，主机记录对应Name，记录值对应Value，其他的设置默认即可。 如果不成功，可以尝试统一用A记录，值76.223.126.88
 如下是我的示例，blog解析出来的域名是blog.fiveth.cc，@解析出来的是根域名fiveth.cc
-回到Vercel刚刚查看域名的地方，如果操作没问题，应该会显示域名配置成功的提示，此时就可以通过自定义域名来访问我们搭建的网站了。 当你有了新的域名之后，需要将[BlogRoot]\_config.yml文件中的url配置项改为自己的新域名，这样博客的文章链接才会正确生成。 安装主题 Butterfly主题 Butterfly主题 是最流行的主题，拥有很大的社区，自定义度高，还可以用来魔改。
-这是官方的安装文档： 【Butterfly 安裝文檔】">
+回到Vercel刚刚查看域名的地方，如果操作没问题，应该会显示域名配置成功的提示，此时就可以通过自定义域名来访问我们搭建的网站了。 当你有了新的域名之后，需要将[BlogRoot]\_config.yml文件中的url配置项改为自己的新域名，这样博客的文章链接才会正确生成。 安装主题 Butterfly主题 Butterfly主题 是最流行的主题，拥有很大的社区，自定义度高，还可以用来魔改。">
   <meta property="og:locale" content="en_US">
   <meta property="og:type" content="article">
     <meta property="article:section" content="blog">
@@ -159,8 +113,7 @@ Vercel部署 Github提供的网址在国内的访问速度较慢，所以推荐�
 点击Vercel控制面板右上角的View Domains查看当前的域，我们可以看到仅有Vercel给你预分配的一个域名，此时我们输入我们要用的域名，添加后他会提示你添加一条DNS解析记录。 我买的域名是fiveth.cc，我决定用二级域名blog.fiveth.cc当我博客的域名，大家也可以直接用根域名
 接下来在域名解析记录里面添加记录，其中记录类型对应Type，主机记录对应Name，记录值对应Value，其他的设置默认即可。 如果不成功，可以尝试统一用A记录，值76.223.126.88
 如下是我的示例，blog解析出来的域名是blog.fiveth.cc，@解析出来的是根域名fiveth.cc
-回到Vercel刚刚查看域名的地方，如果操作没问题，应该会显示域名配置成功的提示，此时就可以通过自定义域名来访问我们搭建的网站了。 当你有了新的域名之后，需要将[BlogRoot]\_config.yml文件中的url配置项改为自己的新域名，这样博客的文章链接才会正确生成。 安装主题 Butterfly主题 Butterfly主题 是最流行的主题，拥有很大的社区，自定义度高，还可以用来魔改。
-这是官方的安装文档： 【Butterfly 安裝文檔】">
+回到Vercel刚刚查看域名的地方，如果操作没问题，应该会显示域名配置成功的提示，此时就可以通过自定义域名来访问我们搭建的网站了。 当你有了新的域名之后，需要将[BlogRoot]\_config.yml文件中的url配置项改为自己的新域名，这样博客的文章链接才会正确生成。 安装主题 Butterfly主题 Butterfly主题 是最流行的主题，拥有很大的社区，自定义度高，还可以用来魔改。">
 
 
 
@@ -176,8 +129,7 @@ Vercel部署 Github提供的网址在国内的访问速度较慢，所以推荐�
 点击Vercel控制面板右上角的View Domains查看当前的域，我们可以看到仅有Vercel给你预分配的一个域名，此时我们输入我们要用的域名，添加后他会提示你添加一条DNS解析记录。 我买的域名是fiveth.cc，我决定用二级域名blog.fiveth.cc当我博客的域名，大家也可以直接用根域名
 接下来在域名解析记录里面添加记录，其中记录类型对应Type，主机记录对应Name，记录值对应Value，其他的设置默认即可。 如果不成功，可以尝试统一用A记录，值76.223.126.88
 如下是我的示例，blog解析出来的域名是blog.fiveth.cc，@解析出来的是根域名fiveth.cc
-回到Vercel刚刚查看域名的地方，如果操作没问题，应该会显示域名配置成功的提示，此时就可以通过自定义域名来访问我们搭建的网站了。 当你有了新的域名之后，需要将[BlogRoot]\_config.yml文件中的url配置项改为自己的新域名，这样博客的文章链接才会正确生成。 安装主题 Butterfly主题 Butterfly主题 是最流行的主题，拥有很大的社区，自定义度高，还可以用来魔改。
-这是官方的安装文档： 【Butterfly 安裝文檔】">
+回到Vercel刚刚查看域名的地方，如果操作没问题，应该会显示域名配置成功的提示，此时就可以通过自定义域名来访问我们搭建的网站了。 当你有了新的域名之后，需要将[BlogRoot]\_config.yml文件中的url配置项改为自己的新域名，这样博客的文章链接才会正确生成。 安装主题 Butterfly主题 Butterfly主题 是最流行的主题，拥有很大的社区，自定义度高，还可以用来魔改。">
   <meta itemprop="datePublished" content="2024-04-29T00:00:00+00:00">
   <meta itemprop="dateModified" content="2024-04-29T00:00:00+00:00">
   <meta itemprop="wordCount" content="313">
@@ -592,68 +544,36 @@ Vercel部署 Github提供的网址在国内的访问速度较慢，所以推荐�
  
 
 <content> <ul>
-<li>本篇前文：<a  href="/p/bb32.html"   >
-
-    <span>
-        如何用Hexo搭建个人博客?
-    </span>
-
+<li>本篇前文：<a href=/p/bb32.html  >
+    如何用Hexo搭建个人博客?
 </a></li>
-<li>本文基于<a  href="https://www.fomal.cc/posts/4aa2d85f.html"    target="_blank" rel="nofollow noopener noreferrer" >
-
-    <span>
-        Hexo博客搭建基础教程(二)
-    </span>
-
+<li>本文基于<a href=https://www.fomal.cc/posts/4aa2d85f.html  target=_blank rel="noopener noreferrer">
+    Hexo博客搭建基础教程(二)
 </a>修改，部分转载</li>
-<li>我的<strong>Hexo优化系列</strong>：<a  href="/tags/hexo"   >
-
-    <span>
-        Hexo文章目录
-    </span>
-
+<li>我的<strong>Hexo优化系列</strong>：<a href=/tags/hexo  >
+    Hexo文章目录
 </a></li>
 </ul>
-<p>我的博客搭建教程是一年前写的了，非常感谢<a  href="https://www.fomal.cc/"    target="_blank" rel="nofollow noopener noreferrer" >
-
-    <span>
-        fomalhaut
-    </span>
-
+<p>我的博客搭建教程是一年前写的了，非常感谢<a href=https://www.fomal.cc/  target=_blank rel="noopener noreferrer">
+    fomalhaut
 </a>，当时我是跟着他的教程一步步搭建的。最近我终于在b站发了视频版的博客搭建教程，有很多朋友想进一步优化博客。这篇文章接上一篇，教大家将博客部署到vercel、主题安装、Hexo博客的基础用法。</p>
 <h2 id="vercel部署">Vercel部署</h2>
-<p>Github提供的网址在国内的访问速度较慢，所以推荐在搭建完后用<a  href="https://vercel.com/"    target="_blank" rel="nofollow noopener noreferrer" >
-
-    <span>
-        Vercel
-    </span>
-
+<p>Github提供的网址在国内的访问速度较慢，所以推荐在搭建完后用<a href=https://vercel.com/  target=_blank rel="noopener noreferrer">
+    Vercel
 </a>部署，再通过Vercel绑定到自己的域名上，这样会速度会很快。</p>
 <p>因为Vercel给我们分配的域名在国内是<strong>无法访问的</strong>，所以我们需要把在Vercel部署的绑定到自己的域名上，这样就可以访问了。</p>
-<p>域名可以在<a  href="https://www.aliyun.com/"    target="_blank" rel="nofollow noopener noreferrer" >
-
-    <span>
-        阿里云
-    </span>
-
-</a>等域名供应商购买，我用的是<a  href="https://www.west.cn/"    target="_blank" rel="nofollow noopener noreferrer" >
-
-    <span>
-        西部数码
-    </span>
-
+<p>域名可以在<a href=https://www.aliyun.com/  target=_blank rel="noopener noreferrer">
+    阿里云
+</a>等域名供应商购买，我用的是<a href=https://www.west.cn/  target=_blank rel="noopener noreferrer">
+    西部数码
 </a>，便宜好用。</p>
 <blockquote>
 <p>建议选用<code>com</code>，<code>cn</code>或<code>cc</code>等常用好记的顶域，对SEO比较友好，自定义部分的长度尽可能短，别人才会更容易地记住你的网站，域名就是网站的名片。</p>
 </blockquote>
 <h3 id="使用vercel部署">使用Vercel部署</h3>
 <ol>
-<li>首先需要一个<a  href="https://vercel.com/"    target="_blank" rel="nofollow noopener noreferrer" >
-
-    <span>
-        Vercel
-    </span>
-
+<li>首先需要一个<a href=https://vercel.com/  target=_blank rel="noopener noreferrer">
+    Vercel
 </a>账号，这里<strong>推荐用GitHub账户关联，这样你就可以在vercel中直接托管你的GitHub库中的项目了</strong>，实现开发部署一步到位（网络不流畅可以考虑挂梯子）。</li>
 <li>当你用你的Github账户关联并绑定手机号登录之后，点击右上角的<code>Add New Project</code>创建新的项目，之后导入选项那里选择<code>Continue with Github</code>，这时候应该能看到你Github账号的仓库，选择你刚刚部署成功的存储静态博客的仓库<code>&lt;username&gt;.github.io</code>右边的<code>Import</code>选项，表示你要导入该仓库。</li>
 <li>起一个只能有字母、数字或者或者连字符的项目名称，然后其他默认，点击<code>Deploy</code>，等待一分钟即可部署成功，部署成功后电极<code>Continue to Dashboard</code>跳转到控制面板，下图所示就是控制面板，看到就代表成功部署到了，但是我们现在还不能访问他给出的域，因为GFW把Vercel屏蔽了。</li>
@@ -681,55 +601,31 @@ Vercel部署 Github提供的网址在国内的访问速度较慢，所以推荐�
 </ol>
 <h2 id="安装主题">安装主题</h2>
 <h3 id="butterfly主题">Butterfly主题</h3>
-<p><a  href="https://butterfly.js.org/"    target="_blank" rel="nofollow noopener noreferrer" >
-
-    <span>
-        Butterfly主题
-    </span>
-
+<p><a href=https://butterfly.js.org/  target=_blank rel="noopener noreferrer">
+    Butterfly主题
 </a>是最流行的主题，拥有很大的社区，自定义度高，还可以用来魔改。</p>
 <ul>
 <li>
-<p>这是官方的安装文档：<a  href="https://butterfly.js.org/posts/21cfbf15"    target="_blank" rel="nofollow noopener noreferrer" >
-
-    <span>
-        【Butterfly 安裝文檔】
-    </span>
-
+<p>这是官方的安装文档：<a href=https://butterfly.js.org/posts/21cfbf15  target=_blank rel="noopener noreferrer">
+    【Butterfly 安裝文檔】
 </a></p>
 </li>
 <li>
-<p>Butterfly的魔改：推荐文章<a  href="https://www.fomal.cc/posts/eec9786.html"    target="_blank" rel="nofollow noopener noreferrer" >
-
-    <span>
-        【博客魔改教程总结(一)】
-    </span>
-
+<p>Butterfly的魔改：推荐文章<a href=https://www.fomal.cc/posts/eec9786.html  target=_blank rel="noopener noreferrer">
+    【博客魔改教程总结(一)】
 </a></p>
 </li>
 </ul>
 <h3 id="安知鱼主题">安知鱼主题</h3>
-<p><a  href="https://docs.anheyu.com/"    target="_blank" rel="nofollow noopener noreferrer" >
-
-    <span>
-        安知鱼主题
-    </span>
-
+<p><a href=https://docs.anheyu.com/  target=_blank rel="noopener noreferrer">
+    安知鱼主题
 </a>一款基于Butterfly主题修改的主题，也是我目前在使用的。</p>
-<p>如果大家也想用和我一样的话，可以直接跟着<a  href="https://docs.anheyu.com/"    target="_blank" rel="nofollow noopener noreferrer" >
-
-    <span>
-        【安知鱼主题官方文档】
-    </span>
-
+<p>如果大家也想用和我一样的话，可以直接跟着<a href=https://docs.anheyu.com/  target=_blank rel="noopener noreferrer">
+    【安知鱼主题官方文档】
 </a>进行安装和配置，文档非常详细。</p>
 <h3 id="其他主题">其他主题</h3>
-<p>hexo还有很多其他主题，可以在<a  href="https://hexo.io/themes/"    target="_blank" rel="nofollow noopener noreferrer" >
-
-    <span>
-        hexo主题
-    </span>
-
+<p>hexo还有很多其他主题，可以在<a href=https://hexo.io/themes/  target=_blank rel="noopener noreferrer">
+    hexo主题
 </a>中找到。</p>
 <h2 id="基础用法">基础用法</h2>
 <h3 id="front-matter">Front-matter</h3>
