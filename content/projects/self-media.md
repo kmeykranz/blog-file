@@ -6,13 +6,11 @@ categories:
 tags:
 toc: false
 ---
-# Self‑Media on Digital Productivity & AI Learning
+# Digital Creator – Productivity & AI Learning Content
 Ongoing
 
-> Coaching & knowledge-sharing with a growing community of 176k+ followers across major platforms.
+> Build and engage a community of 176,000+ followers across Bilibili, RedNote, and Douyin by creating tutorials on knowledge management.
 
 [Bilibili](https://space.bilibili.com/358065206) | [RedNote](https://www.xiaohongshu.com/user/profile/610ffa94000000002002f971) | [Douyin](https://www.douyin.com/user/MS4wLjABAAAA1uyDMa-Bzw76mU9fCH2j-rRzf88eFeW_E2glGXzA0tE)
 
 I create tutorials on Obsidian, helping people organize their life, work, and knowledge.
-
-I also provide guidance on leveraging AI for smarter learning, showing practical methods to integrate AI into personal growth and productivity.
